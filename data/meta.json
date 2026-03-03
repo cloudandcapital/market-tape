@@ -1,0 +1,64 @@
+{
+  "app": "CLOUD & CAPITAL - Market Tape",
+  "generated_at_utc": "2026-03-03T02:37:33+00:00",
+  "benchmark": "SPY",
+  "group_count": 8,
+  "instrument_count": 56,
+  "leaders": {
+    "sectors": [
+      {
+        "ticker": "XLU",
+        "name": "State Street Utilities Select Sector SPDR ETF",
+        "rs1m": 2.196
+      },
+      {
+        "ticker": "XLI",
+        "name": "State Street Industrial Select Sector SPDR ETF",
+        "rs1m": 2.186
+      },
+      {
+        "ticker": "XLE",
+        "name": "State Street Energy Select Sector SPDR ETF",
+        "rs1m": 1.931
+      }
+    ],
+    "countries": [
+      {
+        "ticker": "EWC",
+        "name": "iShares MSCI Canada ETF",
+        "rs1m": 1.721
+      },
+      {
+        "ticker": "EWJ",
+        "name": "iShares MSCI Japan ETF",
+        "rs1m": 0.958
+      },
+      {
+        "ticker": "EWZ",
+        "name": "iShares MSCI Brazil ETF",
+        "rs1m": 0.777
+      }
+    ]
+  },
+  "status": {
+    "exposure": {
+      "level": 65,
+      "guidance": "Hold"
+    },
+    "trend": {
+      "long_term": "Up",
+      "intermediate_term": "Sideways",
+      "short_term": "Sideways"
+    },
+    "risk": {
+      "volatility": "Neutral",
+      "sentiment": "Bearish",
+      "momentum": "Positive"
+    }
+  },
+  "data_files": {
+    "snapshot": "data/snapshot.json",
+    "events": "data/events.json",
+    "meta": "data/meta.json"
+  }
+}

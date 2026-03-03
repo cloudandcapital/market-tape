@@ -1,0 +1,61 @@
+{
+  "generated_at_utc": "2026-03-03T02:37:33+00:00",
+  "events": [
+    {
+      "date": "2026-03-03",
+      "event": "Global PMI pulse check",
+      "impact": "Medium",
+      "region": "Global",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    },
+    {
+      "date": "2026-03-04",
+      "event": "US labor market watch",
+      "impact": "High",
+      "region": "US",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    },
+    {
+      "date": "2026-03-05",
+      "event": "US inflation watchlist",
+      "impact": "High",
+      "region": "US",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    },
+    {
+      "date": "2026-03-06",
+      "event": "Rates and liquidity check",
+      "impact": "Medium",
+      "region": "US",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    },
+    {
+      "date": "2026-03-09",
+      "event": "Consumer demand read-through",
+      "impact": "Medium",
+      "region": "US",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    },
+    {
+      "date": "2026-03-10",
+      "event": "Central bank communication window",
+      "impact": "High",
+      "region": "Global",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    },
+    {
+      "date": "2026-03-11",
+      "event": "Commodities inventory update",
+      "impact": "Medium",
+      "region": "Global",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    },
+    {
+      "date": "2026-03-12",
+      "event": "Global risk sentiment reset",
+      "impact": "Medium",
+      "region": "Global",
+      "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
+    }
+  ]
+}

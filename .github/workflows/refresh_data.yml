@@ -1,0 +1,44 @@
+name: Refresh Market Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 20 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build market data
+        run: python scripts/build_data.py
+
+      - name: Commit and push data updates
+        run: |
+          if [[ -n "$(git status --porcelain data)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "chore(data): refresh market dashboard snapshots"
+            git push
+          else
+            echo "No /data changes to commit."
+          fi
