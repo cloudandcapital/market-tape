@@ -1697,6 +1697,12 @@
           return createLetfCell(row);
         }
 
+        if (column.key === "rs1m" && row.ticker === BENCHMARK) {
+          td.className = "muted";
+          td.textContent = "—";
+          return td;
+        }
+
         const value = row[column.key];
         const decimals = column.decimals !== undefined ? column.decimals : 2;
         td.textContent = column.pct ? fmt(value, decimals, "%") : fmt(value, decimals);
