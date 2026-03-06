@@ -1698,7 +1698,7 @@
         }
 
         if (column.key === "rs1m" && row.ticker === BENCHMARK) {
-          td.className = "muted";
+          td.classList.add("num", "muted");
           td.textContent = "—";
           return td;
         }
