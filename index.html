@@ -409,7 +409,7 @@
       table {
         width: 100%;
         border-collapse: collapse;
-        min-width: 900px;
+        min-width: 860px;
         font-variant-numeric: tabular-nums;
       }
 
@@ -423,7 +423,7 @@
         color: var(--muted);
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        padding: 5px 7px;
+        padding: 5px 6px;
         white-space: nowrap;
       }
 
@@ -446,7 +446,7 @@
 
       tbody td {
         border-bottom: 1px solid var(--line);
-        padding: 5px 7px;
+        padding: 5px 6px;
         font-size: 0.8rem;
         font-weight: 400;
         white-space: nowrap;
@@ -479,7 +479,7 @@
       }
 
       .cell-name {
-        max-width: 170px;
+        max-width: 180px;
       }
 
       .name-text {
@@ -1092,19 +1092,19 @@
       };
 
       const TABLE_COLUMNS = [
-        { key: "ticker", label: "Ticker", sortable: true, numeric: false, type: "text", width: 74 },
-        { key: "trend_grade", label: "Grade", sortable: true, numeric: false, type: "grade", width: 60 },
+        { key: "ticker", label: "Ticker", sortable: true, numeric: false, type: "text", width: 70 },
+        { key: "trend_grade", label: "Grade", sortable: true, numeric: false, type: "grade", width: 56 },
         { key: "name", label: "Name", sortable: true, numeric: false, type: "text", width: 190 },
-        { key: "last", label: "Price", sortable: true, numeric: true, pct: false, width: 80 },
-        { key: "intra_pct", label: "Intra%", sortable: true, numeric: true, pct: true, width: 78 },
-        { key: "d1_pct", label: "1D%", sortable: true, numeric: true, pct: true, width: 70 },
-        { key: "d5_pct", label: "5D%", sortable: true, numeric: true, pct: true, width: 70 },
-        { key: "d20_pct", label: "20D%", sortable: true, numeric: true, pct: true, width: 76 },
-        { key: "atr_pct", label: "ATR", sortable: true, numeric: true, pct: true, width: 68 },
-        { key: "dist50_atr", label: "D50/ATR", sortable: true, numeric: true, pct: false, width: 84 },
-        { key: "rs1m", label: "RS1M", sortable: true, numeric: true, pct: false, decimals: 3, width: 74 },
-        { key: "mini_rs_chart", label: "Mini", sortable: false, numeric: false, type: "spark", width: 72 },
-        { key: "leveraged", label: "LETF", sortable: true, numeric: false, type: "letf", width: 112 },
+        { key: "last", label: "Price", sortable: true, numeric: true, pct: false, width: 72 },
+        { key: "intra_pct", label: "Intra%", sortable: true, numeric: true, pct: true, width: 70 },
+        { key: "d1_pct", label: "1D%", sortable: true, numeric: true, pct: true, width: 64 },
+        { key: "d5_pct", label: "5D%", sortable: true, numeric: true, pct: true, width: 64 },
+        { key: "d20_pct", label: "20D%", sortable: true, numeric: true, pct: true, width: 68 },
+        { key: "atr_pct", label: "ATR", sortable: true, numeric: true, pct: true, width: 60 },
+        { key: "dist50_atr", label: "D50/ATR", sortable: true, numeric: true, pct: false, width: 74 },
+        { key: "rs1m", label: "RS1M", sortable: true, numeric: true, pct: false, decimals: 3, width: 66 },
+        { key: "mini_rs_chart", label: "Mini", sortable: false, numeric: false, type: "spark", width: 66 },
+        { key: "leveraged", label: "LETF", sortable: true, numeric: false, type: "letf", width: 102 },
       ];
 
       const state = {
@@ -1332,7 +1332,7 @@
         const title = document.getElementById("momentumUniverseTitle");
         const subtitle = document.getElementById("momentumUniverseSubtitle");
         title.textContent = mode === "leaders" ? MOMENTUM_LEADERS_LABEL : MOMENTUM_LAGGING_LABEL;
-        subtitle.textContent = mode === "leaders" ? "Top 12 shown (by RS1M)" : "Bottom 12 shown (by RS1M)";
+        subtitle.textContent = mode === "leaders" ? "Top 10 shown (by RS1M)" : "Bottom 10 shown (by RS1M)";
 
         document.querySelectorAll("[data-momentum-view]").forEach((button) => {
           const active = button.dataset.momentumView === mode;
@@ -1348,7 +1348,7 @@
 
         const pillsRoot = document.getElementById("momentumUniversePills");
         pillsRoot.innerHTML = "";
-        const pillRows = rows.slice(0, 12);
+        const pillRows = rows.slice(0, 10);
         if (!pillRows.length) {
           pillsRoot.innerHTML = `<span class="muted">No momentum universe rows available.</span>`;
         } else {
