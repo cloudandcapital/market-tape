@@ -425,7 +425,7 @@
       table {
         width: 100%;
         border-collapse: collapse;
-        min-width: 800px;
+        min-width: 760px;
         font-variant-numeric: tabular-nums;
       }
 
@@ -439,7 +439,7 @@
         color: var(--muted);
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        padding: 5px 5px;
+        padding: 5px 4px;
         white-space: nowrap;
       }
 
@@ -462,7 +462,7 @@
 
       tbody td {
         border-bottom: 1px solid var(--line);
-        padding: 5px 5px;
+        padding: 5px 4px;
         font-size: 0.8rem;
         font-weight: 400;
         white-space: nowrap;
@@ -495,7 +495,7 @@
       }
 
       .cell-name {
-        max-width: 180px;
+        max-width: 164px;
       }
 
       .name-text {
@@ -547,12 +547,12 @@
 
       .rs-mini {
         height: 18px;
-        width: 60px;
+        width: 44px;
         object-fit: contain;
       }
 
       .cell-mini-rs {
-        width: 82px;
+        width: 56px;
       }
 
       .letf-wrap {
@@ -1104,18 +1104,18 @@
       };
 
       const TABLE_COLUMNS = [
-        { key: "ticker", label: "Ticker", sortable: true, numeric: false, type: "text", width: 68 },
-        { key: "trend_grade", label: "Grade", sortable: true, numeric: false, type: "grade", width: 54 },
-        { key: "name", label: "Name", sortable: true, numeric: false, type: "text", width: 186 },
-        { key: "last", label: "Price", sortable: true, numeric: true, pct: false, width: 68 },
-        { key: "intra_pct", label: "Intra%", sortable: true, numeric: true, pct: true, width: 66 },
-        { key: "d1_pct", label: "1D%", sortable: true, numeric: true, pct: true, width: 60 },
-        { key: "d5_pct", label: "5D%", sortable: true, numeric: true, pct: true, width: 60 },
-        { key: "d20_pct", label: "20D%", sortable: true, numeric: true, pct: true, width: 64 },
-        { key: "atr_pct", label: "ATR", sortable: true, numeric: true, pct: true, width: 56 },
-        { key: "dist50_atr", label: "D50/ATR", sortable: true, numeric: true, pct: false, width: 70 },
-        { key: "rs1m", label: "RS1M", sortable: true, numeric: true, pct: false, decimals: 3, width: 62 },
-        { key: "mini_rs_chart", label: "Mini", sortable: false, numeric: false, type: "spark", width: 62 },
+        { key: "ticker", label: "Ticker", sortable: true, numeric: false, type: "text", width: 64 },
+        { key: "trend_grade", label: "Grade", sortable: true, numeric: false, type: "grade", width: 50 },
+        { key: "name", label: "Name", sortable: true, numeric: false, type: "text", width: 168 },
+        { key: "last", label: "Price", sortable: true, numeric: true, pct: false, width: 62 },
+        { key: "intra_pct", label: "Intra%", sortable: true, numeric: true, pct: true, width: 60 },
+        { key: "d1_pct", label: "1D%", sortable: true, numeric: true, pct: true, width: 56 },
+        { key: "d5_pct", label: "5D%", sortable: true, numeric: true, pct: true, width: 56 },
+        { key: "d20_pct", label: "20D%", sortable: true, numeric: true, pct: true, width: 60 },
+        { key: "atr_pct", label: "ATR", sortable: true, numeric: true, pct: true, width: 52 },
+        { key: "dist50_atr", label: "D50/ATR", sortable: true, numeric: true, pct: false, width: 64 },
+        { key: "rs1m", label: "RS1M", sortable: true, numeric: true, pct: false, decimals: 3, width: 58 },
+        { key: "mini_rs_chart", label: "Mini", sortable: false, numeric: false, type: "spark", width: 50 },
       ];
 
       const state = {
