@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-03-09T21:21:47+00:00",
+  "generated_at_utc": "2026-03-09T21:51:56+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 50,
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 337,
     "filtered_out_count": 6,
-    "generated_at_utc": "2026-03-09T21:21:47+00:00"
+    "generated_at_utc": "2026-03-09T21:51:56+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -198,7 +198,7 @@
         "short_name": "American Electric Power\u2026",
         "name": "American Electric Power Company, Inc.",
         "price": 131.86,
-        "intra_pct": -0.01,
+        "intra_pct": -0.02,
         "rs1m": 1.911,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AEP"
@@ -258,7 +258,7 @@
         "short_name": "Occidental Petroleum Co\u2026",
         "name": "Occidental Petroleum Corporation",
         "price": 55.02,
-        "intra_pct": 1.55,
+        "intra_pct": 1.54,
         "rs1m": 1.817,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
@@ -278,7 +278,7 @@
         "short_name": "ServiceNow, Inc",
         "name": "ServiceNow, Inc.",
         "price": 121.93,
-        "intra_pct": -1.91,
+        "intra_pct": -1.92,
         "rs1m": 1.785,
         "trend_grade": "B",
         "tradingview_symbol": "NYSE:NOW"
@@ -288,7 +288,7 @@
         "short_name": "MarketAxess Holdings Inc",
         "name": "MarketAxess Holdings Inc.",
         "price": 185.12,
-        "intra_pct": -0.61,
+        "intra_pct": -0.56,
         "rs1m": 1.781,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MKTX"
@@ -350,7 +350,7 @@
         "short_name": "3M Company",
         "name": "3M Company",
         "price": 151.63,
-        "intra_pct": -1.16,
+        "intra_pct": -1.14,
         "rs1m": -1.686,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MMM"
@@ -390,7 +390,7 @@
         "short_name": "A. O. Smith Corporation",
         "name": "A. O. Smith Corporation",
         "price": 70.46,
-        "intra_pct": -0.77,
+        "intra_pct": -0.75,
         "rs1m": -1.574,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AOS"
@@ -400,7 +400,7 @@
         "short_name": "Genuine Parts Company",
         "name": "Genuine Parts Company",
         "price": 111.84,
-        "intra_pct": -3.23,
+        "intra_pct": -3.22,
         "rs1m": -1.501,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GPC"
@@ -460,7 +460,7 @@
         "short_name": "M&T Bank Corporation",
         "name": "M&T Bank Corporation",
         "price": 208.66,
-        "intra_pct": -0.85,
+        "intra_pct": -0.86,
         "rs1m": -1.434,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MTB"
@@ -470,7 +470,7 @@
         "short_name": "KeyCorp",
         "name": "KeyCorp",
         "price": 19.69,
-        "intra_pct": -0.86,
+        "intra_pct": -0.91,
         "rs1m": -1.426,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:KEY"
@@ -480,7 +480,7 @@
         "short_name": "BXP, Inc",
         "name": "BXP, Inc.",
         "price": 52.48,
-        "intra_pct": -0.85,
+        "intra_pct": -0.83,
         "rs1m": -1.395,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:BXP"
@@ -530,7 +530,7 @@
         "short_name": "Regions Financial Corpo\u2026",
         "name": "Regions Financial Corporation",
         "price": 26.96,
-        "intra_pct": -0.22,
+        "intra_pct": -0.24,
         "rs1m": -1.314,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RF"
@@ -570,7 +570,7 @@
         "short_name": "Royal Caribbean Cruises\u2026",
         "name": "Royal Caribbean Cruises Ltd.",
         "price": 290.55,
-        "intra_pct": 4.53,
+        "intra_pct": 4.51,
         "rs1m": -1.267,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RCL"
@@ -705,7 +705,7 @@
         "short_name": "American Electric Power\u2026",
         "name": "American Electric Power Company, Inc.",
         "price": 131.86,
-        "intra_pct": -0.01,
+        "intra_pct": -0.02,
         "rs1m": 1.911,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AEP"
@@ -765,7 +765,7 @@
         "short_name": "Occidental Petroleum Co\u2026",
         "name": "Occidental Petroleum Corporation",
         "price": 55.02,
-        "intra_pct": 1.55,
+        "intra_pct": 1.54,
         "rs1m": 1.817,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
@@ -785,7 +785,7 @@
         "short_name": "ServiceNow, Inc",
         "name": "ServiceNow, Inc.",
         "price": 121.93,
-        "intra_pct": -1.91,
+        "intra_pct": -1.92,
         "rs1m": 1.785,
         "trend_grade": "B",
         "tradingview_symbol": "NYSE:NOW"
@@ -795,7 +795,7 @@
         "short_name": "MarketAxess Holdings Inc",
         "name": "MarketAxess Holdings Inc.",
         "price": 185.12,
-        "intra_pct": -0.61,
+        "intra_pct": -0.56,
         "rs1m": 1.781,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MKTX"
@@ -857,7 +857,7 @@
         "short_name": "3M Company",
         "name": "3M Company",
         "price": 151.63,
-        "intra_pct": -1.16,
+        "intra_pct": -1.14,
         "rs1m": -1.686,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MMM"
@@ -897,7 +897,7 @@
         "short_name": "A. O. Smith Corporation",
         "name": "A. O. Smith Corporation",
         "price": 70.46,
-        "intra_pct": -0.77,
+        "intra_pct": -0.75,
         "rs1m": -1.574,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AOS"
@@ -907,7 +907,7 @@
         "short_name": "Genuine Parts Company",
         "name": "Genuine Parts Company",
         "price": 111.84,
-        "intra_pct": -3.23,
+        "intra_pct": -3.22,
         "rs1m": -1.501,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GPC"
@@ -967,7 +967,7 @@
         "short_name": "M&T Bank Corporation",
         "name": "M&T Bank Corporation",
         "price": 208.66,
-        "intra_pct": -0.85,
+        "intra_pct": -0.86,
         "rs1m": -1.434,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MTB"
@@ -977,7 +977,7 @@
         "short_name": "KeyCorp",
         "name": "KeyCorp",
         "price": 19.69,
-        "intra_pct": -0.86,
+        "intra_pct": -0.91,
         "rs1m": -1.426,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:KEY"
@@ -987,7 +987,7 @@
         "short_name": "BXP, Inc",
         "name": "BXP, Inc.",
         "price": 52.48,
-        "intra_pct": -0.85,
+        "intra_pct": -0.83,
         "rs1m": -1.395,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:BXP"
@@ -1037,7 +1037,7 @@
         "short_name": "Regions Financial Corpo\u2026",
         "name": "Regions Financial Corporation",
         "price": 26.96,
-        "intra_pct": -0.22,
+        "intra_pct": -0.24,
         "rs1m": -1.314,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RF"
@@ -1077,7 +1077,7 @@
         "short_name": "Royal Caribbean Cruises\u2026",
         "name": "Royal Caribbean Cruises Ltd.",
         "price": 290.55,
-        "intra_pct": 4.53,
+        "intra_pct": 4.51,
         "rs1m": -1.267,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RCL"
