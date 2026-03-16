@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-03-13T21:53:07+00:00",
+  "generated_at_utc": "2026-03-16T14:11:36+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 50,
@@ -9,67 +9,67 @@
       {
         "ticker": "XLE",
         "name": "State Street Energy Select Sector SPDR ETF",
-        "rs1m": 2.094
+        "rs1m": 1.667
       },
       {
         "ticker": "XLU",
         "name": "State Street Utilities Select Sector SPDR ETF",
-        "rs1m": 1.502
+        "rs1m": 0.909
       },
       {
         "ticker": "XLC",
         "name": "State Street Communication Services Select Sector SPDR ETF",
-        "rs1m": 0.832
+        "rs1m": 0.762
       }
     ],
     "countries": [
       {
         "ticker": "EWC",
         "name": "iShares MSCI Canada ETF",
-        "rs1m": 0.581
+        "rs1m": 0.247
       },
       {
         "ticker": "EWZ",
         "name": "iShares MSCI Brazil ETF",
-        "rs1m": -0.583
+        "rs1m": -0.268
       },
       {
         "ticker": "FXI",
         "name": "iShares China Large-Cap ETF",
-        "rs1m": -0.745
+        "rs1m": -0.378
       }
     ]
   },
   "status": {
     "exposure": {
-      "level": 52,
+      "level": 50,
       "guidance": "Hold"
     },
     "trend": {
       "long_term": "Down",
       "intermediate_term": "Down",
-      "short_term": "Sideways"
+      "short_term": "Up"
     },
     "risk": {
       "volatility": "High",
-      "sentiment": "Bearish",
+      "sentiment": "Bullish",
       "momentum": "Negative"
     },
     "breadth": {
-      "above_20d_pct": 18.0,
-      "above_50d_pct": 26.0,
+      "above_20d_pct": 20.0,
+      "above_50d_pct": 34.0,
       "breadth_label": "Weak"
     },
     "momentum_env": {
-      "score": 21,
+      "score": 40,
       "label": "Choppy"
     }
   },
   "universe_stats": {
     "tickers_total": 343,
-    "tickers_used": 338,
-    "filtered_out_count": 5,
-    "generated_at_utc": "2026-03-13T21:53:07+00:00"
+    "tickers_used": 337,
+    "filtered_out_count": 6,
+    "generated_at_utc": "2026-03-16T14:11:36+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -77,9 +77,9 @@
         "ticker": "HOLX",
         "short_name": "Hologic, Inc",
         "name": "Hologic, Inc.",
-        "price": 75.12,
-        "intra_pct": -0.13,
-        "rs1m": 4.195,
+        "price": 75.21,
+        "intra_pct": 0.11,
+        "rs1m": 2.465,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:HOLX"
       },
@@ -87,9 +87,9 @@
         "ticker": "APA",
         "short_name": "APA Corporation",
         "name": "APA Corporation",
-        "price": 34.47,
-        "intra_pct": 2.56,
-        "rs1m": 2.706,
+        "price": 34.39,
+        "intra_pct": -0.09,
+        "rs1m": 2.209,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:APA"
       },
@@ -97,9 +97,9 @@
         "ticker": "ATO",
         "short_name": "Atmos Energy Corporation",
         "name": "Atmos Energy Corporation",
-        "price": 188.58,
-        "intra_pct": 0.95,
-        "rs1m": 2.672,
+        "price": 189.15,
+        "intra_pct": 0.29,
+        "rs1m": 2.162,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ATO"
       },
@@ -107,261 +107,231 @@
         "ticker": "OXY",
         "short_name": "Occidental Petroleum Co\u2026",
         "name": "Occidental Petroleum Corporation",
-        "price": 57.88,
-        "intra_pct": -0.91,
-        "rs1m": 2.418,
+        "price": 57.55,
+        "intra_pct": -0.52,
+        "rs1m": 2.111,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
-      },
-      {
-        "ticker": "DUK",
-        "short_name": "Duke Energy Corporation",
-        "name": "Duke Energy Corporation",
-        "price": 133.15,
-        "intra_pct": 1.01,
-        "rs1m": 2.256,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:DUK"
-      },
-      {
-        "ticker": "KMI",
-        "short_name": "Kinder Morgan, Inc",
-        "name": "Kinder Morgan, Inc.",
-        "price": 33.39,
-        "intra_pct": 0.06,
-        "rs1m": 2.161,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:KMI"
-      },
-      {
-        "ticker": "EOG",
-        "short_name": "EOG Resources, Inc",
-        "name": "EOG Resources, Inc.",
-        "price": 133.6,
-        "intra_pct": 0.43,
-        "rs1m": 2.147,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:EOG"
-      },
-      {
-        "ticker": "CF",
-        "short_name": "CF Industries Holdings,\u2026",
-        "name": "CF Industries Holdings, Inc.",
-        "price": 129.57,
-        "intra_pct": -4.74,
-        "rs1m": 2.129,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CF"
-      },
-      {
-        "ticker": "DTE",
-        "short_name": "DTE Energy Company",
-        "name": "DTE Energy Company",
-        "price": 149.57,
-        "intra_pct": 1.32,
-        "rs1m": 1.933,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:DTE"
       },
       {
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
         "name": "LyondellBasell Industries N.V.",
-        "price": 72.3,
-        "intra_pct": -2.7,
-        "rs1m": 1.886,
+        "price": 71.83,
+        "intra_pct": -0.58,
+        "rs1m": 1.768,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:LYB"
       },
       {
-        "ticker": "CNP",
-        "short_name": "CenterPoint Energy, Inc",
-        "name": "CenterPoint Energy, Inc.",
-        "price": 44.01,
-        "intra_pct": 1.39,
-        "rs1m": 1.882,
+        "ticker": "DUK",
+        "short_name": "Duke Energy Corporation",
+        "name": "Duke Energy Corporation",
+        "price": 133.79,
+        "intra_pct": 0.45,
+        "rs1m": 1.719,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CNP"
+        "tradingview_symbol": "NYSE:DUK"
       },
       {
-        "ticker": "ROP",
-        "short_name": "Roper Technologies, Inc",
-        "name": "Roper Technologies, Inc.",
-        "price": 351.0,
-        "intra_pct": 1.25,
-        "rs1m": 1.88,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ROP"
-      },
-      {
-        "ticker": "EXC",
-        "short_name": "Exelon Corporation",
-        "name": "Exelon Corporation",
-        "price": 49.82,
-        "intra_pct": 0.7,
-        "rs1m": 1.864,
+        "ticker": "EOG",
+        "short_name": "EOG Resources, Inc",
+        "name": "EOG Resources, Inc.",
+        "price": 133.9,
+        "intra_pct": 0.33,
+        "rs1m": 1.707,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:EXC"
+        "tradingview_symbol": "NYSE:EOG"
       },
       {
         "ticker": "NFLX",
         "short_name": "Netflix, Inc",
         "name": "Netflix, Inc.",
-        "price": 95.31,
-        "intra_pct": 1.09,
-        "rs1m": 1.833,
+        "price": 95.92,
+        "intra_pct": 0.45,
+        "rs1m": 1.697,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NFLX"
       },
       {
-        "ticker": "FE",
-        "short_name": "FirstEnergy Corp",
-        "name": "FirstEnergy Corp.",
-        "price": 51.16,
-        "intra_pct": 0.69,
-        "rs1m": 1.823,
+        "ticker": "ROP",
+        "short_name": "Roper Technologies, Inc",
+        "name": "Roper Technologies, Inc.",
+        "price": 352.18,
+        "intra_pct": 0.27,
+        "rs1m": 1.668,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:ROP"
+      },
+      {
+        "ticker": "CF",
+        "short_name": "CF Industries Holdings,\u2026",
+        "name": "CF Industries Holdings, Inc.",
+        "price": 123.5,
+        "intra_pct": -4.81,
+        "rs1m": 1.605,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:FE"
+        "tradingview_symbol": "NYSE:CF"
+      },
+      {
+        "ticker": "TRV",
+        "short_name": "The Travelers Companies\u2026",
+        "name": "The Travelers Companies, Inc.",
+        "price": 307.17,
+        "intra_pct": 1.5,
+        "rs1m": 1.548,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:TRV"
       },
       {
         "ticker": "CVX",
         "short_name": "Chevron Corporation",
         "name": "Chevron Corporation",
-        "price": 196.82,
-        "intra_pct": -0.07,
-        "rs1m": 1.811,
+        "price": 196.66,
+        "intra_pct": 0.02,
+        "rs1m": 1.453,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVX"
+      },
+      {
+        "ticker": "FE",
+        "short_name": "FirstEnergy Corp",
+        "name": "FirstEnergy Corp.",
+        "price": 51.86,
+        "intra_pct": 1.37,
+        "rs1m": 1.417,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:FE"
       },
       {
         "ticker": "EBAY",
         "short_name": "eBay Inc",
         "name": "eBay Inc.",
-        "price": 91.34,
-        "intra_pct": 1.49,
-        "rs1m": 1.699,
-        "trend_grade": "B",
+        "price": 92.25,
+        "intra_pct": 0.88,
+        "rs1m": 1.35,
+        "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EBAY"
+      },
+      {
+        "ticker": "SBUX",
+        "short_name": "Starbucks Corporation",
+        "name": "Starbucks Corporation",
+        "price": 98.8,
+        "intra_pct": -0.28,
+        "rs1m": 1.32,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:SBUX"
+      },
+      {
+        "ticker": "KMI",
+        "short_name": "Kinder Morgan, Inc",
+        "name": "Kinder Morgan, Inc.",
+        "price": 33.24,
+        "intra_pct": -0.36,
+        "rs1m": 1.302,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:KMI"
+      },
+      {
+        "ticker": "EXC",
+        "short_name": "Exelon Corporation",
+        "name": "Exelon Corporation",
+        "price": 50.04,
+        "intra_pct": 0.42,
+        "rs1m": 1.302,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:EXC"
+      },
+      {
+        "ticker": "CNP",
+        "short_name": "CenterPoint Energy, Inc",
+        "name": "CenterPoint Energy, Inc.",
+        "price": 44.11,
+        "intra_pct": 0.22,
+        "rs1m": 1.296,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:CNP"
       },
       {
         "ticker": "PSX",
         "short_name": "Phillips 66",
         "name": "Phillips 66",
-        "price": 172.74,
-        "intra_pct": -0.77,
-        "rs1m": 1.692,
+        "price": 172.92,
+        "intra_pct": 0.2,
+        "rs1m": 1.273,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
-      },
-      {
-        "ticker": "AEP",
-        "short_name": "American Electric Power\u2026",
-        "name": "American Electric Power Company, Inc.",
-        "price": 133.61,
-        "intra_pct": 1.04,
-        "rs1m": 1.689,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:AEP"
-      },
-      {
-        "ticker": "COP",
-        "short_name": "ConocoPhillips",
-        "name": "ConocoPhillips",
-        "price": 121.89,
-        "intra_pct": 1.36,
-        "rs1m": 1.651,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:COP"
       },
       {
         "ticker": "MPC",
         "short_name": "Marathon Petroleum Corp\u2026",
         "name": "Marathon Petroleum Corporation",
-        "price": 226.18,
-        "intra_pct": -1.69,
-        "rs1m": 1.585,
+        "price": 227.38,
+        "intra_pct": 0.58,
+        "rs1m": 1.273,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
       {
-        "ticker": "FFIV",
-        "short_name": "F5, Inc",
-        "name": "F5, Inc.",
-        "price": 289.31,
-        "intra_pct": 2.34,
-        "rs1m": 1.573,
+        "ticker": "COP",
+        "short_name": "ConocoPhillips",
+        "name": "ConocoPhillips",
+        "price": 120.71,
+        "intra_pct": -0.89,
+        "rs1m": 1.257,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FFIV"
-      },
-      {
-        "ticker": "LNT",
-        "short_name": "Alliant Energy Corporat\u2026",
-        "name": "Alliant Energy Corporation",
-        "price": 72.79,
-        "intra_pct": 1.68,
-        "rs1m": 1.566,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:LNT"
-      },
-      {
-        "ticker": "AWK",
-        "short_name": "American Water Works Co\u2026",
-        "name": "American Water Works Company, Inc.",
-        "price": 139.69,
-        "intra_pct": 1.04,
-        "rs1m": 1.529,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:AWK"
+        "tradingview_symbol": "NYSE:COP"
       },
       {
         "ticker": "JKHY",
         "short_name": "Jack Henry & Associates\u2026",
         "name": "Jack Henry & Associates, Inc.",
-        "price": 168.77,
-        "intra_pct": 1.47,
-        "rs1m": 1.525,
+        "price": 167.14,
+        "intra_pct": -1.16,
+        "rs1m": 1.244,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:JKHY"
+      },
+      {
+        "ticker": "FIS",
+        "short_name": "Fidelity National Infor\u2026",
+        "name": "Fidelity National Information Services, Inc.",
+        "price": 50.45,
+        "intra_pct": 1.33,
+        "rs1m": 1.224,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:FIS"
+      },
+      {
+        "ticker": "AEP",
+        "short_name": "American Electric Power\u2026",
+        "name": "American Electric Power Company, Inc.",
+        "price": 134.79,
+        "intra_pct": 0.89,
+        "rs1m": 1.21,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:AEP"
+      },
+      {
+        "ticker": "MRNA",
+        "short_name": "Moderna, Inc",
+        "name": "Moderna, Inc.",
+        "price": 52.77,
+        "intra_pct": 0.3,
+        "rs1m": 1.193,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:MRNA"
       }
     ],
     "laggards": [
       {
-        "ticker": "MAS",
-        "short_name": "Masco Corporation",
-        "name": "Masco Corporation",
-        "price": 61.52,
-        "intra_pct": 1.43,
-        "rs1m": -2.516,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MAS"
-      },
-      {
-        "ticker": "MCHP",
-        "short_name": "Microchip Technology In\u2026",
-        "name": "Microchip Technology Incorporated",
-        "price": 61.94,
-        "intra_pct": -1.26,
-        "rs1m": -2.507,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:MCHP"
-      },
-      {
-        "ticker": "PPG",
-        "short_name": "PPG Industries, Inc",
-        "name": "PPG Industries, Inc.",
-        "price": 101.89,
-        "intra_pct": 1.15,
-        "rs1m": -2.381,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:PPG"
-      },
-      {
         "ticker": "AOS",
         "short_name": "A. O. Smith Corporation",
         "name": "A. O. Smith Corporation",
-        "price": 66.84,
-        "intra_pct": 0.39,
-        "rs1m": -2.329,
+        "price": 67.57,
+        "intra_pct": 1.05,
+        "rs1m": -2.534,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AOS"
       },
@@ -369,214 +339,244 @@
         "ticker": "LEN",
         "short_name": "Lennar Corporation",
         "name": "Lennar Corporation",
-        "price": 94.96,
-        "intra_pct": 2.65,
-        "rs1m": -2.021,
+        "price": 95.46,
+        "intra_pct": 0.52,
+        "rs1m": -2.248,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LEN"
       },
       {
-        "ticker": "ITW",
-        "short_name": "Illinois Tool Works Inc",
-        "name": "Illinois Tool Works Inc.",
-        "price": 266.99,
-        "intra_pct": 0.52,
-        "rs1m": -1.989,
+        "ticker": "MAS",
+        "short_name": "Masco Corporation",
+        "name": "Masco Corporation",
+        "price": 62.44,
+        "intra_pct": 1.54,
+        "rs1m": -2.193,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ITW"
-      },
-      {
-        "ticker": "SWK",
-        "short_name": "Stanley Black & Decker,\u2026",
-        "name": "Stanley Black & Decker, Inc.",
-        "price": 70.15,
-        "intra_pct": -1.34,
-        "rs1m": -1.956,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:SWK"
-      },
-      {
-        "ticker": "SHW",
-        "short_name": "The Sherwin-Williams Co\u2026",
-        "name": "The Sherwin-Williams Company",
-        "price": 319.78,
-        "intra_pct": 0.64,
-        "rs1m": -1.928,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:SHW"
-      },
-      {
-        "ticker": "LOW",
-        "short_name": "Lowe's Companies, Inc",
-        "name": "Lowe's Companies, Inc.",
-        "price": 237.59,
-        "intra_pct": -0.75,
-        "rs1m": -1.895,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LOW"
-      },
-      {
-        "ticker": "LW",
-        "short_name": "Lamb Weston Holdings, I\u2026",
-        "name": "Lamb Weston Holdings, Inc.",
-        "price": 40.55,
-        "intra_pct": 0.22,
-        "rs1m": -1.852,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LW"
-      },
-      {
-        "ticker": "IP",
-        "short_name": "International Paper Com\u2026",
-        "name": "International Paper Company",
-        "price": 37.25,
-        "intra_pct": 4.57,
-        "rs1m": -1.836,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:IP"
-      },
-      {
-        "ticker": "AVY",
-        "short_name": "Avery Dennison Corporat\u2026",
-        "name": "Avery Dennison Corporation",
-        "price": 170.77,
-        "intra_pct": -0.21,
-        "rs1m": -1.791,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:AVY"
-      },
-      {
-        "ticker": "MDT",
-        "short_name": "Medtronic plc",
-        "name": "Medtronic plc",
-        "price": 87.14,
-        "intra_pct": -0.29,
-        "rs1m": -1.765,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MDT"
-      },
-      {
-        "ticker": "MKC",
-        "short_name": "McCormick & Company, In\u2026",
-        "name": "McCormick & Company, Incorporated",
-        "price": 58.29,
-        "intra_pct": 1.73,
-        "rs1m": -1.73,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MKC"
-      },
-      {
-        "ticker": "FITB",
-        "short_name": "Fifth Third Bancorp",
-        "name": "Fifth Third Bancorp",
-        "price": 43.4,
-        "intra_pct": -0.46,
-        "rs1m": -1.715,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:FITB"
-      },
-      {
-        "ticker": "GPC",
-        "short_name": "Genuine Parts Company",
-        "name": "Genuine Parts Company",
-        "price": 105.74,
-        "intra_pct": -1.21,
-        "rs1m": -1.712,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:GPC"
-      },
-      {
-        "ticker": "COO",
-        "short_name": "The Cooper Companies, I\u2026",
-        "name": "The Cooper Companies, Inc.",
-        "price": 69.92,
-        "intra_pct": -2.22,
-        "rs1m": -1.698,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:COO"
+        "tradingview_symbol": "NYSE:MAS"
       },
       {
         "ticker": "DHI",
         "short_name": "D.R. Horton, Inc",
         "name": "D.R. Horton, Inc.",
-        "price": 140.49,
-        "intra_pct": 1.04,
-        "rs1m": -1.678,
+        "price": 141.43,
+        "intra_pct": 0.71,
+        "rs1m": -2.12,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DHI"
       },
       {
-        "ticker": "BF-B",
-        "short_name": "Brown-Forman Corporation",
-        "name": "Brown-Forman Corporation",
-        "price": 23.49,
-        "intra_pct": 1.73,
-        "rs1m": -1.629,
+        "ticker": "PPG",
+        "short_name": "PPG Industries, Inc",
+        "name": "PPG Industries, Inc.",
+        "price": 104.33,
+        "intra_pct": 2.28,
+        "rs1m": -2.115,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:BF-B"
+        "tradingview_symbol": "NYSE:PPG"
       },
       {
-        "ticker": "NUE",
-        "short_name": "Nucor Corporation",
-        "name": "Nucor Corporation",
-        "price": 163.48,
-        "intra_pct": -1.32,
-        "rs1m": -1.625,
+        "ticker": "ITW",
+        "short_name": "Illinois Tool Works Inc",
+        "name": "Illinois Tool Works Inc.",
+        "price": 269.39,
+        "intra_pct": 0.9,
+        "rs1m": -2.099,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:NUE"
+        "tradingview_symbol": "NYSE:ITW"
       },
       {
-        "ticker": "MTB",
-        "short_name": "M&T Bank Corporation",
-        "name": "M&T Bank Corporation",
-        "price": 196.26,
-        "intra_pct": -0.97,
-        "rs1m": -1.623,
+        "ticker": "MCHP",
+        "short_name": "Microchip Technology In\u2026",
+        "name": "Microchip Technology Incorporated",
+        "price": 63.85,
+        "intra_pct": 3.15,
+        "rs1m": -2.009,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MTB"
+        "tradingview_symbol": "NASDAQ:MCHP"
+      },
+      {
+        "ticker": "LW",
+        "short_name": "Lamb Weston Holdings, I\u2026",
+        "name": "Lamb Weston Holdings, Inc.",
+        "price": 40.27,
+        "intra_pct": -0.67,
+        "rs1m": -1.962,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:LW"
+      },
+      {
+        "ticker": "SWK",
+        "short_name": "Stanley Black & Decker,\u2026",
+        "name": "Stanley Black & Decker, Inc.",
+        "price": 71.86,
+        "intra_pct": 2.44,
+        "rs1m": -1.955,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:SWK"
+      },
+      {
+        "ticker": "MKC",
+        "short_name": "McCormick & Company, In\u2026",
+        "name": "McCormick & Company, Incorporated",
+        "price": 57.91,
+        "intra_pct": -0.65,
+        "rs1m": -1.908,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MKC"
       },
       {
         "ticker": "TXN",
         "short_name": "Texas Instruments Incor\u2026",
         "name": "Texas Instruments Incorporated",
-        "price": 190.78,
-        "intra_pct": 0.41,
-        "rs1m": -1.612,
+        "price": 193.6,
+        "intra_pct": 1.49,
+        "rs1m": -1.771,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:TXN"
       },
       {
-        "ticker": "RF",
-        "short_name": "Regions Financial Corpo\u2026",
-        "name": "Regions Financial Corporation",
-        "price": 25.0,
-        "intra_pct": -1.28,
-        "rs1m": -1.608,
+        "ticker": "IP",
+        "short_name": "International Paper Com\u2026",
+        "name": "International Paper Company",
+        "price": 37.89,
+        "intra_pct": 1.88,
+        "rs1m": -1.771,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:RF"
+        "tradingview_symbol": "NYSE:IP"
       },
       {
-        "ticker": "HD",
-        "short_name": "The Home Depot, Inc",
-        "name": "The Home Depot, Inc.",
-        "price": 339.03,
-        "intra_pct": 0.04,
-        "rs1m": -1.607,
+        "ticker": "COO",
+        "short_name": "The Cooper Companies, I\u2026",
+        "name": "The Cooper Companies, Inc.",
+        "price": 71.42,
+        "intra_pct": 2.12,
+        "rs1m": -1.754,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:HD"
+        "tradingview_symbol": "NASDAQ:COO"
+      },
+      {
+        "ticker": "GPC",
+        "short_name": "Genuine Parts Company",
+        "name": "Genuine Parts Company",
+        "price": 106.24,
+        "intra_pct": 0.51,
+        "rs1m": -1.747,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:GPC"
+      },
+      {
+        "ticker": "IR",
+        "short_name": "Ingersoll Rand Inc",
+        "name": "Ingersoll Rand Inc.",
+        "price": 83.79,
+        "intra_pct": 2.16,
+        "rs1m": -1.731,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:IR"
+      },
+      {
+        "ticker": "AVY",
+        "short_name": "Avery Dennison Corporat\u2026",
+        "name": "Avery Dennison Corporation",
+        "price": 173.2,
+        "intra_pct": 1.36,
+        "rs1m": -1.71,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:AVY"
+      },
+      {
+        "ticker": "LOW",
+        "short_name": "Lowe's Companies, Inc",
+        "name": "Lowe's Companies, Inc.",
+        "price": 243.73,
+        "intra_pct": 2.6,
+        "rs1m": -1.702,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:LOW"
+      },
+      {
+        "ticker": "APTV",
+        "short_name": "Aptiv PLC",
+        "name": "Aptiv PLC",
+        "price": 71.66,
+        "intra_pct": 1.7,
+        "rs1m": -1.661,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:APTV"
+      },
+      {
+        "ticker": "IFF",
+        "short_name": "International Flavors &\u2026",
+        "name": "International Flavors & Fragrances Inc.",
+        "price": 70.54,
+        "intra_pct": 1.4,
+        "rs1m": -1.634,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:IFF"
+      },
+      {
+        "ticker": "NKE",
+        "short_name": "NIKE, Inc",
+        "name": "NIKE, Inc.",
+        "price": 54.89,
+        "intra_pct": 1.64,
+        "rs1m": -1.583,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:NKE"
+      },
+      {
+        "ticker": "SHW",
+        "short_name": "The Sherwin-Williams Co\u2026",
+        "name": "The Sherwin-Williams Company",
+        "price": 325.7,
+        "intra_pct": 1.85,
+        "rs1m": -1.581,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:SHW"
       },
       {
         "ticker": "MMM",
         "short_name": "3M Company",
         "name": "3M Company",
-        "price": 150.96,
-        "intra_pct": 1.25,
-        "rs1m": -1.491,
+        "price": 149.99,
+        "intra_pct": -0.68,
+        "rs1m": -1.558,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MMM"
+      },
+      {
+        "ticker": "HD",
+        "short_name": "The Home Depot, Inc",
+        "name": "The Home Depot, Inc.",
+        "price": 344.79,
+        "intra_pct": 1.73,
+        "rs1m": -1.513,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:HD"
+      },
+      {
+        "ticker": "BF-B",
+        "short_name": "Brown-Forman Corporation",
+        "name": "Brown-Forman Corporation",
+        "price": 23.77,
+        "intra_pct": 0.98,
+        "rs1m": -1.487,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:BF-B"
+      },
+      {
+        "ticker": "F",
+        "short_name": "Ford Motor Company",
+        "name": "Ford Motor Company",
+        "price": 11.77,
+        "intra_pct": 0.9,
+        "rs1m": -1.485,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:F"
       }
     ],
-    "universe_count": 338
+    "universe_count": 337
   },
   "momentum": {
     "leaders": [
@@ -584,9 +584,9 @@
         "ticker": "HOLX",
         "short_name": "Hologic, Inc",
         "name": "Hologic, Inc.",
-        "price": 75.12,
-        "intra_pct": -0.13,
-        "rs1m": 4.195,
+        "price": 75.21,
+        "intra_pct": 0.11,
+        "rs1m": 2.465,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:HOLX"
       },
@@ -594,9 +594,9 @@
         "ticker": "APA",
         "short_name": "APA Corporation",
         "name": "APA Corporation",
-        "price": 34.47,
-        "intra_pct": 2.56,
-        "rs1m": 2.706,
+        "price": 34.39,
+        "intra_pct": -0.09,
+        "rs1m": 2.209,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:APA"
       },
@@ -604,9 +604,9 @@
         "ticker": "ATO",
         "short_name": "Atmos Energy Corporation",
         "name": "Atmos Energy Corporation",
-        "price": 188.58,
-        "intra_pct": 0.95,
-        "rs1m": 2.672,
+        "price": 189.15,
+        "intra_pct": 0.29,
+        "rs1m": 2.162,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ATO"
       },
@@ -614,261 +614,231 @@
         "ticker": "OXY",
         "short_name": "Occidental Petroleum Co\u2026",
         "name": "Occidental Petroleum Corporation",
-        "price": 57.88,
-        "intra_pct": -0.91,
-        "rs1m": 2.418,
+        "price": 57.55,
+        "intra_pct": -0.52,
+        "rs1m": 2.111,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
-      },
-      {
-        "ticker": "DUK",
-        "short_name": "Duke Energy Corporation",
-        "name": "Duke Energy Corporation",
-        "price": 133.15,
-        "intra_pct": 1.01,
-        "rs1m": 2.256,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:DUK"
-      },
-      {
-        "ticker": "KMI",
-        "short_name": "Kinder Morgan, Inc",
-        "name": "Kinder Morgan, Inc.",
-        "price": 33.39,
-        "intra_pct": 0.06,
-        "rs1m": 2.161,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:KMI"
-      },
-      {
-        "ticker": "EOG",
-        "short_name": "EOG Resources, Inc",
-        "name": "EOG Resources, Inc.",
-        "price": 133.6,
-        "intra_pct": 0.43,
-        "rs1m": 2.147,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:EOG"
-      },
-      {
-        "ticker": "CF",
-        "short_name": "CF Industries Holdings,\u2026",
-        "name": "CF Industries Holdings, Inc.",
-        "price": 129.57,
-        "intra_pct": -4.74,
-        "rs1m": 2.129,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CF"
-      },
-      {
-        "ticker": "DTE",
-        "short_name": "DTE Energy Company",
-        "name": "DTE Energy Company",
-        "price": 149.57,
-        "intra_pct": 1.32,
-        "rs1m": 1.933,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:DTE"
       },
       {
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
         "name": "LyondellBasell Industries N.V.",
-        "price": 72.3,
-        "intra_pct": -2.7,
-        "rs1m": 1.886,
+        "price": 71.83,
+        "intra_pct": -0.58,
+        "rs1m": 1.768,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:LYB"
       },
       {
-        "ticker": "CNP",
-        "short_name": "CenterPoint Energy, Inc",
-        "name": "CenterPoint Energy, Inc.",
-        "price": 44.01,
-        "intra_pct": 1.39,
-        "rs1m": 1.882,
+        "ticker": "DUK",
+        "short_name": "Duke Energy Corporation",
+        "name": "Duke Energy Corporation",
+        "price": 133.79,
+        "intra_pct": 0.45,
+        "rs1m": 1.719,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CNP"
+        "tradingview_symbol": "NYSE:DUK"
       },
       {
-        "ticker": "ROP",
-        "short_name": "Roper Technologies, Inc",
-        "name": "Roper Technologies, Inc.",
-        "price": 351.0,
-        "intra_pct": 1.25,
-        "rs1m": 1.88,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ROP"
-      },
-      {
-        "ticker": "EXC",
-        "short_name": "Exelon Corporation",
-        "name": "Exelon Corporation",
-        "price": 49.82,
-        "intra_pct": 0.7,
-        "rs1m": 1.864,
+        "ticker": "EOG",
+        "short_name": "EOG Resources, Inc",
+        "name": "EOG Resources, Inc.",
+        "price": 133.9,
+        "intra_pct": 0.33,
+        "rs1m": 1.707,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:EXC"
+        "tradingview_symbol": "NYSE:EOG"
       },
       {
         "ticker": "NFLX",
         "short_name": "Netflix, Inc",
         "name": "Netflix, Inc.",
-        "price": 95.31,
-        "intra_pct": 1.09,
-        "rs1m": 1.833,
+        "price": 95.92,
+        "intra_pct": 0.45,
+        "rs1m": 1.697,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NFLX"
       },
       {
-        "ticker": "FE",
-        "short_name": "FirstEnergy Corp",
-        "name": "FirstEnergy Corp.",
-        "price": 51.16,
-        "intra_pct": 0.69,
-        "rs1m": 1.823,
+        "ticker": "ROP",
+        "short_name": "Roper Technologies, Inc",
+        "name": "Roper Technologies, Inc.",
+        "price": 352.18,
+        "intra_pct": 0.27,
+        "rs1m": 1.668,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:ROP"
+      },
+      {
+        "ticker": "CF",
+        "short_name": "CF Industries Holdings,\u2026",
+        "name": "CF Industries Holdings, Inc.",
+        "price": 123.5,
+        "intra_pct": -4.81,
+        "rs1m": 1.605,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:FE"
+        "tradingview_symbol": "NYSE:CF"
+      },
+      {
+        "ticker": "TRV",
+        "short_name": "The Travelers Companies\u2026",
+        "name": "The Travelers Companies, Inc.",
+        "price": 307.17,
+        "intra_pct": 1.5,
+        "rs1m": 1.548,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:TRV"
       },
       {
         "ticker": "CVX",
         "short_name": "Chevron Corporation",
         "name": "Chevron Corporation",
-        "price": 196.82,
-        "intra_pct": -0.07,
-        "rs1m": 1.811,
+        "price": 196.66,
+        "intra_pct": 0.02,
+        "rs1m": 1.453,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVX"
+      },
+      {
+        "ticker": "FE",
+        "short_name": "FirstEnergy Corp",
+        "name": "FirstEnergy Corp.",
+        "price": 51.86,
+        "intra_pct": 1.37,
+        "rs1m": 1.417,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:FE"
       },
       {
         "ticker": "EBAY",
         "short_name": "eBay Inc",
         "name": "eBay Inc.",
-        "price": 91.34,
-        "intra_pct": 1.49,
-        "rs1m": 1.699,
-        "trend_grade": "B",
+        "price": 92.25,
+        "intra_pct": 0.88,
+        "rs1m": 1.35,
+        "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EBAY"
+      },
+      {
+        "ticker": "SBUX",
+        "short_name": "Starbucks Corporation",
+        "name": "Starbucks Corporation",
+        "price": 98.8,
+        "intra_pct": -0.28,
+        "rs1m": 1.32,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:SBUX"
+      },
+      {
+        "ticker": "KMI",
+        "short_name": "Kinder Morgan, Inc",
+        "name": "Kinder Morgan, Inc.",
+        "price": 33.24,
+        "intra_pct": -0.36,
+        "rs1m": 1.302,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:KMI"
+      },
+      {
+        "ticker": "EXC",
+        "short_name": "Exelon Corporation",
+        "name": "Exelon Corporation",
+        "price": 50.04,
+        "intra_pct": 0.42,
+        "rs1m": 1.302,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:EXC"
+      },
+      {
+        "ticker": "CNP",
+        "short_name": "CenterPoint Energy, Inc",
+        "name": "CenterPoint Energy, Inc.",
+        "price": 44.11,
+        "intra_pct": 0.22,
+        "rs1m": 1.296,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:CNP"
       },
       {
         "ticker": "PSX",
         "short_name": "Phillips 66",
         "name": "Phillips 66",
-        "price": 172.74,
-        "intra_pct": -0.77,
-        "rs1m": 1.692,
+        "price": 172.92,
+        "intra_pct": 0.2,
+        "rs1m": 1.273,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
-      },
-      {
-        "ticker": "AEP",
-        "short_name": "American Electric Power\u2026",
-        "name": "American Electric Power Company, Inc.",
-        "price": 133.61,
-        "intra_pct": 1.04,
-        "rs1m": 1.689,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:AEP"
-      },
-      {
-        "ticker": "COP",
-        "short_name": "ConocoPhillips",
-        "name": "ConocoPhillips",
-        "price": 121.89,
-        "intra_pct": 1.36,
-        "rs1m": 1.651,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:COP"
       },
       {
         "ticker": "MPC",
         "short_name": "Marathon Petroleum Corp\u2026",
         "name": "Marathon Petroleum Corporation",
-        "price": 226.18,
-        "intra_pct": -1.69,
-        "rs1m": 1.585,
+        "price": 227.38,
+        "intra_pct": 0.58,
+        "rs1m": 1.273,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
       {
-        "ticker": "FFIV",
-        "short_name": "F5, Inc",
-        "name": "F5, Inc.",
-        "price": 289.31,
-        "intra_pct": 2.34,
-        "rs1m": 1.573,
+        "ticker": "COP",
+        "short_name": "ConocoPhillips",
+        "name": "ConocoPhillips",
+        "price": 120.71,
+        "intra_pct": -0.89,
+        "rs1m": 1.257,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FFIV"
-      },
-      {
-        "ticker": "LNT",
-        "short_name": "Alliant Energy Corporat\u2026",
-        "name": "Alliant Energy Corporation",
-        "price": 72.79,
-        "intra_pct": 1.68,
-        "rs1m": 1.566,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:LNT"
-      },
-      {
-        "ticker": "AWK",
-        "short_name": "American Water Works Co\u2026",
-        "name": "American Water Works Company, Inc.",
-        "price": 139.69,
-        "intra_pct": 1.04,
-        "rs1m": 1.529,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:AWK"
+        "tradingview_symbol": "NYSE:COP"
       },
       {
         "ticker": "JKHY",
         "short_name": "Jack Henry & Associates\u2026",
         "name": "Jack Henry & Associates, Inc.",
-        "price": 168.77,
-        "intra_pct": 1.47,
-        "rs1m": 1.525,
+        "price": 167.14,
+        "intra_pct": -1.16,
+        "rs1m": 1.244,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:JKHY"
+      },
+      {
+        "ticker": "FIS",
+        "short_name": "Fidelity National Infor\u2026",
+        "name": "Fidelity National Information Services, Inc.",
+        "price": 50.45,
+        "intra_pct": 1.33,
+        "rs1m": 1.224,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:FIS"
+      },
+      {
+        "ticker": "AEP",
+        "short_name": "American Electric Power\u2026",
+        "name": "American Electric Power Company, Inc.",
+        "price": 134.79,
+        "intra_pct": 0.89,
+        "rs1m": 1.21,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:AEP"
+      },
+      {
+        "ticker": "MRNA",
+        "short_name": "Moderna, Inc",
+        "name": "Moderna, Inc.",
+        "price": 52.77,
+        "intra_pct": 0.3,
+        "rs1m": 1.193,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:MRNA"
       }
     ],
     "lagging": [
       {
-        "ticker": "MAS",
-        "short_name": "Masco Corporation",
-        "name": "Masco Corporation",
-        "price": 61.52,
-        "intra_pct": 1.43,
-        "rs1m": -2.516,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MAS"
-      },
-      {
-        "ticker": "MCHP",
-        "short_name": "Microchip Technology In\u2026",
-        "name": "Microchip Technology Incorporated",
-        "price": 61.94,
-        "intra_pct": -1.26,
-        "rs1m": -2.507,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:MCHP"
-      },
-      {
-        "ticker": "PPG",
-        "short_name": "PPG Industries, Inc",
-        "name": "PPG Industries, Inc.",
-        "price": 101.89,
-        "intra_pct": 1.15,
-        "rs1m": -2.381,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:PPG"
-      },
-      {
         "ticker": "AOS",
         "short_name": "A. O. Smith Corporation",
         "name": "A. O. Smith Corporation",
-        "price": 66.84,
-        "intra_pct": 0.39,
-        "rs1m": -2.329,
+        "price": 67.57,
+        "intra_pct": 1.05,
+        "rs1m": -2.534,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AOS"
       },
@@ -876,211 +846,241 @@
         "ticker": "LEN",
         "short_name": "Lennar Corporation",
         "name": "Lennar Corporation",
-        "price": 94.96,
-        "intra_pct": 2.65,
-        "rs1m": -2.021,
+        "price": 95.46,
+        "intra_pct": 0.52,
+        "rs1m": -2.248,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LEN"
       },
       {
-        "ticker": "ITW",
-        "short_name": "Illinois Tool Works Inc",
-        "name": "Illinois Tool Works Inc.",
-        "price": 266.99,
-        "intra_pct": 0.52,
-        "rs1m": -1.989,
+        "ticker": "MAS",
+        "short_name": "Masco Corporation",
+        "name": "Masco Corporation",
+        "price": 62.44,
+        "intra_pct": 1.54,
+        "rs1m": -2.193,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ITW"
-      },
-      {
-        "ticker": "SWK",
-        "short_name": "Stanley Black & Decker,\u2026",
-        "name": "Stanley Black & Decker, Inc.",
-        "price": 70.15,
-        "intra_pct": -1.34,
-        "rs1m": -1.956,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:SWK"
-      },
-      {
-        "ticker": "SHW",
-        "short_name": "The Sherwin-Williams Co\u2026",
-        "name": "The Sherwin-Williams Company",
-        "price": 319.78,
-        "intra_pct": 0.64,
-        "rs1m": -1.928,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:SHW"
-      },
-      {
-        "ticker": "LOW",
-        "short_name": "Lowe's Companies, Inc",
-        "name": "Lowe's Companies, Inc.",
-        "price": 237.59,
-        "intra_pct": -0.75,
-        "rs1m": -1.895,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LOW"
-      },
-      {
-        "ticker": "LW",
-        "short_name": "Lamb Weston Holdings, I\u2026",
-        "name": "Lamb Weston Holdings, Inc.",
-        "price": 40.55,
-        "intra_pct": 0.22,
-        "rs1m": -1.852,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LW"
-      },
-      {
-        "ticker": "IP",
-        "short_name": "International Paper Com\u2026",
-        "name": "International Paper Company",
-        "price": 37.25,
-        "intra_pct": 4.57,
-        "rs1m": -1.836,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:IP"
-      },
-      {
-        "ticker": "AVY",
-        "short_name": "Avery Dennison Corporat\u2026",
-        "name": "Avery Dennison Corporation",
-        "price": 170.77,
-        "intra_pct": -0.21,
-        "rs1m": -1.791,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:AVY"
-      },
-      {
-        "ticker": "MDT",
-        "short_name": "Medtronic plc",
-        "name": "Medtronic plc",
-        "price": 87.14,
-        "intra_pct": -0.29,
-        "rs1m": -1.765,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MDT"
-      },
-      {
-        "ticker": "MKC",
-        "short_name": "McCormick & Company, In\u2026",
-        "name": "McCormick & Company, Incorporated",
-        "price": 58.29,
-        "intra_pct": 1.73,
-        "rs1m": -1.73,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MKC"
-      },
-      {
-        "ticker": "FITB",
-        "short_name": "Fifth Third Bancorp",
-        "name": "Fifth Third Bancorp",
-        "price": 43.4,
-        "intra_pct": -0.46,
-        "rs1m": -1.715,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:FITB"
-      },
-      {
-        "ticker": "GPC",
-        "short_name": "Genuine Parts Company",
-        "name": "Genuine Parts Company",
-        "price": 105.74,
-        "intra_pct": -1.21,
-        "rs1m": -1.712,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:GPC"
-      },
-      {
-        "ticker": "COO",
-        "short_name": "The Cooper Companies, I\u2026",
-        "name": "The Cooper Companies, Inc.",
-        "price": 69.92,
-        "intra_pct": -2.22,
-        "rs1m": -1.698,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:COO"
+        "tradingview_symbol": "NYSE:MAS"
       },
       {
         "ticker": "DHI",
         "short_name": "D.R. Horton, Inc",
         "name": "D.R. Horton, Inc.",
-        "price": 140.49,
-        "intra_pct": 1.04,
-        "rs1m": -1.678,
+        "price": 141.43,
+        "intra_pct": 0.71,
+        "rs1m": -2.12,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DHI"
       },
       {
-        "ticker": "BF-B",
-        "short_name": "Brown-Forman Corporation",
-        "name": "Brown-Forman Corporation",
-        "price": 23.49,
-        "intra_pct": 1.73,
-        "rs1m": -1.629,
+        "ticker": "PPG",
+        "short_name": "PPG Industries, Inc",
+        "name": "PPG Industries, Inc.",
+        "price": 104.33,
+        "intra_pct": 2.28,
+        "rs1m": -2.115,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:BF-B"
+        "tradingview_symbol": "NYSE:PPG"
       },
       {
-        "ticker": "NUE",
-        "short_name": "Nucor Corporation",
-        "name": "Nucor Corporation",
-        "price": 163.48,
-        "intra_pct": -1.32,
-        "rs1m": -1.625,
+        "ticker": "ITW",
+        "short_name": "Illinois Tool Works Inc",
+        "name": "Illinois Tool Works Inc.",
+        "price": 269.39,
+        "intra_pct": 0.9,
+        "rs1m": -2.099,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:NUE"
+        "tradingview_symbol": "NYSE:ITW"
       },
       {
-        "ticker": "MTB",
-        "short_name": "M&T Bank Corporation",
-        "name": "M&T Bank Corporation",
-        "price": 196.26,
-        "intra_pct": -0.97,
-        "rs1m": -1.623,
+        "ticker": "MCHP",
+        "short_name": "Microchip Technology In\u2026",
+        "name": "Microchip Technology Incorporated",
+        "price": 63.85,
+        "intra_pct": 3.15,
+        "rs1m": -2.009,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MTB"
+        "tradingview_symbol": "NASDAQ:MCHP"
+      },
+      {
+        "ticker": "LW",
+        "short_name": "Lamb Weston Holdings, I\u2026",
+        "name": "Lamb Weston Holdings, Inc.",
+        "price": 40.27,
+        "intra_pct": -0.67,
+        "rs1m": -1.962,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:LW"
+      },
+      {
+        "ticker": "SWK",
+        "short_name": "Stanley Black & Decker,\u2026",
+        "name": "Stanley Black & Decker, Inc.",
+        "price": 71.86,
+        "intra_pct": 2.44,
+        "rs1m": -1.955,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:SWK"
+      },
+      {
+        "ticker": "MKC",
+        "short_name": "McCormick & Company, In\u2026",
+        "name": "McCormick & Company, Incorporated",
+        "price": 57.91,
+        "intra_pct": -0.65,
+        "rs1m": -1.908,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MKC"
       },
       {
         "ticker": "TXN",
         "short_name": "Texas Instruments Incor\u2026",
         "name": "Texas Instruments Incorporated",
-        "price": 190.78,
-        "intra_pct": 0.41,
-        "rs1m": -1.612,
+        "price": 193.6,
+        "intra_pct": 1.49,
+        "rs1m": -1.771,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:TXN"
       },
       {
-        "ticker": "RF",
-        "short_name": "Regions Financial Corpo\u2026",
-        "name": "Regions Financial Corporation",
-        "price": 25.0,
-        "intra_pct": -1.28,
-        "rs1m": -1.608,
+        "ticker": "IP",
+        "short_name": "International Paper Com\u2026",
+        "name": "International Paper Company",
+        "price": 37.89,
+        "intra_pct": 1.88,
+        "rs1m": -1.771,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:RF"
+        "tradingview_symbol": "NYSE:IP"
       },
       {
-        "ticker": "HD",
-        "short_name": "The Home Depot, Inc",
-        "name": "The Home Depot, Inc.",
-        "price": 339.03,
-        "intra_pct": 0.04,
-        "rs1m": -1.607,
+        "ticker": "COO",
+        "short_name": "The Cooper Companies, I\u2026",
+        "name": "The Cooper Companies, Inc.",
+        "price": 71.42,
+        "intra_pct": 2.12,
+        "rs1m": -1.754,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:HD"
+        "tradingview_symbol": "NASDAQ:COO"
+      },
+      {
+        "ticker": "GPC",
+        "short_name": "Genuine Parts Company",
+        "name": "Genuine Parts Company",
+        "price": 106.24,
+        "intra_pct": 0.51,
+        "rs1m": -1.747,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:GPC"
+      },
+      {
+        "ticker": "IR",
+        "short_name": "Ingersoll Rand Inc",
+        "name": "Ingersoll Rand Inc.",
+        "price": 83.79,
+        "intra_pct": 2.16,
+        "rs1m": -1.731,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:IR"
+      },
+      {
+        "ticker": "AVY",
+        "short_name": "Avery Dennison Corporat\u2026",
+        "name": "Avery Dennison Corporation",
+        "price": 173.2,
+        "intra_pct": 1.36,
+        "rs1m": -1.71,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:AVY"
+      },
+      {
+        "ticker": "LOW",
+        "short_name": "Lowe's Companies, Inc",
+        "name": "Lowe's Companies, Inc.",
+        "price": 243.73,
+        "intra_pct": 2.6,
+        "rs1m": -1.702,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:LOW"
+      },
+      {
+        "ticker": "APTV",
+        "short_name": "Aptiv PLC",
+        "name": "Aptiv PLC",
+        "price": 71.66,
+        "intra_pct": 1.7,
+        "rs1m": -1.661,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:APTV"
+      },
+      {
+        "ticker": "IFF",
+        "short_name": "International Flavors &\u2026",
+        "name": "International Flavors & Fragrances Inc.",
+        "price": 70.54,
+        "intra_pct": 1.4,
+        "rs1m": -1.634,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:IFF"
+      },
+      {
+        "ticker": "NKE",
+        "short_name": "NIKE, Inc",
+        "name": "NIKE, Inc.",
+        "price": 54.89,
+        "intra_pct": 1.64,
+        "rs1m": -1.583,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:NKE"
+      },
+      {
+        "ticker": "SHW",
+        "short_name": "The Sherwin-Williams Co\u2026",
+        "name": "The Sherwin-Williams Company",
+        "price": 325.7,
+        "intra_pct": 1.85,
+        "rs1m": -1.581,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:SHW"
       },
       {
         "ticker": "MMM",
         "short_name": "3M Company",
         "name": "3M Company",
-        "price": 150.96,
-        "intra_pct": 1.25,
-        "rs1m": -1.491,
+        "price": 149.99,
+        "intra_pct": -0.68,
+        "rs1m": -1.558,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MMM"
+      },
+      {
+        "ticker": "HD",
+        "short_name": "The Home Depot, Inc",
+        "name": "The Home Depot, Inc.",
+        "price": 344.79,
+        "intra_pct": 1.73,
+        "rs1m": -1.513,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:HD"
+      },
+      {
+        "ticker": "BF-B",
+        "short_name": "Brown-Forman Corporation",
+        "name": "Brown-Forman Corporation",
+        "price": 23.77,
+        "intra_pct": 0.98,
+        "rs1m": -1.487,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:BF-B"
+      },
+      {
+        "ticker": "F",
+        "short_name": "Ford Motor Company",
+        "name": "Ford Motor Company",
+        "price": 11.77,
+        "intra_pct": 0.9,
+        "rs1m": -1.485,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:F"
       }
     ]
   },
