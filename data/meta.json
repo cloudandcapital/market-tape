@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-03-18T20:23:30+00:00",
+  "generated_at_utc": "2026-03-18T21:00:09+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 50,
@@ -9,40 +9,40 @@
       {
         "ticker": "XLE",
         "name": "State Street Energy Select Sector SPDR ETF",
-        "rs1m": 2.459
+        "rs1m": 2.465
       },
       {
         "ticker": "XLU",
         "name": "State Street Utilities Select Sector SPDR ETF",
-        "rs1m": 1.902
+        "rs1m": 1.897
       },
       {
         "ticker": "XLC",
         "name": "State Street Communication Services Select Sector SPDR ETF",
-        "rs1m": 0.784
+        "rs1m": 0.791
       }
     ],
     "countries": [
       {
         "ticker": "EWC",
         "name": "iShares MSCI Canada ETF",
-        "rs1m": 0.158
+        "rs1m": 0.165
       },
       {
         "ticker": "EWZ",
         "name": "iShares MSCI Brazil ETF",
-        "rs1m": -0.116
+        "rs1m": -0.113
       },
       {
         "ticker": "FXI",
         "name": "iShares China Large-Cap ETF",
-        "rs1m": -0.561
+        "rs1m": -0.556
       }
     ]
   },
   "status": {
     "exposure": {
-      "level": 56,
+      "level": 54,
       "guidance": "Hold"
     },
     "trend": {
@@ -56,12 +56,12 @@
       "momentum": "Negative"
     },
     "breadth": {
-      "above_20d_pct": 16.0,
-      "above_50d_pct": 18.0,
+      "above_20d_pct": 14.0,
+      "above_50d_pct": 16.0,
       "breadth_label": "Weak"
     },
     "momentum_env": {
-      "score": 12,
+      "score": 10,
       "label": "Choppy"
     }
   },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 337,
     "filtered_out_count": 6,
-    "generated_at_utc": "2026-03-18T20:23:30+00:00"
+    "generated_at_utc": "2026-03-18T21:00:09+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -79,7 +79,7 @@
         "name": "Hologic, Inc.",
         "price": 75.15,
         "intra_pct": 0.13,
-        "rs1m": 4.899,
+        "rs1m": 4.936,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:HOLX"
       },
@@ -89,7 +89,7 @@
         "name": "APA Corporation",
         "price": 36.61,
         "intra_pct": 2.08,
-        "rs1m": 3.014,
+        "rs1m": 3.016,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:APA"
       },
@@ -99,7 +99,7 @@
         "name": "LyondellBasell Industries N.V.",
         "price": 75.2,
         "intra_pct": 5.67,
-        "rs1m": 2.526,
+        "rs1m": 2.528,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:LYB"
       },
@@ -109,7 +109,7 @@
         "name": "Duke Energy Corporation",
         "price": 130.75,
         "intra_pct": -1.65,
-        "rs1m": 2.325,
+        "rs1m": 2.333,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:DUK"
       },
@@ -119,7 +119,7 @@
         "name": "Atmos Energy Corporation",
         "price": 185.25,
         "intra_pct": -0.91,
-        "rs1m": 2.309,
+        "rs1m": 2.317,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ATO"
       },
@@ -129,7 +129,7 @@
         "name": "EOG Resources, Inc.",
         "price": 137.52,
         "intra_pct": 1.31,
-        "rs1m": 2.281,
+        "rs1m": 2.285,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:EOG"
       },
@@ -139,7 +139,7 @@
         "name": "Occidental Petroleum Corporation",
         "price": 58.38,
         "intra_pct": 1.12,
-        "rs1m": 2.207,
+        "rs1m": 2.21,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
       },
@@ -149,7 +149,7 @@
         "name": "Exelon Corporation",
         "price": 49.25,
         "intra_pct": -1.58,
-        "rs1m": 2.187,
+        "rs1m": 2.195,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EXC"
       },
@@ -159,7 +159,7 @@
         "name": "Chevron Corporation",
         "price": 198.61,
         "intra_pct": 0.33,
-        "rs1m": 2.184,
+        "rs1m": 2.188,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVX"
       },
@@ -169,7 +169,7 @@
         "name": "ConocoPhillips",
         "price": 123.65,
         "intra_pct": 0.67,
-        "rs1m": 2.152,
+        "rs1m": 2.155,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:COP"
       },
@@ -179,7 +179,7 @@
         "name": "Marathon Petroleum Corporation",
         "price": 236.24,
         "intra_pct": 1.34,
-        "rs1m": 2.123,
+        "rs1m": 2.125,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
@@ -189,7 +189,7 @@
         "name": "FirstEnergy Corp.",
         "price": 50.66,
         "intra_pct": -1.07,
-        "rs1m": 2.083,
+        "rs1m": 2.091,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:FE"
       },
@@ -199,7 +199,7 @@
         "name": "Roper Technologies, Inc.",
         "price": 350.79,
         "intra_pct": -0.57,
-        "rs1m": 1.987,
+        "rs1m": 1.992,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:ROP"
       },
@@ -209,7 +209,7 @@
         "name": "Electronic Arts Inc.",
         "price": 200.61,
         "intra_pct": 0.24,
-        "rs1m": 1.899,
+        "rs1m": 1.912,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -219,7 +219,7 @@
         "name": "Palo Alto Networks, Inc.",
         "price": 168.91,
         "intra_pct": -0.15,
-        "rs1m": 1.884,
+        "rs1m": 1.887,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:PANW"
       },
@@ -229,7 +229,7 @@
         "name": "Alliant Energy Corporation",
         "price": 71.76,
         "intra_pct": -1.18,
-        "rs1m": 1.807,
+        "rs1m": 1.814,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:LNT"
       },
@@ -239,7 +239,7 @@
         "name": "Sempra",
         "price": 95.04,
         "intra_pct": -0.95,
-        "rs1m": 1.804,
+        "rs1m": 1.811,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:SRE"
       },
@@ -249,7 +249,7 @@
         "name": "CF Industries Holdings, Inc.",
         "price": 126.73,
         "intra_pct": 2.81,
-        "rs1m": 1.78,
+        "rs1m": 1.781,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CF"
       },
@@ -259,7 +259,7 @@
         "name": "Phillips 66",
         "price": 172.74,
         "intra_pct": 0.04,
-        "rs1m": 1.768,
+        "rs1m": 1.772,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
       },
@@ -269,7 +269,7 @@
         "name": "The Southern Company",
         "price": 96.54,
         "intra_pct": -1.76,
-        "rs1m": 1.731,
+        "rs1m": 1.736,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:SO"
       },
@@ -279,7 +279,7 @@
         "name": "DTE Energy Company",
         "price": 147.01,
         "intra_pct": -1.52,
-        "rs1m": 1.727,
+        "rs1m": 1.733,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:DTE"
       },
@@ -289,7 +289,7 @@
         "name": "Dow Inc.",
         "price": 37.69,
         "intra_pct": 2.25,
-        "rs1m": 1.691,
+        "rs1m": 1.693,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:DOW"
       },
@@ -299,7 +299,7 @@
         "name": "CenterPoint Energy, Inc.",
         "price": 43.23,
         "intra_pct": -0.98,
-        "rs1m": 1.666,
+        "rs1m": 1.673,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CNP"
       },
@@ -309,7 +309,7 @@
         "name": "Equinix, Inc.",
         "price": 973.56,
         "intra_pct": -0.32,
-        "rs1m": 1.646,
+        "rs1m": 1.651,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EQIX"
       },
@@ -319,7 +319,7 @@
         "name": "Netflix, Inc.",
         "price": 94.7,
         "intra_pct": 0.41,
-        "rs1m": 1.596,
+        "rs1m": 1.598,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NFLX"
       }
@@ -331,7 +331,7 @@
         "name": "A. O. Smith Corporation",
         "price": 64.02,
         "intra_pct": -2.66,
-        "rs1m": -2.747,
+        "rs1m": -2.743,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AOS"
       },
@@ -341,7 +341,7 @@
         "name": "Masco Corporation",
         "price": 59.92,
         "intra_pct": -2.98,
-        "rs1m": -2.507,
+        "rs1m": -2.503,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MAS"
       },
@@ -351,7 +351,7 @@
         "name": "NIKE, Inc.",
         "price": 53.47,
         "intra_pct": -3.03,
-        "rs1m": -2.281,
+        "rs1m": -2.277,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NKE"
       },
@@ -361,7 +361,7 @@
         "name": "Becton, Dickinson and Company",
         "price": 158.08,
         "intra_pct": -2.21,
-        "rs1m": -2.18,
+        "rs1m": -2.174,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:BDX"
       },
@@ -371,7 +371,7 @@
         "name": "Genuine Parts Company",
         "price": 100.72,
         "intra_pct": -2.04,
-        "rs1m": -2.094,
+        "rs1m": -2.09,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GPC"
       },
@@ -381,7 +381,7 @@
         "name": "D.R. Horton, Inc.",
         "price": 137.25,
         "intra_pct": -3.44,
-        "rs1m": -2.001,
+        "rs1m": -1.997,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DHI"
       },
@@ -391,7 +391,7 @@
         "name": "McCormick & Company, Incorporated",
         "price": 55.06,
         "intra_pct": -3.54,
-        "rs1m": -1.993,
+        "rs1m": -1.99,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MKC"
       },
@@ -401,7 +401,7 @@
         "name": "PPG Industries, Inc.",
         "price": 100.78,
         "intra_pct": -3.0,
-        "rs1m": -1.982,
+        "rs1m": -1.979,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PPG"
       },
@@ -411,7 +411,7 @@
         "name": "Stanley Black & Decker, Inc.",
         "price": 69.62,
         "intra_pct": -1.99,
-        "rs1m": -1.952,
+        "rs1m": -1.949,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SWK"
       },
@@ -421,7 +421,7 @@
         "name": "Avery Dennison Corporation",
         "price": 164.67,
         "intra_pct": -3.77,
-        "rs1m": -1.936,
+        "rs1m": -1.932,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AVY"
       },
@@ -431,7 +431,7 @@
         "name": "Lennar Corporation",
         "price": 94.75,
         "intra_pct": -2.35,
-        "rs1m": -1.93,
+        "rs1m": -1.927,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LEN"
       },
@@ -441,7 +441,7 @@
         "name": "Illinois Tool Works Inc.",
         "price": 260.74,
         "intra_pct": -2.62,
-        "rs1m": -1.873,
+        "rs1m": -1.867,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ITW"
       },
@@ -451,7 +451,7 @@
         "name": "International Paper Company",
         "price": 35.9,
         "intra_pct": -3.96,
-        "rs1m": -1.851,
+        "rs1m": -1.849,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IP"
       },
@@ -461,7 +461,7 @@
         "name": "Lowe's Companies, Inc.",
         "price": 231.09,
         "intra_pct": -3.6,
-        "rs1m": -1.811,
+        "rs1m": -1.808,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LOW"
       },
@@ -471,7 +471,7 @@
         "name": "Ecolab Inc.",
         "price": 261.84,
         "intra_pct": -3.96,
-        "rs1m": -1.732,
+        "rs1m": -1.727,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ECL"
       },
@@ -481,7 +481,7 @@
         "name": "The Sherwin-Williams Company",
         "price": 312.12,
         "intra_pct": -2.67,
-        "rs1m": -1.728,
+        "rs1m": -1.724,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SHW"
       },
@@ -491,7 +491,7 @@
         "name": "Microchip Technology Incorporated",
         "price": 64.71,
         "intra_pct": 0.19,
-        "rs1m": -1.685,
+        "rs1m": -1.682,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:MCHP"
       },
@@ -501,7 +501,7 @@
         "name": "The Cooper Companies, Inc.",
         "price": 71.17,
         "intra_pct": -1.21,
-        "rs1m": -1.645,
+        "rs1m": -1.641,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -511,7 +511,7 @@
         "name": "DuPont de Nemours, Inc.",
         "price": 44.0,
         "intra_pct": -3.38,
-        "rs1m": -1.625,
+        "rs1m": -1.621,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DD"
       },
@@ -521,7 +521,7 @@
         "name": "Fifth Third Bancorp",
         "price": 43.9,
         "intra_pct": -0.75,
-        "rs1m": -1.591,
+        "rs1m": -1.588,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:FITB"
       },
@@ -531,7 +531,7 @@
         "name": "International Flavors & Fragrances Inc.",
         "price": 68.31,
         "intra_pct": -4.17,
-        "rs1m": -1.56,
+        "rs1m": -1.557,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IFF"
       },
@@ -541,7 +541,7 @@
         "name": "Huntington Bancshares Incorporated",
         "price": 15.11,
         "intra_pct": -1.88,
-        "rs1m": -1.542,
+        "rs1m": -1.539,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:HBAN"
       },
@@ -551,7 +551,7 @@
         "name": "Ingersoll Rand Inc.",
         "price": 82.03,
         "intra_pct": -2.44,
-        "rs1m": -1.525,
+        "rs1m": -1.521,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IR"
       },
@@ -561,7 +561,7 @@
         "name": "Nucor Corporation",
         "price": 161.16,
         "intra_pct": -0.58,
-        "rs1m": -1.521,
+        "rs1m": -1.517,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NUE"
       },
@@ -571,7 +571,7 @@
         "name": "Aptiv PLC",
         "price": 70.13,
         "intra_pct": -2.6,
-        "rs1m": -1.512,
+        "rs1m": -1.509,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:APTV"
       }
@@ -586,7 +586,7 @@
         "name": "Hologic, Inc.",
         "price": 75.15,
         "intra_pct": 0.13,
-        "rs1m": 4.899,
+        "rs1m": 4.936,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:HOLX"
       },
@@ -596,7 +596,7 @@
         "name": "APA Corporation",
         "price": 36.61,
         "intra_pct": 2.08,
-        "rs1m": 3.014,
+        "rs1m": 3.016,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:APA"
       },
@@ -606,7 +606,7 @@
         "name": "LyondellBasell Industries N.V.",
         "price": 75.2,
         "intra_pct": 5.67,
-        "rs1m": 2.526,
+        "rs1m": 2.528,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:LYB"
       },
@@ -616,7 +616,7 @@
         "name": "Duke Energy Corporation",
         "price": 130.75,
         "intra_pct": -1.65,
-        "rs1m": 2.325,
+        "rs1m": 2.333,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:DUK"
       },
@@ -626,7 +626,7 @@
         "name": "Atmos Energy Corporation",
         "price": 185.25,
         "intra_pct": -0.91,
-        "rs1m": 2.309,
+        "rs1m": 2.317,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ATO"
       },
@@ -636,7 +636,7 @@
         "name": "EOG Resources, Inc.",
         "price": 137.52,
         "intra_pct": 1.31,
-        "rs1m": 2.281,
+        "rs1m": 2.285,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:EOG"
       },
@@ -646,7 +646,7 @@
         "name": "Occidental Petroleum Corporation",
         "price": 58.38,
         "intra_pct": 1.12,
-        "rs1m": 2.207,
+        "rs1m": 2.21,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
       },
@@ -656,7 +656,7 @@
         "name": "Exelon Corporation",
         "price": 49.25,
         "intra_pct": -1.58,
-        "rs1m": 2.187,
+        "rs1m": 2.195,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EXC"
       },
@@ -666,7 +666,7 @@
         "name": "Chevron Corporation",
         "price": 198.61,
         "intra_pct": 0.33,
-        "rs1m": 2.184,
+        "rs1m": 2.188,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVX"
       },
@@ -676,7 +676,7 @@
         "name": "ConocoPhillips",
         "price": 123.65,
         "intra_pct": 0.67,
-        "rs1m": 2.152,
+        "rs1m": 2.155,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:COP"
       },
@@ -686,7 +686,7 @@
         "name": "Marathon Petroleum Corporation",
         "price": 236.24,
         "intra_pct": 1.34,
-        "rs1m": 2.123,
+        "rs1m": 2.125,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
@@ -696,7 +696,7 @@
         "name": "FirstEnergy Corp.",
         "price": 50.66,
         "intra_pct": -1.07,
-        "rs1m": 2.083,
+        "rs1m": 2.091,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:FE"
       },
@@ -706,7 +706,7 @@
         "name": "Roper Technologies, Inc.",
         "price": 350.79,
         "intra_pct": -0.57,
-        "rs1m": 1.987,
+        "rs1m": 1.992,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:ROP"
       },
@@ -716,7 +716,7 @@
         "name": "Electronic Arts Inc.",
         "price": 200.61,
         "intra_pct": 0.24,
-        "rs1m": 1.899,
+        "rs1m": 1.912,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -726,7 +726,7 @@
         "name": "Palo Alto Networks, Inc.",
         "price": 168.91,
         "intra_pct": -0.15,
-        "rs1m": 1.884,
+        "rs1m": 1.887,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:PANW"
       },
@@ -736,7 +736,7 @@
         "name": "Alliant Energy Corporation",
         "price": 71.76,
         "intra_pct": -1.18,
-        "rs1m": 1.807,
+        "rs1m": 1.814,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:LNT"
       },
@@ -746,7 +746,7 @@
         "name": "Sempra",
         "price": 95.04,
         "intra_pct": -0.95,
-        "rs1m": 1.804,
+        "rs1m": 1.811,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:SRE"
       },
@@ -756,7 +756,7 @@
         "name": "CF Industries Holdings, Inc.",
         "price": 126.73,
         "intra_pct": 2.81,
-        "rs1m": 1.78,
+        "rs1m": 1.781,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CF"
       },
@@ -766,7 +766,7 @@
         "name": "Phillips 66",
         "price": 172.74,
         "intra_pct": 0.04,
-        "rs1m": 1.768,
+        "rs1m": 1.772,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
       },
@@ -776,7 +776,7 @@
         "name": "The Southern Company",
         "price": 96.54,
         "intra_pct": -1.76,
-        "rs1m": 1.731,
+        "rs1m": 1.736,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:SO"
       },
@@ -786,7 +786,7 @@
         "name": "DTE Energy Company",
         "price": 147.01,
         "intra_pct": -1.52,
-        "rs1m": 1.727,
+        "rs1m": 1.733,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:DTE"
       },
@@ -796,7 +796,7 @@
         "name": "Dow Inc.",
         "price": 37.69,
         "intra_pct": 2.25,
-        "rs1m": 1.691,
+        "rs1m": 1.693,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:DOW"
       },
@@ -806,7 +806,7 @@
         "name": "CenterPoint Energy, Inc.",
         "price": 43.23,
         "intra_pct": -0.98,
-        "rs1m": 1.666,
+        "rs1m": 1.673,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CNP"
       },
@@ -816,7 +816,7 @@
         "name": "Equinix, Inc.",
         "price": 973.56,
         "intra_pct": -0.32,
-        "rs1m": 1.646,
+        "rs1m": 1.651,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EQIX"
       },
@@ -826,7 +826,7 @@
         "name": "Netflix, Inc.",
         "price": 94.7,
         "intra_pct": 0.41,
-        "rs1m": 1.596,
+        "rs1m": 1.598,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NFLX"
       }
@@ -838,7 +838,7 @@
         "name": "A. O. Smith Corporation",
         "price": 64.02,
         "intra_pct": -2.66,
-        "rs1m": -2.747,
+        "rs1m": -2.743,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AOS"
       },
@@ -848,7 +848,7 @@
         "name": "Masco Corporation",
         "price": 59.92,
         "intra_pct": -2.98,
-        "rs1m": -2.507,
+        "rs1m": -2.503,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MAS"
       },
@@ -858,7 +858,7 @@
         "name": "NIKE, Inc.",
         "price": 53.47,
         "intra_pct": -3.03,
-        "rs1m": -2.281,
+        "rs1m": -2.277,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NKE"
       },
@@ -868,7 +868,7 @@
         "name": "Becton, Dickinson and Company",
         "price": 158.08,
         "intra_pct": -2.21,
-        "rs1m": -2.18,
+        "rs1m": -2.174,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:BDX"
       },
@@ -878,7 +878,7 @@
         "name": "Genuine Parts Company",
         "price": 100.72,
         "intra_pct": -2.04,
-        "rs1m": -2.094,
+        "rs1m": -2.09,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GPC"
       },
@@ -888,7 +888,7 @@
         "name": "D.R. Horton, Inc.",
         "price": 137.25,
         "intra_pct": -3.44,
-        "rs1m": -2.001,
+        "rs1m": -1.997,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DHI"
       },
@@ -898,7 +898,7 @@
         "name": "McCormick & Company, Incorporated",
         "price": 55.06,
         "intra_pct": -3.54,
-        "rs1m": -1.993,
+        "rs1m": -1.99,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MKC"
       },
@@ -908,7 +908,7 @@
         "name": "PPG Industries, Inc.",
         "price": 100.78,
         "intra_pct": -3.0,
-        "rs1m": -1.982,
+        "rs1m": -1.979,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PPG"
       },
@@ -918,7 +918,7 @@
         "name": "Stanley Black & Decker, Inc.",
         "price": 69.62,
         "intra_pct": -1.99,
-        "rs1m": -1.952,
+        "rs1m": -1.949,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SWK"
       },
@@ -928,7 +928,7 @@
         "name": "Avery Dennison Corporation",
         "price": 164.67,
         "intra_pct": -3.77,
-        "rs1m": -1.936,
+        "rs1m": -1.932,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:AVY"
       },
@@ -938,7 +938,7 @@
         "name": "Lennar Corporation",
         "price": 94.75,
         "intra_pct": -2.35,
-        "rs1m": -1.93,
+        "rs1m": -1.927,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LEN"
       },
@@ -948,7 +948,7 @@
         "name": "Illinois Tool Works Inc.",
         "price": 260.74,
         "intra_pct": -2.62,
-        "rs1m": -1.873,
+        "rs1m": -1.867,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ITW"
       },
@@ -958,7 +958,7 @@
         "name": "International Paper Company",
         "price": 35.9,
         "intra_pct": -3.96,
-        "rs1m": -1.851,
+        "rs1m": -1.849,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IP"
       },
@@ -968,7 +968,7 @@
         "name": "Lowe's Companies, Inc.",
         "price": 231.09,
         "intra_pct": -3.6,
-        "rs1m": -1.811,
+        "rs1m": -1.808,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LOW"
       },
@@ -978,7 +978,7 @@
         "name": "Ecolab Inc.",
         "price": 261.84,
         "intra_pct": -3.96,
-        "rs1m": -1.732,
+        "rs1m": -1.727,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ECL"
       },
@@ -988,7 +988,7 @@
         "name": "The Sherwin-Williams Company",
         "price": 312.12,
         "intra_pct": -2.67,
-        "rs1m": -1.728,
+        "rs1m": -1.724,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SHW"
       },
@@ -998,7 +998,7 @@
         "name": "Microchip Technology Incorporated",
         "price": 64.71,
         "intra_pct": 0.19,
-        "rs1m": -1.685,
+        "rs1m": -1.682,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:MCHP"
       },
@@ -1008,7 +1008,7 @@
         "name": "The Cooper Companies, Inc.",
         "price": 71.17,
         "intra_pct": -1.21,
-        "rs1m": -1.645,
+        "rs1m": -1.641,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -1018,7 +1018,7 @@
         "name": "DuPont de Nemours, Inc.",
         "price": 44.0,
         "intra_pct": -3.38,
-        "rs1m": -1.625,
+        "rs1m": -1.621,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DD"
       },
@@ -1028,7 +1028,7 @@
         "name": "Fifth Third Bancorp",
         "price": 43.9,
         "intra_pct": -0.75,
-        "rs1m": -1.591,
+        "rs1m": -1.588,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:FITB"
       },
@@ -1038,7 +1038,7 @@
         "name": "International Flavors & Fragrances Inc.",
         "price": 68.31,
         "intra_pct": -4.17,
-        "rs1m": -1.56,
+        "rs1m": -1.557,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IFF"
       },
@@ -1048,7 +1048,7 @@
         "name": "Huntington Bancshares Incorporated",
         "price": 15.11,
         "intra_pct": -1.88,
-        "rs1m": -1.542,
+        "rs1m": -1.539,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:HBAN"
       },
@@ -1058,7 +1058,7 @@
         "name": "Ingersoll Rand Inc.",
         "price": 82.03,
         "intra_pct": -2.44,
-        "rs1m": -1.525,
+        "rs1m": -1.521,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IR"
       },
@@ -1068,7 +1068,7 @@
         "name": "Nucor Corporation",
         "price": 161.16,
         "intra_pct": -0.58,
-        "rs1m": -1.521,
+        "rs1m": -1.517,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NUE"
       },
@@ -1078,7 +1078,7 @@
         "name": "Aptiv PLC",
         "price": 70.13,
         "intra_pct": -2.6,
-        "rs1m": -1.512,
+        "rs1m": -1.509,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:APTV"
       }
