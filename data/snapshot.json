@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-26T20:55:46+00:00",
+  "generated_at_utc": "2026-03-26T21:20:29+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -173,11 +173,11 @@
           "last": 99.91,
           "intra_pct": 0.31,
           "d1_pct": 0.31,
-          "d5_pct": 0.69,
-          "d20_pct": 2.17,
+          "d5_pct": 0.68,
+          "d20_pct": 2.16,
           "atr_pct": 0.78,
-          "dist50_atr": 2.1,
-          "rs1m": 3.904,
+          "dist50_atr": 2.09,
+          "rs1m": 3.903,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
