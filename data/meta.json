@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-04-01T21:05:16+00:00",
+  "generated_at_utc": "2026-04-01T21:31:16+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 50,
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-04-01T21:05:16+00:00"
+    "generated_at_utc": "2026-04-01T21:31:16+00:00"
   },
   "leaderboard": {
     "leaders": [
