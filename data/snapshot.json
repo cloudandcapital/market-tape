@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-08T20:30:29+00:00",
+  "generated_at_utc": "2026-04-08T21:06:10+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -172,12 +172,12 @@
           "short_name": "US Dollar",
           "last": 99.03,
           "intra_pct": -0.61,
-          "d1_pct": -0.61,
+          "d1_pct": -0.62,
           "d5_pct": -0.93,
-          "d20_pct": 0.21,
+          "d20_pct": 0.2,
           "atr_pct": 0.75,
           "dist50_atr": 0.73,
-          "rs1m": 0.178,
+          "rs1m": 0.175,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
