@@ -62,9 +62,11 @@ DEFAULT_UNIVERSE: list[str] = [
 ]
 
 TV_SPECIAL_SYMBOLS: dict[str, str] = {
-    "^VIX": "CBOE:VIX",
-    "^SPX": "SP:SPX",
-    "DXY": "TVC:DXY",
+    "^VIX":   "CBOE:VIX",
+    "^VIX9D": "CBOE:VIX9D",
+    "^TNX":   "TVC:US10Y",
+    "^SPX":   "SP:SPX",
+    "DXY":    "TVC:DXY",
 }
 
 # Explicit TradingView mappings for frequently used ETFs/benchmarks.
@@ -115,7 +117,9 @@ NAME_OVERRIDES: dict[str, str] = {
     "IEF": "7-10 Year Treasury Bond ETF",
     "HYG": "iShares iBoxx High Yield Corp Bond ETF",
     "DXY": "US Dollar Index",
-    "^VIX": "CBOE Volatility Index",
+    "^VIX":   "CBOE Volatility Index",
+    "^VIX9D": "CBOE 9-Day Volatility Index",
+    "^TNX":   "US 10-Year Treasury Yield",
     "XLK": "Technology Select Sector SPDR",
     "XLF": "Financial Select Sector SPDR",
     "XLE": "Energy Select Sector SPDR",
@@ -170,7 +174,7 @@ LEVERAGED_MAP: dict[str, tuple[str, str]] = {
 }
 
 GROUPS: dict[str, list[str]] = {
-    "Macro Regime": ["SPY", "TLT", "IEF", "HYG", "DXY", "^VIX"],
+    "Macro Regime": ["SPY", "TLT", "IEF", "HYG", "DXY", "^VIX", "^VIX9D", "^TNX"],
     "US Sectors": ["XLK", "XLF", "XLE", "XLV", "XLI", "XLY", "XLP", "XLU", "XLB", "XLRE", "XLC"],
     "Style & Size": ["QQQ", "IWM", "IWF", "IWD", "MTUM", "USMV"],
     "AI & Infrastructure": ["SMH", "SOXX", "IGV", "SKYY", "AIQ", "PAVE"],
@@ -674,7 +678,21 @@ def empty_row(
             "short": long_short[1] if long_short else None,
         },
         "mini_rs_chart": "",
+        "volume_ratio": 1.0,
     }
+
+
+def _volume_ratio(frame: pd.DataFrame, window: int = 20) -> float:
+    """Return today's volume divided by the 20-day average volume (1.0 = average)."""
+    if "Volume" not in frame.columns:
+        return 1.0
+    vol = frame["Volume"].dropna()
+    if len(vol) < 2:
+        return 1.0
+    avg = vol.rolling(window=window, min_periods=5).mean().iloc[-1]
+    if not np.isfinite(avg) or avg <= 0:
+        return 1.0
+    return float(safe_float(vol.iloc[-1] / avg, digits=2, default=1.0))
 
 
 def build_row(
@@ -736,6 +754,7 @@ def build_row(
             "above_20d": above_20d,
             "above_50d": above_50d,
             "mini_rs_chart": make_rs_chart(ticker, close, spy_close, chart_dir) if build_chart else "",
+            "volume_ratio": _volume_ratio(frame),
         }
     )
 
