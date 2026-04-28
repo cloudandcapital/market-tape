@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-04-28T20:10:46+00:00",
+  "generated_at_utc": "2026-04-28T21:34:16+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -9,34 +9,34 @@
       {
         "ticker": "XLK",
         "name": "State Street Technology Select Sector SPDR ETF",
-        "rs1m": 1.801
+        "rs1m": 1.8
       },
       {
         "ticker": "XLY",
         "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
-        "rs1m": -0.301
+        "rs1m": -0.306
       },
       {
         "ticker": "XLI",
         "name": "State Street Industrial Select Sector SPDR ETF",
-        "rs1m": -0.554
+        "rs1m": -0.558
       }
     ],
     "countries": [
       {
         "ticker": "INDA",
         "name": "iShares MSCI India ETF",
-        "rs1m": -0.687
+        "rs1m": -0.683
       },
       {
         "ticker": "EWJ",
         "name": "iShares MSCI Japan ETF",
-        "rs1m": -0.721
+        "rs1m": -0.726
       },
       {
         "ticker": "EWZ",
         "name": "iShares MSCI Brazil ETF",
-        "rs1m": -0.737
+        "rs1m": -0.739
       }
     ]
   },
@@ -52,7 +52,7 @@
     },
     "risk": {
       "volatility": "Neutral",
-      "sentiment": "Neutral",
+      "sentiment": "Bearish",
       "momentum": "Positive"
     },
     "breadth": {
@@ -61,7 +61,7 @@
       "breadth_label": "Strong"
     },
     "momentum_env": {
-      "score": 53,
+      "score": 52,
       "label": "Selective"
     }
   },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 337,
     "filtered_out_count": 6,
-    "generated_at_utc": "2026-04-28T20:10:46+00:00"
+    "generated_at_utc": "2026-04-28T21:34:16+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -89,7 +89,7 @@
         "name": "Seagate Technology Holdings plc",
         "price": 579.03,
         "intra_pct": -2.83,
-        "rs1m": 3.559,
+        "rs1m": 3.558,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:STX"
       },
@@ -97,9 +97,9 @@
         "ticker": "INTC",
         "short_name": "Intel Corporation",
         "name": "Intel Corporation",
-        "price": 84.55,
+        "price": 84.52,
         "intra_pct": -0.54,
-        "rs1m": 3.548,
+        "rs1m": 3.543,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:INTC"
       },
@@ -107,9 +107,9 @@
         "ticker": "ON",
         "short_name": "ON Semiconductor Corpor\u2026",
         "name": "ON Semiconductor Corporation",
-        "price": 93.28,
+        "price": 93.3,
         "intra_pct": -4.83,
-        "rs1m": 3.103,
+        "rs1m": 3.106,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ON"
       },
@@ -117,9 +117,9 @@
         "ticker": "NUE",
         "short_name": "Nucor Corporation",
         "name": "Nucor Corporation",
-        "price": 225.09,
-        "intra_pct": 4.69,
-        "rs1m": 3.079,
+        "price": 225.11,
+        "intra_pct": 4.7,
+        "rs1m": 3.076,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NUE"
       },
@@ -129,7 +129,7 @@
         "name": "Advanced Micro Devices, Inc.",
         "price": 323.21,
         "intra_pct": -3.44,
-        "rs1m": 3.047,
+        "rs1m": 3.046,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMD"
       },
@@ -139,7 +139,7 @@
         "name": "Centene Corporation",
         "price": 49.57,
         "intra_pct": 13.95,
-        "rs1m": 2.96,
+        "rs1m": 2.959,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CNC"
       },
@@ -149,7 +149,7 @@
         "name": "Micron Technology, Inc.",
         "price": 504.29,
         "intra_pct": -3.87,
-        "rs1m": 2.552,
+        "rs1m": 2.551,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MU"
       },
@@ -157,9 +157,9 @@
         "ticker": "HUM",
         "short_name": "Humana Inc",
         "name": "Humana Inc.",
-        "price": 229.86,
+        "price": 229.72,
         "intra_pct": 2.79,
-        "rs1m": 2.502,
+        "rs1m": 2.494,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:HUM"
       },
@@ -167,8 +167,8 @@
         "ticker": "UNH",
         "short_name": "UnitedHealth Group Inco\u2026",
         "name": "UnitedHealth Group Incorporated",
-        "price": 366.71,
-        "intra_pct": 3.39,
+        "price": 366.77,
+        "intra_pct": 3.4,
         "rs1m": 2.447,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:UNH"
@@ -179,7 +179,7 @@
         "name": "Arista Networks, Inc.",
         "price": 165.29,
         "intra_pct": -4.17,
-        "rs1m": 2.234,
+        "rs1m": 2.233,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ANET"
       },
@@ -187,9 +187,9 @@
         "ticker": "JBL",
         "short_name": "Jabil Inc",
         "name": "Jabil Inc.",
-        "price": 330.71,
-        "intra_pct": -2.93,
-        "rs1m": 2.132,
+        "price": 330.83,
+        "intra_pct": -2.92,
+        "rs1m": 2.137,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:JBL"
       },
@@ -199,7 +199,7 @@
         "name": "Microchip Technology Incorporated",
         "price": 84.26,
         "intra_pct": -3.01,
-        "rs1m": 2.074,
+        "rs1m": 2.072,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MCHP"
       },
@@ -209,7 +209,7 @@
         "name": "Amazon.com, Inc.",
         "price": 259.7,
         "intra_pct": -0.52,
-        "rs1m": 2.056,
+        "rs1m": 2.054,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMZN"
       },
@@ -219,7 +219,7 @@
         "name": "Alphabet Inc.",
         "price": 347.5,
         "intra_pct": -0.29,
-        "rs1m": 1.977,
+        "rs1m": 1.974,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GOOG"
       },
@@ -229,7 +229,7 @@
         "name": "Broadcom Inc.",
         "price": 399.83,
         "intra_pct": -4.39,
-        "rs1m": 1.965,
+        "rs1m": 1.963,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AVGO"
       },
@@ -237,9 +237,9 @@
         "ticker": "GOOGL",
         "short_name": "Alphabet Inc",
         "name": "Alphabet Inc.",
-        "price": 349.81,
+        "price": 349.78,
         "intra_pct": -0.14,
-        "rs1m": 1.961,
+        "rs1m": 1.956,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GOOGL"
       },
@@ -247,9 +247,9 @@
         "ticker": "MOH",
         "short_name": "Molina Healthcare, Inc",
         "name": "Molina Healthcare, Inc.",
-        "price": 185.47,
+        "price": 185.46,
         "intra_pct": 3.49,
-        "rs1m": 1.954,
+        "rs1m": 1.952,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MOH"
       },
@@ -257,9 +257,9 @@
         "ticker": "NVDA",
         "short_name": "NVIDIA Corporation",
         "name": "NVIDIA Corporation",
-        "price": 213.07,
+        "price": 213.17,
         "intra_pct": -1.6,
-        "rs1m": 1.923,
+        "rs1m": 1.931,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NVDA"
       },
@@ -267,9 +267,9 @@
         "ticker": "ELV",
         "short_name": "Elevance Health, Inc",
         "name": "Elevance Health, Inc.",
-        "price": 362.73,
+        "price": 362.74,
         "intra_pct": 1.85,
-        "rs1m": 1.857,
+        "rs1m": 1.855,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ELV"
       },
@@ -277,9 +277,9 @@
         "ticker": "STT",
         "short_name": "Corporation",
         "name": "State Street Corporation",
-        "price": 152.43,
+        "price": 152.48,
         "intra_pct": -1.03,
-        "rs1m": 1.791,
+        "rs1m": 1.797,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:STT"
       },
@@ -289,7 +289,7 @@
         "name": "Franklin Resources, Inc.",
         "price": 29.46,
         "intra_pct": 6.86,
-        "rs1m": 1.671,
+        "rs1m": 1.669,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:BEN"
       },
@@ -299,7 +299,7 @@
         "name": "Texas Instruments Incorporated",
         "price": 265.0,
         "intra_pct": -1.69,
-        "rs1m": 1.473,
+        "rs1m": 1.472,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:TXN"
       },
@@ -309,7 +309,7 @@
         "name": "KLA Corporation",
         "price": 1808.97,
         "intra_pct": -4.81,
-        "rs1m": 1.329,
+        "rs1m": 1.328,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:KLAC"
       },
@@ -317,9 +317,9 @@
         "ticker": "ADI",
         "short_name": "Analog Devices, Inc",
         "name": "Analog Devices, Inc.",
-        "price": 383.32,
+        "price": 383.26,
         "intra_pct": -2.36,
-        "rs1m": 1.247,
+        "rs1m": 1.243,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ADI"
       }
@@ -331,7 +331,7 @@
         "name": "Electronic Arts Inc.",
         "price": 202.53,
         "intra_pct": 0.04,
-        "rs1m": -9.608,
+        "rs1m": -9.625,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -339,31 +339,41 @@
         "ticker": "CTVA",
         "short_name": "Corteva, Inc",
         "name": "Corteva, Inc.",
-        "price": 78.95,
-        "intra_pct": -0.59,
-        "rs1m": -4.112,
+        "price": 78.94,
+        "intra_pct": -0.57,
+        "rs1m": -4.119,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CTVA"
-      },
-      {
-        "ticker": "JNJ",
-        "short_name": "Johnson & Johnson",
-        "name": "Johnson & Johnson",
-        "price": 227.78,
-        "intra_pct": 1.08,
-        "rs1m": -3.979,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:JNJ"
       },
       {
         "ticker": "SO",
         "short_name": "The Southern Company",
         "name": "The Southern Company",
-        "price": 94.44,
-        "intra_pct": 0.71,
-        "rs1m": -3.968,
+        "price": 94.41,
+        "intra_pct": 0.69,
+        "rs1m": -3.99,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SO"
+      },
+      {
+        "ticker": "JNJ",
+        "short_name": "Johnson & Johnson",
+        "name": "Johnson & Johnson",
+        "price": 227.79,
+        "intra_pct": 1.08,
+        "rs1m": -3.982,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:JNJ"
+      },
+      {
+        "ticker": "BRK-B",
+        "short_name": "Berkshire Hathaway Inc",
+        "name": "Berkshire Hathaway Inc.",
+        "price": 478.16,
+        "intra_pct": 1.14,
+        "rs1m": -3.949,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:BRK-B"
       },
       {
         "ticker": "EXC",
@@ -371,7 +381,7 @@
         "name": "Exelon Corporation",
         "price": 47.04,
         "intra_pct": 0.99,
-        "rs1m": -3.92,
+        "rs1m": -3.926,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EXC"
       },
@@ -381,7 +391,7 @@
         "name": "Insulet Corporation",
         "price": 182.87,
         "intra_pct": -2.86,
-        "rs1m": -3.915,
+        "rs1m": -3.919,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:PODD"
       },
@@ -390,28 +400,18 @@
         "short_name": "Duke Energy Corporation",
         "name": "Duke Energy Corporation",
         "price": 127.8,
-        "intra_pct": 0.56,
-        "rs1m": -3.909,
+        "intra_pct": 0.57,
+        "rs1m": -3.915,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DUK"
-      },
-      {
-        "ticker": "BRK-B",
-        "short_name": "Berkshire Hathaway Inc",
-        "name": "Berkshire Hathaway Inc.",
-        "price": 478.42,
-        "intra_pct": 1.13,
-        "rs1m": -3.897,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:BRK-B"
       },
       {
         "ticker": "GD",
         "short_name": "General Dynamics Corpor\u2026",
         "name": "General Dynamics Corporation",
-        "price": 313.69,
+        "price": 313.68,
         "intra_pct": 0.37,
-        "rs1m": -3.848,
+        "rs1m": -3.854,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GD"
       },
@@ -419,9 +419,9 @@
         "ticker": "KMI",
         "short_name": "Kinder Morgan, Inc",
         "name": "Kinder Morgan, Inc.",
-        "price": 31.78,
-        "intra_pct": 2.7,
-        "rs1m": -3.547,
+        "price": 31.79,
+        "intra_pct": 2.71,
+        "rs1m": -3.542,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:KMI"
       },
@@ -429,9 +429,9 @@
         "ticker": "LMT",
         "short_name": "Lockheed Martin Corpora\u2026",
         "name": "Lockheed Martin Corporation",
-        "price": 512.43,
+        "price": 512.29,
         "intra_pct": -0.18,
-        "rs1m": -3.451,
+        "rs1m": -3.458,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LMT"
       },
@@ -439,9 +439,9 @@
         "ticker": "MCD",
         "short_name": "McDonald's Corporation",
         "name": "McDonald's Corporation",
-        "price": 292.42,
+        "price": 292.39,
         "intra_pct": 0.76,
-        "rs1m": -3.448,
+        "rs1m": -3.456,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MCD"
       },
@@ -451,7 +451,7 @@
         "name": "Hormel Foods Corporation",
         "price": 21.31,
         "intra_pct": -0.77,
-        "rs1m": -3.44,
+        "rs1m": -3.441,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HRL"
       },
@@ -460,8 +460,8 @@
         "short_name": "Becton, Dickinson and C\u2026",
         "name": "Becton, Dickinson and Company",
         "price": 149.52,
-        "intra_pct": -0.47,
-        "rs1m": -3.435,
+        "intra_pct": -0.48,
+        "rs1m": -3.44,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:BDX"
       },
@@ -469,8 +469,8 @@
         "ticker": "SRE",
         "short_name": "Sempra",
         "name": "Sempra",
-        "price": 92.89,
-        "intra_pct": 0.46,
+        "price": 92.9,
+        "intra_pct": 0.48,
         "rs1m": -3.434,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SRE"
@@ -479,9 +479,9 @@
         "ticker": "FE",
         "short_name": "FirstEnergy Corp",
         "name": "FirstEnergy Corp.",
-        "price": 49.56,
-        "intra_pct": 0.24,
-        "rs1m": -3.402,
+        "price": 49.58,
+        "intra_pct": 0.28,
+        "rs1m": -3.395,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:FE"
       },
@@ -491,7 +491,7 @@
         "name": "The Hershey Company",
         "price": 187.92,
         "intra_pct": 0.77,
-        "rs1m": -3.332,
+        "rs1m": -3.335,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HSY"
       },
@@ -501,7 +501,7 @@
         "name": "O'Reilly Automotive, Inc.",
         "price": 91.57,
         "intra_pct": -0.46,
-        "rs1m": -3.157,
+        "rs1m": -3.162,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:ORLY"
       },
@@ -510,8 +510,8 @@
         "short_name": "Pfizer Inc",
         "name": "Pfizer Inc.",
         "price": 26.48,
-        "intra_pct": -1.18,
-        "rs1m": -3.147,
+        "intra_pct": -1.16,
+        "rs1m": -3.15,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PFE"
       },
@@ -519,9 +519,9 @@
         "ticker": "ABBV",
         "short_name": "AbbVie Inc",
         "name": "AbbVie Inc.",
-        "price": 197.53,
-        "intra_pct": 0.08,
-        "rs1m": -3.143,
+        "price": 197.69,
+        "intra_pct": 0.16,
+        "rs1m": -3.131,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ABBV"
       },
@@ -529,9 +529,9 @@
         "ticker": "MCK",
         "short_name": "McKesson Corporation",
         "name": "McKesson Corporation",
-        "price": 834.42,
-        "intra_pct": 0.74,
-        "rs1m": -3.102,
+        "price": 835.0,
+        "intra_pct": 0.81,
+        "rs1m": -3.085,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MCK"
       },
@@ -541,7 +541,7 @@
         "name": "The Cooper Companies, Inc.",
         "price": 63.09,
         "intra_pct": -1.93,
-        "rs1m": -3.074,
+        "rs1m": -3.077,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -551,7 +551,7 @@
         "name": "Gilead Sciences, Inc.",
         "price": 129.26,
         "intra_pct": 1.16,
-        "rs1m": -3.07,
+        "rs1m": -3.074,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:GILD"
       },
@@ -559,9 +559,9 @@
         "ticker": "NOC",
         "short_name": "Northrop Grumman Corpor\u2026",
         "name": "Northrop Grumman Corporation",
-        "price": 577.65,
+        "price": 577.82,
         "intra_pct": 0.45,
-        "rs1m": -3.053,
+        "rs1m": -3.052,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NOC"
       },
@@ -569,9 +569,9 @@
         "ticker": "RSG",
         "short_name": "Republic Services, Inc",
         "name": "Republic Services, Inc.",
-        "price": 208.16,
+        "price": 208.15,
         "intra_pct": 0.99,
-        "rs1m": -3.037,
+        "rs1m": -3.042,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RSG"
       }
@@ -596,7 +596,7 @@
         "name": "Seagate Technology Holdings plc",
         "price": 579.03,
         "intra_pct": -2.83,
-        "rs1m": 3.559,
+        "rs1m": 3.558,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:STX"
       },
@@ -604,9 +604,9 @@
         "ticker": "INTC",
         "short_name": "Intel Corporation",
         "name": "Intel Corporation",
-        "price": 84.55,
+        "price": 84.52,
         "intra_pct": -0.54,
-        "rs1m": 3.548,
+        "rs1m": 3.543,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:INTC"
       },
@@ -614,9 +614,9 @@
         "ticker": "ON",
         "short_name": "ON Semiconductor Corpor\u2026",
         "name": "ON Semiconductor Corporation",
-        "price": 93.28,
+        "price": 93.3,
         "intra_pct": -4.83,
-        "rs1m": 3.103,
+        "rs1m": 3.106,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ON"
       },
@@ -624,9 +624,9 @@
         "ticker": "NUE",
         "short_name": "Nucor Corporation",
         "name": "Nucor Corporation",
-        "price": 225.09,
-        "intra_pct": 4.69,
-        "rs1m": 3.079,
+        "price": 225.11,
+        "intra_pct": 4.7,
+        "rs1m": 3.076,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NUE"
       },
@@ -636,7 +636,7 @@
         "name": "Advanced Micro Devices, Inc.",
         "price": 323.21,
         "intra_pct": -3.44,
-        "rs1m": 3.047,
+        "rs1m": 3.046,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMD"
       },
@@ -646,7 +646,7 @@
         "name": "Centene Corporation",
         "price": 49.57,
         "intra_pct": 13.95,
-        "rs1m": 2.96,
+        "rs1m": 2.959,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CNC"
       },
@@ -656,7 +656,7 @@
         "name": "Micron Technology, Inc.",
         "price": 504.29,
         "intra_pct": -3.87,
-        "rs1m": 2.552,
+        "rs1m": 2.551,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MU"
       },
@@ -664,9 +664,9 @@
         "ticker": "HUM",
         "short_name": "Humana Inc",
         "name": "Humana Inc.",
-        "price": 229.86,
+        "price": 229.72,
         "intra_pct": 2.79,
-        "rs1m": 2.502,
+        "rs1m": 2.494,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:HUM"
       },
@@ -674,8 +674,8 @@
         "ticker": "UNH",
         "short_name": "UnitedHealth Group Inco\u2026",
         "name": "UnitedHealth Group Incorporated",
-        "price": 366.71,
-        "intra_pct": 3.39,
+        "price": 366.77,
+        "intra_pct": 3.4,
         "rs1m": 2.447,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:UNH"
@@ -686,7 +686,7 @@
         "name": "Arista Networks, Inc.",
         "price": 165.29,
         "intra_pct": -4.17,
-        "rs1m": 2.234,
+        "rs1m": 2.233,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ANET"
       },
@@ -694,9 +694,9 @@
         "ticker": "JBL",
         "short_name": "Jabil Inc",
         "name": "Jabil Inc.",
-        "price": 330.71,
-        "intra_pct": -2.93,
-        "rs1m": 2.132,
+        "price": 330.83,
+        "intra_pct": -2.92,
+        "rs1m": 2.137,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:JBL"
       },
@@ -706,7 +706,7 @@
         "name": "Microchip Technology Incorporated",
         "price": 84.26,
         "intra_pct": -3.01,
-        "rs1m": 2.074,
+        "rs1m": 2.072,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MCHP"
       },
@@ -716,7 +716,7 @@
         "name": "Amazon.com, Inc.",
         "price": 259.7,
         "intra_pct": -0.52,
-        "rs1m": 2.056,
+        "rs1m": 2.054,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMZN"
       },
@@ -726,7 +726,7 @@
         "name": "Alphabet Inc.",
         "price": 347.5,
         "intra_pct": -0.29,
-        "rs1m": 1.977,
+        "rs1m": 1.974,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GOOG"
       },
@@ -736,7 +736,7 @@
         "name": "Broadcom Inc.",
         "price": 399.83,
         "intra_pct": -4.39,
-        "rs1m": 1.965,
+        "rs1m": 1.963,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AVGO"
       },
@@ -744,9 +744,9 @@
         "ticker": "GOOGL",
         "short_name": "Alphabet Inc",
         "name": "Alphabet Inc.",
-        "price": 349.81,
+        "price": 349.78,
         "intra_pct": -0.14,
-        "rs1m": 1.961,
+        "rs1m": 1.956,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GOOGL"
       },
@@ -754,9 +754,9 @@
         "ticker": "MOH",
         "short_name": "Molina Healthcare, Inc",
         "name": "Molina Healthcare, Inc.",
-        "price": 185.47,
+        "price": 185.46,
         "intra_pct": 3.49,
-        "rs1m": 1.954,
+        "rs1m": 1.952,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MOH"
       },
@@ -764,9 +764,9 @@
         "ticker": "NVDA",
         "short_name": "NVIDIA Corporation",
         "name": "NVIDIA Corporation",
-        "price": 213.07,
+        "price": 213.17,
         "intra_pct": -1.6,
-        "rs1m": 1.923,
+        "rs1m": 1.931,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NVDA"
       },
@@ -774,9 +774,9 @@
         "ticker": "ELV",
         "short_name": "Elevance Health, Inc",
         "name": "Elevance Health, Inc.",
-        "price": 362.73,
+        "price": 362.74,
         "intra_pct": 1.85,
-        "rs1m": 1.857,
+        "rs1m": 1.855,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ELV"
       },
@@ -784,9 +784,9 @@
         "ticker": "STT",
         "short_name": "Corporation",
         "name": "State Street Corporation",
-        "price": 152.43,
+        "price": 152.48,
         "intra_pct": -1.03,
-        "rs1m": 1.791,
+        "rs1m": 1.797,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:STT"
       },
@@ -796,7 +796,7 @@
         "name": "Franklin Resources, Inc.",
         "price": 29.46,
         "intra_pct": 6.86,
-        "rs1m": 1.671,
+        "rs1m": 1.669,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:BEN"
       },
@@ -806,7 +806,7 @@
         "name": "Texas Instruments Incorporated",
         "price": 265.0,
         "intra_pct": -1.69,
-        "rs1m": 1.473,
+        "rs1m": 1.472,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:TXN"
       },
@@ -816,7 +816,7 @@
         "name": "KLA Corporation",
         "price": 1808.97,
         "intra_pct": -4.81,
-        "rs1m": 1.329,
+        "rs1m": 1.328,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:KLAC"
       },
@@ -824,9 +824,9 @@
         "ticker": "ADI",
         "short_name": "Analog Devices, Inc",
         "name": "Analog Devices, Inc.",
-        "price": 383.32,
+        "price": 383.26,
         "intra_pct": -2.36,
-        "rs1m": 1.247,
+        "rs1m": 1.243,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ADI"
       }
@@ -838,7 +838,7 @@
         "name": "Electronic Arts Inc.",
         "price": 202.53,
         "intra_pct": 0.04,
-        "rs1m": -9.608,
+        "rs1m": -9.625,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -846,31 +846,41 @@
         "ticker": "CTVA",
         "short_name": "Corteva, Inc",
         "name": "Corteva, Inc.",
-        "price": 78.95,
-        "intra_pct": -0.59,
-        "rs1m": -4.112,
+        "price": 78.94,
+        "intra_pct": -0.57,
+        "rs1m": -4.119,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CTVA"
-      },
-      {
-        "ticker": "JNJ",
-        "short_name": "Johnson & Johnson",
-        "name": "Johnson & Johnson",
-        "price": 227.78,
-        "intra_pct": 1.08,
-        "rs1m": -3.979,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:JNJ"
       },
       {
         "ticker": "SO",
         "short_name": "The Southern Company",
         "name": "The Southern Company",
-        "price": 94.44,
-        "intra_pct": 0.71,
-        "rs1m": -3.968,
+        "price": 94.41,
+        "intra_pct": 0.69,
+        "rs1m": -3.99,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SO"
+      },
+      {
+        "ticker": "JNJ",
+        "short_name": "Johnson & Johnson",
+        "name": "Johnson & Johnson",
+        "price": 227.79,
+        "intra_pct": 1.08,
+        "rs1m": -3.982,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:JNJ"
+      },
+      {
+        "ticker": "BRK-B",
+        "short_name": "Berkshire Hathaway Inc",
+        "name": "Berkshire Hathaway Inc.",
+        "price": 478.16,
+        "intra_pct": 1.14,
+        "rs1m": -3.949,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:BRK-B"
       },
       {
         "ticker": "EXC",
@@ -878,7 +888,7 @@
         "name": "Exelon Corporation",
         "price": 47.04,
         "intra_pct": 0.99,
-        "rs1m": -3.92,
+        "rs1m": -3.926,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EXC"
       },
@@ -888,7 +898,7 @@
         "name": "Insulet Corporation",
         "price": 182.87,
         "intra_pct": -2.86,
-        "rs1m": -3.915,
+        "rs1m": -3.919,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:PODD"
       },
@@ -897,28 +907,18 @@
         "short_name": "Duke Energy Corporation",
         "name": "Duke Energy Corporation",
         "price": 127.8,
-        "intra_pct": 0.56,
-        "rs1m": -3.909,
+        "intra_pct": 0.57,
+        "rs1m": -3.915,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DUK"
-      },
-      {
-        "ticker": "BRK-B",
-        "short_name": "Berkshire Hathaway Inc",
-        "name": "Berkshire Hathaway Inc.",
-        "price": 478.42,
-        "intra_pct": 1.13,
-        "rs1m": -3.897,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:BRK-B"
       },
       {
         "ticker": "GD",
         "short_name": "General Dynamics Corpor\u2026",
         "name": "General Dynamics Corporation",
-        "price": 313.69,
+        "price": 313.68,
         "intra_pct": 0.37,
-        "rs1m": -3.848,
+        "rs1m": -3.854,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GD"
       },
@@ -926,9 +926,9 @@
         "ticker": "KMI",
         "short_name": "Kinder Morgan, Inc",
         "name": "Kinder Morgan, Inc.",
-        "price": 31.78,
-        "intra_pct": 2.7,
-        "rs1m": -3.547,
+        "price": 31.79,
+        "intra_pct": 2.71,
+        "rs1m": -3.542,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:KMI"
       },
@@ -936,9 +936,9 @@
         "ticker": "LMT",
         "short_name": "Lockheed Martin Corpora\u2026",
         "name": "Lockheed Martin Corporation",
-        "price": 512.43,
+        "price": 512.29,
         "intra_pct": -0.18,
-        "rs1m": -3.451,
+        "rs1m": -3.458,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LMT"
       },
@@ -946,9 +946,9 @@
         "ticker": "MCD",
         "short_name": "McDonald's Corporation",
         "name": "McDonald's Corporation",
-        "price": 292.42,
+        "price": 292.39,
         "intra_pct": 0.76,
-        "rs1m": -3.448,
+        "rs1m": -3.456,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MCD"
       },
@@ -958,7 +958,7 @@
         "name": "Hormel Foods Corporation",
         "price": 21.31,
         "intra_pct": -0.77,
-        "rs1m": -3.44,
+        "rs1m": -3.441,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HRL"
       },
@@ -967,8 +967,8 @@
         "short_name": "Becton, Dickinson and C\u2026",
         "name": "Becton, Dickinson and Company",
         "price": 149.52,
-        "intra_pct": -0.47,
-        "rs1m": -3.435,
+        "intra_pct": -0.48,
+        "rs1m": -3.44,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:BDX"
       },
@@ -976,8 +976,8 @@
         "ticker": "SRE",
         "short_name": "Sempra",
         "name": "Sempra",
-        "price": 92.89,
-        "intra_pct": 0.46,
+        "price": 92.9,
+        "intra_pct": 0.48,
         "rs1m": -3.434,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:SRE"
@@ -986,9 +986,9 @@
         "ticker": "FE",
         "short_name": "FirstEnergy Corp",
         "name": "FirstEnergy Corp.",
-        "price": 49.56,
-        "intra_pct": 0.24,
-        "rs1m": -3.402,
+        "price": 49.58,
+        "intra_pct": 0.28,
+        "rs1m": -3.395,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:FE"
       },
@@ -998,7 +998,7 @@
         "name": "The Hershey Company",
         "price": 187.92,
         "intra_pct": 0.77,
-        "rs1m": -3.332,
+        "rs1m": -3.335,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HSY"
       },
@@ -1008,7 +1008,7 @@
         "name": "O'Reilly Automotive, Inc.",
         "price": 91.57,
         "intra_pct": -0.46,
-        "rs1m": -3.157,
+        "rs1m": -3.162,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:ORLY"
       },
@@ -1017,8 +1017,8 @@
         "short_name": "Pfizer Inc",
         "name": "Pfizer Inc.",
         "price": 26.48,
-        "intra_pct": -1.18,
-        "rs1m": -3.147,
+        "intra_pct": -1.16,
+        "rs1m": -3.15,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PFE"
       },
@@ -1026,9 +1026,9 @@
         "ticker": "ABBV",
         "short_name": "AbbVie Inc",
         "name": "AbbVie Inc.",
-        "price": 197.53,
-        "intra_pct": 0.08,
-        "rs1m": -3.143,
+        "price": 197.69,
+        "intra_pct": 0.16,
+        "rs1m": -3.131,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ABBV"
       },
@@ -1036,9 +1036,9 @@
         "ticker": "MCK",
         "short_name": "McKesson Corporation",
         "name": "McKesson Corporation",
-        "price": 834.42,
-        "intra_pct": 0.74,
-        "rs1m": -3.102,
+        "price": 835.0,
+        "intra_pct": 0.81,
+        "rs1m": -3.085,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MCK"
       },
@@ -1048,7 +1048,7 @@
         "name": "The Cooper Companies, Inc.",
         "price": 63.09,
         "intra_pct": -1.93,
-        "rs1m": -3.074,
+        "rs1m": -3.077,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -1058,7 +1058,7 @@
         "name": "Gilead Sciences, Inc.",
         "price": 129.26,
         "intra_pct": 1.16,
-        "rs1m": -3.07,
+        "rs1m": -3.074,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:GILD"
       },
@@ -1066,9 +1066,9 @@
         "ticker": "NOC",
         "short_name": "Northrop Grumman Corpor\u2026",
         "name": "Northrop Grumman Corporation",
-        "price": 577.65,
+        "price": 577.82,
         "intra_pct": 0.45,
-        "rs1m": -3.053,
+        "rs1m": -3.052,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NOC"
       },
@@ -1076,9 +1076,9 @@
         "ticker": "RSG",
         "short_name": "Republic Services, Inc",
         "name": "Republic Services, Inc.",
-        "price": 208.16,
+        "price": 208.15,
         "intra_pct": 0.99,
-        "rs1m": -3.037,
+        "rs1m": -3.042,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RSG"
       }
