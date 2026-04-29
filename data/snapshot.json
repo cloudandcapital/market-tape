@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-29T20:37:34+00:00",
+  "generated_at_utc": "2026-04-29T21:36:52+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -94,7 +94,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 0.63
+          "volume_ratio": 0.71
         },
         {
           "ticker": "TLT",
@@ -127,7 +127,7 @@
           "name": "iShares 7-10 Year Treasury Bond ETF",
           "short_name": "7-10 Year Treasury Bond",
           "last": 94.8,
-          "intra_pct": -0.45,
+          "intra_pct": -0.46,
           "d1_pct": -0.47,
           "d5_pct": -0.75,
           "d20_pct": -0.67,
@@ -151,7 +151,7 @@
           "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
           "short_name": "iBoxx $ High Yield Corp\u2026",
           "last": 80.13,
-          "intra_pct": -0.3,
+          "intra_pct": -0.31,
           "d1_pct": -0.34,
           "d5_pct": -0.46,
           "d20_pct": 0.72,
@@ -166,7 +166,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/HYG.png",
-          "volume_ratio": 1.26
+          "volume_ratio": 1.28
         },
         {
           "ticker": "DXY",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 98.96,
-          "intra_pct": 0.34,
-          "d1_pct": 0.35,
-          "d5_pct": 0.38,
-          "d20_pct": -1.0,
+          "last": 98.94,
+          "intra_pct": 0.32,
+          "d1_pct": 0.32,
+          "d5_pct": 0.35,
+          "d20_pct": -1.02,
           "atr_pct": 0.53,
-          "dist50_atr": 0.09,
-          "rs1m": -9.011,
+          "dist50_atr": 0.03,
+          "rs1m": -9.11,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -199,7 +199,7 @@
           "name": "CBOE Volatility Index",
           "short_name": "CBOE Volatility",
           "last": 18.81,
-          "intra_pct": 2.97,
+          "intra_pct": 5.33,
           "d1_pct": 5.5,
           "d5_pct": -0.58,
           "d20_pct": -25.5,
@@ -291,7 +291,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLK.png",
-          "volume_ratio": 0.68
+          "volume_ratio": 0.69
         },
         {
           "ticker": "XLF",
@@ -545,7 +545,7 @@
           "name": "Invesco QQQ Trust",
           "short_name": "QQQ",
           "last": 661.57,
-          "intra_pct": 0.62,
+          "intra_pct": 0.61,
           "d1_pct": 0.61,
           "d5_pct": 0.99,
           "d20_pct": 14.62,
@@ -656,7 +656,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/MTUM.png",
-          "volume_ratio": 1.03
+          "volume_ratio": 1.05
         },
         {
           "ticker": "USMV",
@@ -709,7 +709,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 0.71
+          "volume_ratio": 0.72
         },
         {
           "ticker": "SOXX",
@@ -954,7 +954,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SPLV.png",
-          "volume_ratio": 0.71
+          "volume_ratio": 0.72
         },
         {
           "ticker": "BIL",
@@ -1079,7 +1079,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/DBC.png",
-          "volume_ratio": 0.89
+          "volume_ratio": 1.03
         },
         {
           "ticker": "VNQ",
@@ -1228,7 +1228,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWJ.png",
-          "volume_ratio": 0.65
+          "volume_ratio": 0.73
         },
         {
           "ticker": "EWZ",
@@ -1276,7 +1276,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/INDA.png",
-          "volume_ratio": 0.43
+          "volume_ratio": 0.48
         },
         {
           "ticker": "FXI",
@@ -1300,7 +1300,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 0.86
+          "volume_ratio": 0.96
         },
         {
           "ticker": "VGK",
@@ -1324,7 +1324,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VGK.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.82
         },
         {
           "ticker": "EWC",
