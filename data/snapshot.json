@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-30T20:37:19+00:00",
+  "generated_at_utc": "2026-04-30T21:30:53+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -94,7 +94,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 1.04
+          "volume_ratio": 1.15
         },
         {
           "ticker": "TLT",
@@ -118,7 +118,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 1.39
+          "volume_ratio": 1.42
         },
         {
           "ticker": "IEF",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 98.07,
-          "intra_pct": -0.86,
-          "d1_pct": -0.86,
-          "d5_pct": -0.74,
-          "d20_pct": -1.59,
+          "last": 98.1,
+          "intra_pct": -0.83,
+          "d1_pct": -0.83,
+          "d5_pct": -0.71,
+          "d20_pct": -1.55,
           "atr_pct": 0.58,
-          "dist50_atr": -1.5,
-          "rs1m": -8.228,
+          "dist50_atr": -1.44,
+          "rs1m": -8.324,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -291,7 +291,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLK.png",
-          "volume_ratio": 0.88
+          "volume_ratio": 0.89
         },
         {
           "ticker": "XLF",
@@ -315,7 +315,7 @@
             "short": "FAZ"
           },
           "mini_rs_chart": "data/mini_rs/XLF.png",
-          "volume_ratio": 0.92
+          "volume_ratio": 0.94
         },
         {
           "ticker": "XLE",
@@ -339,7 +339,7 @@
             "short": "ERY"
           },
           "mini_rs_chart": "data/mini_rs/XLE.png",
-          "volume_ratio": 0.76
+          "volume_ratio": 0.79
         },
         {
           "ticker": "XLV",
@@ -435,7 +435,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 1.24
+          "volume_ratio": 1.29
         },
         {
           "ticker": "XLU",
@@ -459,7 +459,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 1.13
+          "volume_ratio": 1.18
         },
         {
           "ticker": "XLB",
@@ -483,7 +483,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLB.png",
-          "volume_ratio": 1.4
+          "volume_ratio": 1.45
         },
         {
           "ticker": "XLRE",
@@ -507,7 +507,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLRE.png",
-          "volume_ratio": 1.44
+          "volume_ratio": 1.46
         },
         {
           "ticker": "XLC",
@@ -531,7 +531,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLC.png",
-          "volume_ratio": 1.18
+          "volume_ratio": 1.25
         }
       ]
     },
@@ -656,7 +656,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/MTUM.png",
-          "volume_ratio": 1.22
+          "volume_ratio": 1.25
         },
         {
           "ticker": "USMV",
@@ -709,7 +709,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 1.01
+          "volume_ratio": 1.05
         },
         {
           "ticker": "SOXX",
@@ -733,7 +733,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 0.79
+          "volume_ratio": 0.82
         },
         {
           "ticker": "IGV",
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.88
+          "volume_ratio": 1.0
         },
         {
           "ticker": "SKYY",
@@ -858,7 +858,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 1.24
+          "volume_ratio": 1.29
         },
         {
           "ticker": "XLU",
@@ -882,7 +882,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 1.13
+          "volume_ratio": 1.18
         },
         {
           "ticker": "XLV",
@@ -1007,7 +1007,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/GLD.png",
-          "volume_ratio": 0.85
+          "volume_ratio": 0.93
         },
         {
           "ticker": "SLV",
@@ -1055,7 +1055,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 0.42
+          "volume_ratio": 0.43
         },
         {
           "ticker": "DBC",
@@ -1079,7 +1079,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/DBC.png",
-          "volume_ratio": 1.11
+          "volume_ratio": 1.39
         },
         {
           "ticker": "VNQ",
@@ -1103,7 +1103,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VNQ.png",
-          "volume_ratio": 1.23
+          "volume_ratio": 1.3
         },
         {
           "ticker": "REET",
@@ -1180,7 +1180,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EFA.png",
-          "volume_ratio": 1.12
+          "volume_ratio": 1.14
         },
         {
           "ticker": "EEM",
@@ -1204,7 +1204,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EEM.png",
-          "volume_ratio": 1.07
+          "volume_ratio": 1.15
         },
         {
           "ticker": "EWJ",
@@ -1300,7 +1300,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.01
         },
         {
           "ticker": "VGK",
@@ -1324,7 +1324,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VGK.png",
-          "volume_ratio": 0.73
+          "volume_ratio": 0.83
         },
         {
           "ticker": "EWC",
@@ -1348,7 +1348,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWC.png",
-          "volume_ratio": 5.25
+          "volume_ratio": 5.93
         }
       ]
     }
