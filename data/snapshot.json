@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-04T19:59:26+00:00",
+  "generated_at_utc": "2026-05-04T21:07:00+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -78,13 +78,13 @@
           "tradingview_symbol": "AMEX:SPY",
           "name": "State Street SPDR S&P 500 ETF Trust",
           "short_name": "S&P 500",
-          "last": 717.97,
-          "intra_pct": -0.39,
+          "last": 718.01,
+          "intra_pct": -0.36,
           "d1_pct": -0.37,
-          "d5_pct": 0.39,
-          "d20_pct": 8.96,
+          "d5_pct": 0.4,
+          "d20_pct": 8.97,
           "atr_pct": 0.92,
-          "dist50_atr": 5.6,
+          "dist50_atr": 5.61,
           "rs1m": 0.0,
           "trend_grade": "A",
           "above_20d": true,
@@ -94,7 +94,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 0.85
+          "volume_ratio": 0.89
         },
         {
           "ticker": "TLT",
@@ -102,14 +102,14 @@
           "tradingview_symbol": "NASDAQ:TLT",
           "name": "iShares 20+ Year Treasury Bond ETF",
           "short_name": "20+ Year Treasury Bond",
-          "last": 84.99,
-          "intra_pct": -0.72,
-          "d1_pct": -0.72,
-          "d5_pct": -1.5,
-          "d20_pct": -1.92,
+          "last": 84.96,
+          "intra_pct": -0.75,
+          "d1_pct": -0.76,
+          "d5_pct": -1.53,
+          "d20_pct": -1.95,
           "atr_pct": 0.75,
-          "dist50_atr": -3.55,
-          "rs1m": -5.683,
+          "dist50_atr": -3.59,
+          "rs1m": -5.67,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -118,7 +118,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 1.11
+          "volume_ratio": 1.34
         },
         {
           "ticker": "IEF",
@@ -126,14 +126,14 @@
           "tradingview_symbol": "NASDAQ:IEF",
           "name": "iShares 7-10 Year Treasury Bond ETF",
           "short_name": "7-10 Year Treasury Bond",
-          "last": 94.4,
+          "last": 94.39,
           "intra_pct": -0.35,
-          "d1_pct": -0.35,
-          "d5_pct": -0.98,
-          "d20_pct": -0.64,
+          "d1_pct": -0.37,
+          "d5_pct": -1.0,
+          "d20_pct": -0.65,
           "atr_pct": 0.4,
-          "dist50_atr": -3.59,
-          "rs1m": -8.001,
+          "dist50_atr": -3.63,
+          "rs1m": -7.991,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -142,7 +142,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 0.97
+          "volume_ratio": 1.04
         },
         {
           "ticker": "HYG",
@@ -150,14 +150,14 @@
           "tradingview_symbol": "NYSEARCA:HYG",
           "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
           "short_name": "iBoxx $ High Yield Corp\u2026",
-          "last": 79.82,
-          "intra_pct": -0.31,
-          "d1_pct": -0.31,
-          "d5_pct": -0.86,
-          "d20_pct": 0.14,
+          "last": 79.8,
+          "intra_pct": -0.32,
+          "d1_pct": -0.32,
+          "d5_pct": -0.88,
+          "d20_pct": 0.13,
           "atr_pct": 0.34,
-          "dist50_atr": -0.62,
-          "rs1m": -7.108,
+          "dist50_atr": -0.68,
+          "rs1m": -7.101,
           "trend_grade": "B",
           "above_20d": false,
           "above_50d": false,
@@ -166,7 +166,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/HYG.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.81
         },
         {
           "ticker": "DXY",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 98.4,
-          "intra_pct": 0.19,
-          "d1_pct": 0.19,
-          "d5_pct": -0.09,
-          "d20_pct": -1.58,
+          "last": 98.47,
+          "intra_pct": 0.26,
+          "d1_pct": 0.26,
+          "d5_pct": -0.01,
+          "d20_pct": -1.51,
           "atr_pct": 0.57,
-          "dist50_atr": -0.98,
-          "rs1m": -7.948,
+          "dist50_atr": -0.86,
+          "rs1m": -7.803,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -199,7 +199,7 @@
           "name": "CBOE Volatility Index",
           "short_name": "CBOE Volatility",
           "last": 18.29,
-          "intra_pct": 7.65,
+          "intra_pct": 7.59,
           "d1_pct": 7.65,
           "d5_pct": 1.5,
           "d20_pct": -24.33,
@@ -222,14 +222,14 @@
           "tradingview_symbol": "CBOE:VIX9D",
           "name": "CBOE S&P 500 9 Day Volatility I",
           "short_name": "CBOE S&P 500 9 Day Vola\u2026",
-          "last": 16.61,
-          "intra_pct": 17.39,
-          "d1_pct": 17.39,
-          "d5_pct": -0.48,
-          "d20_pct": -30.5,
-          "atr_pct": 15.47,
-          "dist50_atr": -1.92,
-          "rs1m": -0.783,
+          "last": 16.6,
+          "intra_pct": 16.11,
+          "d1_pct": 17.31,
+          "d5_pct": -0.54,
+          "d20_pct": -30.54,
+          "atr_pct": 15.48,
+          "dist50_atr": -1.93,
+          "rs1m": -0.784,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -253,7 +253,7 @@
           "d20_pct": 2.56,
           "atr_pct": 1.22,
           "dist50_atr": 3.45,
-          "rs1m": -1.803,
+          "rs1m": -1.805,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -275,14 +275,14 @@
           "tradingview_symbol": "AMEX:XLK",
           "name": "State Street Technology Select Sector SPDR ETF",
           "short_name": "Technology",
-          "last": 162.04,
-          "intra_pct": 0.08,
-          "d1_pct": 0.1,
-          "d5_pct": 0.91,
-          "d20_pct": 18.46,
+          "last": 162.05,
+          "intra_pct": 0.11,
+          "d1_pct": 0.11,
+          "d5_pct": 0.92,
+          "d20_pct": 18.47,
           "atr_pct": 1.73,
           "dist50_atr": 6.6,
-          "rs1m": 1.762,
+          "rs1m": 1.763,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -291,7 +291,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLK.png",
-          "volume_ratio": 0.99
+          "volume_ratio": 1.02
         },
         {
           "ticker": "XLF",
@@ -299,14 +299,14 @@
           "tradingview_symbol": "AMEX:XLF",
           "name": "State Street Financial Select Sector SPDR ETF",
           "short_name": "Financial",
-          "last": 51.57,
-          "intra_pct": -0.65,
-          "d1_pct": -0.67,
-          "d5_pct": -0.46,
-          "d20_pct": 3.39,
+          "last": 51.58,
+          "intra_pct": -0.64,
+          "d1_pct": -0.65,
+          "d5_pct": -0.44,
+          "d20_pct": 3.41,
           "atr_pct": 1.35,
-          "dist50_atr": 1.31,
-          "rs1m": -1.432,
+          "dist50_atr": 1.32,
+          "rs1m": -1.43,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -315,7 +315,7 @@
             "short": "FAZ"
           },
           "mini_rs_chart": "data/mini_rs/XLF.png",
-          "volume_ratio": 1.25
+          "volume_ratio": 1.32
         },
         {
           "ticker": "XLE",
@@ -323,14 +323,14 @@
           "tradingview_symbol": "AMEX:XLE",
           "name": "State Street Energy Select Sector SPDR ETF",
           "short_name": "Energy",
-          "last": 59.42,
-          "intra_pct": 0.99,
-          "d1_pct": 0.97,
-          "d5_pct": 4.67,
-          "d20_pct": -0.44,
+          "last": 59.39,
+          "intra_pct": 0.97,
+          "d1_pct": 0.92,
+          "d5_pct": 4.62,
+          "d20_pct": -0.49,
           "atr_pct": 2.17,
-          "dist50_atr": 1.28,
-          "rs1m": -1.399,
+          "dist50_atr": 1.26,
+          "rs1m": -1.409,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -339,7 +339,7 @@
             "short": "ERY"
           },
           "mini_rs_chart": "data/mini_rs/XLE.png",
-          "volume_ratio": 0.78
+          "volume_ratio": 0.82
         },
         {
           "ticker": "XLV",
@@ -347,13 +347,13 @@
           "tradingview_symbol": "AMEX:XLV",
           "name": "State Street Health Care Select Sector SPDR ETF",
           "short_name": "Health Care",
-          "last": 144.71,
+          "last": 144.73,
           "intra_pct": -0.27,
-          "d1_pct": -0.31,
-          "d5_pct": 0.87,
-          "d20_pct": -1.07,
+          "d1_pct": -0.3,
+          "d5_pct": 0.89,
+          "d20_pct": -1.06,
           "atr_pct": 1.38,
-          "dist50_atr": -2.21,
+          "dist50_atr": -2.2,
           "rs1m": -2.225,
           "trend_grade": "C",
           "above_20d": false,
@@ -363,7 +363,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 1.21
+          "volume_ratio": 1.3
         },
         {
           "ticker": "XLI",
@@ -371,11 +371,11 @@
           "tradingview_symbol": "AMEX:XLI",
           "name": "State Street Industrial Select Sector SPDR ETF",
           "short_name": "Industrial",
-          "last": 170.97,
-          "intra_pct": -1.17,
-          "d1_pct": -1.15,
+          "last": 170.98,
+          "intra_pct": -1.14,
+          "d1_pct": -1.14,
           "d5_pct": -0.89,
-          "d20_pct": 3.86,
+          "d20_pct": 3.87,
           "atr_pct": 1.78,
           "dist50_atr": 0.48,
           "rs1m": -0.834,
@@ -387,7 +387,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLI.png",
-          "volume_ratio": 0.83
+          "volume_ratio": 0.85
         },
         {
           "ticker": "XLY",
@@ -395,14 +395,14 @@
           "tradingview_symbol": "AMEX:XLY",
           "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
           "short_name": "Consumer Discretionary",
-          "last": 117.75,
-          "intra_pct": -0.77,
-          "d1_pct": -0.74,
-          "d5_pct": -0.07,
-          "d20_pct": 7.99,
+          "last": 117.72,
+          "intra_pct": -0.72,
+          "d1_pct": -0.77,
+          "d5_pct": -0.1,
+          "d20_pct": 7.96,
           "atr_pct": 1.58,
-          "dist50_atr": 2.05,
-          "rs1m": -0.18,
+          "dist50_atr": 2.04,
+          "rs1m": -0.187,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -411,7 +411,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLY.png",
-          "volume_ratio": 1.23
+          "volume_ratio": 1.34
         },
         {
           "ticker": "XLP",
@@ -419,14 +419,14 @@
           "tradingview_symbol": "AMEX:XLP",
           "name": "State Street Consumer Staples Select Sector SPDR ETF",
           "short_name": "Consumer Staples",
-          "last": 83.51,
-          "intra_pct": -0.75,
-          "d1_pct": -0.78,
-          "d5_pct": 1.42,
-          "d20_pct": 1.03,
+          "last": 83.54,
+          "intra_pct": -0.78,
+          "d1_pct": -0.75,
+          "d5_pct": 1.46,
+          "d20_pct": 1.06,
           "atr_pct": 1.3,
-          "dist50_atr": -0.27,
-          "rs1m": -1.749,
+          "dist50_atr": -0.24,
+          "rs1m": -1.745,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": false,
@@ -435,7 +435,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.08
         },
         {
           "ticker": "XLU",
@@ -443,14 +443,14 @@
           "tradingview_symbol": "AMEX:XLU",
           "name": "State Street Utilities Select Sector SPDR ETF",
           "short_name": "Utilities",
-          "last": 46.38,
-          "intra_pct": -0.38,
-          "d1_pct": -0.35,
-          "d5_pct": 0.42,
-          "d20_pct": 0.47,
+          "last": 46.37,
+          "intra_pct": -0.34,
+          "d1_pct": -0.39,
+          "d5_pct": 0.39,
+          "d20_pct": 0.43,
           "atr_pct": 1.63,
-          "dist50_atr": 0.04,
-          "rs1m": -1.696,
+          "dist50_atr": 0.02,
+          "rs1m": -1.702,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -459,7 +459,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 0.92
+          "volume_ratio": 0.94
         },
         {
           "ticker": "XLB",
@@ -467,14 +467,14 @@
           "tradingview_symbol": "AMEX:XLB",
           "name": "State Street Materials Select Sector SPDR ETF",
           "short_name": "Materials",
-          "last": 50.64,
-          "intra_pct": -1.37,
-          "d1_pct": -1.38,
-          "d5_pct": -2.2,
-          "d20_pct": 0.84,
+          "last": 50.65,
+          "intra_pct": -1.38,
+          "d1_pct": -1.36,
+          "d5_pct": -2.18,
+          "d20_pct": 0.86,
           "atr_pct": 1.45,
-          "dist50_atr": -0.21,
-          "rs1m": -1.842,
+          "dist50_atr": -0.2,
+          "rs1m": -1.841,
           "trend_grade": "B",
           "above_20d": false,
           "above_50d": false,
@@ -483,7 +483,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLB.png",
-          "volume_ratio": 0.9
+          "volume_ratio": 0.97
         },
         {
           "ticker": "XLRE",
@@ -491,14 +491,14 @@
           "tradingview_symbol": "AMEX:XLRE",
           "name": "State Street Real Estate Select Sector SPDR ETF",
           "short_name": "Real Estate",
-          "last": 44.06,
+          "last": 44.08,
           "intra_pct": -0.55,
-          "d1_pct": -0.58,
-          "d5_pct": 1.32,
-          "d20_pct": 5.52,
+          "d1_pct": -0.54,
+          "d5_pct": 1.36,
+          "d20_pct": 5.56,
           "atr_pct": 1.31,
-          "dist50_atr": 2.31,
-          "rs1m": -0.824,
+          "dist50_atr": 2.33,
+          "rs1m": -0.819,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -507,7 +507,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLRE.png",
-          "volume_ratio": 0.81
+          "volume_ratio": 0.83
         },
         {
           "ticker": "XLC",
@@ -517,7 +517,7 @@
           "short_name": "Communication Services",
           "last": 116.1,
           "intra_pct": -0.52,
-          "d1_pct": -0.54,
+          "d1_pct": -0.53,
           "d5_pct": 0.25,
           "d20_pct": 3.88,
           "atr_pct": 1.13,
@@ -531,7 +531,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLC.png",
-          "volume_ratio": 1.18
+          "volume_ratio": 1.22
         }
       ]
     },
@@ -544,14 +544,14 @@
           "tradingview_symbol": "NASDAQ:QQQ",
           "name": "Invesco QQQ Trust",
           "short_name": "QQQ",
-          "last": 672.65,
-          "intra_pct": -0.2,
-          "d1_pct": -0.22,
-          "d5_pct": 1.27,
-          "d20_pct": 14.3,
+          "last": 672.88,
+          "intra_pct": -0.19,
+          "d1_pct": -0.19,
+          "d5_pct": 1.3,
+          "d20_pct": 14.34,
           "atr_pct": 1.3,
-          "dist50_atr": 6.7,
-          "rs1m": 1.234,
+          "dist50_atr": 6.73,
+          "rs1m": 1.244,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -560,7 +560,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.82
         },
         {
           "ticker": "IWM",
@@ -568,14 +568,14 @@
           "tradingview_symbol": "AMEX:IWM",
           "name": "iShares Russell 2000 ETF",
           "short_name": "Russell 2000",
-          "last": 277.73,
-          "intra_pct": -0.61,
-          "d1_pct": -0.55,
-          "d5_pct": 0.21,
-          "d20_pct": 10.05,
+          "last": 277.88,
+          "intra_pct": -0.48,
+          "d1_pct": -0.5,
+          "d5_pct": 0.27,
+          "d20_pct": 10.11,
           "atr_pct": 1.51,
-          "dist50_atr": 4.22,
-          "rs1m": 0.23,
+          "dist50_atr": 4.26,
+          "rs1m": 0.242,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -584,7 +584,7 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 0.92
+          "volume_ratio": 0.99
         },
         {
           "ticker": "IWF",
@@ -592,14 +592,14 @@
           "tradingview_symbol": "NYSEARCA:IWF",
           "name": "iShares Russell 1000 Growth ETF",
           "short_name": "Russell 1000 Growth",
-          "last": 119.75,
-          "intra_pct": -0.22,
-          "d1_pct": -0.25,
-          "d5_pct": -0.2,
-          "d20_pct": 10.95,
+          "last": 119.82,
+          "intra_pct": -0.19,
+          "d1_pct": -0.19,
+          "d5_pct": -0.14,
+          "d20_pct": 11.01,
           "atr_pct": 1.37,
-          "dist50_atr": 4.3,
-          "rs1m": 0.445,
+          "dist50_atr": 4.34,
+          "rs1m": 0.459,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -608,7 +608,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWF.png",
-          "volume_ratio": 1.1
+          "volume_ratio": 1.17
         },
         {
           "ticker": "IWD",
@@ -616,14 +616,14 @@
           "tradingview_symbol": "NYSEARCA:IWD",
           "name": "iShares Russell 1000 Value ETF",
           "short_name": "Russell 1000 Value",
-          "last": 229.52,
+          "last": 229.6,
           "intra_pct": -0.55,
-          "d1_pct": -0.58,
-          "d5_pct": 0.81,
-          "d20_pct": 5.96,
+          "d1_pct": -0.55,
+          "d5_pct": 0.85,
+          "d20_pct": 6.0,
           "atr_pct": 0.84,
-          "dist50_atr": 4.52,
-          "rs1m": -0.885,
+          "dist50_atr": 4.56,
+          "rs1m": -0.878,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -632,7 +632,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWD.png",
-          "volume_ratio": 0.81
+          "volume_ratio": 0.85
         },
         {
           "ticker": "MTUM",
@@ -640,14 +640,14 @@
           "tradingview_symbol": "MTUM",
           "name": "iShares MSCI USA Momentum Factor ETF",
           "short_name": "MSCI USA Momentum Factor",
-          "last": 284.22,
+          "last": 284.29,
           "intra_pct": -0.31,
-          "d1_pct": -0.31,
-          "d5_pct": 1.24,
-          "d20_pct": 14.75,
+          "d1_pct": -0.28,
+          "d5_pct": 1.26,
+          "d20_pct": 14.78,
           "atr_pct": 1.58,
-          "dist50_atr": 6.1,
-          "rs1m": 1.065,
+          "dist50_atr": 6.11,
+          "rs1m": 1.07,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -656,7 +656,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/MTUM.png",
-          "volume_ratio": 1.2
+          "volume_ratio": 1.21
         },
         {
           "ticker": "USMV",
@@ -671,7 +671,7 @@
           "d20_pct": 1.01,
           "atr_pct": 0.76,
           "dist50_atr": -0.12,
-          "rs1m": -3.437,
+          "rs1m": -3.439,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": false,
@@ -680,7 +680,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USMV.png",
-          "volume_ratio": 1.34
+          "volume_ratio": 1.49
         }
       ]
     },
@@ -694,13 +694,13 @@
           "name": "VanEck Semiconductor ETF",
           "short_name": "Semiconductor",
           "last": 506.79,
-          "intra_pct": -0.61,
+          "intra_pct": -0.62,
           "d1_pct": -0.59,
           "d5_pct": 0.1,
           "d20_pct": 27.98,
           "atr_pct": 2.57,
           "dist50_atr": 6.33,
-          "rs1m": 2.327,
+          "rs1m": 2.326,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -709,7 +709,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 0.85
+          "volume_ratio": 0.86
         },
         {
           "ticker": "SOXX",
@@ -717,14 +717,14 @@
           "tradingview_symbol": "NASDAQ:SOXX",
           "name": "iShares Semiconductor ETF",
           "short_name": "Semiconductor",
-          "last": 462.35,
-          "intra_pct": -0.75,
-          "d1_pct": -0.73,
-          "d5_pct": 1.52,
-          "d20_pct": 34.37,
+          "last": 462.06,
+          "intra_pct": -0.77,
+          "d1_pct": -0.79,
+          "d5_pct": 1.46,
+          "d20_pct": 34.28,
           "atr_pct": 2.75,
-          "dist50_atr": 7.12,
-          "rs1m": 2.754,
+          "dist50_atr": 7.1,
+          "rs1m": 2.74,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -733,7 +733,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 0.81
+          "volume_ratio": 0.82
         },
         {
           "ticker": "IGV",
@@ -741,14 +741,14 @@
           "tradingview_symbol": "IGV",
           "name": "iShares Expanded Tech-Software Sector ETF",
           "short_name": "Expanded Tech-Software\u2026",
-          "last": 88.36,
+          "last": 88.44,
           "intra_pct": 2.01,
-          "d1_pct": 2.0,
-          "d5_pct": 3.44,
-          "d20_pct": 9.82,
+          "d1_pct": 2.09,
+          "d5_pct": 3.52,
+          "d20_pct": 9.92,
           "atr_pct": 3.01,
-          "dist50_atr": 2.05,
-          "rs1m": 0.075,
+          "dist50_atr": 2.07,
+          "rs1m": 0.083,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.67
+          "volume_ratio": 0.68
         },
         {
           "ticker": "SKYY",
@@ -765,11 +765,11 @@
           "tradingview_symbol": "NASDAQ:SKYY",
           "name": "First Trust Cloud Computing ETF",
           "short_name": "Cloud Computing",
-          "last": 126.63,
-          "intra_pct": 1.81,
-          "d1_pct": 1.8,
+          "last": 126.64,
+          "intra_pct": 1.85,
+          "d1_pct": 1.81,
           "d5_pct": 6.21,
-          "d20_pct": 13.92,
+          "d20_pct": 13.93,
           "atr_pct": 2.69,
           "dist50_atr": 3.98,
           "rs1m": 0.462,
@@ -781,7 +781,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SKYY.png",
-          "volume_ratio": 1.43
+          "volume_ratio": 1.46
         },
         {
           "ticker": "AIQ",
@@ -789,11 +789,11 @@
           "tradingview_symbol": "NASDAQ:AIQ",
           "name": "Global X Artificial Intelligence & Technology ETF",
           "short_name": "Artificial Intelligence\u2026",
-          "last": 57.1,
-          "intra_pct": 0.49,
-          "d1_pct": 0.5,
-          "d5_pct": 3.11,
-          "d20_pct": 19.59,
+          "last": 57.11,
+          "intra_pct": 0.5,
+          "d1_pct": 0.51,
+          "d5_pct": 3.12,
+          "d20_pct": 19.6,
           "atr_pct": 1.92,
           "dist50_atr": 6.09,
           "rs1m": 1.551,
@@ -805,7 +805,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/AIQ.png",
-          "volume_ratio": 1.05
+          "volume_ratio": 1.06
         },
         {
           "ticker": "PAVE",
@@ -814,13 +814,13 @@
           "name": "Global X U.S. Infrastructure Development ETF",
           "short_name": "U.S. Infrastructure Dev\u2026",
           "last": 56.19,
-          "intra_pct": -0.9,
-          "d1_pct": -0.89,
-          "d5_pct": -0.15,
-          "d20_pct": 9.25,
+          "intra_pct": -0.86,
+          "d1_pct": -0.88,
+          "d5_pct": -0.14,
+          "d20_pct": 9.26,
           "atr_pct": 1.89,
-          "dist50_atr": 2.78,
-          "rs1m": 0.042,
+          "dist50_atr": 2.79,
+          "rs1m": 0.043,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -842,14 +842,14 @@
           "tradingview_symbol": "AMEX:XLP",
           "name": "State Street Consumer Staples Select Sector SPDR ETF",
           "short_name": "Consumer Staples",
-          "last": 83.51,
-          "intra_pct": -0.75,
-          "d1_pct": -0.78,
-          "d5_pct": 1.42,
-          "d20_pct": 1.03,
+          "last": 83.54,
+          "intra_pct": -0.78,
+          "d1_pct": -0.75,
+          "d5_pct": 1.46,
+          "d20_pct": 1.06,
           "atr_pct": 1.3,
-          "dist50_atr": -0.27,
-          "rs1m": -1.749,
+          "dist50_atr": -0.24,
+          "rs1m": -1.745,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": false,
@@ -858,7 +858,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.08
         },
         {
           "ticker": "XLU",
@@ -866,14 +866,14 @@
           "tradingview_symbol": "AMEX:XLU",
           "name": "State Street Utilities Select Sector SPDR ETF",
           "short_name": "Utilities",
-          "last": 46.38,
-          "intra_pct": -0.38,
-          "d1_pct": -0.35,
-          "d5_pct": 0.42,
-          "d20_pct": 0.47,
+          "last": 46.37,
+          "intra_pct": -0.34,
+          "d1_pct": -0.39,
+          "d5_pct": 0.39,
+          "d20_pct": 0.43,
           "atr_pct": 1.63,
-          "dist50_atr": 0.04,
-          "rs1m": -1.696,
+          "dist50_atr": 0.02,
+          "rs1m": -1.702,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -882,7 +882,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 0.92
+          "volume_ratio": 0.94
         },
         {
           "ticker": "XLV",
@@ -890,13 +890,13 @@
           "tradingview_symbol": "AMEX:XLV",
           "name": "State Street Health Care Select Sector SPDR ETF",
           "short_name": "Health Care",
-          "last": 144.71,
+          "last": 144.73,
           "intra_pct": -0.27,
-          "d1_pct": -0.31,
-          "d5_pct": 0.87,
-          "d20_pct": -1.07,
+          "d1_pct": -0.3,
+          "d5_pct": 0.89,
+          "d20_pct": -1.06,
           "atr_pct": 1.38,
-          "dist50_atr": -2.21,
+          "dist50_atr": -2.2,
           "rs1m": -2.225,
           "trend_grade": "C",
           "above_20d": false,
@@ -906,7 +906,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 1.21
+          "volume_ratio": 1.3
         },
         {
           "ticker": "USMV",
@@ -921,7 +921,7 @@
           "d20_pct": 1.01,
           "atr_pct": 0.76,
           "dist50_atr": -0.12,
-          "rs1m": -3.437,
+          "rs1m": -3.439,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": false,
@@ -930,7 +930,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USMV.png",
-          "volume_ratio": 1.34
+          "volume_ratio": 1.49
         },
         {
           "ticker": "SPLV",
@@ -939,13 +939,13 @@
           "name": "Invesco S&P 500 Low Volatility ETF",
           "short_name": "S&P 500 Low Volatility",
           "last": 73.68,
-          "intra_pct": -0.65,
+          "intra_pct": -0.63,
           "d1_pct": -0.65,
-          "d5_pct": 0.1,
-          "d20_pct": -0.36,
+          "d5_pct": 0.11,
+          "d20_pct": -0.35,
           "atr_pct": 1.07,
-          "dist50_atr": -0.98,
-          "rs1m": -3.071,
+          "dist50_atr": -0.97,
+          "rs1m": -3.072,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -954,7 +954,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SPLV.png",
-          "volume_ratio": 0.79
+          "volume_ratio": 0.88
         },
         {
           "ticker": "BIL",
@@ -963,13 +963,13 @@
           "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
           "short_name": "Bloomberg 1-3 Month T-B\u2026",
           "last": 91.42,
-          "intra_pct": 0.02,
+          "intra_pct": 0.01,
           "d1_pct": 0.02,
           "d5_pct": -0.22,
-          "d20_pct": -0.03,
+          "d20_pct": -0.02,
           "atr_pct": 0.04,
-          "dist50_atr": -3.13,
-          "rs1m": -33.237,
+          "dist50_atr": -2.99,
+          "rs1m": -33.188,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -978,7 +978,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/BIL.png",
-          "volume_ratio": 0.86
+          "volume_ratio": 0.87
         }
       ]
     },
@@ -991,13 +991,13 @@
           "tradingview_symbol": "AMEX:GLD",
           "name": "SPDR Gold Shares",
           "short_name": "Gold Shares",
-          "last": 414.64,
-          "intra_pct": -2.01,
-          "d1_pct": -2.02,
-          "d5_pct": -3.55,
-          "d20_pct": -3.04,
+          "last": 414.71,
+          "intra_pct": -1.99,
+          "d1_pct": -2.0,
+          "d5_pct": -3.53,
+          "d20_pct": -3.03,
           "atr_pct": 1.83,
-          "dist50_atr": -3.73,
+          "dist50_atr": -3.72,
           "rs1m": -2.096,
           "trend_grade": "C",
           "above_20d": false,
@@ -1007,7 +1007,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/GLD.png",
-          "volume_ratio": 0.99
+          "volume_ratio": 1.03
         },
         {
           "ticker": "SLV",
@@ -1015,14 +1015,14 @@
           "tradingview_symbol": "AMEX:SLV",
           "name": "iShares Silver Trust",
           "short_name": "Silver",
-          "last": 65.92,
-          "intra_pct": -3.46,
-          "d1_pct": -3.48,
-          "d5_pct": -3.53,
-          "d20_pct": -0.26,
+          "last": 65.94,
+          "intra_pct": -3.43,
+          "d1_pct": -3.44,
+          "d5_pct": -3.5,
+          "d20_pct": -0.23,
           "atr_pct": 3.6,
-          "dist50_atr": -2.03,
-          "rs1m": -0.785,
+          "dist50_atr": -2.02,
+          "rs1m": -0.783,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1031,7 +1031,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SLV.png",
-          "volume_ratio": 0.88
+          "volume_ratio": 0.9
         },
         {
           "ticker": "USO",
@@ -1039,14 +1039,14 @@
           "tradingview_symbol": "NYSEARCA:USO",
           "name": "United States Oil Fund, LP",
           "short_name": "United States Oil , LP",
-          "last": 147.58,
-          "intra_pct": 3.32,
-          "d1_pct": 3.35,
-          "d5_pct": 9.55,
-          "d20_pct": 6.22,
+          "last": 147.61,
+          "intra_pct": 3.38,
+          "d1_pct": 3.37,
+          "d5_pct": 9.57,
+          "d20_pct": 6.24,
           "atr_pct": 4.81,
           "dist50_atr": 4.15,
-          "rs1m": -0.143,
+          "rs1m": -0.142,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1055,7 +1055,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 0.7
+          "volume_ratio": 0.71
         },
         {
           "ticker": "DBC",
@@ -1063,14 +1063,14 @@
           "tradingview_symbol": "NYSEARCA:DBC",
           "name": "Invesco DB Commodity Index Tracking Fund",
           "short_name": "DB Commodity Tracking",
-          "last": 31.32,
-          "intra_pct": 1.66,
-          "d1_pct": 1.66,
-          "d5_pct": 4.09,
-          "d20_pct": 6.24,
+          "last": 31.33,
+          "intra_pct": 1.69,
+          "d1_pct": 1.69,
+          "d5_pct": 4.12,
+          "d20_pct": 6.28,
           "atr_pct": 1.63,
-          "dist50_atr": 5.75,
-          "rs1m": -0.448,
+          "dist50_atr": 5.77,
+          "rs1m": -0.443,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1079,7 +1079,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/DBC.png",
-          "volume_ratio": 1.33
+          "volume_ratio": 1.55
         },
         {
           "ticker": "VNQ",
@@ -1087,14 +1087,14 @@
           "tradingview_symbol": "NYSEARCA:VNQ",
           "name": "Vanguard Real Estate Index Fund ETF Shares",
           "short_name": "Real Estate Shares",
-          "last": 95.44,
-          "intra_pct": -0.64,
-          "d1_pct": -0.65,
-          "d5_pct": 0.7,
-          "d20_pct": 5.62,
+          "last": 95.46,
+          "intra_pct": -0.65,
+          "d1_pct": -0.62,
+          "d5_pct": 0.72,
+          "d20_pct": 5.64,
           "atr_pct": 1.28,
-          "dist50_atr": 1.96,
-          "rs1m": -0.826,
+          "dist50_atr": 1.98,
+          "rs1m": -0.823,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1103,7 +1103,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VNQ.png",
-          "volume_ratio": 0.96
+          "volume_ratio": 1.23
         },
         {
           "ticker": "REET",
@@ -1111,14 +1111,14 @@
           "tradingview_symbol": "NYSEARCA:REET",
           "name": "iShares Global REIT ETF",
           "short_name": "Global REIT",
-          "last": 27.05,
-          "intra_pct": -0.86,
-          "d1_pct": -0.81,
-          "d5_pct": 0.33,
-          "d20_pct": 5.79,
+          "last": 27.03,
+          "intra_pct": -0.81,
+          "d1_pct": -0.88,
+          "d5_pct": 0.26,
+          "d20_pct": 5.71,
           "atr_pct": 1.18,
-          "dist50_atr": 2.13,
-          "rs1m": -0.766,
+          "dist50_atr": 2.06,
+          "rs1m": -0.783,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1127,7 +1127,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/REET.png",
-          "volume_ratio": 0.75
+          "volume_ratio": 0.76
         },
         {
           "ticker": "TIP",
@@ -1135,14 +1135,14 @@
           "tradingview_symbol": "NYSEARCA:TIP",
           "name": "iShares TIPS Bond ETF",
           "short_name": "TIPS Bond",
-          "last": 111.14,
-          "intra_pct": -0.18,
-          "d1_pct": -0.19,
-          "d5_pct": -0.56,
-          "d20_pct": 0.34,
+          "last": 111.15,
+          "intra_pct": -0.2,
+          "d1_pct": -0.18,
+          "d5_pct": -0.55,
+          "d20_pct": 0.35,
           "atr_pct": 0.26,
-          "dist50_atr": 0.17,
-          "rs1m": -11.569,
+          "dist50_atr": 0.21,
+          "rs1m": -11.603,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -1151,7 +1151,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/TIP.png",
-          "volume_ratio": 0.66
+          "volume_ratio": 0.69
         }
       ]
     },
@@ -1164,14 +1164,14 @@
           "tradingview_symbol": "NYSEARCA:EFA",
           "name": "iShares MSCI EAFE ETF",
           "short_name": "MSCI EAFE",
-          "last": 100.68,
-          "intra_pct": -1.39,
-          "d1_pct": -1.39,
-          "d5_pct": -0.69,
-          "d20_pct": 2.22,
+          "last": 100.7,
+          "intra_pct": -1.36,
+          "d1_pct": -1.37,
+          "d5_pct": -0.67,
+          "d20_pct": 2.24,
           "atr_pct": 1.36,
-          "dist50_atr": 0.43,
-          "rs1m": -1.175,
+          "dist50_atr": 0.45,
+          "rs1m": -1.174,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -1180,7 +1180,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EFA.png",
-          "volume_ratio": 1.35
+          "volume_ratio": 1.42
         },
         {
           "ticker": "EEM",
@@ -1188,14 +1188,14 @@
           "tradingview_symbol": "NYSEARCA:EEM",
           "name": "iShares MSCI Emerging Markets ETF",
           "short_name": "MSCI Emerging Markets",
-          "last": 64.12,
-          "intra_pct": -0.02,
-          "d1_pct": -0.02,
-          "d5_pct": 0.75,
-          "d20_pct": 12.27,
+          "last": 64.1,
+          "intra_pct": -0.06,
+          "d1_pct": -0.05,
+          "d5_pct": 0.72,
+          "d20_pct": 12.24,
           "atr_pct": 1.66,
-          "dist50_atr": 3.95,
-          "rs1m": 0.466,
+          "dist50_atr": 3.93,
+          "rs1m": 0.46,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1204,7 +1204,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EEM.png",
-          "volume_ratio": 0.7
+          "volume_ratio": 0.73
         },
         {
           "ticker": "EWJ",
@@ -1212,14 +1212,14 @@
           "tradingview_symbol": "NYSEARCA:EWJ",
           "name": "iShares MSCI Japan ETF",
           "short_name": "MSCI Japan",
-          "last": 88.14,
+          "last": 88.12,
           "intra_pct": -0.2,
-          "d1_pct": -0.18,
-          "d5_pct": 0.52,
-          "d20_pct": 3.0,
+          "d1_pct": -0.2,
+          "d5_pct": 0.5,
+          "d20_pct": 2.98,
           "atr_pct": 1.43,
-          "dist50_atr": 1.0,
-          "rs1m": -0.925,
+          "dist50_atr": 0.98,
+          "rs1m": -0.929,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -1228,7 +1228,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWJ.png",
-          "volume_ratio": 0.59
+          "volume_ratio": 0.61
         },
         {
           "ticker": "EWZ",
@@ -1237,13 +1237,13 @@
           "name": "iShares MSCI Brazil ETF",
           "short_name": "MSCI Brazil",
           "last": 39.04,
-          "intra_pct": -0.94,
-          "d1_pct": -0.98,
-          "d5_pct": -2.12,
-          "d20_pct": 1.31,
+          "intra_pct": -0.99,
+          "d1_pct": -0.99,
+          "d5_pct": -2.13,
+          "d20_pct": 1.3,
           "atr_pct": 1.81,
-          "dist50_atr": 0.7,
-          "rs1m": -1.226,
+          "dist50_atr": 0.69,
+          "rs1m": -1.228,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -1252,7 +1252,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWZ.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.03
         },
         {
           "ticker": "INDA",
@@ -1260,14 +1260,14 @@
           "tradingview_symbol": "INDA",
           "name": "iShares MSCI India ETF",
           "short_name": "MSCI India",
-          "last": 48.65,
-          "intra_pct": -0.95,
-          "d1_pct": -0.95,
-          "d5_pct": -1.47,
-          "d20_pct": 2.97,
+          "last": 48.63,
+          "intra_pct": -0.98,
+          "d1_pct": -1.0,
+          "d5_pct": -1.52,
+          "d20_pct": 2.92,
           "atr_pct": 1.23,
-          "dist50_atr": -0.77,
-          "rs1m": -1.062,
+          "dist50_atr": -0.81,
+          "rs1m": -1.07,
           "trend_grade": "B",
           "above_20d": false,
           "above_50d": false,
@@ -1276,7 +1276,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/INDA.png",
-          "volume_ratio": 0.69
+          "volume_ratio": 0.73
         },
         {
           "ticker": "FXI",
@@ -1284,14 +1284,14 @@
           "tradingview_symbol": "NYSEARCA:FXI",
           "name": "iShares China Large-Cap ETF",
           "short_name": "China Large-Cap",
-          "last": 36.57,
-          "intra_pct": -0.68,
-          "d1_pct": -0.65,
-          "d5_pct": 0.33,
-          "d20_pct": 2.87,
-          "atr_pct": 1.21,
-          "dist50_atr": 0.31,
-          "rs1m": -1.441,
+          "last": 36.55,
+          "intra_pct": -0.71,
+          "d1_pct": -0.71,
+          "d5_pct": 0.27,
+          "d20_pct": 2.81,
+          "atr_pct": 1.22,
+          "dist50_atr": 0.26,
+          "rs1m": -1.452,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -1300,7 +1300,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 0.76
+          "volume_ratio": 0.94
         },
         {
           "ticker": "VGK",
@@ -1309,13 +1309,13 @@
           "name": "Vanguard FTSE Europe ETF",
           "short_name": "FTSE Europe",
           "last": 85.51,
-          "intra_pct": -1.89,
+          "intra_pct": -1.84,
           "d1_pct": -1.88,
           "d5_pct": -1.2,
           "d20_pct": 2.06,
           "atr_pct": 1.57,
           "dist50_atr": 0.16,
-          "rs1m": -1.157,
+          "rs1m": -1.158,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -1324,7 +1324,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VGK.png",
-          "volume_ratio": 1.69
+          "volume_ratio": 1.78
         },
         {
           "ticker": "EWC",
@@ -1332,14 +1332,14 @@
           "tradingview_symbol": "NYSEARCA:EWC",
           "name": "iShares MSCI Canada ETF",
           "short_name": "MSCI Canada",
-          "last": 57.88,
+          "last": 57.89,
           "intra_pct": -0.86,
-          "d1_pct": -0.89,
-          "d5_pct": -0.17,
-          "d20_pct": 4.31,
+          "d1_pct": -0.87,
+          "d5_pct": -0.16,
+          "d20_pct": 4.33,
           "atr_pct": 1.14,
-          "dist50_atr": 2.07,
-          "rs1m": -1.083,
+          "dist50_atr": 2.09,
+          "rs1m": -1.082,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1348,7 +1348,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWC.png",
-          "volume_ratio": 0.74
+          "volume_ratio": 0.76
         }
       ]
     }
