@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-05T20:36:44+00:00",
+  "generated_at_utc": "2026-05-05T21:31:39+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -142,7 +142,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 1.57
+          "volume_ratio": 1.72
         },
         {
           "ticker": "HYG",
@@ -166,7 +166,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/HYG.png",
-          "volume_ratio": 0.62
+          "volume_ratio": 0.63
         },
         {
           "ticker": "DXY",
@@ -178,10 +178,10 @@
           "intra_pct": 0.01,
           "d1_pct": 0.01,
           "d5_pct": -0.14,
-          "d20_pct": -1.16,
+          "d20_pct": -1.17,
           "atr_pct": 0.56,
           "dist50_atr": -0.86,
-          "rs1m": -8.311,
+          "rs1m": -8.314,
           "trend_grade": "C",
           "above_20d": true,
           "above_50d": false,
@@ -387,7 +387,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLI.png",
-          "volume_ratio": 0.7
+          "volume_ratio": 0.71
         },
         {
           "ticker": "XLY",
@@ -584,7 +584,7 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 0.86
+          "volume_ratio": 0.87
         },
         {
           "ticker": "IWF",
@@ -656,7 +656,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/MTUM.png",
-          "volume_ratio": 0.95
+          "volume_ratio": 0.97
         },
         {
           "ticker": "USMV",
@@ -805,7 +805,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/AIQ.png",
-          "volume_ratio": 1.17
+          "volume_ratio": 1.18
         },
         {
           "ticker": "PAVE",
@@ -829,7 +829,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/PAVE.png",
-          "volume_ratio": 1.82
+          "volume_ratio": 1.83
         }
       ]
     },
@@ -1300,7 +1300,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 0.51
+          "volume_ratio": 0.56
         },
         {
           "ticker": "VGK",
