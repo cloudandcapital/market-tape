@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-05-11T21:58:58+00:00",
+  "generated_at_utc": "2026-05-12T15:35:02+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -9,59 +9,59 @@
       {
         "ticker": "XLK",
         "name": "State Street Technology Select Sector SPDR ETF",
-        "rs1m": 2.457
-      },
-      {
-        "ticker": "XLY",
-        "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
-        "rs1m": -0.656
+        "rs1m": 1.636
       },
       {
         "ticker": "XLE",
         "name": "State Street Energy Select Sector SPDR ETF",
-        "rs1m": -1.009
+        "rs1m": -0.412
+      },
+      {
+        "ticker": "XLP",
+        "name": "State Street Consumer Staples Select Sector SPDR ETF",
+        "rs1m": -0.531
       }
     ],
     "countries": [
       {
         "ticker": "EWJ",
         "name": "iShares MSCI Japan ETF",
-        "rs1m": -0.61
+        "rs1m": -0.583
       },
       {
         "ticker": "FXI",
         "name": "iShares China Large-Cap ETF",
-        "rs1m": -1.111
+        "rs1m": -1.087
       },
       {
         "ticker": "VGK",
         "name": "Vanguard FTSE Europe ETF",
-        "rs1m": -1.257
+        "rs1m": -1.214
       }
     ]
   },
   "status": {
     "exposure": {
-      "level": 23,
+      "level": 21,
       "guidance": "Defensive"
     },
     "trend": {
       "long_term": "Sideways",
-      "intermediate_term": "Up",
-      "short_term": "Sideways"
+      "intermediate_term": "Sideways",
+      "short_term": "Down"
     },
     "risk": {
       "volatility": "Neutral",
-      "sentiment": "Bullish",
+      "sentiment": "Bearish",
       "momentum": "Positive"
     },
     "breadth": {
-      "above_20d_pct": 67.31,
+      "above_20d_pct": 63.46,
       "above_50d_pct": 69.23,
       "breadth_label": "Strong"
     },
     "momentum_env": {
-      "score": 60,
+      "score": 52,
       "label": "Selective"
     }
   },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-05-11T21:58:58+00:00"
+    "generated_at_utc": "2026-05-12T15:35:02+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -84,42 +84,42 @@
         "tradingview_symbol": "NASDAQ:HOLX"
       },
       {
-        "ticker": "STX",
-        "short_name": "Seagate Technology Hold\u2026",
-        "name": "Seagate Technology Holdings plc",
-        "price": 834.01,
-        "intra_pct": 6.58,
-        "rs1m": 3.537,
+        "ticker": "HUM",
+        "short_name": "Humana Inc",
+        "name": "Humana Inc.",
+        "price": 281.13,
+        "intra_pct": 2.33,
+        "rs1m": 2.91,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:STX"
+        "tradingview_symbol": "NYSE:HUM"
       },
       {
-        "ticker": "MU",
-        "short_name": "Micron Technology, Inc",
-        "name": "Micron Technology, Inc.",
-        "price": 795.33,
-        "intra_pct": 6.52,
-        "rs1m": 3.499,
+        "ticker": "CNC",
+        "short_name": "Centene Corporation",
+        "name": "Centene Corporation",
+        "price": 56.79,
+        "intra_pct": 0.8,
+        "rs1m": 2.812,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:MU"
+        "tradingview_symbol": "NYSE:CNC"
       },
       {
-        "ticker": "QCOM",
-        "short_name": "QUALCOMM Incorporated",
-        "name": "QUALCOMM Incorporated",
-        "price": 237.53,
-        "intra_pct": 8.44,
-        "rs1m": 3.274,
+        "ticker": "PANW",
+        "short_name": "Palo Alto Networks, Inc",
+        "name": "Palo Alto Networks, Inc.",
+        "price": 213.89,
+        "intra_pct": 0.16,
+        "rs1m": 2.447,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:QCOM"
+        "tradingview_symbol": "NASDAQ:PANW"
       },
       {
         "ticker": "INTC",
         "short_name": "Intel Corporation",
         "name": "Intel Corporation",
-        "price": 129.44,
-        "intra_pct": 3.6,
-        "rs1m": 2.949,
+        "price": 117.92,
+        "intra_pct": -8.81,
+        "rs1m": 2.422,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:INTC"
       },
@@ -127,201 +127,201 @@
         "ticker": "AMD",
         "short_name": "Advanced Micro Devices,\u2026",
         "name": "Advanced Micro Devices, Inc.",
-        "price": 458.79,
-        "intra_pct": 0.82,
-        "rs1m": 2.93,
+        "price": 439.7,
+        "intra_pct": -4.35,
+        "rs1m": 2.419,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMD"
       },
       {
-        "ticker": "ON",
-        "short_name": "ON Semiconductor Corpor\u2026",
-        "name": "ON Semiconductor Corporation",
-        "price": 107.24,
-        "intra_pct": 3.9,
-        "rs1m": 2.623,
+        "ticker": "STX",
+        "short_name": "Seagate Technology Hold\u2026",
+        "name": "Seagate Technology Holdings plc",
+        "price": 785.8,
+        "intra_pct": -6.01,
+        "rs1m": 2.407,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:ON"
-      },
-      {
-        "ticker": "CNC",
-        "short_name": "Centene Corporation",
-        "name": "Centene Corporation",
-        "price": 56.36,
-        "intra_pct": 0.71,
-        "rs1m": 2.532,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CNC"
+        "tradingview_symbol": "NASDAQ:STX"
       },
       {
         "ticker": "DDOG",
         "short_name": "Datadog, Inc",
         "name": "Datadog, Inc.",
-        "price": 202.32,
-        "intra_pct": 1.08,
-        "rs1m": 2.407,
+        "price": 197.48,
+        "intra_pct": -2.58,
+        "rs1m": 2.286,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:DDOG"
       },
       {
-        "ticker": "HUM",
-        "short_name": "Humana Inc",
-        "name": "Humana Inc.",
-        "price": 274.26,
-        "intra_pct": -0.29,
-        "rs1m": 2.309,
+        "ticker": "MU",
+        "short_name": "Micron Technology, Inc",
+        "name": "Micron Technology, Inc.",
+        "price": 742.48,
+        "intra_pct": -6.58,
+        "rs1m": 2.284,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:HUM"
-      },
-      {
-        "ticker": "PANW",
-        "short_name": "Palo Alto Networks, Inc",
-        "name": "Palo Alto Networks, Inc.",
-        "price": 213.66,
-        "intra_pct": 2.79,
-        "rs1m": 2.142,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:PANW"
-      },
-      {
-        "ticker": "MCHP",
-        "short_name": "Microchip Technology In\u2026",
-        "name": "Microchip Technology Incorporated",
-        "price": 99.03,
-        "intra_pct": -0.02,
-        "rs1m": 1.919,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:MCHP"
-      },
-      {
-        "ticker": "FTNT",
-        "short_name": "Fortinet, Inc",
-        "name": "Fortinet, Inc.",
-        "price": 115.44,
-        "intra_pct": 1.2,
-        "rs1m": 1.863,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FTNT"
+        "tradingview_symbol": "NASDAQ:MU"
       },
       {
         "ticker": "UNH",
         "short_name": "UnitedHealth Group Inco\u2026",
         "name": "UnitedHealth Group Incorporated",
-        "price": 384.44,
-        "intra_pct": 1.17,
-        "rs1m": 1.855,
+        "price": 387.8,
+        "intra_pct": 0.78,
+        "rs1m": 2.213,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:UNH"
-      },
-      {
-        "ticker": "NUE",
-        "short_name": "Nucor Corporation",
-        "name": "Nucor Corporation",
-        "price": 232.0,
-        "intra_pct": 1.98,
-        "rs1m": 1.854,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:NUE"
-      },
-      {
-        "ticker": "CDNS",
-        "short_name": "Cadence Design Systems,\u2026",
-        "name": "Cadence Design Systems, Inc.",
-        "price": 364.2,
-        "intra_pct": 0.39,
-        "rs1m": 1.814,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:CDNS"
-      },
-      {
-        "ticker": "BEN",
-        "short_name": "Franklin Resources, Inc",
-        "name": "Franklin Resources, Inc.",
-        "price": 31.55,
-        "intra_pct": 1.64,
-        "rs1m": 1.659,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:BEN"
-      },
-      {
-        "ticker": "TSLA",
-        "short_name": "Tesla, Inc",
-        "name": "Tesla, Inc.",
-        "price": 445.0,
-        "intra_pct": 3.89,
-        "rs1m": 1.616,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:TSLA"
       },
       {
         "ticker": "ELV",
         "short_name": "Elevance Health, Inc",
         "name": "Elevance Health, Inc.",
-        "price": 381.75,
-        "intra_pct": 1.02,
-        "rs1m": 1.61,
+        "price": 384.87,
+        "intra_pct": 0.65,
+        "rs1m": 2.198,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ELV"
+      },
+      {
+        "ticker": "QCOM",
+        "short_name": "QUALCOMM Incorporated",
+        "name": "QUALCOMM Incorporated",
+        "price": 209.41,
+        "intra_pct": -11.77,
+        "rs1m": 1.954,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:QCOM"
+      },
+      {
+        "ticker": "NUE",
+        "short_name": "Nucor Corporation",
+        "name": "Nucor Corporation",
+        "price": 229.42,
+        "intra_pct": -1.11,
+        "rs1m": 1.88,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:NUE"
+      },
+      {
+        "ticker": "FTNT",
+        "short_name": "Fortinet, Inc",
+        "name": "Fortinet, Inc.",
+        "price": 113.9,
+        "intra_pct": -1.22,
+        "rs1m": 1.865,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:FTNT"
+      },
+      {
+        "ticker": "ON",
+        "short_name": "ON Semiconductor Corpor\u2026",
+        "name": "ON Semiconductor Corporation",
+        "price": 99.75,
+        "intra_pct": -7.12,
+        "rs1m": 1.758,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:ON"
       },
       {
         "ticker": "CSCO",
         "short_name": "Cisco Systems, Inc",
         "name": "Cisco Systems, Inc.",
-        "price": 98.72,
-        "intra_pct": 2.21,
-        "rs1m": 1.54,
+        "price": 97.83,
+        "intra_pct": -0.92,
+        "rs1m": 1.603,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:CSCO"
       },
       {
-        "ticker": "TXN",
-        "short_name": "Texas Instruments Incor\u2026",
-        "name": "Texas Instruments Incorporated",
-        "price": 297.76,
-        "intra_pct": 3.46,
-        "rs1m": 1.472,
+        "ticker": "CDNS",
+        "short_name": "Cadence Design Systems,\u2026",
+        "name": "Cadence Design Systems, Inc.",
+        "price": 356.66,
+        "intra_pct": -2.07,
+        "rs1m": 1.534,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:TXN"
+        "tradingview_symbol": "NASDAQ:CDNS"
       },
       {
-        "ticker": "PWR",
-        "short_name": "Quanta Services, Inc",
-        "name": "Quanta Services, Inc.",
-        "price": 781.38,
-        "intra_pct": 4.87,
-        "rs1m": 1.368,
+        "ticker": "MCHP",
+        "short_name": "Microchip Technology In\u2026",
+        "name": "Microchip Technology Incorporated",
+        "price": 95.31,
+        "intra_pct": -4.03,
+        "rs1m": 1.501,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:PWR"
+        "tradingview_symbol": "NASDAQ:MCHP"
       },
       {
-        "ticker": "SNPS",
-        "short_name": "Synopsys, Inc",
-        "name": "Synopsys, Inc.",
-        "price": 516.19,
-        "intra_pct": -0.06,
-        "rs1m": 1.309,
+        "ticker": "CVS",
+        "short_name": "CVS Health Corporation",
+        "name": "CVS Health Corporation",
+        "price": 93.84,
+        "intra_pct": 1.69,
+        "rs1m": 1.396,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:SNPS"
+        "tradingview_symbol": "NYSE:CVS"
       },
       {
-        "ticker": "ADI",
-        "short_name": "Analog Devices, Inc",
-        "name": "Analog Devices, Inc.",
-        "price": 422.73,
-        "intra_pct": 1.48,
-        "rs1m": 1.302,
+        "ticker": "BEN",
+        "short_name": "Franklin Resources, Inc",
+        "name": "Franklin Resources, Inc.",
+        "price": 31.15,
+        "intra_pct": -1.27,
+        "rs1m": 1.345,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:ADI"
+        "tradingview_symbol": "NYSE:BEN"
+      },
+      {
+        "ticker": "MOH",
+        "short_name": "Molina Healthcare, Inc",
+        "name": "Molina Healthcare, Inc.",
+        "price": 187.49,
+        "intra_pct": 1.24,
+        "rs1m": 1.341,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:MOH"
+      },
+      {
+        "ticker": "ADM",
+        "short_name": "Archer-Daniels-Midland\u2026",
+        "name": "Archer-Daniels-Midland Company",
+        "price": 80.06,
+        "intra_pct": 0.3,
+        "rs1m": 1.333,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:ADM"
       },
       {
         "ticker": "FFIV",
         "short_name": "F5, Inc",
         "name": "F5, Inc.",
-        "price": 358.3,
-        "intra_pct": 1.17,
-        "rs1m": 1.195,
+        "price": 352.63,
+        "intra_pct": -1.49,
+        "rs1m": 1.322,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:FFIV"
+      },
+      {
+        "ticker": "SNPS",
+        "short_name": "Synopsys, Inc",
+        "name": "Synopsys, Inc.",
+        "price": 509.3,
+        "intra_pct": -1.27,
+        "rs1m": 1.311,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:SNPS"
+      },
+      {
+        "ticker": "TXN",
+        "short_name": "Texas Instruments Incor\u2026",
+        "name": "Texas Instruments Incorporated",
+        "price": 289.17,
+        "intra_pct": -3.01,
+        "rs1m": 1.29,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:TXN"
       }
     ],
     "laggards": [
@@ -329,9 +329,9 @@
         "ticker": "EA",
         "short_name": "Electronic Arts Inc",
         "name": "Electronic Arts Inc.",
-        "price": 200.22,
-        "intra_pct": -0.15,
-        "rs1m": -11.787,
+        "price": 200.78,
+        "intra_pct": 0.28,
+        "rs1m": -8.139,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -339,9 +339,9 @@
         "ticker": "COO",
         "short_name": "The Cooper Companies, I\u2026",
         "name": "The Cooper Companies, Inc.",
-        "price": 58.98,
-        "intra_pct": -1.68,
-        "rs1m": -4.341,
+        "price": 59.65,
+        "intra_pct": 1.17,
+        "rs1m": -3.601,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -349,39 +349,29 @@
         "ticker": "FE",
         "short_name": "FirstEnergy Corp",
         "name": "FirstEnergy Corp.",
-        "price": 44.6,
-        "intra_pct": 0.61,
-        "rs1m": -4.072,
+        "price": 44.72,
+        "intra_pct": 0.27,
+        "rs1m": -3.542,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:FE"
       },
       {
-        "ticker": "MDT",
-        "short_name": "Medtronic plc",
-        "name": "Medtronic plc",
-        "price": 74.54,
-        "intra_pct": -2.11,
-        "rs1m": -3.626,
+        "ticker": "EPAM",
+        "short_name": "EPAM Systems, Inc",
+        "name": "EPAM Systems, Inc.",
+        "price": 95.11,
+        "intra_pct": -2.18,
+        "rs1m": -3.39,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MDT"
-      },
-      {
-        "ticker": "LMT",
-        "short_name": "Lockheed Martin Corpora\u2026",
-        "name": "Lockheed Martin Corporation",
-        "price": 512.25,
-        "intra_pct": 1.18,
-        "rs1m": -3.622,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LMT"
+        "tradingview_symbol": "NYSE:EPAM"
       },
       {
         "ticker": "NOC",
         "short_name": "Northrop Grumman Corpor\u2026",
         "name": "Northrop Grumman Corporation",
-        "price": 548.21,
-        "intra_pct": -0.21,
-        "rs1m": -3.603,
+        "price": 551.51,
+        "intra_pct": 0.6,
+        "rs1m": -3.171,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NOC"
       },
@@ -389,191 +379,201 @@
         "ticker": "MKTX",
         "short_name": "MarketAxess Holdings Inc",
         "name": "MarketAxess Holdings Inc.",
-        "price": 145.21,
-        "intra_pct": -1.61,
-        "rs1m": -3.384,
+        "price": 143.54,
+        "intra_pct": -1.15,
+        "rs1m": -3.008,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:MKTX"
       },
       {
-        "ticker": "TJX",
-        "short_name": "The TJX Companies, Inc",
-        "name": "The TJX Companies, Inc.",
-        "price": 148.91,
-        "intra_pct": -2.93,
-        "rs1m": -3.291,
+        "ticker": "LMT",
+        "short_name": "Lockheed Martin Corpora\u2026",
+        "name": "Lockheed Martin Corporation",
+        "price": 516.37,
+        "intra_pct": 0.81,
+        "rs1m": -2.961,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:TJX"
-      },
-      {
-        "ticker": "SYK",
-        "short_name": "Stryker Corporation",
-        "name": "Stryker Corporation",
-        "price": 282.58,
-        "intra_pct": -0.99,
-        "rs1m": -3.283,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:SYK"
-      },
-      {
-        "ticker": "CME",
-        "short_name": "CME Group Inc",
-        "name": "CME Group Inc.",
-        "price": 282.58,
-        "intra_pct": 0.44,
-        "rs1m": -3.171,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CME"
-      },
-      {
-        "ticker": "JNJ",
-        "short_name": "Johnson & Johnson",
-        "name": "Johnson & Johnson",
-        "price": 221.43,
-        "intra_pct": 0.05,
-        "rs1m": -3.15,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:JNJ"
-      },
-      {
-        "ticker": "MCD",
-        "short_name": "McDonald's Corporation",
-        "name": "McDonald's Corporation",
-        "price": 274.6,
-        "intra_pct": -0.42,
-        "rs1m": -3.12,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MCD"
-      },
-      {
-        "ticker": "PPL",
-        "short_name": "PPL Corporation",
-        "name": "PPL Corporation",
-        "price": 36.24,
-        "intra_pct": 0.89,
-        "rs1m": -3.11,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:PPL"
-      },
-      {
-        "ticker": "EPAM",
-        "short_name": "EPAM Systems, Inc",
-        "name": "EPAM Systems, Inc.",
-        "price": 97.35,
-        "intra_pct": -1.91,
-        "rs1m": -3.105,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:EPAM"
+        "tradingview_symbol": "NYSE:LMT"
       },
       {
         "ticker": "CTSH",
         "short_name": "Cognizant Technology So\u2026",
         "name": "Cognizant Technology Solutions Corporation",
-        "price": 49.25,
-        "intra_pct": -4.72,
-        "rs1m": -3.103,
+        "price": 48.4,
+        "intra_pct": -1.69,
+        "rs1m": -2.919,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:CTSH"
-      },
-      {
-        "ticker": "EXC",
-        "short_name": "Exelon Corporation",
-        "name": "Exelon Corporation",
-        "price": 44.19,
-        "intra_pct": 0.63,
-        "rs1m": -3.097,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:EXC"
-      },
-      {
-        "ticker": "ABT",
-        "short_name": "Abbott Laboratories",
-        "name": "Abbott Laboratories",
-        "price": 82.56,
-        "intra_pct": -2.08,
-        "rs1m": -3.063,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ABT"
-      },
-      {
-        "ticker": "MCK",
-        "short_name": "McKesson Corporation",
-        "name": "McKesson Corporation",
-        "price": 725.17,
-        "intra_pct": -1.52,
-        "rs1m": -3.063,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MCK"
       },
       {
         "ticker": "DHR",
         "short_name": "Danaher Corporation",
         "name": "Danaher Corporation",
-        "price": 166.52,
-        "intra_pct": -2.72,
-        "rs1m": -3.012,
+        "price": 167.31,
+        "intra_pct": 0.47,
+        "rs1m": -2.901,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DHR"
       },
       {
-        "ticker": "MKC",
-        "short_name": "McCormick & Company, In\u2026",
-        "name": "McCormick & Company, Incorporated",
-        "price": 47.07,
-        "intra_pct": -2.57,
-        "rs1m": -3.012,
+        "ticker": "MDT",
+        "short_name": "Medtronic plc",
+        "name": "Medtronic plc",
+        "price": 76.07,
+        "intra_pct": 2.07,
+        "rs1m": -2.782,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MKC"
+        "tradingview_symbol": "NYSE:MDT"
+      },
+      {
+        "ticker": "TJX",
+        "short_name": "The TJX Companies, Inc",
+        "name": "The TJX Companies, Inc.",
+        "price": 149.91,
+        "intra_pct": 0.73,
+        "rs1m": -2.748,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:TJX"
       },
       {
         "ticker": "LDOS",
         "short_name": "Leidos Holdings, Inc",
         "name": "Leidos Holdings, Inc.",
-        "price": 127.68,
-        "intra_pct": -1.87,
-        "rs1m": -3.0,
+        "price": 126.87,
+        "intra_pct": -0.63,
+        "rs1m": -2.721,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LDOS"
       },
       {
-        "ticker": "RMD",
-        "short_name": "ResMed Inc",
-        "name": "ResMed Inc.",
-        "price": 198.76,
-        "intra_pct": -3.85,
-        "rs1m": -2.9,
+        "ticker": "PPL",
+        "short_name": "PPL Corporation",
+        "name": "PPL Corporation",
+        "price": 36.4,
+        "intra_pct": 0.43,
+        "rs1m": -2.636,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:RMD"
+        "tradingview_symbol": "NYSE:PPL"
       },
       {
         "ticker": "OTIS",
         "short_name": "Otis Worldwide Corporat\u2026",
         "name": "Otis Worldwide Corporation",
-        "price": 74.0,
-        "intra_pct": -1.1,
-        "rs1m": -2.845,
+        "price": 73.46,
+        "intra_pct": -0.74,
+        "rs1m": -2.622,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:OTIS"
+      },
+      {
+        "ticker": "MCK",
+        "short_name": "McKesson Corporation",
+        "name": "McKesson Corporation",
+        "price": 731.61,
+        "intra_pct": 0.82,
+        "rs1m": -2.603,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MCK"
+      },
+      {
+        "ticker": "ABT",
+        "short_name": "Abbott Laboratories",
+        "name": "Abbott Laboratories",
+        "price": 83.85,
+        "intra_pct": 1.59,
+        "rs1m": -2.596,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:ABT"
+      },
+      {
+        "ticker": "EXC",
+        "short_name": "Exelon Corporation",
+        "name": "Exelon Corporation",
+        "price": 44.83,
+        "intra_pct": 1.49,
+        "rs1m": -2.532,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:EXC"
+      },
+      {
+        "ticker": "MKC",
+        "short_name": "McCormick & Company, In\u2026",
+        "name": "McCormick & Company, Incorporated",
+        "price": 47.36,
+        "intra_pct": 0.63,
+        "rs1m": -2.504,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MKC"
+      },
+      {
+        "ticker": "SYK",
+        "short_name": "Stryker Corporation",
+        "name": "Stryker Corporation",
+        "price": 289.82,
+        "intra_pct": 2.58,
+        "rs1m": -2.484,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:SYK"
+      },
+      {
+        "ticker": "CAH",
+        "short_name": "Cardinal Health, Inc",
+        "name": "Cardinal Health, Inc.",
+        "price": 183.62,
+        "intra_pct": 0.61,
+        "rs1m": -2.433,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CAH"
+      },
+      {
+        "ticker": "RTX",
+        "short_name": "RTX Corporation",
+        "name": "RTX Corporation",
+        "price": 177.73,
+        "intra_pct": -0.56,
+        "rs1m": -2.408,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:RTX"
+      },
+      {
+        "ticker": "MCD",
+        "short_name": "McDonald's Corporation",
+        "name": "McDonald's Corporation",
+        "price": 277.44,
+        "intra_pct": 1.05,
+        "rs1m": -2.403,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MCD"
       },
       {
         "ticker": "MTB",
         "short_name": "M&T Bank Corporation",
         "name": "M&T Bank Corporation",
-        "price": 207.98,
-        "intra_pct": -1.92,
-        "rs1m": -2.801,
+        "price": 206.69,
+        "intra_pct": -0.58,
+        "rs1m": -2.392,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MTB"
       },
       {
-        "ticker": "CTAS",
-        "short_name": "Cintas Corporation",
-        "name": "Cintas Corporation",
-        "price": 164.67,
-        "intra_pct": -1.38,
-        "rs1m": -2.769,
+        "ticker": "RMD",
+        "short_name": "ResMed Inc",
+        "name": "ResMed Inc.",
+        "price": 201.8,
+        "intra_pct": 1.53,
+        "rs1m": -2.353,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CTAS"
+        "tradingview_symbol": "NYSE:RMD"
+      },
+      {
+        "ticker": "MLM",
+        "short_name": "Martin Marietta Materia\u2026",
+        "name": "Martin Marietta Materials, Inc.",
+        "price": 579.28,
+        "intra_pct": -1.14,
+        "rs1m": -2.287,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MLM"
       }
     ],
     "universe_count": 338
@@ -591,42 +591,42 @@
         "tradingview_symbol": "NASDAQ:HOLX"
       },
       {
-        "ticker": "STX",
-        "short_name": "Seagate Technology Hold\u2026",
-        "name": "Seagate Technology Holdings plc",
-        "price": 834.01,
-        "intra_pct": 6.58,
-        "rs1m": 3.537,
+        "ticker": "HUM",
+        "short_name": "Humana Inc",
+        "name": "Humana Inc.",
+        "price": 281.13,
+        "intra_pct": 2.33,
+        "rs1m": 2.91,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:STX"
+        "tradingview_symbol": "NYSE:HUM"
       },
       {
-        "ticker": "MU",
-        "short_name": "Micron Technology, Inc",
-        "name": "Micron Technology, Inc.",
-        "price": 795.33,
-        "intra_pct": 6.52,
-        "rs1m": 3.499,
+        "ticker": "CNC",
+        "short_name": "Centene Corporation",
+        "name": "Centene Corporation",
+        "price": 56.79,
+        "intra_pct": 0.8,
+        "rs1m": 2.812,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:MU"
+        "tradingview_symbol": "NYSE:CNC"
       },
       {
-        "ticker": "QCOM",
-        "short_name": "QUALCOMM Incorporated",
-        "name": "QUALCOMM Incorporated",
-        "price": 237.53,
-        "intra_pct": 8.44,
-        "rs1m": 3.274,
+        "ticker": "PANW",
+        "short_name": "Palo Alto Networks, Inc",
+        "name": "Palo Alto Networks, Inc.",
+        "price": 213.89,
+        "intra_pct": 0.16,
+        "rs1m": 2.447,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:QCOM"
+        "tradingview_symbol": "NASDAQ:PANW"
       },
       {
         "ticker": "INTC",
         "short_name": "Intel Corporation",
         "name": "Intel Corporation",
-        "price": 129.44,
-        "intra_pct": 3.6,
-        "rs1m": 2.949,
+        "price": 117.92,
+        "intra_pct": -8.81,
+        "rs1m": 2.422,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:INTC"
       },
@@ -634,201 +634,201 @@
         "ticker": "AMD",
         "short_name": "Advanced Micro Devices,\u2026",
         "name": "Advanced Micro Devices, Inc.",
-        "price": 458.79,
-        "intra_pct": 0.82,
-        "rs1m": 2.93,
+        "price": 439.7,
+        "intra_pct": -4.35,
+        "rs1m": 2.419,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMD"
       },
       {
-        "ticker": "ON",
-        "short_name": "ON Semiconductor Corpor\u2026",
-        "name": "ON Semiconductor Corporation",
-        "price": 107.24,
-        "intra_pct": 3.9,
-        "rs1m": 2.623,
+        "ticker": "STX",
+        "short_name": "Seagate Technology Hold\u2026",
+        "name": "Seagate Technology Holdings plc",
+        "price": 785.8,
+        "intra_pct": -6.01,
+        "rs1m": 2.407,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:ON"
-      },
-      {
-        "ticker": "CNC",
-        "short_name": "Centene Corporation",
-        "name": "Centene Corporation",
-        "price": 56.36,
-        "intra_pct": 0.71,
-        "rs1m": 2.532,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CNC"
+        "tradingview_symbol": "NASDAQ:STX"
       },
       {
         "ticker": "DDOG",
         "short_name": "Datadog, Inc",
         "name": "Datadog, Inc.",
-        "price": 202.32,
-        "intra_pct": 1.08,
-        "rs1m": 2.407,
+        "price": 197.48,
+        "intra_pct": -2.58,
+        "rs1m": 2.286,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:DDOG"
       },
       {
-        "ticker": "HUM",
-        "short_name": "Humana Inc",
-        "name": "Humana Inc.",
-        "price": 274.26,
-        "intra_pct": -0.29,
-        "rs1m": 2.309,
+        "ticker": "MU",
+        "short_name": "Micron Technology, Inc",
+        "name": "Micron Technology, Inc.",
+        "price": 742.48,
+        "intra_pct": -6.58,
+        "rs1m": 2.284,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:HUM"
-      },
-      {
-        "ticker": "PANW",
-        "short_name": "Palo Alto Networks, Inc",
-        "name": "Palo Alto Networks, Inc.",
-        "price": 213.66,
-        "intra_pct": 2.79,
-        "rs1m": 2.142,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:PANW"
-      },
-      {
-        "ticker": "MCHP",
-        "short_name": "Microchip Technology In\u2026",
-        "name": "Microchip Technology Incorporated",
-        "price": 99.03,
-        "intra_pct": -0.02,
-        "rs1m": 1.919,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:MCHP"
-      },
-      {
-        "ticker": "FTNT",
-        "short_name": "Fortinet, Inc",
-        "name": "Fortinet, Inc.",
-        "price": 115.44,
-        "intra_pct": 1.2,
-        "rs1m": 1.863,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FTNT"
+        "tradingview_symbol": "NASDAQ:MU"
       },
       {
         "ticker": "UNH",
         "short_name": "UnitedHealth Group Inco\u2026",
         "name": "UnitedHealth Group Incorporated",
-        "price": 384.44,
-        "intra_pct": 1.17,
-        "rs1m": 1.855,
+        "price": 387.8,
+        "intra_pct": 0.78,
+        "rs1m": 2.213,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:UNH"
-      },
-      {
-        "ticker": "NUE",
-        "short_name": "Nucor Corporation",
-        "name": "Nucor Corporation",
-        "price": 232.0,
-        "intra_pct": 1.98,
-        "rs1m": 1.854,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:NUE"
-      },
-      {
-        "ticker": "CDNS",
-        "short_name": "Cadence Design Systems,\u2026",
-        "name": "Cadence Design Systems, Inc.",
-        "price": 364.2,
-        "intra_pct": 0.39,
-        "rs1m": 1.814,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:CDNS"
-      },
-      {
-        "ticker": "BEN",
-        "short_name": "Franklin Resources, Inc",
-        "name": "Franklin Resources, Inc.",
-        "price": 31.55,
-        "intra_pct": 1.64,
-        "rs1m": 1.659,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:BEN"
-      },
-      {
-        "ticker": "TSLA",
-        "short_name": "Tesla, Inc",
-        "name": "Tesla, Inc.",
-        "price": 445.0,
-        "intra_pct": 3.89,
-        "rs1m": 1.616,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:TSLA"
       },
       {
         "ticker": "ELV",
         "short_name": "Elevance Health, Inc",
         "name": "Elevance Health, Inc.",
-        "price": 381.75,
-        "intra_pct": 1.02,
-        "rs1m": 1.61,
+        "price": 384.87,
+        "intra_pct": 0.65,
+        "rs1m": 2.198,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ELV"
+      },
+      {
+        "ticker": "QCOM",
+        "short_name": "QUALCOMM Incorporated",
+        "name": "QUALCOMM Incorporated",
+        "price": 209.41,
+        "intra_pct": -11.77,
+        "rs1m": 1.954,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:QCOM"
+      },
+      {
+        "ticker": "NUE",
+        "short_name": "Nucor Corporation",
+        "name": "Nucor Corporation",
+        "price": 229.42,
+        "intra_pct": -1.11,
+        "rs1m": 1.88,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:NUE"
+      },
+      {
+        "ticker": "FTNT",
+        "short_name": "Fortinet, Inc",
+        "name": "Fortinet, Inc.",
+        "price": 113.9,
+        "intra_pct": -1.22,
+        "rs1m": 1.865,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:FTNT"
+      },
+      {
+        "ticker": "ON",
+        "short_name": "ON Semiconductor Corpor\u2026",
+        "name": "ON Semiconductor Corporation",
+        "price": 99.75,
+        "intra_pct": -7.12,
+        "rs1m": 1.758,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:ON"
       },
       {
         "ticker": "CSCO",
         "short_name": "Cisco Systems, Inc",
         "name": "Cisco Systems, Inc.",
-        "price": 98.72,
-        "intra_pct": 2.21,
-        "rs1m": 1.54,
+        "price": 97.83,
+        "intra_pct": -0.92,
+        "rs1m": 1.603,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:CSCO"
       },
       {
-        "ticker": "TXN",
-        "short_name": "Texas Instruments Incor\u2026",
-        "name": "Texas Instruments Incorporated",
-        "price": 297.76,
-        "intra_pct": 3.46,
-        "rs1m": 1.472,
+        "ticker": "CDNS",
+        "short_name": "Cadence Design Systems,\u2026",
+        "name": "Cadence Design Systems, Inc.",
+        "price": 356.66,
+        "intra_pct": -2.07,
+        "rs1m": 1.534,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:TXN"
+        "tradingview_symbol": "NASDAQ:CDNS"
       },
       {
-        "ticker": "PWR",
-        "short_name": "Quanta Services, Inc",
-        "name": "Quanta Services, Inc.",
-        "price": 781.38,
-        "intra_pct": 4.87,
-        "rs1m": 1.368,
+        "ticker": "MCHP",
+        "short_name": "Microchip Technology In\u2026",
+        "name": "Microchip Technology Incorporated",
+        "price": 95.31,
+        "intra_pct": -4.03,
+        "rs1m": 1.501,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:PWR"
+        "tradingview_symbol": "NASDAQ:MCHP"
       },
       {
-        "ticker": "SNPS",
-        "short_name": "Synopsys, Inc",
-        "name": "Synopsys, Inc.",
-        "price": 516.19,
-        "intra_pct": -0.06,
-        "rs1m": 1.309,
+        "ticker": "CVS",
+        "short_name": "CVS Health Corporation",
+        "name": "CVS Health Corporation",
+        "price": 93.84,
+        "intra_pct": 1.69,
+        "rs1m": 1.396,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:SNPS"
+        "tradingview_symbol": "NYSE:CVS"
       },
       {
-        "ticker": "ADI",
-        "short_name": "Analog Devices, Inc",
-        "name": "Analog Devices, Inc.",
-        "price": 422.73,
-        "intra_pct": 1.48,
-        "rs1m": 1.302,
+        "ticker": "BEN",
+        "short_name": "Franklin Resources, Inc",
+        "name": "Franklin Resources, Inc.",
+        "price": 31.15,
+        "intra_pct": -1.27,
+        "rs1m": 1.345,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:ADI"
+        "tradingview_symbol": "NYSE:BEN"
+      },
+      {
+        "ticker": "MOH",
+        "short_name": "Molina Healthcare, Inc",
+        "name": "Molina Healthcare, Inc.",
+        "price": 187.49,
+        "intra_pct": 1.24,
+        "rs1m": 1.341,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:MOH"
+      },
+      {
+        "ticker": "ADM",
+        "short_name": "Archer-Daniels-Midland\u2026",
+        "name": "Archer-Daniels-Midland Company",
+        "price": 80.06,
+        "intra_pct": 0.3,
+        "rs1m": 1.333,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:ADM"
       },
       {
         "ticker": "FFIV",
         "short_name": "F5, Inc",
         "name": "F5, Inc.",
-        "price": 358.3,
-        "intra_pct": 1.17,
-        "rs1m": 1.195,
+        "price": 352.63,
+        "intra_pct": -1.49,
+        "rs1m": 1.322,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:FFIV"
+      },
+      {
+        "ticker": "SNPS",
+        "short_name": "Synopsys, Inc",
+        "name": "Synopsys, Inc.",
+        "price": 509.3,
+        "intra_pct": -1.27,
+        "rs1m": 1.311,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:SNPS"
+      },
+      {
+        "ticker": "TXN",
+        "short_name": "Texas Instruments Incor\u2026",
+        "name": "Texas Instruments Incorporated",
+        "price": 289.17,
+        "intra_pct": -3.01,
+        "rs1m": 1.29,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:TXN"
       }
     ],
     "lagging": [
@@ -836,9 +836,9 @@
         "ticker": "EA",
         "short_name": "Electronic Arts Inc",
         "name": "Electronic Arts Inc.",
-        "price": 200.22,
-        "intra_pct": -0.15,
-        "rs1m": -11.787,
+        "price": 200.78,
+        "intra_pct": 0.28,
+        "rs1m": -8.139,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -846,9 +846,9 @@
         "ticker": "COO",
         "short_name": "The Cooper Companies, I\u2026",
         "name": "The Cooper Companies, Inc.",
-        "price": 58.98,
-        "intra_pct": -1.68,
-        "rs1m": -4.341,
+        "price": 59.65,
+        "intra_pct": 1.17,
+        "rs1m": -3.601,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -856,39 +856,29 @@
         "ticker": "FE",
         "short_name": "FirstEnergy Corp",
         "name": "FirstEnergy Corp.",
-        "price": 44.6,
-        "intra_pct": 0.61,
-        "rs1m": -4.072,
+        "price": 44.72,
+        "intra_pct": 0.27,
+        "rs1m": -3.542,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:FE"
       },
       {
-        "ticker": "MDT",
-        "short_name": "Medtronic plc",
-        "name": "Medtronic plc",
-        "price": 74.54,
-        "intra_pct": -2.11,
-        "rs1m": -3.626,
+        "ticker": "EPAM",
+        "short_name": "EPAM Systems, Inc",
+        "name": "EPAM Systems, Inc.",
+        "price": 95.11,
+        "intra_pct": -2.18,
+        "rs1m": -3.39,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MDT"
-      },
-      {
-        "ticker": "LMT",
-        "short_name": "Lockheed Martin Corpora\u2026",
-        "name": "Lockheed Martin Corporation",
-        "price": 512.25,
-        "intra_pct": 1.18,
-        "rs1m": -3.622,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LMT"
+        "tradingview_symbol": "NYSE:EPAM"
       },
       {
         "ticker": "NOC",
         "short_name": "Northrop Grumman Corpor\u2026",
         "name": "Northrop Grumman Corporation",
-        "price": 548.21,
-        "intra_pct": -0.21,
-        "rs1m": -3.603,
+        "price": 551.51,
+        "intra_pct": 0.6,
+        "rs1m": -3.171,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:NOC"
       },
@@ -896,191 +886,201 @@
         "ticker": "MKTX",
         "short_name": "MarketAxess Holdings Inc",
         "name": "MarketAxess Holdings Inc.",
-        "price": 145.21,
-        "intra_pct": -1.61,
-        "rs1m": -3.384,
+        "price": 143.54,
+        "intra_pct": -1.15,
+        "rs1m": -3.008,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:MKTX"
       },
       {
-        "ticker": "TJX",
-        "short_name": "The TJX Companies, Inc",
-        "name": "The TJX Companies, Inc.",
-        "price": 148.91,
-        "intra_pct": -2.93,
-        "rs1m": -3.291,
+        "ticker": "LMT",
+        "short_name": "Lockheed Martin Corpora\u2026",
+        "name": "Lockheed Martin Corporation",
+        "price": 516.37,
+        "intra_pct": 0.81,
+        "rs1m": -2.961,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:TJX"
-      },
-      {
-        "ticker": "SYK",
-        "short_name": "Stryker Corporation",
-        "name": "Stryker Corporation",
-        "price": 282.58,
-        "intra_pct": -0.99,
-        "rs1m": -3.283,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:SYK"
-      },
-      {
-        "ticker": "CME",
-        "short_name": "CME Group Inc",
-        "name": "CME Group Inc.",
-        "price": 282.58,
-        "intra_pct": 0.44,
-        "rs1m": -3.171,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CME"
-      },
-      {
-        "ticker": "JNJ",
-        "short_name": "Johnson & Johnson",
-        "name": "Johnson & Johnson",
-        "price": 221.43,
-        "intra_pct": 0.05,
-        "rs1m": -3.15,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:JNJ"
-      },
-      {
-        "ticker": "MCD",
-        "short_name": "McDonald's Corporation",
-        "name": "McDonald's Corporation",
-        "price": 274.6,
-        "intra_pct": -0.42,
-        "rs1m": -3.12,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MCD"
-      },
-      {
-        "ticker": "PPL",
-        "short_name": "PPL Corporation",
-        "name": "PPL Corporation",
-        "price": 36.24,
-        "intra_pct": 0.89,
-        "rs1m": -3.11,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:PPL"
-      },
-      {
-        "ticker": "EPAM",
-        "short_name": "EPAM Systems, Inc",
-        "name": "EPAM Systems, Inc.",
-        "price": 97.35,
-        "intra_pct": -1.91,
-        "rs1m": -3.105,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:EPAM"
+        "tradingview_symbol": "NYSE:LMT"
       },
       {
         "ticker": "CTSH",
         "short_name": "Cognizant Technology So\u2026",
         "name": "Cognizant Technology Solutions Corporation",
-        "price": 49.25,
-        "intra_pct": -4.72,
-        "rs1m": -3.103,
+        "price": 48.4,
+        "intra_pct": -1.69,
+        "rs1m": -2.919,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:CTSH"
-      },
-      {
-        "ticker": "EXC",
-        "short_name": "Exelon Corporation",
-        "name": "Exelon Corporation",
-        "price": 44.19,
-        "intra_pct": 0.63,
-        "rs1m": -3.097,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:EXC"
-      },
-      {
-        "ticker": "ABT",
-        "short_name": "Abbott Laboratories",
-        "name": "Abbott Laboratories",
-        "price": 82.56,
-        "intra_pct": -2.08,
-        "rs1m": -3.063,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ABT"
-      },
-      {
-        "ticker": "MCK",
-        "short_name": "McKesson Corporation",
-        "name": "McKesson Corporation",
-        "price": 725.17,
-        "intra_pct": -1.52,
-        "rs1m": -3.063,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MCK"
       },
       {
         "ticker": "DHR",
         "short_name": "Danaher Corporation",
         "name": "Danaher Corporation",
-        "price": 166.52,
-        "intra_pct": -2.72,
-        "rs1m": -3.012,
+        "price": 167.31,
+        "intra_pct": 0.47,
+        "rs1m": -2.901,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DHR"
       },
       {
-        "ticker": "MKC",
-        "short_name": "McCormick & Company, In\u2026",
-        "name": "McCormick & Company, Incorporated",
-        "price": 47.07,
-        "intra_pct": -2.57,
-        "rs1m": -3.012,
+        "ticker": "MDT",
+        "short_name": "Medtronic plc",
+        "name": "Medtronic plc",
+        "price": 76.07,
+        "intra_pct": 2.07,
+        "rs1m": -2.782,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MKC"
+        "tradingview_symbol": "NYSE:MDT"
+      },
+      {
+        "ticker": "TJX",
+        "short_name": "The TJX Companies, Inc",
+        "name": "The TJX Companies, Inc.",
+        "price": 149.91,
+        "intra_pct": 0.73,
+        "rs1m": -2.748,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:TJX"
       },
       {
         "ticker": "LDOS",
         "short_name": "Leidos Holdings, Inc",
         "name": "Leidos Holdings, Inc.",
-        "price": 127.68,
-        "intra_pct": -1.87,
-        "rs1m": -3.0,
+        "price": 126.87,
+        "intra_pct": -0.63,
+        "rs1m": -2.721,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LDOS"
       },
       {
-        "ticker": "RMD",
-        "short_name": "ResMed Inc",
-        "name": "ResMed Inc.",
-        "price": 198.76,
-        "intra_pct": -3.85,
-        "rs1m": -2.9,
+        "ticker": "PPL",
+        "short_name": "PPL Corporation",
+        "name": "PPL Corporation",
+        "price": 36.4,
+        "intra_pct": 0.43,
+        "rs1m": -2.636,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:RMD"
+        "tradingview_symbol": "NYSE:PPL"
       },
       {
         "ticker": "OTIS",
         "short_name": "Otis Worldwide Corporat\u2026",
         "name": "Otis Worldwide Corporation",
-        "price": 74.0,
-        "intra_pct": -1.1,
-        "rs1m": -2.845,
+        "price": 73.46,
+        "intra_pct": -0.74,
+        "rs1m": -2.622,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:OTIS"
+      },
+      {
+        "ticker": "MCK",
+        "short_name": "McKesson Corporation",
+        "name": "McKesson Corporation",
+        "price": 731.61,
+        "intra_pct": 0.82,
+        "rs1m": -2.603,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MCK"
+      },
+      {
+        "ticker": "ABT",
+        "short_name": "Abbott Laboratories",
+        "name": "Abbott Laboratories",
+        "price": 83.85,
+        "intra_pct": 1.59,
+        "rs1m": -2.596,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:ABT"
+      },
+      {
+        "ticker": "EXC",
+        "short_name": "Exelon Corporation",
+        "name": "Exelon Corporation",
+        "price": 44.83,
+        "intra_pct": 1.49,
+        "rs1m": -2.532,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:EXC"
+      },
+      {
+        "ticker": "MKC",
+        "short_name": "McCormick & Company, In\u2026",
+        "name": "McCormick & Company, Incorporated",
+        "price": 47.36,
+        "intra_pct": 0.63,
+        "rs1m": -2.504,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MKC"
+      },
+      {
+        "ticker": "SYK",
+        "short_name": "Stryker Corporation",
+        "name": "Stryker Corporation",
+        "price": 289.82,
+        "intra_pct": 2.58,
+        "rs1m": -2.484,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:SYK"
+      },
+      {
+        "ticker": "CAH",
+        "short_name": "Cardinal Health, Inc",
+        "name": "Cardinal Health, Inc.",
+        "price": 183.62,
+        "intra_pct": 0.61,
+        "rs1m": -2.433,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CAH"
+      },
+      {
+        "ticker": "RTX",
+        "short_name": "RTX Corporation",
+        "name": "RTX Corporation",
+        "price": 177.73,
+        "intra_pct": -0.56,
+        "rs1m": -2.408,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:RTX"
+      },
+      {
+        "ticker": "MCD",
+        "short_name": "McDonald's Corporation",
+        "name": "McDonald's Corporation",
+        "price": 277.44,
+        "intra_pct": 1.05,
+        "rs1m": -2.403,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MCD"
       },
       {
         "ticker": "MTB",
         "short_name": "M&T Bank Corporation",
         "name": "M&T Bank Corporation",
-        "price": 207.98,
-        "intra_pct": -1.92,
-        "rs1m": -2.801,
+        "price": 206.69,
+        "intra_pct": -0.58,
+        "rs1m": -2.392,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MTB"
       },
       {
-        "ticker": "CTAS",
-        "short_name": "Cintas Corporation",
-        "name": "Cintas Corporation",
-        "price": 164.67,
-        "intra_pct": -1.38,
-        "rs1m": -2.769,
+        "ticker": "RMD",
+        "short_name": "ResMed Inc",
+        "name": "ResMed Inc.",
+        "price": 201.8,
+        "intra_pct": 1.53,
+        "rs1m": -2.353,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CTAS"
+        "tradingview_symbol": "NYSE:RMD"
+      },
+      {
+        "ticker": "MLM",
+        "short_name": "Martin Marietta Materia\u2026",
+        "name": "Martin Marietta Materials, Inc.",
+        "price": 579.28,
+        "intra_pct": -1.14,
+        "rs1m": -2.287,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:MLM"
       }
     ]
   },
