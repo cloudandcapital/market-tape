@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-05-15T20:16:47+00:00",
+  "generated_at_utc": "2026-05-15T21:31:43+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -9,7 +9,7 @@
       {
         "ticker": "XLK",
         "name": "State Street Technology Select Sector SPDR ETF",
-        "rs1m": 1.505
+        "rs1m": 1.495
       },
       {
         "ticker": "XLE",
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-05-15T20:16:47+00:00"
+    "generated_at_utc": "2026-05-15T21:31:43+00:00"
   },
   "leaderboard": {
     "leaders": [
