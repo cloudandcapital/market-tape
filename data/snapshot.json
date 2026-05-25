@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-22T21:53:34+00:00",
+  "generated_at_utc": "2026-05-25T15:44:23+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -94,7 +94,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 0.76
+          "volume_ratio": 0.88
         },
         {
           "ticker": "TLT",
@@ -142,7 +142,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 0.86
+          "volume_ratio": 0.87
         },
         {
           "ticker": "HYG",
@@ -166,7 +166,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/HYG.png",
-          "volume_ratio": 0.47
+          "volume_ratio": 0.58
         },
         {
           "ticker": "DXY",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 99.32,
-          "intra_pct": 0.13,
-          "d1_pct": 0.13,
-          "d5_pct": 0.05,
-          "d20_pct": 0.82,
-          "atr_pct": 0.45,
-          "dist50_atr": 0.79,
-          "rs1m": -2.501,
+          "last": 98.96,
+          "intra_pct": -0.28,
+          "d1_pct": -0.36,
+          "d5_pct": -0.01,
+          "d20_pct": 0.49,
+          "atr_pct": 0.41,
+          "dist50_atr": 0.06,
+          "rs1m": -2.5,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -198,13 +198,13 @@
           "tradingview_symbol": "CBOE:VIX",
           "name": "CBOE Volatility Index",
           "short_name": "CBOE Volatility",
-          "last": 16.7,
-          "intra_pct": -0.36,
-          "d1_pct": -0.36,
-          "d5_pct": -9.39,
-          "d20_pct": -10.74,
-          "atr_pct": 6.63,
-          "dist50_atr": -3.68,
+          "last": 16.59,
+          "intra_pct": -0.66,
+          "d1_pct": -0.66,
+          "d5_pct": -6.9,
+          "d20_pct": -7.94,
+          "atr_pct": 6.35,
+          "dist50_atr": -3.77,
           "rs1m": -0.777,
           "trend_grade": "C",
           "above_20d": false,
@@ -339,7 +339,7 @@
             "short": "ERY"
           },
           "mini_rs_chart": "data/mini_rs/XLE.png",
-          "volume_ratio": 1.1
+          "volume_ratio": 1.11
         },
         {
           "ticker": "XLV",
@@ -363,7 +363,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 0.66
+          "volume_ratio": 0.71
         },
         {
           "ticker": "XLI",
@@ -387,7 +387,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLI.png",
-          "volume_ratio": 0.85
+          "volume_ratio": 0.86
         },
         {
           "ticker": "XLY",
@@ -411,7 +411,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLY.png",
-          "volume_ratio": 0.64
+          "volume_ratio": 0.65
         },
         {
           "ticker": "XLP",
@@ -435,7 +435,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 0.67
+          "volume_ratio": 0.68
         },
         {
           "ticker": "XLU",
@@ -459,7 +459,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 0.71
+          "volume_ratio": 0.75
         },
         {
           "ticker": "XLB",
@@ -483,7 +483,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLB.png",
-          "volume_ratio": 0.63
+          "volume_ratio": 0.66
         },
         {
           "ticker": "XLRE",
@@ -507,7 +507,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLRE.png",
-          "volume_ratio": 0.71
+          "volume_ratio": 0.73
         },
         {
           "ticker": "XLC",
@@ -560,7 +560,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 0.78
+          "volume_ratio": 0.84
         },
         {
           "ticker": "IWM",
@@ -584,7 +584,7 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 0.85
+          "volume_ratio": 0.9
         },
         {
           "ticker": "IWF",
@@ -608,7 +608,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWF.png",
-          "volume_ratio": 0.46
+          "volume_ratio": 0.48
         },
         {
           "ticker": "IWD",
@@ -632,7 +632,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWD.png",
-          "volume_ratio": 0.49
+          "volume_ratio": 0.51
         },
         {
           "ticker": "MTUM",
@@ -646,7 +646,7 @@
           "d5_pct": 1.79,
           "d20_pct": 8.08,
           "atr_pct": 2.4,
-          "dist50_atr": 4.49,
+          "dist50_atr": 4.48,
           "rs1m": 0.511,
           "trend_grade": "A",
           "above_20d": true,
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.47
+          "volume_ratio": 0.58
         },
         {
           "ticker": "SKYY",
@@ -818,8 +818,8 @@
           "d1_pct": 0.73,
           "d5_pct": -0.85,
           "d20_pct": -2.07,
-          "atr_pct": 1.95,
-          "dist50_atr": 0.98,
+          "atr_pct": 1.96,
+          "dist50_atr": 0.97,
           "rs1m": -1.019,
           "trend_grade": "B",
           "above_20d": false,
@@ -829,7 +829,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/PAVE.png",
-          "volume_ratio": 0.67
+          "volume_ratio": 0.75
         }
       ]
     },
@@ -858,7 +858,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 0.67
+          "volume_ratio": 0.68
         },
         {
           "ticker": "XLU",
@@ -882,7 +882,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 0.71
+          "volume_ratio": 0.75
         },
         {
           "ticker": "XLV",
@@ -906,7 +906,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 0.66
+          "volume_ratio": 0.71
         },
         {
           "ticker": "USMV",
@@ -954,7 +954,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SPLV.png",
-          "volume_ratio": 0.75
+          "volume_ratio": 0.82
         },
         {
           "ticker": "BIL",
@@ -978,7 +978,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/BIL.png",
-          "volume_ratio": 1.2
+          "volume_ratio": 1.21
         }
       ]
     },
@@ -1031,7 +1031,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SLV.png",
-          "volume_ratio": 0.6
+          "volume_ratio": 0.61
         },
         {
           "ticker": "USO",
@@ -1055,7 +1055,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 0.76
+          "volume_ratio": 0.78
         },
         {
           "ticker": "DBC",
@@ -1079,7 +1079,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/DBC.png",
-          "volume_ratio": 0.5
+          "volume_ratio": 0.53
         },
         {
           "ticker": "VNQ",
@@ -1127,7 +1127,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/REET.png",
-          "volume_ratio": 0.63
+          "volume_ratio": 0.64
         },
         {
           "ticker": "TIP",
@@ -1151,7 +1151,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/TIP.png",
-          "volume_ratio": 0.64
+          "volume_ratio": 0.67
         }
       ]
     },
@@ -1169,7 +1169,7 @@
           "d1_pct": -0.2,
           "d5_pct": 2.22,
           "d20_pct": 2.17,
-          "atr_pct": 1.33,
+          "atr_pct": 1.34,
           "dist50_atr": 2.47,
           "rs1m": -0.41,
           "trend_grade": "A",
@@ -1204,7 +1204,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EEM.png",
-          "volume_ratio": 1.04
+          "volume_ratio": 1.12
         },
         {
           "ticker": "EWJ",
@@ -1218,7 +1218,7 @@
           "d5_pct": 0.59,
           "d20_pct": 4.91,
           "atr_pct": 1.38,
-          "dist50_atr": 3.08,
+          "dist50_atr": 3.07,
           "rs1m": 0.096,
           "trend_grade": "A",
           "above_20d": true,
@@ -1252,7 +1252,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWZ.png",
-          "volume_ratio": 0.72
+          "volume_ratio": 0.86
         },
         {
           "ticker": "INDA",
@@ -1300,7 +1300,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 1.03
+          "volume_ratio": 1.04
         },
         {
           "ticker": "VGK",
@@ -1324,7 +1324,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VGK.png",
-          "volume_ratio": 0.52
+          "volume_ratio": 0.57
         },
         {
           "ticker": "EWC",
@@ -1338,7 +1338,7 @@
           "d5_pct": 1.86,
           "d20_pct": 0.98,
           "atr_pct": 1.11,
-          "dist50_atr": 2.7,
+          "dist50_atr": 2.69,
           "rs1m": -0.833,
           "trend_grade": "A",
           "above_20d": true,
@@ -1348,7 +1348,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWC.png",
-          "volume_ratio": 0.48
+          "volume_ratio": 0.49
         }
       ]
     }
