@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-27T20:56:42+00:00",
+  "generated_at_utc": "2026-05-27T22:14:26+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -94,7 +94,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 0.75
+          "volume_ratio": 0.86
         },
         {
           "ticker": "TLT",
@@ -181,7 +181,7 @@
           "d20_pct": 0.61,
           "atr_pct": 0.41,
           "dist50_atr": 0.69,
-          "rs1m": -3.331,
+          "rs1m": -3.329,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -291,7 +291,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLK.png",
-          "volume_ratio": 0.94
+          "volume_ratio": 1.04
         },
         {
           "ticker": "XLF",
@@ -363,7 +363,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 0.98
+          "volume_ratio": 1.03
         },
         {
           "ticker": "XLI",
@@ -387,7 +387,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLI.png",
-          "volume_ratio": 0.74
+          "volume_ratio": 0.92
         },
         {
           "ticker": "XLY",
@@ -435,7 +435,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.04
         },
         {
           "ticker": "XLU",
@@ -531,7 +531,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLC.png",
-          "volume_ratio": 1.02
+          "volume_ratio": 1.16
         }
       ]
     },
@@ -608,7 +608,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWF.png",
-          "volume_ratio": 0.56
+          "volume_ratio": 0.58
         },
         {
           "ticker": "IWD",
@@ -733,7 +733,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 1.36
+          "volume_ratio": 1.37
         },
         {
           "ticker": "IGV",
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.61
+          "volume_ratio": 0.65
         },
         {
           "ticker": "SKYY",
@@ -858,7 +858,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.04
         },
         {
           "ticker": "XLU",
@@ -906,7 +906,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 0.98
+          "volume_ratio": 1.03
         },
         {
           "ticker": "USMV",
@@ -1031,7 +1031,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SLV.png",
-          "volume_ratio": 0.66
+          "volume_ratio": 0.67
         },
         {
           "ticker": "USO",
@@ -1103,7 +1103,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VNQ.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.81
         },
         {
           "ticker": "REET",
@@ -1228,7 +1228,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWJ.png",
-          "volume_ratio": 0.68
+          "volume_ratio": 0.73
         },
         {
           "ticker": "EWZ",
@@ -1300,7 +1300,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 0.64
+          "volume_ratio": 0.83
         },
         {
           "ticker": "VGK",
@@ -1324,7 +1324,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VGK.png",
-          "volume_ratio": 0.54
+          "volume_ratio": 0.62
         },
         {
           "ticker": "EWC",
