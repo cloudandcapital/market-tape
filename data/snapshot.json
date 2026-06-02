@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-02T20:22:22+00:00",
+  "generated_at_utc": "2026-06-02T22:31:32+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -118,7 +118,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 0.73
+          "volume_ratio": 0.74
         },
         {
           "ticker": "IEF",
@@ -142,7 +142,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 1.88
+          "volume_ratio": 1.95
         },
         {
           "ticker": "HYG",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 99.19,
-          "intra_pct": -0.01,
-          "d1_pct": -0.01,
-          "d5_pct": 0.03,
-          "d20_pct": 0.74,
+          "last": 99.22,
+          "intra_pct": 0.02,
+          "d1_pct": 0.02,
+          "d5_pct": 0.05,
+          "d20_pct": 0.77,
           "atr_pct": 0.42,
-          "dist50_atr": 0.74,
-          "rs1m": -4.367,
+          "dist50_atr": 0.81,
+          "rs1m": -4.344,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -198,14 +198,14 @@
           "tradingview_symbol": "CBOE:VIX",
           "name": "CBOE Volatility Index",
           "short_name": "CBOE Volatility",
-          "last": 15.74,
-          "intra_pct": -1.99,
-          "d1_pct": -1.93,
-          "d5_pct": -7.47,
-          "d20_pct": -9.44,
-          "atr_pct": 6.34,
-          "dist50_atr": -3.79,
-          "rs1m": -1.286,
+          "last": 15.77,
+          "intra_pct": -1.68,
+          "d1_pct": -1.74,
+          "d5_pct": -7.29,
+          "d20_pct": -9.26,
+          "atr_pct": 6.33,
+          "dist50_atr": -3.76,
+          "rs1m": -1.276,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -222,14 +222,14 @@
           "tradingview_symbol": "CBOE:VIX9D",
           "name": "CBOE S&P 500 9 Day Volatility I",
           "short_name": "CBOE S&P 500 9 Day Vola\u2026",
-          "last": 13.17,
+          "last": 13.19,
           "intra_pct": -3.78,
-          "d1_pct": -4.29,
-          "d5_pct": -11.25,
-          "d20_pct": -20.66,
-          "atr_pct": 11.81,
-          "dist50_atr": -3.15,
-          "rs1m": -0.839,
+          "d1_pct": -4.14,
+          "d5_pct": -11.12,
+          "d20_pct": -20.54,
+          "atr_pct": 11.79,
+          "dist50_atr": -3.14,
+          "rs1m": -0.835,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -363,7 +363,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.2
         },
         {
           "ticker": "XLI",
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 1.06
+          "volume_ratio": 1.1
         },
         {
           "ticker": "SKYY",
@@ -906,7 +906,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 1.0
+          "volume_ratio": 1.2
         },
         {
           "ticker": "USMV",
@@ -1055,7 +1055,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 0.41
+          "volume_ratio": 0.44
         },
         {
           "ticker": "DBC",
@@ -1103,7 +1103,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VNQ.png",
-          "volume_ratio": 0.68
+          "volume_ratio": 0.71
         },
         {
           "ticker": "REET",
@@ -1127,7 +1127,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/REET.png",
-          "volume_ratio": 0.99
+          "volume_ratio": 1.06
         },
         {
           "ticker": "TIP",
@@ -1252,7 +1252,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWZ.png",
-          "volume_ratio": 0.78
+          "volume_ratio": 0.84
         },
         {
           "ticker": "INDA",
