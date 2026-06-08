@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-08T22:07:28+00:00",
+  "generated_at_utc": "2026-06-08T22:52:47+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -118,7 +118,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 0.83
+          "volume_ratio": 0.85
         },
         {
           "ticker": "IEF",
@@ -142,7 +142,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 0.68
+          "volume_ratio": 0.69
         },
         {
           "ticker": "HYG",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 99.98,
-          "intra_pct": -0.09,
-          "d1_pct": -0.09,
-          "d5_pct": 0.79,
-          "d20_pct": 2.19,
+          "last": 100.0,
+          "intra_pct": -0.07,
+          "d1_pct": -0.07,
+          "d5_pct": 0.81,
+          "d20_pct": 2.21,
           "atr_pct": 0.44,
-          "dist50_atr": 2.45,
-          "rs1m": 1.77,
+          "dist50_atr": 2.49,
+          "rs1m": 1.79,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -560,7 +560,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 1.07
+          "volume_ratio": 1.12
         },
         {
           "ticker": "IWM",
@@ -709,7 +709,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 1.21
+          "volume_ratio": 1.25
         },
         {
           "ticker": "SOXX",
@@ -733,7 +733,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 1.31
+          "volume_ratio": 1.32
         },
         {
           "ticker": "IGV",
@@ -805,7 +805,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/AIQ.png",
-          "volume_ratio": 1.32
+          "volume_ratio": 1.33
         },
         {
           "ticker": "PAVE",
