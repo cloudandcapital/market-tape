@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-06-12T20:31:01+00:00",
+  "generated_at_utc": "2026-06-12T22:03:30+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-06-12T20:31:01+00:00"
+    "generated_at_utc": "2026-06-12T22:03:30+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -244,16 +244,6 @@
         "tradingview_symbol": "NYSE:EXPD"
       },
       {
-        "ticker": "FITB",
-        "short_name": "Fifth Third Bancorp",
-        "name": "Fifth Third Bancorp",
-        "price": 54.73,
-        "intra_pct": 2.46,
-        "rs1m": 2.077,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FITB"
-      },
-      {
         "ticker": "PFG",
         "short_name": "Principal Financial Gro\u2026",
         "name": "Principal Financial Group, Inc.",
@@ -312,6 +302,16 @@
         "rs1m": 1.912,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:HRL"
+      },
+      {
+        "ticker": "FITB",
+        "short_name": "Fifth Third Bancorp",
+        "name": "Fifth Third Bancorp",
+        "price": 53.42,
+        "intra_pct": 3.96,
+        "rs1m": 1.897,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:FITB"
       },
       {
         "ticker": "MAA",
@@ -751,16 +751,6 @@
         "tradingview_symbol": "NYSE:EXPD"
       },
       {
-        "ticker": "FITB",
-        "short_name": "Fifth Third Bancorp",
-        "name": "Fifth Third Bancorp",
-        "price": 54.73,
-        "intra_pct": 2.46,
-        "rs1m": 2.077,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FITB"
-      },
-      {
         "ticker": "PFG",
         "short_name": "Principal Financial Gro\u2026",
         "name": "Principal Financial Group, Inc.",
@@ -819,6 +809,16 @@
         "rs1m": 1.912,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:HRL"
+      },
+      {
+        "ticker": "FITB",
+        "short_name": "Fifth Third Bancorp",
+        "name": "Fifth Third Bancorp",
+        "price": 53.42,
+        "intra_pct": 3.96,
+        "rs1m": 1.897,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:FITB"
       },
       {
         "ticker": "MAA",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-12T20:31:01+00:00",
+  "generated_at_utc": "2026-06-12T22:03:30+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -118,7 +118,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 0.84
+          "volume_ratio": 0.85
         },
         {
           "ticker": "IEF",
@@ -142,7 +142,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 1.03
+          "volume_ratio": 1.04
         },
         {
           "ticker": "HYG",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 99.78,
-          "intra_pct": -0.08,
-          "d1_pct": -0.08,
-          "d5_pct": -0.29,
-          "d20_pct": 0.91,
+          "last": 99.81,
+          "intra_pct": -0.05,
+          "d1_pct": -0.05,
+          "d5_pct": -0.26,
+          "d20_pct": 0.94,
           "atr_pct": 0.44,
-          "dist50_atr": 2.01,
-          "rs1m": 1.671,
+          "dist50_atr": 2.06,
+          "rs1m": 1.697,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -363,7 +363,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 0.79
+          "volume_ratio": 0.83
         },
         {
           "ticker": "XLI",
@@ -656,7 +656,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/MTUM.png",
-          "volume_ratio": 0.51
+          "volume_ratio": 0.52
         },
         {
           "ticker": "USMV",
@@ -709,7 +709,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.79
         },
         {
           "ticker": "SOXX",
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.53
+          "volume_ratio": 0.7
         },
         {
           "ticker": "SKYY",
@@ -906,7 +906,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLV.png",
-          "volume_ratio": 0.79
+          "volume_ratio": 0.83
         },
         {
           "ticker": "USMV",
@@ -1348,7 +1348,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWC.png",
-          "volume_ratio": 0.97
+          "volume_ratio": 1.06
         }
       ]
     }
