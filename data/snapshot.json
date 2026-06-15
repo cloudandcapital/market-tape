@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-15T20:41:28+00:00",
+  "generated_at_utc": "2026-06-15T22:32:04+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -118,7 +118,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 0.68
+          "volume_ratio": 0.69
         },
         {
           "ticker": "IEF",
@@ -142,7 +142,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 0.46
+          "volume_ratio": 0.47
         },
         {
           "ticker": "HYG",
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 99.67,
-          "intra_pct": -0.07,
-          "d1_pct": -0.08,
-          "d5_pct": -0.38,
-          "d20_pct": 0.41,
+          "last": 99.66,
+          "intra_pct": -0.09,
+          "d1_pct": -0.09,
+          "d5_pct": -0.39,
+          "d20_pct": 0.39,
           "atr_pct": 0.45,
-          "dist50_atr": 1.77,
-          "rs1m": -1.699,
+          "dist50_atr": 1.74,
+          "rs1m": -1.709,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -507,7 +507,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLRE.png",
-          "volume_ratio": 1.06
+          "volume_ratio": 1.08
         },
         {
           "ticker": "XLC",
@@ -531,7 +531,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLC.png",
-          "volume_ratio": 1.06
+          "volume_ratio": 1.11
         }
       ]
     },
@@ -560,7 +560,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 0.89
+          "volume_ratio": 0.96
         },
         {
           "ticker": "IWM",
@@ -584,7 +584,7 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 0.78
+          "volume_ratio": 0.81
         },
         {
           "ticker": "IWF",
@@ -608,7 +608,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWF.png",
-          "volume_ratio": 0.75
+          "volume_ratio": 0.77
         },
         {
           "ticker": "IWD",
@@ -632,7 +632,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWD.png",
-          "volume_ratio": 1.18
+          "volume_ratio": 1.23
         },
         {
           "ticker": "MTUM",
@@ -656,7 +656,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/MTUM.png",
-          "volume_ratio": 0.65
+          "volume_ratio": 0.66
         },
         {
           "ticker": "USMV",
@@ -709,7 +709,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 0.82
+          "volume_ratio": 0.85
         },
         {
           "ticker": "SOXX",
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.61
+          "volume_ratio": 0.62
         },
         {
           "ticker": "SKYY",
@@ -978,7 +978,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/BIL.png",
-          "volume_ratio": 1.05
+          "volume_ratio": 1.07
         }
       ]
     },
@@ -1007,7 +1007,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/GLD.png",
-          "volume_ratio": 1.35
+          "volume_ratio": 1.42
         },
         {
           "ticker": "SLV",
@@ -1055,7 +1055,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 0.72
+          "volume_ratio": 0.74
         },
         {
           "ticker": "DBC",
@@ -1324,7 +1324,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VGK.png",
-          "volume_ratio": 0.93
+          "volume_ratio": 0.97
         },
         {
           "ticker": "EWC",
