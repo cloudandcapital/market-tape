@@ -1,57 +1,57 @@
 {
-  "generated_at_utc": "2026-06-12T22:16:50+00:00",
+  "generated_at_utc": "2026-06-15T17:46:27+00:00",
   "events": [
     {
-      "date": "2026-06-12",
+      "date": "2026-06-15",
       "event": "Global PMI pulse check",
       "impact": "Medium",
       "region": "Global",
       "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
     },
     {
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "event": "US labor market watch",
       "impact": "High",
       "region": "US",
       "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
     },
     {
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "event": "US inflation watchlist",
       "impact": "High",
       "region": "US",
       "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
     },
     {
-      "date": "2026-06-17",
+      "date": "2026-06-18",
       "event": "Rates and liquidity check",
       "impact": "Medium",
       "region": "US",
       "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
     },
     {
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "event": "Consumer demand read-through",
       "impact": "Medium",
       "region": "US",
       "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
     },
     {
-      "date": "2026-06-19",
+      "date": "2026-06-22",
       "event": "Central bank communication window",
       "impact": "High",
       "region": "Global",
       "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
     },
     {
-      "date": "2026-06-22",
+      "date": "2026-06-23",
       "event": "Commodities inventory update",
       "impact": "Medium",
       "region": "Global",
       "note": "Template macro watch item. Replace with your preferred live calendar source if needed."
     },
     {
-      "date": "2026-06-23",
+      "date": "2026-06-24",
       "event": "Global risk sentiment reset",
       "impact": "Medium",
       "region": "Global",
