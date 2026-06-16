@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-06-16T20:33:11+00:00",
+  "generated_at_utc": "2026-06-16T22:26:24+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-06-16T20:33:11+00:00"
+    "generated_at_utc": "2026-06-16T22:26:24+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -82,16 +82,6 @@
         "rs1m": 3.951,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:KMX"
-      },
-      {
-        "ticker": "CAH",
-        "short_name": "Cardinal Health, Inc",
-        "name": "Cardinal Health, Inc.",
-        "price": 227.72,
-        "intra_pct": 1.72,
-        "rs1m": 2.418,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CAH"
       },
       {
         "ticker": "HSIC",
@@ -122,6 +112,16 @@
         "rs1m": 2.101,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:WFC"
+      },
+      {
+        "ticker": "CAH",
+        "short_name": "Cardinal Health, Inc",
+        "name": "Cardinal Health, Inc.",
+        "price": 227.72,
+        "intra_pct": 0.58,
+        "rs1m": 2.074,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:CAH"
       },
       {
         "ticker": "NCLH",
@@ -330,8 +330,8 @@
         "short_name": "LyondellBasell Industri\u2026",
         "name": "LyondellBasell Industries N.V.",
         "price": 62.59,
-        "intra_pct": -3.07,
-        "rs1m": -2.708,
+        "intra_pct": -1.11,
+        "rs1m": -2.677,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LYB"
       },
@@ -496,6 +496,16 @@
         "tradingview_symbol": "NYSE:OXY"
       },
       {
+        "ticker": "PTC",
+        "short_name": "PTC Inc",
+        "name": "PTC Inc.",
+        "price": 118.18,
+        "intra_pct": 2.91,
+        "rs1m": -1.327,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:PTC"
+      },
+      {
         "ticker": "KMI",
         "short_name": "Kinder Morgan, Inc",
         "name": "Kinder Morgan, Inc.",
@@ -536,6 +546,16 @@
         "tradingview_symbol": "NASDAQ:JKHY"
       },
       {
+        "ticker": "HII",
+        "short_name": "Huntington Ingalls Indu\u2026",
+        "name": "Huntington Ingalls Industries, Inc.",
+        "price": 298.51,
+        "intra_pct": -0.38,
+        "rs1m": -1.266,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:HII"
+      },
+      {
         "ticker": "INTU",
         "short_name": "Intuit Inc",
         "name": "Intuit Inc.",
@@ -554,26 +574,6 @@
         "rs1m": -1.23,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:CPRT"
-      },
-      {
-        "ticker": "FIS",
-        "short_name": "Fidelity National Infor\u2026",
-        "name": "Fidelity National Information Services, Inc.",
-        "price": 39.5,
-        "intra_pct": 1.4,
-        "rs1m": -1.221,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:FIS"
-      },
-      {
-        "ticker": "APD",
-        "short_name": "Air Products and Chemic\u2026",
-        "name": "Air Products and Chemicals, Inc.",
-        "price": 280.48,
-        "intra_pct": -0.87,
-        "rs1m": -1.214,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:APD"
       }
     ],
     "universe_count": 338
@@ -589,16 +589,6 @@
         "rs1m": 3.951,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:KMX"
-      },
-      {
-        "ticker": "CAH",
-        "short_name": "Cardinal Health, Inc",
-        "name": "Cardinal Health, Inc.",
-        "price": 227.72,
-        "intra_pct": 1.72,
-        "rs1m": 2.418,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CAH"
       },
       {
         "ticker": "HSIC",
@@ -629,6 +619,16 @@
         "rs1m": 2.101,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:WFC"
+      },
+      {
+        "ticker": "CAH",
+        "short_name": "Cardinal Health, Inc",
+        "name": "Cardinal Health, Inc.",
+        "price": 227.72,
+        "intra_pct": 0.58,
+        "rs1m": 2.074,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:CAH"
       },
       {
         "ticker": "NCLH",
@@ -837,8 +837,8 @@
         "short_name": "LyondellBasell Industri\u2026",
         "name": "LyondellBasell Industries N.V.",
         "price": 62.59,
-        "intra_pct": -3.07,
-        "rs1m": -2.708,
+        "intra_pct": -1.11,
+        "rs1m": -2.677,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LYB"
       },
@@ -1003,6 +1003,16 @@
         "tradingview_symbol": "NYSE:OXY"
       },
       {
+        "ticker": "PTC",
+        "short_name": "PTC Inc",
+        "name": "PTC Inc.",
+        "price": 118.18,
+        "intra_pct": 2.91,
+        "rs1m": -1.327,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:PTC"
+      },
+      {
         "ticker": "KMI",
         "short_name": "Kinder Morgan, Inc",
         "name": "Kinder Morgan, Inc.",
@@ -1043,6 +1053,16 @@
         "tradingview_symbol": "NASDAQ:JKHY"
       },
       {
+        "ticker": "HII",
+        "short_name": "Huntington Ingalls Indu\u2026",
+        "name": "Huntington Ingalls Industries, Inc.",
+        "price": 298.51,
+        "intra_pct": -0.38,
+        "rs1m": -1.266,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:HII"
+      },
+      {
         "ticker": "INTU",
         "short_name": "Intuit Inc",
         "name": "Intuit Inc.",
@@ -1061,26 +1081,6 @@
         "rs1m": -1.23,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:CPRT"
-      },
-      {
-        "ticker": "FIS",
-        "short_name": "Fidelity National Infor\u2026",
-        "name": "Fidelity National Information Services, Inc.",
-        "price": 39.5,
-        "intra_pct": 1.4,
-        "rs1m": -1.221,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:FIS"
-      },
-      {
-        "ticker": "APD",
-        "short_name": "Air Products and Chemic\u2026",
-        "name": "Air Products and Chemicals, Inc.",
-        "price": 280.48,
-        "intra_pct": -0.87,
-        "rs1m": -1.214,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:APD"
       }
     ]
   },
