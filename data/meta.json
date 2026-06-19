@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-06-18T23:13:46+00:00",
+  "generated_at_utc": "2026-06-19T15:54:30+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -42,8 +42,8 @@
   },
   "status": {
     "exposure": {
-      "level": 38,
-      "guidance": "Defensive"
+      "level": 44,
+      "guidance": "Hold"
     },
     "trend": {
       "long_term": "Sideways",
@@ -56,12 +56,12 @@
       "momentum": "Positive"
     },
     "breadth": {
-      "above_20d_pct": 44.23,
-      "above_50d_pct": 50.0,
+      "above_20d_pct": 46.15,
+      "above_50d_pct": 51.92,
       "breadth_label": "Mixed"
     },
     "momentum_env": {
-      "score": 48,
+      "score": 50,
       "label": "Selective"
     }
   },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-06-18T23:13:46+00:00"
+    "generated_at_utc": "2026-06-19T15:54:30+00:00"
   },
   "leaderboard": {
     "leaders": [
