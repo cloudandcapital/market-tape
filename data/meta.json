@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-06-19T19:20:20+00:00",
+  "generated_at_utc": "2026-06-19T20:50:02+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -56,12 +56,12 @@
       "momentum": "Positive"
     },
     "breadth": {
-      "above_20d_pct": 46.15,
+      "above_20d_pct": 44.23,
       "above_50d_pct": 51.92,
       "breadth_label": "Mixed"
     },
     "momentum_env": {
-      "score": 50,
+      "score": 49,
       "label": "Selective"
     }
   },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-06-19T19:20:20+00:00"
+    "generated_at_utc": "2026-06-19T20:50:02+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -124,16 +124,6 @@
         "tradingview_symbol": "NYSE:GE"
       },
       {
-        "ticker": "GPC",
-        "short_name": "Genuine Parts Company",
-        "name": "Genuine Parts Company",
-        "price": 108.7,
-        "intra_pct": 2.44,
-        "rs1m": 1.946,
-        "trend_grade": "B",
-        "tradingview_symbol": "NYSE:GPC"
-      },
-      {
         "ticker": "NCLH",
         "short_name": "Norwegian Cruise Line H\u2026",
         "name": "Norwegian Cruise Line Holdings Ltd.",
@@ -142,6 +132,16 @@
         "rs1m": 1.941,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NCLH"
+      },
+      {
+        "ticker": "GPC",
+        "short_name": "Genuine Parts Company",
+        "name": "Genuine Parts Company",
+        "price": 106.12,
+        "intra_pct": 1.34,
+        "rs1m": 1.934,
+        "trend_grade": "B",
+        "tradingview_symbol": "NYSE:GPC"
       },
       {
         "ticker": "HST",
@@ -154,6 +154,16 @@
         "tradingview_symbol": "NASDAQ:HST"
       },
       {
+        "ticker": "HSIC",
+        "short_name": "Henry Schein, Inc",
+        "name": "Henry Schein, Inc.",
+        "price": 79.97,
+        "intra_pct": -1.61,
+        "rs1m": 1.805,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:HSIC"
+      },
+      {
         "ticker": "KLAC",
         "short_name": "KLA Corporation",
         "name": "KLA Corporation",
@@ -162,16 +172,6 @@
         "rs1m": 1.769,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:KLAC"
-      },
-      {
-        "ticker": "HSIC",
-        "short_name": "Henry Schein, Inc",
-        "name": "Henry Schein, Inc.",
-        "price": 79.92,
-        "intra_pct": -0.09,
-        "rs1m": 1.735,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:HSIC"
       },
       {
         "ticker": "RHI",
@@ -274,6 +274,26 @@
         "tradingview_symbol": "NYSE:RL"
       },
       {
+        "ticker": "MGM",
+        "short_name": "MGM Resorts Internation\u2026",
+        "name": "MGM Resorts International",
+        "price": 46.94,
+        "intra_pct": -2.36,
+        "rs1m": 1.526,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:MGM"
+      },
+      {
+        "ticker": "HLT",
+        "short_name": "Hilton Worldwide Holdin\u2026",
+        "name": "Hilton Worldwide Holdings Inc.",
+        "price": 349.3,
+        "intra_pct": -0.4,
+        "rs1m": 1.502,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:HLT"
+      },
+      {
         "ticker": "RCL",
         "short_name": "Royal Caribbean Cruises\u2026",
         "name": "Royal Caribbean Cruises Ltd.",
@@ -302,26 +322,6 @@
         "rs1m": 1.462,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PPG"
-      },
-      {
-        "ticker": "MGM",
-        "short_name": "MGM Resorts Internation\u2026",
-        "name": "MGM Resorts International",
-        "price": 46.84,
-        "intra_pct": -0.19,
-        "rs1m": 1.429,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:MGM"
-      },
-      {
-        "ticker": "SWK",
-        "short_name": "Stanley Black & Decker,\u2026",
-        "name": "Stanley Black & Decker, Inc.",
-        "price": 86.75,
-        "intra_pct": 5.2,
-        "rs1m": 1.413,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:SWK"
       }
     ],
     "laggards": [
@@ -376,6 +376,16 @@
         "tradingview_symbol": "NYSE:HAL"
       },
       {
+        "ticker": "CME",
+        "short_name": "CME Group Inc",
+        "name": "CME Group Inc.",
+        "price": 252.54,
+        "intra_pct": -5.87,
+        "rs1m": -1.752,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:CME"
+      },
+      {
         "ticker": "ICE",
         "short_name": "Intercontinental Exchan\u2026",
         "name": "Intercontinental Exchange, Inc.",
@@ -396,6 +406,16 @@
         "tradingview_symbol": "NYSE:KR"
       },
       {
+        "ticker": "ADSK",
+        "short_name": "Autodesk, Inc",
+        "name": "Autodesk, Inc.",
+        "price": 193.07,
+        "intra_pct": -3.82,
+        "rs1m": -1.661,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:ADSK"
+      },
+      {
         "ticker": "XOM",
         "short_name": "Exxon Mobil Corporation",
         "name": "Exxon Mobil Corporation",
@@ -404,16 +424,6 @@
         "rs1m": -1.659,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:XOM"
-      },
-      {
-        "ticker": "CME",
-        "short_name": "CME Group Inc",
-        "name": "CME Group Inc.",
-        "price": 246.38,
-        "intra_pct": -2.49,
-        "rs1m": -1.653,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CME"
       },
       {
         "ticker": "DOW",
@@ -444,16 +454,6 @@
         "rs1m": -1.619,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:PTC"
-      },
-      {
-        "ticker": "ADSK",
-        "short_name": "Autodesk, Inc",
-        "name": "Autodesk, Inc.",
-        "price": 193.82,
-        "intra_pct": 0.32,
-        "rs1m": -1.599,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ADSK"
       },
       {
         "ticker": "EPAM",
@@ -631,16 +631,6 @@
         "tradingview_symbol": "NYSE:GE"
       },
       {
-        "ticker": "GPC",
-        "short_name": "Genuine Parts Company",
-        "name": "Genuine Parts Company",
-        "price": 108.7,
-        "intra_pct": 2.44,
-        "rs1m": 1.946,
-        "trend_grade": "B",
-        "tradingview_symbol": "NYSE:GPC"
-      },
-      {
         "ticker": "NCLH",
         "short_name": "Norwegian Cruise Line H\u2026",
         "name": "Norwegian Cruise Line Holdings Ltd.",
@@ -649,6 +639,16 @@
         "rs1m": 1.941,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NCLH"
+      },
+      {
+        "ticker": "GPC",
+        "short_name": "Genuine Parts Company",
+        "name": "Genuine Parts Company",
+        "price": 106.12,
+        "intra_pct": 1.34,
+        "rs1m": 1.934,
+        "trend_grade": "B",
+        "tradingview_symbol": "NYSE:GPC"
       },
       {
         "ticker": "HST",
@@ -661,6 +661,16 @@
         "tradingview_symbol": "NASDAQ:HST"
       },
       {
+        "ticker": "HSIC",
+        "short_name": "Henry Schein, Inc",
+        "name": "Henry Schein, Inc.",
+        "price": 79.97,
+        "intra_pct": -1.61,
+        "rs1m": 1.805,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:HSIC"
+      },
+      {
         "ticker": "KLAC",
         "short_name": "KLA Corporation",
         "name": "KLA Corporation",
@@ -669,16 +679,6 @@
         "rs1m": 1.769,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:KLAC"
-      },
-      {
-        "ticker": "HSIC",
-        "short_name": "Henry Schein, Inc",
-        "name": "Henry Schein, Inc.",
-        "price": 79.92,
-        "intra_pct": -0.09,
-        "rs1m": 1.735,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:HSIC"
       },
       {
         "ticker": "RHI",
@@ -781,6 +781,26 @@
         "tradingview_symbol": "NYSE:RL"
       },
       {
+        "ticker": "MGM",
+        "short_name": "MGM Resorts Internation\u2026",
+        "name": "MGM Resorts International",
+        "price": 46.94,
+        "intra_pct": -2.36,
+        "rs1m": 1.526,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:MGM"
+      },
+      {
+        "ticker": "HLT",
+        "short_name": "Hilton Worldwide Holdin\u2026",
+        "name": "Hilton Worldwide Holdings Inc.",
+        "price": 349.3,
+        "intra_pct": -0.4,
+        "rs1m": 1.502,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:HLT"
+      },
+      {
         "ticker": "RCL",
         "short_name": "Royal Caribbean Cruises\u2026",
         "name": "Royal Caribbean Cruises Ltd.",
@@ -809,26 +829,6 @@
         "rs1m": 1.462,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PPG"
-      },
-      {
-        "ticker": "MGM",
-        "short_name": "MGM Resorts Internation\u2026",
-        "name": "MGM Resorts International",
-        "price": 46.84,
-        "intra_pct": -0.19,
-        "rs1m": 1.429,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:MGM"
-      },
-      {
-        "ticker": "SWK",
-        "short_name": "Stanley Black & Decker,\u2026",
-        "name": "Stanley Black & Decker, Inc.",
-        "price": 86.75,
-        "intra_pct": 5.2,
-        "rs1m": 1.413,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:SWK"
       }
     ],
     "lagging": [
@@ -883,6 +883,16 @@
         "tradingview_symbol": "NYSE:HAL"
       },
       {
+        "ticker": "CME",
+        "short_name": "CME Group Inc",
+        "name": "CME Group Inc.",
+        "price": 252.54,
+        "intra_pct": -5.87,
+        "rs1m": -1.752,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:CME"
+      },
+      {
         "ticker": "ICE",
         "short_name": "Intercontinental Exchan\u2026",
         "name": "Intercontinental Exchange, Inc.",
@@ -903,6 +913,16 @@
         "tradingview_symbol": "NYSE:KR"
       },
       {
+        "ticker": "ADSK",
+        "short_name": "Autodesk, Inc",
+        "name": "Autodesk, Inc.",
+        "price": 193.07,
+        "intra_pct": -3.82,
+        "rs1m": -1.661,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:ADSK"
+      },
+      {
         "ticker": "XOM",
         "short_name": "Exxon Mobil Corporation",
         "name": "Exxon Mobil Corporation",
@@ -911,16 +931,6 @@
         "rs1m": -1.659,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:XOM"
-      },
-      {
-        "ticker": "CME",
-        "short_name": "CME Group Inc",
-        "name": "CME Group Inc.",
-        "price": 246.38,
-        "intra_pct": -2.49,
-        "rs1m": -1.653,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CME"
       },
       {
         "ticker": "DOW",
@@ -951,16 +961,6 @@
         "rs1m": -1.619,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:PTC"
-      },
-      {
-        "ticker": "ADSK",
-        "short_name": "Autodesk, Inc",
-        "name": "Autodesk, Inc.",
-        "price": 193.82,
-        "intra_pct": 0.32,
-        "rs1m": -1.599,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ADSK"
       },
       {
         "ticker": "EPAM",
