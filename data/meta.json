@@ -1,53 +1,53 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-06-30T22:45:31+00:00",
+  "generated_at_utc": "2026-07-01T15:33:25+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
   "leaders": {
     "sectors": [
       {
-        "ticker": "XLU",
-        "name": "State Street Utilities Select Sector SPDR ETF",
-        "rs1m": 1.622
-      },
-      {
         "ticker": "XLV",
         "name": "State Street Health Care Select Sector SPDR ETF",
-        "rs1m": 1.582
+        "rs1m": 1.844
       },
       {
         "ticker": "XLF",
         "name": "State Street Financial Select Sector SPDR ETF",
-        "rs1m": 1.484
+        "rs1m": 1.794
+      },
+      {
+        "ticker": "XLI",
+        "name": "State Street Industrial Select Sector SPDR ETF",
+        "rs1m": 1.177
       }
     ],
     "countries": [
       {
         "ticker": "INDA",
         "name": "iShares MSCI India ETF",
-        "rs1m": 1.006
-      },
-      {
-        "ticker": "VGK",
-        "name": "Vanguard FTSE Europe ETF",
-        "rs1m": 0.309
+        "rs1m": 0.882
       },
       {
         "ticker": "EWJ",
         "name": "iShares MSCI Japan ETF",
-        "rs1m": 0.252
+        "rs1m": 0.195
+      },
+      {
+        "ticker": "VGK",
+        "name": "Vanguard FTSE Europe ETF",
+        "rs1m": 0.064
       }
     ]
   },
   "status": {
     "exposure": {
-      "level": 69,
+      "level": 63,
       "guidance": "Hold"
     },
     "trend": {
       "long_term": "Sideways",
-      "intermediate_term": "Sideways",
+      "intermediate_term": "Up",
       "short_term": "Sideways"
     },
     "risk": {
@@ -56,12 +56,12 @@
       "momentum": "Positive"
     },
     "breadth": {
-      "above_20d_pct": 63.46,
-      "above_50d_pct": 63.46,
-      "breadth_label": "Strong"
+      "above_20d_pct": 51.92,
+      "above_50d_pct": 59.62,
+      "breadth_label": "Mixed"
     },
     "momentum_env": {
-      "score": 55,
+      "score": 51,
       "label": "Selective"
     }
   },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 340,
     "filtered_out_count": 3,
-    "generated_at_utc": "2026-06-30T22:45:31+00:00"
+    "generated_at_utc": "2026-07-01T15:33:25+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -77,9 +77,9 @@
         "ticker": "NWL",
         "short_name": "Newell Brands Inc",
         "name": "Newell Brands Inc.",
-        "price": 6.14,
-        "intra_pct": 1.16,
-        "rs1m": 4.366,
+        "price": 6.07,
+        "intra_pct": -1.12,
+        "rs1m": 4.517,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NWL"
       },
@@ -87,29 +87,49 @@
         "ticker": "CAH",
         "short_name": "Cardinal Health, Inc",
         "name": "Cardinal Health, Inc.",
-        "price": 237.56,
-        "intra_pct": 0.55,
-        "rs1m": 3.709,
+        "price": 237.06,
+        "intra_pct": -0.21,
+        "rs1m": 3.664,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CAH"
       },
       {
-        "ticker": "BALL",
-        "short_name": "Ball Corporation",
-        "name": "Ball Corporation",
-        "price": 62.4,
-        "intra_pct": 0.64,
-        "rs1m": 3.083,
+        "ticker": "HUM",
+        "short_name": "Humana Inc",
+        "name": "Humana Inc.",
+        "price": 409.06,
+        "intra_pct": 2.98,
+        "rs1m": 3.141,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:BALL"
+        "tradingview_symbol": "NYSE:HUM"
+      },
+      {
+        "ticker": "VRTX",
+        "short_name": "Vertex Pharmaceuticals\u2026",
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "price": 499.59,
+        "intra_pct": 0.54,
+        "rs1m": 3.042,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:VRTX"
+      },
+      {
+        "ticker": "CRL",
+        "short_name": "Charles River Laborator\u2026",
+        "name": "Charles River Laboratories International, Inc.",
+        "price": 234.29,
+        "intra_pct": 3.31,
+        "rs1m": 2.946,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:CRL"
       },
       {
         "ticker": "TRV",
         "short_name": "The Travelers Companies\u2026",
         "name": "The Travelers Companies, Inc.",
-        "price": 330.12,
-        "intra_pct": -0.53,
-        "rs1m": 2.86,
+        "price": 335.72,
+        "intra_pct": 1.7,
+        "rs1m": 2.93,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:TRV"
       },
@@ -117,99 +137,49 @@
         "ticker": "EA",
         "short_name": "Electronic Arts Inc",
         "name": "Electronic Arts Inc.",
-        "price": 205.04,
-        "intra_pct": -0.04,
-        "rs1m": 2.791,
+        "price": 205.74,
+        "intra_pct": 0.34,
+        "rs1m": 2.897,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EA"
       },
       {
-        "ticker": "GPC",
-        "short_name": "Genuine Parts Company",
-        "name": "Genuine Parts Company",
-        "price": 117.98,
-        "intra_pct": 0.69,
-        "rs1m": 2.783,
+        "ticker": "BALL",
+        "short_name": "Ball Corporation",
+        "name": "Ball Corporation",
+        "price": 62.08,
+        "intra_pct": -0.42,
+        "rs1m": 2.885,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:GPC"
-      },
-      {
-        "ticker": "PH",
-        "short_name": "Parker-Hannifin Corpora\u2026",
-        "name": "Parker-Hannifin Corporation",
-        "price": 978.12,
-        "intra_pct": 1.47,
-        "rs1m": 2.762,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:PH"
-      },
-      {
-        "ticker": "LNT",
-        "short_name": "Alliant Energy Corporat\u2026",
-        "name": "Alliant Energy Corporation",
-        "price": 76.29,
-        "intra_pct": -1.17,
-        "rs1m": 2.426,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:LNT"
-      },
-      {
-        "ticker": "CTVA",
-        "short_name": "Corteva, Inc",
-        "name": "Corteva, Inc.",
-        "price": 84.69,
-        "intra_pct": 1.55,
-        "rs1m": 2.371,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CTVA"
-      },
-      {
-        "ticker": "HUM",
-        "short_name": "Humana Inc",
-        "name": "Humana Inc.",
-        "price": 397.22,
-        "intra_pct": 2.09,
-        "rs1m": 2.345,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:HUM"
+        "tradingview_symbol": "NYSE:BALL"
       },
       {
         "ticker": "CVS",
         "short_name": "CVS Health Corporation",
         "name": "CVS Health Corporation",
-        "price": 103.45,
-        "intra_pct": -0.14,
-        "rs1m": 2.33,
+        "price": 103.81,
+        "intra_pct": 0.35,
+        "rs1m": 2.691,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVS"
       },
       {
-        "ticker": "AEP",
-        "short_name": "American Electric Power\u2026",
-        "name": "American Electric Power Company, Inc.",
-        "price": 136.81,
-        "intra_pct": -0.87,
-        "rs1m": 2.282,
+        "ticker": "MNST",
+        "short_name": "Monster Beverage Corpor\u2026",
+        "name": "Monster Beverage Corporation",
+        "price": 97.87,
+        "intra_pct": 1.82,
+        "rs1m": 2.655,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:AEP"
-      },
-      {
-        "ticker": "BAC",
-        "short_name": "Bank of America Corpora\u2026",
-        "name": "Bank of America Corporation",
-        "price": 56.98,
-        "intra_pct": -1.57,
-        "rs1m": 2.277,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:BAC"
+        "tradingview_symbol": "NASDAQ:MNST"
       },
       {
         "ticker": "MRNA",
         "short_name": "Moderna, Inc",
         "name": "Moderna, Inc.",
-        "price": 70.03,
-        "intra_pct": 0.44,
-        "rs1m": 2.261,
+        "price": 72.89,
+        "intra_pct": 4.08,
+        "rs1m": 2.597,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MRNA"
       },
@@ -217,111 +187,141 @@
         "ticker": "SHW",
         "short_name": "The Sherwin-Williams Co\u2026",
         "name": "The Sherwin-Williams Company",
-        "price": 344.32,
-        "intra_pct": -0.09,
-        "rs1m": 2.231,
+        "price": 349.52,
+        "intra_pct": 1.51,
+        "rs1m": 2.553,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:SHW"
       },
       {
-        "ticker": "L",
-        "short_name": "Loews Corporation",
-        "name": "Loews Corporation",
-        "price": 113.21,
-        "intra_pct": -0.42,
-        "rs1m": 2.226,
+        "ticker": "GPC",
+        "short_name": "Genuine Parts Company",
+        "name": "Genuine Parts Company",
+        "price": 118.22,
+        "intra_pct": 0.2,
+        "rs1m": 2.501,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:L"
+        "tradingview_symbol": "NYSE:GPC"
       },
       {
-        "ticker": "MTB",
-        "short_name": "M&T Bank Corporation",
-        "name": "M&T Bank Corporation",
-        "price": 238.01,
-        "intra_pct": -0.48,
-        "rs1m": 2.211,
+        "ticker": "PH",
+        "short_name": "Parker-Hannifin Corpora\u2026",
+        "name": "Parker-Hannifin Corporation",
+        "price": 975.63,
+        "intra_pct": -0.25,
+        "rs1m": 2.436,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:MTB"
-      },
-      {
-        "ticker": "AMAT",
-        "short_name": "Applied Materials, Inc",
-        "name": "Applied Materials, Inc.",
-        "price": 723.0,
-        "intra_pct": 4.2,
-        "rs1m": 2.203,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:AMAT"
-      },
-      {
-        "ticker": "FITB",
-        "short_name": "Fifth Third Bancorp",
-        "name": "Fifth Third Bancorp",
-        "price": 56.37,
-        "intra_pct": -0.77,
-        "rs1m": 2.193,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:FITB"
-      },
-      {
-        "ticker": "KEY",
-        "short_name": "KeyCorp",
-        "name": "KeyCorp",
-        "price": 23.05,
-        "intra_pct": -0.39,
-        "rs1m": 2.181,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:KEY"
-      },
-      {
-        "ticker": "DTE",
-        "short_name": "DTE Energy Company",
-        "name": "DTE Energy Company",
-        "price": 152.37,
-        "intra_pct": -1.07,
-        "rs1m": 2.147,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:DTE"
+        "tradingview_symbol": "NYSE:PH"
       },
       {
         "ticker": "MOH",
         "short_name": "Molina Healthcare, Inc",
         "name": "Molina Healthcare, Inc.",
-        "price": 228.7,
-        "intra_pct": -0.45,
-        "rs1m": 2.096,
+        "price": 230.46,
+        "intra_pct": 0.76,
+        "rs1m": 2.421,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MOH"
       },
       {
-        "ticker": "ITW",
-        "short_name": "Illinois Tool Works Inc",
-        "name": "Illinois Tool Works Inc.",
-        "price": 270.47,
-        "intra_pct": 1.12,
-        "rs1m": 2.091,
+        "ticker": "CTVA",
+        "short_name": "Corteva, Inc",
+        "name": "Corteva, Inc.",
+        "price": 84.67,
+        "intra_pct": -0.05,
+        "rs1m": 2.374,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:ITW"
+        "tradingview_symbol": "NYSE:CTVA"
       },
       {
-        "ticker": "EVRG",
-        "short_name": "Evergy, Inc",
-        "name": "Evergy, Inc.",
-        "price": 86.43,
-        "intra_pct": -0.69,
-        "rs1m": 2.073,
+        "ticker": "GE",
+        "short_name": "GE Aerospace",
+        "name": "GE Aerospace",
+        "price": 376.13,
+        "intra_pct": 0.65,
+        "rs1m": 2.326,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:EVRG"
+        "tradingview_symbol": "NYSE:GE"
       },
       {
-        "ticker": "JNJ",
-        "short_name": "Johnson & Johnson",
-        "name": "Johnson & Johnson",
-        "price": 253.97,
-        "intra_pct": -1.74,
-        "rs1m": 2.047,
+        "ticker": "BAC",
+        "short_name": "Bank of America Corpora\u2026",
+        "name": "Bank of America Corporation",
+        "price": 58.06,
+        "intra_pct": 1.9,
+        "rs1m": 2.251,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:JNJ"
+        "tradingview_symbol": "NYSE:BAC"
+      },
+      {
+        "ticker": "POOL",
+        "short_name": "Pool Corporation",
+        "name": "Pool Corporation",
+        "price": 217.71,
+        "intra_pct": 1.31,
+        "rs1m": 2.216,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:POOL"
+      },
+      {
+        "ticker": "EG",
+        "short_name": "Everest Group, Ltd",
+        "name": "Everest Group, Ltd.",
+        "price": 362.04,
+        "intra_pct": 1.35,
+        "rs1m": 2.212,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:EG"
+      },
+      {
+        "ticker": "COO",
+        "short_name": "The Cooper Companies, I\u2026",
+        "name": "The Cooper Companies, Inc.",
+        "price": 72.67,
+        "intra_pct": 1.35,
+        "rs1m": 2.208,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:COO"
+      },
+      {
+        "ticker": "L",
+        "short_name": "Loews Corporation",
+        "name": "Loews Corporation",
+        "price": 114.36,
+        "intra_pct": 1.01,
+        "rs1m": 2.187,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:L"
+      },
+      {
+        "ticker": "KEY",
+        "short_name": "KeyCorp",
+        "name": "KeyCorp",
+        "price": 23.4,
+        "intra_pct": 1.45,
+        "rs1m": 2.174,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:KEY"
+      },
+      {
+        "ticker": "HSIC",
+        "short_name": "Henry Schein, Inc",
+        "name": "Henry Schein, Inc.",
+        "price": 84.95,
+        "intra_pct": 1.71,
+        "rs1m": 2.132,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:HSIC"
+      },
+      {
+        "ticker": "FITB",
+        "short_name": "Fifth Third Bancorp",
+        "name": "Fifth Third Bancorp",
+        "price": 57.73,
+        "intra_pct": 2.43,
+        "rs1m": 2.099,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:FITB"
       }
     ],
     "laggards": [
@@ -329,9 +329,9 @@
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
         "name": "LyondellBasell Industries N.V.",
-        "price": 52.65,
-        "intra_pct": -1.77,
-        "rs1m": -2.96,
+        "price": 52.83,
+        "intra_pct": 0.27,
+        "rs1m": -2.961,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LYB"
       },
@@ -339,9 +339,9 @@
         "ticker": "ORCL",
         "short_name": "Oracle Corporation",
         "name": "Oracle Corporation",
-        "price": 146.55,
-        "intra_pct": -0.72,
-        "rs1m": -2.648,
+        "price": 145.71,
+        "intra_pct": -0.6,
+        "rs1m": -2.608,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ORCL"
       },
@@ -349,231 +349,231 @@
         "ticker": "DOW",
         "short_name": "Dow Inc",
         "name": "Dow Inc.",
-        "price": 27.36,
-        "intra_pct": -1.97,
-        "rs1m": -2.546,
+        "price": 27.38,
+        "intra_pct": -0.02,
+        "rs1m": -2.57,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DOW"
-      },
-      {
-        "ticker": "HPQ",
-        "short_name": "HP Inc",
-        "name": "HP Inc.",
-        "price": 21.94,
-        "intra_pct": -3.14,
-        "rs1m": -2.432,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:HPQ"
-      },
-      {
-        "ticker": "CTSH",
-        "short_name": "Cognizant Technology So\u2026",
-        "name": "Cognizant Technology Solutions Corporation",
-        "price": 38.73,
-        "intra_pct": -0.05,
-        "rs1m": -2.379,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CTSH"
-      },
-      {
-        "ticker": "CRM",
-        "short_name": "Salesforce, Inc",
-        "name": "Salesforce, Inc.",
-        "price": 156.66,
-        "intra_pct": -0.78,
-        "rs1m": -2.336,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:CRM"
       },
       {
         "ticker": "OXY",
         "short_name": "Occidental Petroleum Co\u2026",
         "name": "Occidental Petroleum Corporation",
-        "price": 48.57,
+        "price": 48.08,
         "intra_pct": -1.07,
-        "rs1m": -2.306,
+        "rs1m": -2.525,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:OXY"
       },
       {
-        "ticker": "IT",
-        "short_name": "Gartner, Inc",
-        "name": "Gartner, Inc.",
-        "price": 129.62,
-        "intra_pct": -2.4,
-        "rs1m": -2.105,
+        "ticker": "HPQ",
+        "short_name": "HP Inc",
+        "name": "HP Inc.",
+        "price": 22.26,
+        "intra_pct": 1.39,
+        "rs1m": -2.058,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:IT"
-      },
-      {
-        "ticker": "LDOS",
-        "short_name": "Leidos Holdings, Inc",
-        "name": "Leidos Holdings, Inc.",
-        "price": 102.97,
-        "intra_pct": 2.5,
-        "rs1m": -1.95,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LDOS"
-      },
-      {
-        "ticker": "ADBE",
-        "short_name": "Adobe Inc",
-        "name": "Adobe Inc.",
-        "price": 205.02,
-        "intra_pct": -0.71,
-        "rs1m": -1.882,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ADBE"
-      },
-      {
-        "ticker": "INTU",
-        "short_name": "Intuit Inc",
-        "name": "Intuit Inc.",
-        "price": 261.0,
-        "intra_pct": -2.05,
-        "rs1m": -1.871,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:INTU"
+        "tradingview_symbol": "NYSE:HPQ"
       },
       {
         "ticker": "F",
         "short_name": "Ford Motor Company",
         "name": "Ford Motor Company",
-        "price": 13.9,
-        "intra_pct": -0.86,
-        "rs1m": -1.826,
-        "trend_grade": "B",
+        "price": 13.68,
+        "intra_pct": -1.51,
+        "rs1m": -1.755,
+        "trend_grade": "C",
         "tradingview_symbol": "NYSE:F"
       },
       {
-        "ticker": "ACN",
-        "short_name": "Accenture plc",
-        "name": "Accenture plc",
-        "price": 124.44,
-        "intra_pct": -0.24,
-        "rs1m": -1.824,
+        "ticker": "CTSH",
+        "short_name": "Cognizant Technology So\u2026",
+        "name": "Cognizant Technology Solutions Corporation",
+        "price": 40.74,
+        "intra_pct": 5.16,
+        "rs1m": -1.707,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ACN"
+        "tradingview_symbol": "NASDAQ:CTSH"
       },
       {
-        "ticker": "ADSK",
-        "short_name": "Autodesk, Inc",
-        "name": "Autodesk, Inc.",
-        "price": 194.42,
-        "intra_pct": -0.45,
-        "rs1m": -1.799,
+        "ticker": "SLB",
+        "short_name": "SLB N.V",
+        "name": "SLB N.V.",
+        "price": 45.97,
+        "intra_pct": -1.16,
+        "rs1m": -1.682,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ADSK"
+        "tradingview_symbol": "NYSE:SLB"
       },
       {
-        "ticker": "LVS",
-        "short_name": "Las Vegas Sands Corp",
-        "name": "Las Vegas Sands Corp.",
-        "price": 46.19,
-        "intra_pct": -0.4,
-        "rs1m": -1.795,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LVS"
-      },
-      {
-        "ticker": "ICE",
-        "short_name": "Intercontinental Exchan\u2026",
-        "name": "Intercontinental Exchange, Inc.",
-        "price": 123.11,
-        "intra_pct": 0.16,
-        "rs1m": -1.653,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ICE"
-      },
-      {
-        "ticker": "MSFT",
-        "short_name": "Microsoft Corporation",
-        "name": "Microsoft Corporation",
-        "price": 373.02,
-        "intra_pct": 1.16,
+        "ticker": "LDOS",
+        "short_name": "Leidos Holdings, Inc",
+        "name": "Leidos Holdings, Inc.",
+        "price": 104.99,
+        "intra_pct": 1.97,
         "rs1m": -1.646,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:MSFT"
-      },
-      {
-        "ticker": "NFLX",
-        "short_name": "Netflix, Inc",
-        "name": "Netflix, Inc.",
-        "price": 71.4,
-        "intra_pct": -3.25,
-        "rs1m": -1.622,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:NFLX"
-      },
-      {
-        "ticker": "EPAM",
-        "short_name": "EPAM Systems, Inc",
-        "name": "EPAM Systems, Inc.",
-        "price": 79.35,
-        "intra_pct": -0.87,
-        "rs1m": -1.569,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:EPAM"
-      },
-      {
-        "ticker": "PTC",
-        "short_name": "PTC Inc",
-        "name": "PTC Inc.",
-        "price": 113.61,
-        "intra_pct": -0.27,
-        "rs1m": -1.487,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:PTC"
+        "tradingview_symbol": "NYSE:LDOS"
       },
       {
         "ticker": "CVX",
         "short_name": "Chevron Corporation",
         "name": "Chevron Corporation",
-        "price": 165.76,
-        "intra_pct": -1.58,
-        "rs1m": -1.453,
+        "price": 165.95,
+        "intra_pct": 0.09,
+        "rs1m": -1.625,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CVX"
       },
       {
-        "ticker": "CME",
-        "short_name": "CME Group Inc",
-        "name": "CME Group Inc.",
-        "price": 220.83,
-        "intra_pct": 1.04,
-        "rs1m": -1.422,
+        "ticker": "LVS",
+        "short_name": "Las Vegas Sands Corp",
+        "name": "Las Vegas Sands Corp.",
+        "price": 46.01,
+        "intra_pct": -0.41,
+        "rs1m": -1.541,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CME"
+        "tradingview_symbol": "NYSE:LVS"
       },
       {
-        "ticker": "MSCI",
-        "short_name": "MSCI Inc",
-        "name": "MSCI Inc.",
-        "price": 560.04,
-        "intra_pct": 0.37,
-        "rs1m": -1.416,
+        "ticker": "HAL",
+        "short_name": "Halliburton Company",
+        "name": "Halliburton Company",
+        "price": 33.75,
+        "intra_pct": -0.66,
+        "rs1m": -1.519,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MSCI"
+        "tradingview_symbol": "NYSE:HAL"
       },
       {
-        "ticker": "NOW",
-        "short_name": "ServiceNow, Inc",
-        "name": "ServiceNow, Inc.",
-        "price": 99.28,
-        "intra_pct": -0.69,
+        "ticker": "BKR",
+        "short_name": "Baker Hughes Company",
+        "name": "Baker Hughes Company",
+        "price": 54.85,
+        "intra_pct": -1.23,
+        "rs1m": -1.504,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:BKR"
+      },
+      {
+        "ticker": "CRM",
+        "short_name": "Salesforce, Inc",
+        "name": "Salesforce, Inc.",
+        "price": 164.57,
+        "intra_pct": 4.94,
+        "rs1m": -1.444,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CRM"
+      },
+      {
+        "ticker": "ACN",
+        "short_name": "Accenture plc",
+        "name": "Accenture plc",
+        "price": 130.1,
+        "intra_pct": 4.53,
+        "rs1m": -1.434,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:ACN"
+      },
+      {
+        "ticker": "IT",
+        "short_name": "Gartner, Inc",
+        "name": "Gartner, Inc.",
+        "price": 135.9,
+        "intra_pct": 4.75,
         "rs1m": -1.411,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:NOW"
+        "tradingview_symbol": "NYSE:IT"
       },
       {
-        "ticker": "PAYC",
-        "short_name": "Paycom Software, Inc",
-        "name": "Paycom Software, Inc.",
-        "price": 125.68,
-        "intra_pct": -1.23,
-        "rs1m": -1.41,
+        "ticker": "ADBE",
+        "short_name": "Adobe Inc",
+        "name": "Adobe Inc.",
+        "price": 211.61,
+        "intra_pct": 3.12,
+        "rs1m": -1.38,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:PAYC"
+        "tradingview_symbol": "NASDAQ:ADBE"
+      },
+      {
+        "ticker": "NUE",
+        "short_name": "Nucor Corporation",
+        "name": "Nucor Corporation",
+        "price": 218.83,
+        "intra_pct": -1.69,
+        "rs1m": -1.323,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:NUE"
+      },
+      {
+        "ticker": "FANG",
+        "short_name": "Diamondback Energy, Inc",
+        "name": "Diamondback Energy, Inc.",
+        "price": 173.96,
+        "intra_pct": -1.04,
+        "rs1m": -1.32,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:FANG"
+      },
+      {
+        "ticker": "CE",
+        "short_name": "Celanese Corporation",
+        "name": "Celanese Corporation",
+        "price": 45.42,
+        "intra_pct": -1.26,
+        "rs1m": -1.314,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CE"
+      },
+      {
+        "ticker": "APA",
+        "short_name": "APA Corporation",
+        "name": "APA Corporation",
+        "price": 32.06,
+        "intra_pct": -1.66,
+        "rs1m": -1.251,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:APA"
+      },
+      {
+        "ticker": "INTU",
+        "short_name": "Intuit Inc",
+        "name": "Intuit Inc.",
+        "price": 271.26,
+        "intra_pct": 3.75,
+        "rs1m": -1.221,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:INTU"
+      },
+      {
+        "ticker": "COP",
+        "short_name": "ConocoPhillips",
+        "name": "ConocoPhillips",
+        "price": 103.35,
+        "intra_pct": -0.62,
+        "rs1m": -1.217,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:COP"
+      },
+      {
+        "ticker": "ENPH",
+        "short_name": "Enphase Energy, Inc",
+        "name": "Enphase Energy, Inc.",
+        "price": 49.41,
+        "intra_pct": 0.35,
+        "rs1m": -1.158,
+        "trend_grade": "B",
+        "tradingview_symbol": "NASDAQ:ENPH"
+      },
+      {
+        "ticker": "ICE",
+        "short_name": "Intercontinental Exchan\u2026",
+        "name": "Intercontinental Exchange, Inc.",
+        "price": 126.16,
+        "intra_pct": 2.49,
+        "rs1m": -1.147,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:ICE"
       }
     ],
     "universe_count": 340
@@ -584,9 +584,9 @@
         "ticker": "NWL",
         "short_name": "Newell Brands Inc",
         "name": "Newell Brands Inc.",
-        "price": 6.14,
-        "intra_pct": 1.16,
-        "rs1m": 4.366,
+        "price": 6.07,
+        "intra_pct": -1.12,
+        "rs1m": 4.517,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:NWL"
       },
@@ -594,29 +594,49 @@
         "ticker": "CAH",
         "short_name": "Cardinal Health, Inc",
         "name": "Cardinal Health, Inc.",
-        "price": 237.56,
-        "intra_pct": 0.55,
-        "rs1m": 3.709,
+        "price": 237.06,
+        "intra_pct": -0.21,
+        "rs1m": 3.664,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CAH"
       },
       {
-        "ticker": "BALL",
-        "short_name": "Ball Corporation",
-        "name": "Ball Corporation",
-        "price": 62.4,
-        "intra_pct": 0.64,
-        "rs1m": 3.083,
+        "ticker": "HUM",
+        "short_name": "Humana Inc",
+        "name": "Humana Inc.",
+        "price": 409.06,
+        "intra_pct": 2.98,
+        "rs1m": 3.141,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:BALL"
+        "tradingview_symbol": "NYSE:HUM"
+      },
+      {
+        "ticker": "VRTX",
+        "short_name": "Vertex Pharmaceuticals\u2026",
+        "name": "Vertex Pharmaceuticals Incorporated",
+        "price": 499.59,
+        "intra_pct": 0.54,
+        "rs1m": 3.042,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:VRTX"
+      },
+      {
+        "ticker": "CRL",
+        "short_name": "Charles River Laborator\u2026",
+        "name": "Charles River Laboratories International, Inc.",
+        "price": 234.29,
+        "intra_pct": 3.31,
+        "rs1m": 2.946,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:CRL"
       },
       {
         "ticker": "TRV",
         "short_name": "The Travelers Companies\u2026",
         "name": "The Travelers Companies, Inc.",
-        "price": 330.12,
-        "intra_pct": -0.53,
-        "rs1m": 2.86,
+        "price": 335.72,
+        "intra_pct": 1.7,
+        "rs1m": 2.93,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:TRV"
       },
@@ -624,99 +644,49 @@
         "ticker": "EA",
         "short_name": "Electronic Arts Inc",
         "name": "Electronic Arts Inc.",
-        "price": 205.04,
-        "intra_pct": -0.04,
-        "rs1m": 2.791,
+        "price": 205.74,
+        "intra_pct": 0.34,
+        "rs1m": 2.897,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EA"
       },
       {
-        "ticker": "GPC",
-        "short_name": "Genuine Parts Company",
-        "name": "Genuine Parts Company",
-        "price": 117.98,
-        "intra_pct": 0.69,
-        "rs1m": 2.783,
+        "ticker": "BALL",
+        "short_name": "Ball Corporation",
+        "name": "Ball Corporation",
+        "price": 62.08,
+        "intra_pct": -0.42,
+        "rs1m": 2.885,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:GPC"
-      },
-      {
-        "ticker": "PH",
-        "short_name": "Parker-Hannifin Corpora\u2026",
-        "name": "Parker-Hannifin Corporation",
-        "price": 978.12,
-        "intra_pct": 1.47,
-        "rs1m": 2.762,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:PH"
-      },
-      {
-        "ticker": "LNT",
-        "short_name": "Alliant Energy Corporat\u2026",
-        "name": "Alliant Energy Corporation",
-        "price": 76.29,
-        "intra_pct": -1.17,
-        "rs1m": 2.426,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:LNT"
-      },
-      {
-        "ticker": "CTVA",
-        "short_name": "Corteva, Inc",
-        "name": "Corteva, Inc.",
-        "price": 84.69,
-        "intra_pct": 1.55,
-        "rs1m": 2.371,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:CTVA"
-      },
-      {
-        "ticker": "HUM",
-        "short_name": "Humana Inc",
-        "name": "Humana Inc.",
-        "price": 397.22,
-        "intra_pct": 2.09,
-        "rs1m": 2.345,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:HUM"
+        "tradingview_symbol": "NYSE:BALL"
       },
       {
         "ticker": "CVS",
         "short_name": "CVS Health Corporation",
         "name": "CVS Health Corporation",
-        "price": 103.45,
-        "intra_pct": -0.14,
-        "rs1m": 2.33,
+        "price": 103.81,
+        "intra_pct": 0.35,
+        "rs1m": 2.691,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVS"
       },
       {
-        "ticker": "AEP",
-        "short_name": "American Electric Power\u2026",
-        "name": "American Electric Power Company, Inc.",
-        "price": 136.81,
-        "intra_pct": -0.87,
-        "rs1m": 2.282,
+        "ticker": "MNST",
+        "short_name": "Monster Beverage Corpor\u2026",
+        "name": "Monster Beverage Corporation",
+        "price": 97.87,
+        "intra_pct": 1.82,
+        "rs1m": 2.655,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:AEP"
-      },
-      {
-        "ticker": "BAC",
-        "short_name": "Bank of America Corpora\u2026",
-        "name": "Bank of America Corporation",
-        "price": 56.98,
-        "intra_pct": -1.57,
-        "rs1m": 2.277,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:BAC"
+        "tradingview_symbol": "NASDAQ:MNST"
       },
       {
         "ticker": "MRNA",
         "short_name": "Moderna, Inc",
         "name": "Moderna, Inc.",
-        "price": 70.03,
-        "intra_pct": 0.44,
-        "rs1m": 2.261,
+        "price": 72.89,
+        "intra_pct": 4.08,
+        "rs1m": 2.597,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MRNA"
       },
@@ -724,111 +694,141 @@
         "ticker": "SHW",
         "short_name": "The Sherwin-Williams Co\u2026",
         "name": "The Sherwin-Williams Company",
-        "price": 344.32,
-        "intra_pct": -0.09,
-        "rs1m": 2.231,
+        "price": 349.52,
+        "intra_pct": 1.51,
+        "rs1m": 2.553,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:SHW"
       },
       {
-        "ticker": "L",
-        "short_name": "Loews Corporation",
-        "name": "Loews Corporation",
-        "price": 113.21,
-        "intra_pct": -0.42,
-        "rs1m": 2.226,
+        "ticker": "GPC",
+        "short_name": "Genuine Parts Company",
+        "name": "Genuine Parts Company",
+        "price": 118.22,
+        "intra_pct": 0.2,
+        "rs1m": 2.501,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:L"
+        "tradingview_symbol": "NYSE:GPC"
       },
       {
-        "ticker": "MTB",
-        "short_name": "M&T Bank Corporation",
-        "name": "M&T Bank Corporation",
-        "price": 238.01,
-        "intra_pct": -0.48,
-        "rs1m": 2.211,
+        "ticker": "PH",
+        "short_name": "Parker-Hannifin Corpora\u2026",
+        "name": "Parker-Hannifin Corporation",
+        "price": 975.63,
+        "intra_pct": -0.25,
+        "rs1m": 2.436,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:MTB"
-      },
-      {
-        "ticker": "AMAT",
-        "short_name": "Applied Materials, Inc",
-        "name": "Applied Materials, Inc.",
-        "price": 723.0,
-        "intra_pct": 4.2,
-        "rs1m": 2.203,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:AMAT"
-      },
-      {
-        "ticker": "FITB",
-        "short_name": "Fifth Third Bancorp",
-        "name": "Fifth Third Bancorp",
-        "price": 56.37,
-        "intra_pct": -0.77,
-        "rs1m": 2.193,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:FITB"
-      },
-      {
-        "ticker": "KEY",
-        "short_name": "KeyCorp",
-        "name": "KeyCorp",
-        "price": 23.05,
-        "intra_pct": -0.39,
-        "rs1m": 2.181,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:KEY"
-      },
-      {
-        "ticker": "DTE",
-        "short_name": "DTE Energy Company",
-        "name": "DTE Energy Company",
-        "price": 152.37,
-        "intra_pct": -1.07,
-        "rs1m": 2.147,
-        "trend_grade": "A",
-        "tradingview_symbol": "NYSE:DTE"
+        "tradingview_symbol": "NYSE:PH"
       },
       {
         "ticker": "MOH",
         "short_name": "Molina Healthcare, Inc",
         "name": "Molina Healthcare, Inc.",
-        "price": 228.7,
-        "intra_pct": -0.45,
-        "rs1m": 2.096,
+        "price": 230.46,
+        "intra_pct": 0.76,
+        "rs1m": 2.421,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MOH"
       },
       {
-        "ticker": "ITW",
-        "short_name": "Illinois Tool Works Inc",
-        "name": "Illinois Tool Works Inc.",
-        "price": 270.47,
-        "intra_pct": 1.12,
-        "rs1m": 2.091,
+        "ticker": "CTVA",
+        "short_name": "Corteva, Inc",
+        "name": "Corteva, Inc.",
+        "price": 84.67,
+        "intra_pct": -0.05,
+        "rs1m": 2.374,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:ITW"
+        "tradingview_symbol": "NYSE:CTVA"
       },
       {
-        "ticker": "EVRG",
-        "short_name": "Evergy, Inc",
-        "name": "Evergy, Inc.",
-        "price": 86.43,
-        "intra_pct": -0.69,
-        "rs1m": 2.073,
+        "ticker": "GE",
+        "short_name": "GE Aerospace",
+        "name": "GE Aerospace",
+        "price": 376.13,
+        "intra_pct": 0.65,
+        "rs1m": 2.326,
         "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:EVRG"
+        "tradingview_symbol": "NYSE:GE"
       },
       {
-        "ticker": "JNJ",
-        "short_name": "Johnson & Johnson",
-        "name": "Johnson & Johnson",
-        "price": 253.97,
-        "intra_pct": -1.74,
-        "rs1m": 2.047,
+        "ticker": "BAC",
+        "short_name": "Bank of America Corpora\u2026",
+        "name": "Bank of America Corporation",
+        "price": 58.06,
+        "intra_pct": 1.9,
+        "rs1m": 2.251,
         "trend_grade": "A",
-        "tradingview_symbol": "NYSE:JNJ"
+        "tradingview_symbol": "NYSE:BAC"
+      },
+      {
+        "ticker": "POOL",
+        "short_name": "Pool Corporation",
+        "name": "Pool Corporation",
+        "price": 217.71,
+        "intra_pct": 1.31,
+        "rs1m": 2.216,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:POOL"
+      },
+      {
+        "ticker": "EG",
+        "short_name": "Everest Group, Ltd",
+        "name": "Everest Group, Ltd.",
+        "price": 362.04,
+        "intra_pct": 1.35,
+        "rs1m": 2.212,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:EG"
+      },
+      {
+        "ticker": "COO",
+        "short_name": "The Cooper Companies, I\u2026",
+        "name": "The Cooper Companies, Inc.",
+        "price": 72.67,
+        "intra_pct": 1.35,
+        "rs1m": 2.208,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:COO"
+      },
+      {
+        "ticker": "L",
+        "short_name": "Loews Corporation",
+        "name": "Loews Corporation",
+        "price": 114.36,
+        "intra_pct": 1.01,
+        "rs1m": 2.187,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:L"
+      },
+      {
+        "ticker": "KEY",
+        "short_name": "KeyCorp",
+        "name": "KeyCorp",
+        "price": 23.4,
+        "intra_pct": 1.45,
+        "rs1m": 2.174,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:KEY"
+      },
+      {
+        "ticker": "HSIC",
+        "short_name": "Henry Schein, Inc",
+        "name": "Henry Schein, Inc.",
+        "price": 84.95,
+        "intra_pct": 1.71,
+        "rs1m": 2.132,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:HSIC"
+      },
+      {
+        "ticker": "FITB",
+        "short_name": "Fifth Third Bancorp",
+        "name": "Fifth Third Bancorp",
+        "price": 57.73,
+        "intra_pct": 2.43,
+        "rs1m": 2.099,
+        "trend_grade": "A",
+        "tradingview_symbol": "NYSE:FITB"
       }
     ],
     "lagging": [
@@ -836,9 +836,9 @@
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
         "name": "LyondellBasell Industries N.V.",
-        "price": 52.65,
-        "intra_pct": -1.77,
-        "rs1m": -2.96,
+        "price": 52.83,
+        "intra_pct": 0.27,
+        "rs1m": -2.961,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:LYB"
       },
@@ -846,9 +846,9 @@
         "ticker": "ORCL",
         "short_name": "Oracle Corporation",
         "name": "Oracle Corporation",
-        "price": 146.55,
-        "intra_pct": -0.72,
-        "rs1m": -2.648,
+        "price": 145.71,
+        "intra_pct": -0.6,
+        "rs1m": -2.608,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ORCL"
       },
@@ -856,231 +856,231 @@
         "ticker": "DOW",
         "short_name": "Dow Inc",
         "name": "Dow Inc.",
-        "price": 27.36,
-        "intra_pct": -1.97,
-        "rs1m": -2.546,
+        "price": 27.38,
+        "intra_pct": -0.02,
+        "rs1m": -2.57,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DOW"
-      },
-      {
-        "ticker": "HPQ",
-        "short_name": "HP Inc",
-        "name": "HP Inc.",
-        "price": 21.94,
-        "intra_pct": -3.14,
-        "rs1m": -2.432,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:HPQ"
-      },
-      {
-        "ticker": "CTSH",
-        "short_name": "Cognizant Technology So\u2026",
-        "name": "Cognizant Technology Solutions Corporation",
-        "price": 38.73,
-        "intra_pct": -0.05,
-        "rs1m": -2.379,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CTSH"
-      },
-      {
-        "ticker": "CRM",
-        "short_name": "Salesforce, Inc",
-        "name": "Salesforce, Inc.",
-        "price": 156.66,
-        "intra_pct": -0.78,
-        "rs1m": -2.336,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:CRM"
       },
       {
         "ticker": "OXY",
         "short_name": "Occidental Petroleum Co\u2026",
         "name": "Occidental Petroleum Corporation",
-        "price": 48.57,
+        "price": 48.08,
         "intra_pct": -1.07,
-        "rs1m": -2.306,
+        "rs1m": -2.525,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:OXY"
       },
       {
-        "ticker": "IT",
-        "short_name": "Gartner, Inc",
-        "name": "Gartner, Inc.",
-        "price": 129.62,
-        "intra_pct": -2.4,
-        "rs1m": -2.105,
+        "ticker": "HPQ",
+        "short_name": "HP Inc",
+        "name": "HP Inc.",
+        "price": 22.26,
+        "intra_pct": 1.39,
+        "rs1m": -2.058,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:IT"
-      },
-      {
-        "ticker": "LDOS",
-        "short_name": "Leidos Holdings, Inc",
-        "name": "Leidos Holdings, Inc.",
-        "price": 102.97,
-        "intra_pct": 2.5,
-        "rs1m": -1.95,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LDOS"
-      },
-      {
-        "ticker": "ADBE",
-        "short_name": "Adobe Inc",
-        "name": "Adobe Inc.",
-        "price": 205.02,
-        "intra_pct": -0.71,
-        "rs1m": -1.882,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ADBE"
-      },
-      {
-        "ticker": "INTU",
-        "short_name": "Intuit Inc",
-        "name": "Intuit Inc.",
-        "price": 261.0,
-        "intra_pct": -2.05,
-        "rs1m": -1.871,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:INTU"
+        "tradingview_symbol": "NYSE:HPQ"
       },
       {
         "ticker": "F",
         "short_name": "Ford Motor Company",
         "name": "Ford Motor Company",
-        "price": 13.9,
-        "intra_pct": -0.86,
-        "rs1m": -1.826,
-        "trend_grade": "B",
+        "price": 13.68,
+        "intra_pct": -1.51,
+        "rs1m": -1.755,
+        "trend_grade": "C",
         "tradingview_symbol": "NYSE:F"
       },
       {
-        "ticker": "ACN",
-        "short_name": "Accenture plc",
-        "name": "Accenture plc",
-        "price": 124.44,
-        "intra_pct": -0.24,
-        "rs1m": -1.824,
+        "ticker": "CTSH",
+        "short_name": "Cognizant Technology So\u2026",
+        "name": "Cognizant Technology Solutions Corporation",
+        "price": 40.74,
+        "intra_pct": 5.16,
+        "rs1m": -1.707,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ACN"
+        "tradingview_symbol": "NASDAQ:CTSH"
       },
       {
-        "ticker": "ADSK",
-        "short_name": "Autodesk, Inc",
-        "name": "Autodesk, Inc.",
-        "price": 194.42,
-        "intra_pct": -0.45,
-        "rs1m": -1.799,
+        "ticker": "SLB",
+        "short_name": "SLB N.V",
+        "name": "SLB N.V.",
+        "price": 45.97,
+        "intra_pct": -1.16,
+        "rs1m": -1.682,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:ADSK"
+        "tradingview_symbol": "NYSE:SLB"
       },
       {
-        "ticker": "LVS",
-        "short_name": "Las Vegas Sands Corp",
-        "name": "Las Vegas Sands Corp.",
-        "price": 46.19,
-        "intra_pct": -0.4,
-        "rs1m": -1.795,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LVS"
-      },
-      {
-        "ticker": "ICE",
-        "short_name": "Intercontinental Exchan\u2026",
-        "name": "Intercontinental Exchange, Inc.",
-        "price": 123.11,
-        "intra_pct": 0.16,
-        "rs1m": -1.653,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:ICE"
-      },
-      {
-        "ticker": "MSFT",
-        "short_name": "Microsoft Corporation",
-        "name": "Microsoft Corporation",
-        "price": 373.02,
-        "intra_pct": 1.16,
+        "ticker": "LDOS",
+        "short_name": "Leidos Holdings, Inc",
+        "name": "Leidos Holdings, Inc.",
+        "price": 104.99,
+        "intra_pct": 1.97,
         "rs1m": -1.646,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:MSFT"
-      },
-      {
-        "ticker": "NFLX",
-        "short_name": "Netflix, Inc",
-        "name": "Netflix, Inc.",
-        "price": 71.4,
-        "intra_pct": -3.25,
-        "rs1m": -1.622,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:NFLX"
-      },
-      {
-        "ticker": "EPAM",
-        "short_name": "EPAM Systems, Inc",
-        "name": "EPAM Systems, Inc.",
-        "price": 79.35,
-        "intra_pct": -0.87,
-        "rs1m": -1.569,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:EPAM"
-      },
-      {
-        "ticker": "PTC",
-        "short_name": "PTC Inc",
-        "name": "PTC Inc.",
-        "price": 113.61,
-        "intra_pct": -0.27,
-        "rs1m": -1.487,
-        "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:PTC"
+        "tradingview_symbol": "NYSE:LDOS"
       },
       {
         "ticker": "CVX",
         "short_name": "Chevron Corporation",
         "name": "Chevron Corporation",
-        "price": 165.76,
-        "intra_pct": -1.58,
-        "rs1m": -1.453,
+        "price": 165.95,
+        "intra_pct": 0.09,
+        "rs1m": -1.625,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CVX"
       },
       {
-        "ticker": "CME",
-        "short_name": "CME Group Inc",
-        "name": "CME Group Inc.",
-        "price": 220.83,
-        "intra_pct": 1.04,
-        "rs1m": -1.422,
+        "ticker": "LVS",
+        "short_name": "Las Vegas Sands Corp",
+        "name": "Las Vegas Sands Corp.",
+        "price": 46.01,
+        "intra_pct": -0.41,
+        "rs1m": -1.541,
         "trend_grade": "C",
-        "tradingview_symbol": "NASDAQ:CME"
+        "tradingview_symbol": "NYSE:LVS"
       },
       {
-        "ticker": "MSCI",
-        "short_name": "MSCI Inc",
-        "name": "MSCI Inc.",
-        "price": 560.04,
-        "intra_pct": 0.37,
-        "rs1m": -1.416,
+        "ticker": "HAL",
+        "short_name": "Halliburton Company",
+        "name": "Halliburton Company",
+        "price": 33.75,
+        "intra_pct": -0.66,
+        "rs1m": -1.519,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:MSCI"
+        "tradingview_symbol": "NYSE:HAL"
       },
       {
-        "ticker": "NOW",
-        "short_name": "ServiceNow, Inc",
-        "name": "ServiceNow, Inc.",
-        "price": 99.28,
-        "intra_pct": -0.69,
+        "ticker": "BKR",
+        "short_name": "Baker Hughes Company",
+        "name": "Baker Hughes Company",
+        "price": 54.85,
+        "intra_pct": -1.23,
+        "rs1m": -1.504,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:BKR"
+      },
+      {
+        "ticker": "CRM",
+        "short_name": "Salesforce, Inc",
+        "name": "Salesforce, Inc.",
+        "price": 164.57,
+        "intra_pct": 4.94,
+        "rs1m": -1.444,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CRM"
+      },
+      {
+        "ticker": "ACN",
+        "short_name": "Accenture plc",
+        "name": "Accenture plc",
+        "price": 130.1,
+        "intra_pct": 4.53,
+        "rs1m": -1.434,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:ACN"
+      },
+      {
+        "ticker": "IT",
+        "short_name": "Gartner, Inc",
+        "name": "Gartner, Inc.",
+        "price": 135.9,
+        "intra_pct": 4.75,
         "rs1m": -1.411,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:NOW"
+        "tradingview_symbol": "NYSE:IT"
       },
       {
-        "ticker": "PAYC",
-        "short_name": "Paycom Software, Inc",
-        "name": "Paycom Software, Inc.",
-        "price": 125.68,
-        "intra_pct": -1.23,
-        "rs1m": -1.41,
+        "ticker": "ADBE",
+        "short_name": "Adobe Inc",
+        "name": "Adobe Inc.",
+        "price": 211.61,
+        "intra_pct": 3.12,
+        "rs1m": -1.38,
         "trend_grade": "C",
-        "tradingview_symbol": "NYSE:PAYC"
+        "tradingview_symbol": "NASDAQ:ADBE"
+      },
+      {
+        "ticker": "NUE",
+        "short_name": "Nucor Corporation",
+        "name": "Nucor Corporation",
+        "price": 218.83,
+        "intra_pct": -1.69,
+        "rs1m": -1.323,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:NUE"
+      },
+      {
+        "ticker": "FANG",
+        "short_name": "Diamondback Energy, Inc",
+        "name": "Diamondback Energy, Inc.",
+        "price": 173.96,
+        "intra_pct": -1.04,
+        "rs1m": -1.32,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:FANG"
+      },
+      {
+        "ticker": "CE",
+        "short_name": "Celanese Corporation",
+        "name": "Celanese Corporation",
+        "price": 45.42,
+        "intra_pct": -1.26,
+        "rs1m": -1.314,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CE"
+      },
+      {
+        "ticker": "APA",
+        "short_name": "APA Corporation",
+        "name": "APA Corporation",
+        "price": 32.06,
+        "intra_pct": -1.66,
+        "rs1m": -1.251,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:APA"
+      },
+      {
+        "ticker": "INTU",
+        "short_name": "Intuit Inc",
+        "name": "Intuit Inc.",
+        "price": 271.26,
+        "intra_pct": 3.75,
+        "rs1m": -1.221,
+        "trend_grade": "C",
+        "tradingview_symbol": "NASDAQ:INTU"
+      },
+      {
+        "ticker": "COP",
+        "short_name": "ConocoPhillips",
+        "name": "ConocoPhillips",
+        "price": 103.35,
+        "intra_pct": -0.62,
+        "rs1m": -1.217,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:COP"
+      },
+      {
+        "ticker": "ENPH",
+        "short_name": "Enphase Energy, Inc",
+        "name": "Enphase Energy, Inc.",
+        "price": 49.41,
+        "intra_pct": 0.35,
+        "rs1m": -1.158,
+        "trend_grade": "B",
+        "tradingview_symbol": "NASDAQ:ENPH"
+      },
+      {
+        "ticker": "ICE",
+        "short_name": "Intercontinental Exchan\u2026",
+        "name": "Intercontinental Exchange, Inc.",
+        "price": 126.16,
+        "intra_pct": 2.49,
+        "rs1m": -1.147,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:ICE"
       }
     ]
   },
