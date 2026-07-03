@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-07-02T21:38:41+00:00",
+  "generated_at_utc": "2026-07-03T14:59:07+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -42,7 +42,7 @@
   },
   "status": {
     "exposure": {
-      "level": 60,
+      "level": 62,
       "guidance": "Hold"
     },
     "trend": {
@@ -56,7 +56,7 @@
       "momentum": "Positive"
     },
     "breadth": {
-      "above_20d_pct": 53.85,
+      "above_20d_pct": 51.92,
       "above_50d_pct": 61.54,
       "breadth_label": "Strong"
     },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 340,
     "filtered_out_count": 3,
-    "generated_at_utc": "2026-07-02T21:38:41+00:00"
+    "generated_at_utc": "2026-07-03T14:59:07+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -447,8 +447,8 @@
       },
       {
         "ticker": "XOM",
-        "short_name": "Exxon Mobil Corporation",
-        "name": "Exxon Mobil Corporation",
+        "short_name": "ExxonMobil Holdings Cor\u2026",
+        "name": "ExxonMobil Holdings Corporation",
         "price": 137.09,
         "intra_pct": 0.51,
         "rs1m": -1.413,
@@ -954,8 +954,8 @@
       },
       {
         "ticker": "XOM",
-        "short_name": "Exxon Mobil Corporation",
-        "name": "Exxon Mobil Corporation",
+        "short_name": "ExxonMobil Holdings Cor\u2026",
+        "name": "ExxonMobil Holdings Corporation",
         "price": 137.09,
         "intra_pct": 0.51,
         "rs1m": -1.413,
