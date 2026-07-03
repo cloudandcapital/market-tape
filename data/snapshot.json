@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-03T18:55:53+00:00",
+  "generated_at_utc": "2026-07-03T20:07:29+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -118,7 +118,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 0.8
+          "volume_ratio": 0.81
         },
         {
           "ticker": "IEF",
@@ -174,13 +174,13 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 100.84,
+          "last": 100.86,
           "intra_pct": -0.06,
-          "d1_pct": -0.02,
-          "d5_pct": -0.52,
-          "d20_pct": 1.44,
+          "d1_pct": -0.0,
+          "d5_pct": -0.5,
+          "d20_pct": 1.46,
           "atr_pct": 0.51,
-          "dist50_atr": 2.61,
+          "dist50_atr": 2.64,
           "rs1m": 1.858,
           "trend_grade": "A",
           "above_20d": true,
@@ -733,7 +733,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 1.29
+          "volume_ratio": 1.3
         },
         {
           "ticker": "IGV",
