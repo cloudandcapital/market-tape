@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-03T17:53:33+00:00",
+  "generated_at_utc": "2026-07-03T18:55:53+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -174,13 +174,13 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 100.83,
+          "last": 100.84,
           "intra_pct": -0.06,
-          "d1_pct": -0.03,
+          "d1_pct": -0.02,
           "d5_pct": -0.52,
-          "d20_pct": 1.43,
+          "d20_pct": 1.44,
           "atr_pct": 0.51,
-          "dist50_atr": 2.6,
+          "dist50_atr": 2.61,
           "rs1m": 1.858,
           "trend_grade": "A",
           "above_20d": true,
