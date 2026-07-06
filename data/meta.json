@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-07-06T20:18:41+00:00",
+  "generated_at_utc": "2026-07-06T21:51:12+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -9,12 +9,12 @@
       {
         "ticker": "XLF",
         "name": "State Street Financial Select Sector SPDR ETF",
-        "rs1m": 2.289
+        "rs1m": 2.282
       },
       {
         "ticker": "XLV",
         "name": "State Street Health Care Select Sector SPDR ETF",
-        "rs1m": 1.355
+        "rs1m": 1.339
       },
       {
         "ticker": "XLI",
@@ -67,9 +67,9 @@
   },
   "universe_stats": {
     "tickers_total": 343,
-    "tickers_used": 340,
-    "filtered_out_count": 3,
-    "generated_at_utc": "2026-07-06T20:18:41+00:00"
+    "tickers_used": 339,
+    "filtered_out_count": 4,
+    "generated_at_utc": "2026-07-06T21:51:12+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -576,7 +576,7 @@
         "tradingview_symbol": "NYSE:ACN"
       }
     ],
-    "universe_count": 340
+    "universe_count": 339
   },
   "momentum": {
     "leaders": [
