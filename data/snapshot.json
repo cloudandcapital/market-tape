@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-07T21:49:07+00:00",
+  "generated_at_utc": "2026-07-07T22:34:04+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -94,7 +94,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 0.65
+          "volume_ratio": 0.69
         },
         {
           "ticker": "TLT",
@@ -181,7 +181,7 @@
           "d20_pct": 1.05,
           "atr_pct": 0.5,
           "dist50_atr": 3.11,
-          "rs1m": -0.257,
+          "rs1m": -0.258,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -829,7 +829,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/PAVE.png",
-          "volume_ratio": 0.72
+          "volume_ratio": 0.73
         }
       ]
     },
@@ -1079,7 +1079,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/DBC.png",
-          "volume_ratio": 0.76
+          "volume_ratio": 0.72
         },
         {
           "ticker": "VNQ",
