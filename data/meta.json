@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-07-21T20:16:56+00:00",
+  "generated_at_utc": "2026-07-21T21:37:10+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -9,12 +9,12 @@
       {
         "ticker": "XLE",
         "name": "State Street Energy Select Sector SPDR ETF",
-        "rs1m": 1.415
+        "rs1m": 1.413
       },
       {
         "ticker": "XLF",
         "name": "State Street Financial Select Sector SPDR ETF",
-        "rs1m": 1.041
+        "rs1m": 1.043
       },
       {
         "ticker": "XLV",
@@ -26,17 +26,17 @@
       {
         "ticker": "EWZ",
         "name": "iShares MSCI Brazil ETF",
-        "rs1m": 0.659
+        "rs1m": 0.66
       },
       {
         "ticker": "EWC",
         "name": "iShares MSCI Canada ETF",
-        "rs1m": 0.589
+        "rs1m": 0.591
       },
       {
         "ticker": "FXI",
         "name": "iShares China Large-Cap ETF",
-        "rs1m": 0.508
+        "rs1m": 0.509
       }
     ]
   },
@@ -56,7 +56,7 @@
       "momentum": "Positive"
     },
     "breadth": {
-      "above_20d_pct": 48.08,
+      "above_20d_pct": 46.15,
       "above_50d_pct": 55.77,
       "breadth_label": "Mixed"
     },
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 337,
     "filtered_out_count": 6,
-    "generated_at_utc": "2026-07-21T20:16:56+00:00"
+    "generated_at_utc": "2026-07-21T21:37:10+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -79,7 +79,7 @@
         "name": "Marathon Petroleum Corporation",
         "price": 319.76,
         "intra_pct": 1.39,
-        "rs1m": 3.522,
+        "rs1m": 3.523,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
@@ -89,7 +89,7 @@
         "name": "Phillips 66",
         "price": 212.27,
         "intra_pct": 1.67,
-        "rs1m": 2.805,
+        "rs1m": 2.806,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
       },
@@ -97,9 +97,9 @@
         "ticker": "CF",
         "short_name": "CF Industries Holdings,\u2026",
         "name": "CF Industries Holdings, Inc.",
-        "price": 123.01,
+        "price": 122.96,
         "intra_pct": -0.45,
-        "rs1m": 2.479,
+        "rs1m": 2.471,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CF"
       },
@@ -109,7 +109,7 @@
         "name": "Archer-Daniels-Midland Company",
         "price": 86.2,
         "intra_pct": 0.62,
-        "rs1m": 2.236,
+        "rs1m": 2.237,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ADM"
       },
@@ -129,7 +129,7 @@
         "name": "Electronic Arts Inc.",
         "price": 209.04,
         "intra_pct": -0.12,
-        "rs1m": 2.188,
+        "rs1m": 2.193,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -139,7 +139,7 @@
         "name": "Union Pacific Corporation",
         "price": 293.13,
         "intra_pct": -1.08,
-        "rs1m": 2.059,
+        "rs1m": 2.06,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:UNP"
       },
@@ -169,7 +169,7 @@
         "name": "IQVIA Holdings Inc.",
         "price": 201.62,
         "intra_pct": -1.13,
-        "rs1m": 1.812,
+        "rs1m": 1.813,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:IQV"
       },
@@ -204,6 +204,16 @@
         "tradingview_symbol": "NYSE:GPN"
       },
       {
+        "ticker": "CTAS",
+        "short_name": "Cintas Corporation",
+        "name": "Cintas Corporation",
+        "price": 200.41,
+        "intra_pct": -0.7,
+        "rs1m": 1.719,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:CTAS"
+      },
+      {
         "ticker": "PAYX",
         "short_name": "Paychex, Inc",
         "name": "Paychex, Inc.",
@@ -212,16 +222,6 @@
         "rs1m": 1.719,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:PAYX"
-      },
-      {
-        "ticker": "CTAS",
-        "short_name": "Cintas Corporation",
-        "name": "Cintas Corporation",
-        "price": 200.41,
-        "intra_pct": -0.7,
-        "rs1m": 1.718,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:CTAS"
       },
       {
         "ticker": "CRL",
@@ -239,7 +239,7 @@
         "name": "Best Buy Co., Inc.",
         "price": 85.22,
         "intra_pct": 0.09,
-        "rs1m": 1.647,
+        "rs1m": 1.648,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:BBY"
       },
@@ -249,7 +249,7 @@
         "name": "Illumina, Inc.",
         "price": 192.53,
         "intra_pct": 4.27,
-        "rs1m": 1.646,
+        "rs1m": 1.647,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ILMN"
       },
@@ -259,7 +259,7 @@
         "name": "Norfolk Southern Corporation",
         "price": 331.3,
         "intra_pct": -1.11,
-        "rs1m": 1.637,
+        "rs1m": 1.638,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NSC"
       },
@@ -269,7 +269,7 @@
         "name": "Corteva, Inc.",
         "price": 86.94,
         "intra_pct": 0.18,
-        "rs1m": 1.633,
+        "rs1m": 1.634,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CTVA"
       },
@@ -279,7 +279,7 @@
         "name": "Fox Corporation",
         "price": 51.47,
         "intra_pct": -0.16,
-        "rs1m": 1.599,
+        "rs1m": 1.6,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:FOX"
       },
@@ -329,9 +329,9 @@
         "ticker": "ORCL",
         "short_name": "Oracle Corporation",
         "name": "Oracle Corporation",
-        "price": 127.13,
+        "price": 127.05,
         "intra_pct": 4.69,
-        "rs1m": -1.979,
+        "rs1m": -1.986,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ORCL"
       },
@@ -371,7 +371,7 @@
         "name": "QUALCOMM Incorporated",
         "price": 173.5,
         "intra_pct": 1.82,
-        "rs1m": -1.494,
+        "rs1m": -1.493,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:QCOM"
       },
@@ -399,7 +399,7 @@
         "ticker": "DRI",
         "short_name": "Darden Restaurants, Inc",
         "name": "Darden Restaurants, Inc.",
-        "price": 193.4,
+        "price": 193.39,
         "intra_pct": -0.72,
         "rs1m": -1.321,
         "trend_grade": "C",
@@ -411,7 +411,7 @@
         "name": "Equinix, Inc.",
         "price": 1027.88,
         "intra_pct": 1.06,
-        "rs1m": -1.246,
+        "rs1m": -1.245,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EQIX"
       },
@@ -421,7 +421,7 @@
         "name": "Dover Corporation",
         "price": 211.42,
         "intra_pct": 0.84,
-        "rs1m": -1.195,
+        "rs1m": -1.194,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DOV"
       },
@@ -451,7 +451,7 @@
         "name": "Martin Marietta Materials, Inc.",
         "price": 547.33,
         "intra_pct": -1.12,
-        "rs1m": -1.137,
+        "rs1m": -1.136,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MLM"
       },
@@ -471,7 +471,7 @@
         "name": "Jabil Inc.",
         "price": 318.93,
         "intra_pct": 4.24,
-        "rs1m": -1.099,
+        "rs1m": -1.098,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:JBL"
       },
@@ -479,9 +479,9 @@
         "ticker": "C",
         "short_name": "Citigroup Inc",
         "name": "Citigroup Inc.",
-        "price": 132.81,
+        "price": 132.84,
         "intra_pct": 3.18,
-        "rs1m": -1.07,
+        "rs1m": -1.066,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:C"
       },
@@ -491,7 +491,7 @@
         "name": "ON Semiconductor Corporation",
         "price": 91.06,
         "intra_pct": 5.03,
-        "rs1m": -1.067,
+        "rs1m": -1.066,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:ON"
       },
@@ -511,7 +511,7 @@
         "name": "Aptiv PLC",
         "price": 57.91,
         "intra_pct": 1.01,
-        "rs1m": -1.047,
+        "rs1m": -1.046,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:APTV"
       },
@@ -521,7 +521,7 @@
         "name": "Public Service Enterprise Group Incorporated",
         "price": 77.43,
         "intra_pct": -0.51,
-        "rs1m": -1.007,
+        "rs1m": -1.006,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PEG"
       },
@@ -531,7 +531,7 @@
         "name": "Hilton Worldwide Holdings Inc.",
         "price": 323.94,
         "intra_pct": 0.15,
-        "rs1m": -1.002,
+        "rs1m": -1.001,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HLT"
       },
@@ -586,7 +586,7 @@
         "name": "Marathon Petroleum Corporation",
         "price": 319.76,
         "intra_pct": 1.39,
-        "rs1m": 3.522,
+        "rs1m": 3.523,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
@@ -596,7 +596,7 @@
         "name": "Phillips 66",
         "price": 212.27,
         "intra_pct": 1.67,
-        "rs1m": 2.805,
+        "rs1m": 2.806,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
       },
@@ -604,9 +604,9 @@
         "ticker": "CF",
         "short_name": "CF Industries Holdings,\u2026",
         "name": "CF Industries Holdings, Inc.",
-        "price": 123.01,
+        "price": 122.96,
         "intra_pct": -0.45,
-        "rs1m": 2.479,
+        "rs1m": 2.471,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CF"
       },
@@ -616,7 +616,7 @@
         "name": "Archer-Daniels-Midland Company",
         "price": 86.2,
         "intra_pct": 0.62,
-        "rs1m": 2.236,
+        "rs1m": 2.237,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:ADM"
       },
@@ -636,7 +636,7 @@
         "name": "Electronic Arts Inc.",
         "price": 209.04,
         "intra_pct": -0.12,
-        "rs1m": 2.188,
+        "rs1m": 2.193,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:EA"
       },
@@ -646,7 +646,7 @@
         "name": "Union Pacific Corporation",
         "price": 293.13,
         "intra_pct": -1.08,
-        "rs1m": 2.059,
+        "rs1m": 2.06,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:UNP"
       },
@@ -676,7 +676,7 @@
         "name": "IQVIA Holdings Inc.",
         "price": 201.62,
         "intra_pct": -1.13,
-        "rs1m": 1.812,
+        "rs1m": 1.813,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:IQV"
       },
@@ -711,6 +711,16 @@
         "tradingview_symbol": "NYSE:GPN"
       },
       {
+        "ticker": "CTAS",
+        "short_name": "Cintas Corporation",
+        "name": "Cintas Corporation",
+        "price": 200.41,
+        "intra_pct": -0.7,
+        "rs1m": 1.719,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:CTAS"
+      },
+      {
         "ticker": "PAYX",
         "short_name": "Paychex, Inc",
         "name": "Paychex, Inc.",
@@ -719,16 +729,6 @@
         "rs1m": 1.719,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:PAYX"
-      },
-      {
-        "ticker": "CTAS",
-        "short_name": "Cintas Corporation",
-        "name": "Cintas Corporation",
-        "price": 200.41,
-        "intra_pct": -0.7,
-        "rs1m": 1.718,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:CTAS"
       },
       {
         "ticker": "CRL",
@@ -746,7 +746,7 @@
         "name": "Best Buy Co., Inc.",
         "price": 85.22,
         "intra_pct": 0.09,
-        "rs1m": 1.647,
+        "rs1m": 1.648,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:BBY"
       },
@@ -756,7 +756,7 @@
         "name": "Illumina, Inc.",
         "price": 192.53,
         "intra_pct": 4.27,
-        "rs1m": 1.646,
+        "rs1m": 1.647,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ILMN"
       },
@@ -766,7 +766,7 @@
         "name": "Norfolk Southern Corporation",
         "price": 331.3,
         "intra_pct": -1.11,
-        "rs1m": 1.637,
+        "rs1m": 1.638,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NSC"
       },
@@ -776,7 +776,7 @@
         "name": "Corteva, Inc.",
         "price": 86.94,
         "intra_pct": 0.18,
-        "rs1m": 1.633,
+        "rs1m": 1.634,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CTVA"
       },
@@ -786,7 +786,7 @@
         "name": "Fox Corporation",
         "price": 51.47,
         "intra_pct": -0.16,
-        "rs1m": 1.599,
+        "rs1m": 1.6,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:FOX"
       },
@@ -836,9 +836,9 @@
         "ticker": "ORCL",
         "short_name": "Oracle Corporation",
         "name": "Oracle Corporation",
-        "price": 127.13,
+        "price": 127.05,
         "intra_pct": 4.69,
-        "rs1m": -1.979,
+        "rs1m": -1.986,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ORCL"
       },
@@ -878,7 +878,7 @@
         "name": "QUALCOMM Incorporated",
         "price": 173.5,
         "intra_pct": 1.82,
-        "rs1m": -1.494,
+        "rs1m": -1.493,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:QCOM"
       },
@@ -906,7 +906,7 @@
         "ticker": "DRI",
         "short_name": "Darden Restaurants, Inc",
         "name": "Darden Restaurants, Inc.",
-        "price": 193.4,
+        "price": 193.39,
         "intra_pct": -0.72,
         "rs1m": -1.321,
         "trend_grade": "C",
@@ -918,7 +918,7 @@
         "name": "Equinix, Inc.",
         "price": 1027.88,
         "intra_pct": 1.06,
-        "rs1m": -1.246,
+        "rs1m": -1.245,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:EQIX"
       },
@@ -928,7 +928,7 @@
         "name": "Dover Corporation",
         "price": 211.42,
         "intra_pct": 0.84,
-        "rs1m": -1.195,
+        "rs1m": -1.194,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DOV"
       },
@@ -958,7 +958,7 @@
         "name": "Martin Marietta Materials, Inc.",
         "price": 547.33,
         "intra_pct": -1.12,
-        "rs1m": -1.137,
+        "rs1m": -1.136,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MLM"
       },
@@ -978,7 +978,7 @@
         "name": "Jabil Inc.",
         "price": 318.93,
         "intra_pct": 4.24,
-        "rs1m": -1.099,
+        "rs1m": -1.098,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:JBL"
       },
@@ -986,9 +986,9 @@
         "ticker": "C",
         "short_name": "Citigroup Inc",
         "name": "Citigroup Inc.",
-        "price": 132.81,
+        "price": 132.84,
         "intra_pct": 3.18,
-        "rs1m": -1.07,
+        "rs1m": -1.066,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:C"
       },
@@ -998,7 +998,7 @@
         "name": "ON Semiconductor Corporation",
         "price": 91.06,
         "intra_pct": 5.03,
-        "rs1m": -1.067,
+        "rs1m": -1.066,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:ON"
       },
@@ -1018,7 +1018,7 @@
         "name": "Aptiv PLC",
         "price": 57.91,
         "intra_pct": 1.01,
-        "rs1m": -1.047,
+        "rs1m": -1.046,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:APTV"
       },
@@ -1028,7 +1028,7 @@
         "name": "Public Service Enterprise Group Incorporated",
         "price": 77.43,
         "intra_pct": -0.51,
-        "rs1m": -1.007,
+        "rs1m": -1.006,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PEG"
       },
@@ -1038,7 +1038,7 @@
         "name": "Hilton Worldwide Holdings Inc.",
         "price": 323.94,
         "intra_pct": 0.15,
-        "rs1m": -1.002,
+        "rs1m": -1.001,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HLT"
       },
