@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-07-28T21:35:13+00:00",
+  "generated_at_utc": "2026-07-28T22:03:43+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -36,13 +36,13 @@
       {
         "ticker": "EWC",
         "name": "iShares MSCI Canada ETF",
-        "rs1m": 0.695
+        "rs1m": 0.712
       }
     ]
   },
   "status": {
     "exposure": {
-      "level": 58,
+      "level": 56,
       "guidance": "Hold"
     },
     "trend": {
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 334,
     "filtered_out_count": 9,
-    "generated_at_utc": "2026-07-28T21:35:13+00:00"
+    "generated_at_utc": "2026-07-28T22:03:43+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -254,16 +254,6 @@
         "tradingview_symbol": "NYSE:MCK"
       },
       {
-        "ticker": "PAYX",
-        "short_name": "Paychex, Inc",
-        "name": "Paychex, Inc.",
-        "price": 118.87,
-        "intra_pct": 2.94,
-        "rs1m": 2.06,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:PAYX"
-      },
-      {
         "ticker": "MPC",
         "short_name": "Marathon Petroleum Corp\u2026",
         "name": "Marathon Petroleum Corporation",
@@ -322,6 +312,16 @@
         "rs1m": 1.876,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:AON"
+      },
+      {
+        "ticker": "PCAR",
+        "short_name": "PACCAR Inc",
+        "name": "PACCAR Inc",
+        "price": 138.21,
+        "intra_pct": 3.61,
+        "rs1m": 1.87,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:PCAR"
       }
     ],
     "laggards": [
@@ -386,6 +386,16 @@
         "tradingview_symbol": "NASDAQ:ENPH"
       },
       {
+        "ticker": "CARR",
+        "short_name": "Carrier Global Corporat\u2026",
+        "name": "Carrier Global Corporation",
+        "price": 63.16,
+        "intra_pct": -8.9,
+        "rs1m": -1.442,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CARR"
+      },
+      {
         "ticker": "KLAC",
         "short_name": "KLA Corporation",
         "name": "KLA Corporation",
@@ -434,16 +444,6 @@
         "rs1m": -1.286,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ORCL"
-      },
-      {
-        "ticker": "CARR",
-        "short_name": "Carrier Global Corporat\u2026",
-        "name": "Carrier Global Corporation",
-        "price": 63.16,
-        "intra_pct": -8.9,
-        "rs1m": -1.271,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:CARR"
       },
       {
         "ticker": "SNPS",
@@ -761,16 +761,6 @@
         "tradingview_symbol": "NYSE:MCK"
       },
       {
-        "ticker": "PAYX",
-        "short_name": "Paychex, Inc",
-        "name": "Paychex, Inc.",
-        "price": 118.87,
-        "intra_pct": 2.94,
-        "rs1m": 2.06,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:PAYX"
-      },
-      {
         "ticker": "MPC",
         "short_name": "Marathon Petroleum Corp\u2026",
         "name": "Marathon Petroleum Corporation",
@@ -829,6 +819,16 @@
         "rs1m": 1.876,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:AON"
+      },
+      {
+        "ticker": "PCAR",
+        "short_name": "PACCAR Inc",
+        "name": "PACCAR Inc",
+        "price": 138.21,
+        "intra_pct": 3.61,
+        "rs1m": 1.87,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:PCAR"
       }
     ],
     "lagging": [
@@ -893,6 +893,16 @@
         "tradingview_symbol": "NASDAQ:ENPH"
       },
       {
+        "ticker": "CARR",
+        "short_name": "Carrier Global Corporat\u2026",
+        "name": "Carrier Global Corporation",
+        "price": 63.16,
+        "intra_pct": -8.9,
+        "rs1m": -1.442,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:CARR"
+      },
+      {
         "ticker": "KLAC",
         "short_name": "KLA Corporation",
         "name": "KLA Corporation",
@@ -941,16 +951,6 @@
         "rs1m": -1.286,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:ORCL"
-      },
-      {
-        "ticker": "CARR",
-        "short_name": "Carrier Global Corporat\u2026",
-        "name": "Carrier Global Corporation",
-        "price": 63.16,
-        "intra_pct": -8.9,
-        "rs1m": -1.271,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:CARR"
       },
       {
         "ticker": "SNPS",
