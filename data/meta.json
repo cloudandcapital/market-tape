@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-07-30T21:38:30+00:00",
+  "generated_at_utc": "2026-07-30T21:54:42+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -30,7 +30,7 @@
       },
       {
         "ticker": "EWC",
-        "name": "iShares MSCI Canada Index Fund",
+        "name": "iShares MSCI Canada ETF",
         "rs1m": 1.511
       },
       {
@@ -69,14 +69,14 @@
     "tickers_total": 343,
     "tickers_used": 335,
     "filtered_out_count": 8,
-    "generated_at_utc": "2026-07-30T21:38:30+00:00"
+    "generated_at_utc": "2026-07-30T21:54:42+00:00"
   },
   "leaderboard": {
     "leaders": [
       {
         "ticker": "ICE",
         "short_name": "Intercontinental Exchan\u2026",
-        "name": "Intercontinental Exchange Inc.",
+        "name": "Intercontinental Exchange, Inc.",
         "price": 156.27,
         "intra_pct": 1.35,
         "rs1m": 3.414,
@@ -196,7 +196,7 @@
       {
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
-        "name": "LyondellBasell Industries NV",
+        "name": "LyondellBasell Industries N.V.",
         "price": 60.44,
         "intra_pct": -0.03,
         "rs1m": 1.864,
@@ -255,8 +255,8 @@
       },
       {
         "ticker": "AFL",
-        "short_name": "AFLAC Incorporated",
-        "name": "AFLAC Incorporated",
+        "short_name": "Aflac Incorporated",
+        "name": "Aflac Incorporated",
         "price": 127.36,
         "intra_pct": -1.01,
         "rs1m": 1.812,
@@ -327,8 +327,8 @@
     "laggards": [
       {
         "ticker": "CAT",
-        "short_name": "Caterpillar, Inc",
-        "name": "Caterpillar, Inc.",
+        "short_name": "Caterpillar Inc",
+        "name": "Caterpillar Inc.",
         "price": 809.14,
         "intra_pct": 3.38,
         "rs1m": -1.648,
@@ -583,7 +583,7 @@
       {
         "ticker": "ICE",
         "short_name": "Intercontinental Exchan\u2026",
-        "name": "Intercontinental Exchange Inc.",
+        "name": "Intercontinental Exchange, Inc.",
         "price": 156.27,
         "intra_pct": 1.35,
         "rs1m": 3.414,
@@ -703,7 +703,7 @@
       {
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
-        "name": "LyondellBasell Industries NV",
+        "name": "LyondellBasell Industries N.V.",
         "price": 60.44,
         "intra_pct": -0.03,
         "rs1m": 1.864,
@@ -762,8 +762,8 @@
       },
       {
         "ticker": "AFL",
-        "short_name": "AFLAC Incorporated",
-        "name": "AFLAC Incorporated",
+        "short_name": "Aflac Incorporated",
+        "name": "Aflac Incorporated",
         "price": 127.36,
         "intra_pct": -1.01,
         "rs1m": 1.812,
@@ -834,8 +834,8 @@
     "lagging": [
       {
         "ticker": "CAT",
-        "short_name": "Caterpillar, Inc",
-        "name": "Caterpillar, Inc.",
+        "short_name": "Caterpillar Inc",
+        "name": "Caterpillar Inc.",
         "price": 809.14,
         "intra_pct": 3.38,
         "rs1m": -1.648,
