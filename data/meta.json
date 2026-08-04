@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-08-04T20:23:04+00:00",
+  "generated_at_utc": "2026-08-04T21:43:32+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -13,13 +13,13 @@
       },
       {
         "ticker": "XLK",
-        "name": "State Street Technology Select",
+        "name": "State Street Technology Select Sector SPDR ETF",
         "rs1m": 0.115
       },
       {
         "ticker": "XLF",
         "name": "State Street Financial Select Sector SPDR ETF",
-        "rs1m": 0.024
+        "rs1m": 0.028
       }
     ],
     "countries": [
@@ -35,7 +35,7 @@
       },
       {
         "ticker": "VGK",
-        "name": "Vanguard FTSEEuropean ETF",
+        "name": "Vanguard FTSE Europe ETF",
         "rs1m": -0.004
       }
     ]
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 337,
     "filtered_out_count": 6,
-    "generated_at_utc": "2026-08-04T20:23:04+00:00"
+    "generated_at_utc": "2026-08-04T21:43:32+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -205,8 +205,8 @@
       },
       {
         "ticker": "DPZ",
-        "short_name": "Domino's Pizza Inc",
-        "name": "Domino's Pizza Inc",
+        "short_name": "Domino's Pizza, Inc",
+        "name": "Domino's Pizza, Inc.",
         "price": 367.63,
         "intra_pct": 0.88,
         "rs1m": 1.278,
@@ -316,7 +316,7 @@
       {
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
-        "name": "LyondellBasell Industries NV",
+        "name": "LyondellBasell Industries N.V.",
         "price": 61.11,
         "intra_pct": 0.79,
         "rs1m": 1.019,
@@ -337,8 +337,8 @@
       },
       {
         "ticker": "SRE",
-        "short_name": "DBA Sempra",
-        "name": "DBA Sempra",
+        "short_name": "Sempra",
+        "name": "Sempra",
         "price": 86.65,
         "intra_pct": -1.24,
         "rs1m": -2.398,
@@ -467,8 +467,8 @@
       },
       {
         "ticker": "SO",
-        "short_name": "Southern Company (The)",
-        "name": "Southern Company (The)",
+        "short_name": "The Southern Company",
+        "name": "The Southern Company",
         "price": 93.25,
         "intra_pct": 0.34,
         "rs1m": -1.555,
@@ -517,8 +517,8 @@
       },
       {
         "ticker": "MAR",
-        "short_name": "Marriott International",
-        "name": "Marriott International",
+        "short_name": "Marriott International,\u2026",
+        "name": "Marriott International, Inc.",
         "price": 345.2,
         "intra_pct": -0.47,
         "rs1m": -1.337,
@@ -712,8 +712,8 @@
       },
       {
         "ticker": "DPZ",
-        "short_name": "Domino's Pizza Inc",
-        "name": "Domino's Pizza Inc",
+        "short_name": "Domino's Pizza, Inc",
+        "name": "Domino's Pizza, Inc.",
         "price": 367.63,
         "intra_pct": 0.88,
         "rs1m": 1.278,
@@ -823,7 +823,7 @@
       {
         "ticker": "LYB",
         "short_name": "LyondellBasell Industri\u2026",
-        "name": "LyondellBasell Industries NV",
+        "name": "LyondellBasell Industries N.V.",
         "price": 61.11,
         "intra_pct": 0.79,
         "rs1m": 1.019,
@@ -844,8 +844,8 @@
       },
       {
         "ticker": "SRE",
-        "short_name": "DBA Sempra",
-        "name": "DBA Sempra",
+        "short_name": "Sempra",
+        "name": "Sempra",
         "price": 86.65,
         "intra_pct": -1.24,
         "rs1m": -2.398,
@@ -974,8 +974,8 @@
       },
       {
         "ticker": "SO",
-        "short_name": "Southern Company (The)",
-        "name": "Southern Company (The)",
+        "short_name": "The Southern Company",
+        "name": "The Southern Company",
         "price": 93.25,
         "intra_pct": 0.34,
         "rs1m": -1.555,
@@ -1024,8 +1024,8 @@
       },
       {
         "ticker": "MAR",
-        "short_name": "Marriott International",
-        "name": "Marriott International",
+        "short_name": "Marriott International,\u2026",
+        "name": "Marriott International, Inc.",
         "price": 345.2,
         "intra_pct": -0.47,
         "rs1m": -1.337,
