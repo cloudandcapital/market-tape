@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-08-05T21:07:31+00:00",
+  "generated_at_utc": "2026-08-05T21:39:50+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -30,7 +30,7 @@
       },
       {
         "ticker": "EWC",
-        "name": "iShares MSCI Canada Index Fund",
+        "name": "iShares MSCI Canada ETF",
         "rs1m": 0.525
       },
       {
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 337,
     "filtered_out_count": 6,
-    "generated_at_utc": "2026-08-05T21:07:31+00:00"
+    "generated_at_utc": "2026-08-05T21:39:50+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -135,8 +135,8 @@
       },
       {
         "ticker": "DPZ",
-        "short_name": "Domino's Pizza Inc",
-        "name": "Domino's Pizza Inc",
+        "short_name": "Domino's Pizza, Inc",
+        "name": "Domino's Pizza, Inc.",
         "price": 366.61,
         "intra_pct": -0.23,
         "rs1m": 1.742,
@@ -327,8 +327,8 @@
     "laggards": [
       {
         "ticker": "SRE",
-        "short_name": "DBA Sempra",
-        "name": "DBA Sempra",
+        "short_name": "Sempra",
+        "name": "Sempra",
         "price": 84.66,
         "intra_pct": -2.32,
         "rs1m": -2.908,
@@ -447,8 +447,8 @@
       },
       {
         "ticker": "SO",
-        "short_name": "Southern Company (The)",
-        "name": "Southern Company (The)",
+        "short_name": "The Southern Company",
+        "name": "The Southern Company",
         "price": 93.1,
         "intra_pct": -0.16,
         "rs1m": -1.438,
@@ -642,8 +642,8 @@
       },
       {
         "ticker": "DPZ",
-        "short_name": "Domino's Pizza Inc",
-        "name": "Domino's Pizza Inc",
+        "short_name": "Domino's Pizza, Inc",
+        "name": "Domino's Pizza, Inc.",
         "price": 366.61,
         "intra_pct": -0.23,
         "rs1m": 1.742,
@@ -834,8 +834,8 @@
     "lagging": [
       {
         "ticker": "SRE",
-        "short_name": "DBA Sempra",
-        "name": "DBA Sempra",
+        "short_name": "Sempra",
+        "name": "Sempra",
         "price": 84.66,
         "intra_pct": -2.32,
         "rs1m": -2.908,
@@ -954,8 +954,8 @@
       },
       {
         "ticker": "SO",
-        "short_name": "Southern Company (The)",
-        "name": "Southern Company (The)",
+        "short_name": "The Southern Company",
+        "name": "The Southern Company",
         "price": 93.1,
         "intra_pct": -0.16,
         "rs1m": -1.438,
