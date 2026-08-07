@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-08-07T00:34:22+00:00",
+  "generated_at_utc": "2026-08-07T00:55:59+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -30,12 +30,12 @@
       },
       {
         "ticker": "EWC",
-        "name": "iShares MSCI Canada ETF",
+        "name": "iShares MSCI Canada Index Fund",
         "rs1m": 0.581
       },
       {
         "ticker": "VGK",
-        "name": "Vanguard FTSE Europe ETF",
+        "name": "Vanguard FTSEEuropean ETF",
         "rs1m": 0.435
       }
     ]
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-08-07T00:34:22+00:00"
+    "generated_at_utc": "2026-08-07T00:55:59+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -175,8 +175,8 @@
       },
       {
         "ticker": "DPZ",
-        "short_name": "Domino's Pizza, Inc",
-        "name": "Domino's Pizza, Inc.",
+        "short_name": "Domino's Pizza Inc",
+        "name": "Domino's Pizza Inc",
         "price": 358.43,
         "intra_pct": -2.26,
         "rs1m": 1.577,
@@ -327,8 +327,8 @@
     "laggards": [
       {
         "ticker": "SRE",
-        "short_name": "Sempra",
-        "name": "Sempra",
+        "short_name": "DBA Sempra",
+        "name": "DBA Sempra",
         "price": 84.35,
         "intra_pct": -0.4,
         "rs1m": -2.631,
@@ -682,8 +682,8 @@
       },
       {
         "ticker": "DPZ",
-        "short_name": "Domino's Pizza, Inc",
-        "name": "Domino's Pizza, Inc.",
+        "short_name": "Domino's Pizza Inc",
+        "name": "Domino's Pizza Inc",
         "price": 358.43,
         "intra_pct": -2.26,
         "rs1m": 1.577,
@@ -834,8 +834,8 @@
     "lagging": [
       {
         "ticker": "SRE",
-        "short_name": "Sempra",
-        "name": "Sempra",
+        "short_name": "DBA Sempra",
+        "name": "DBA Sempra",
         "price": 84.35,
         "intra_pct": -0.4,
         "rs1m": -2.631,
