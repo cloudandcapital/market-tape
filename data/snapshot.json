@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-11T20:30:16+00:00",
+  "generated_at_utc": "2026-08-11T21:21:10+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -94,7 +94,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 0.72
+          "volume_ratio": 0.73
         },
         {
           "ticker": "TLT",
@@ -124,7 +124,7 @@
           "ticker": "IEF",
           "exchange_hint": "NASDAQ",
           "tradingview_symbol": "NASDAQ:IEF",
-          "name": "iShares 7-10 Year Treasury Bond",
+          "name": "iShares 7-10 Year Treasury Bond ETF",
           "short_name": "7-10 Year Treasury Bond",
           "last": 92.87,
           "intra_pct": 0.13,
@@ -148,8 +148,8 @@
           "ticker": "HYG",
           "exchange_hint": "NYSEARCA",
           "tradingview_symbol": "NYSEARCA:HYG",
-          "name": "iShares iBoxx $ High Yield Corp",
-          "short_name": "iBoxx $ High Yield Corp",
+          "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+          "short_name": "iBoxx $ High Yield Corp\u2026",
           "last": 79.51,
           "intra_pct": 0.03,
           "d1_pct": 0.04,
@@ -181,7 +181,7 @@
           "d20_pct": -1.11,
           "atr_pct": 0.49,
           "dist50_atr": -1.42,
-          "rs1m": -2.768,
+          "rs1m": -2.765,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -273,8 +273,8 @@
           "ticker": "XLK",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLK",
-          "name": "State Street Technology Select",
-          "short_name": "Technology Select",
+          "name": "State Street Technology Select Sector SPDR ETF",
+          "short_name": "Technology",
           "last": 186.09,
           "intra_pct": -0.1,
           "d1_pct": -0.12,
@@ -291,7 +291,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLK.png",
-          "volume_ratio": 0.58
+          "volume_ratio": 0.63
         },
         {
           "ticker": "XLF",
@@ -345,8 +345,8 @@
           "ticker": "XLV",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLV",
-          "name": "State Street Health Care Select",
-          "short_name": "Health Care Select",
+          "name": "State Street Health Care Select Sector SPDR ETF",
+          "short_name": "Health Care",
           "last": 168.01,
           "intra_pct": -0.26,
           "d1_pct": -0.26,
@@ -393,8 +393,8 @@
           "ticker": "XLY",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLY",
-          "name": "State Street Consumer Discretio",
-          "short_name": "Consumer Discretio",
+          "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
+          "short_name": "Consumer Discretionary",
           "last": 119.24,
           "intra_pct": -0.33,
           "d1_pct": -0.36,
@@ -507,7 +507,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLRE.png",
-          "volume_ratio": 1.09
+          "volume_ratio": 1.1
         },
         {
           "ticker": "XLC",
@@ -560,7 +560,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 0.67
+          "volume_ratio": 0.7
         },
         {
           "ticker": "IWM",
@@ -608,7 +608,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWF.png",
-          "volume_ratio": 0.71
+          "volume_ratio": 0.74
         },
         {
           "ticker": "IWD",
@@ -632,7 +632,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWD.png",
-          "volume_ratio": 0.57
+          "volume_ratio": 0.66
         },
         {
           "ticker": "MTUM",
@@ -757,7 +757,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.61
+          "volume_ratio": 0.62
         },
         {
           "ticker": "SKYY",
@@ -888,8 +888,8 @@
           "ticker": "XLV",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLV",
-          "name": "State Street Health Care Select",
-          "short_name": "Health Care Select",
+          "name": "State Street Health Care Select Sector SPDR ETF",
+          "short_name": "Health Care",
           "last": 168.01,
           "intra_pct": -0.26,
           "d1_pct": -0.26,
@@ -960,8 +960,8 @@
           "ticker": "BIL",
           "exchange_hint": "NYSEARCA",
           "tradingview_symbol": "NYSEARCA:BIL",
-          "name": "State Street SPDR Bloomberg 1-3",
-          "short_name": "Bloomberg 1-3",
+          "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
+          "short_name": "Bloomberg 1-3 Month T-B\u2026",
           "last": 91.49,
           "intra_pct": 0.01,
           "d1_pct": 0.01,
@@ -978,7 +978,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/BIL.png",
-          "volume_ratio": 0.69
+          "volume_ratio": 0.7
         }
       ]
     },
@@ -1037,8 +1037,8 @@
           "ticker": "USO",
           "exchange_hint": "NYSEARCA",
           "tradingview_symbol": "NYSEARCA:USO",
-          "name": "United States Oil Fund",
-          "short_name": "United States Oil",
+          "name": "United States Oil Fund, LP",
+          "short_name": "United States Oil , LP",
           "last": 127.61,
           "intra_pct": 1.33,
           "d1_pct": 1.34,
@@ -1085,8 +1085,8 @@
           "ticker": "VNQ",
           "exchange_hint": "NYSEARCA",
           "tradingview_symbol": "NYSEARCA:VNQ",
-          "name": "Vanguard Real Estate ETF",
-          "short_name": "Real Estate",
+          "name": "Vanguard Real Estate Index Fund ETF Shares",
+          "short_name": "Real Estate Shares",
           "last": 96.38,
           "intra_pct": -0.75,
           "d1_pct": -0.75,
@@ -1103,7 +1103,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/VNQ.png",
-          "volume_ratio": 1.05
+          "volume_ratio": 1.1
         },
         {
           "ticker": "REET",
@@ -1186,8 +1186,8 @@
           "ticker": "EEM",
           "exchange_hint": "NYSEARCA",
           "tradingview_symbol": "NYSEARCA:EEM",
-          "name": "iShares MSCI Emerging Index Fun",
-          "short_name": "MSCI Emerging Fun",
+          "name": "iShares MSCI Emerging Markets ETF",
+          "short_name": "MSCI Emerging Markets",
           "last": 65.43,
           "intra_pct": 0.4,
           "d1_pct": 0.4,
@@ -1210,7 +1210,7 @@
           "ticker": "EWJ",
           "exchange_hint": "NYSEARCA",
           "tradingview_symbol": "NYSEARCA:EWJ",
-          "name": "iShares MSCI Japan Index Fund",
+          "name": "iShares MSCI Japan ETF",
           "short_name": "MSCI Japan",
           "last": 96.28,
           "intra_pct": 0.24,
@@ -1306,8 +1306,8 @@
           "ticker": "VGK",
           "exchange_hint": "NYSEARCA",
           "tradingview_symbol": "NYSEARCA:VGK",
-          "name": "Vanguard FTSEEuropean ETF",
-          "short_name": "FTSEEuropean",
+          "name": "Vanguard FTSE Europe ETF",
+          "short_name": "FTSE Europe",
           "last": 92.3,
           "intra_pct": 0.04,
           "d1_pct": 0.04,

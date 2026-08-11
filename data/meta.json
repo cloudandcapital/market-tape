@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-08-11T20:30:16+00:00",
+  "generated_at_utc": "2026-08-11T21:21:10+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -8,7 +8,7 @@
     "sectors": [
       {
         "ticker": "XLV",
-        "name": "State Street Health Care Select",
+        "name": "State Street Health Care Select Sector SPDR ETF",
         "rs1m": 0.785
       },
       {
@@ -30,7 +30,7 @@
       },
       {
         "ticker": "VGK",
-        "name": "Vanguard FTSEEuropean ETF",
+        "name": "Vanguard FTSE Europe ETF",
         "rs1m": 0.552
       },
       {
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 338,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-08-11T20:30:16+00:00"
+    "generated_at_utc": "2026-08-11T21:21:10+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -367,8 +367,8 @@
       },
       {
         "ticker": "SRE",
-        "short_name": "DBA Sempra",
-        "name": "DBA Sempra",
+        "short_name": "Sempra",
+        "name": "Sempra",
         "price": 85.48,
         "intra_pct": 1.4,
         "rs1m": -2.049,
@@ -477,8 +477,8 @@
       },
       {
         "ticker": "SO",
-        "short_name": "Southern Company (The)",
-        "name": "Southern Company (The)",
+        "short_name": "The Southern Company",
+        "name": "The Southern Company",
         "price": 91.92,
         "intra_pct": 0.62,
         "rs1m": -1.463,
@@ -874,8 +874,8 @@
       },
       {
         "ticker": "SRE",
-        "short_name": "DBA Sempra",
-        "name": "DBA Sempra",
+        "short_name": "Sempra",
+        "name": "Sempra",
         "price": 85.48,
         "intra_pct": 1.4,
         "rs1m": -2.049,
@@ -984,8 +984,8 @@
       },
       {
         "ticker": "SO",
-        "short_name": "Southern Company (The)",
-        "name": "Southern Company (The)",
+        "short_name": "The Southern Company",
+        "name": "The Southern Company",
         "price": 91.92,
         "intra_pct": 0.62,
         "rs1m": -1.463,
