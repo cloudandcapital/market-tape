@@ -3,8 +3,13 @@ name: Refresh Market Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 20 * * 1-5"
     - cron: "*/30 13-21 * * 1-5"
+
+# Prevent overlapping refreshes from racing on git push.
+# The active run finishes; GitHub retains at most one pending run.
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
 
 permissions:
   contents: write
