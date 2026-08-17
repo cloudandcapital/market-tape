@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-08-17T20:48:30+00:00",
+  "generated_at_utc": "2026-08-17T21:12:58+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -13,7 +13,7 @@
       },
       {
         "ticker": "XLK",
-        "name": "State Street Technology Select",
+        "name": "State Street Technology Select Sector SPDR ETF",
         "rs1m": 0.46
       },
       {
@@ -25,12 +25,12 @@
     "countries": [
       {
         "ticker": "EWC",
-        "name": "iShares MSCI Canada Index Fund",
+        "name": "iShares MSCI Canada ETF",
         "rs1m": 0.77
       },
       {
         "ticker": "EWJ",
-        "name": "iShares MSCI Japan Index Fund",
+        "name": "iShares MSCI Japan ETF",
         "rs1m": 0.701
       },
       {
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 334,
     "filtered_out_count": 9,
-    "generated_at_utc": "2026-08-17T20:48:30+00:00"
+    "generated_at_utc": "2026-08-17T21:12:58+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -96,7 +96,7 @@
       {
         "ticker": "CRL",
         "short_name": "Charles River Laborator\u2026",
-        "name": "Charles River Laboratories Inte",
+        "name": "Charles River Laboratories International, Inc.",
         "price": 286.64,
         "intra_pct": 2.39,
         "rs1m": 1.842,
@@ -224,6 +224,16 @@
         "tradingview_symbol": "NASDAQ:CTSH"
       },
       {
+        "ticker": "FOX",
+        "short_name": "Fox Corporation",
+        "name": "Fox Corporation",
+        "price": 61.49,
+        "intra_pct": 0.11,
+        "rs1m": 1.45,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:FOX"
+      },
+      {
         "ticker": "NUE",
         "short_name": "Nucor Corporation",
         "name": "Nucor Corporation",
@@ -232,16 +242,6 @@
         "rs1m": 1.43,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NUE"
-      },
-      {
-        "ticker": "FOX",
-        "short_name": "Fox Corporation",
-        "name": "Fox Corporation",
-        "price": 61.49,
-        "intra_pct": 0.11,
-        "rs1m": 1.428,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FOX"
       },
       {
         "ticker": "PSX",
@@ -305,8 +305,8 @@
       },
       {
         "ticker": "MRK",
-        "short_name": "Merck & Company, Inc",
-        "name": "Merck & Company, Inc.",
+        "short_name": "Merck & Co., Inc",
+        "name": "Merck & Co., Inc.",
         "price": 135.97,
         "intra_pct": 0.1,
         "rs1m": 1.109,
@@ -347,8 +347,8 @@
       },
       {
         "ticker": "PG",
-        "short_name": "Procter & Gamble Compan\u2026",
-        "name": "Procter & Gamble Company (The)",
+        "short_name": "The Procter & Gamble Co\u2026",
+        "name": "The Procter & Gamble Company",
         "price": 143.12,
         "intra_pct": -0.98,
         "rs1m": -1.965,
@@ -368,7 +368,7 @@
       {
         "ticker": "AIG",
         "short_name": "American International\u2026",
-        "name": "American International Group, I",
+        "name": "American International Group, Inc.",
         "price": 75.81,
         "intra_pct": -1.06,
         "rs1m": -1.835,
@@ -603,7 +603,7 @@
       {
         "ticker": "CRL",
         "short_name": "Charles River Laborator\u2026",
-        "name": "Charles River Laboratories Inte",
+        "name": "Charles River Laboratories International, Inc.",
         "price": 286.64,
         "intra_pct": 2.39,
         "rs1m": 1.842,
@@ -731,6 +731,16 @@
         "tradingview_symbol": "NASDAQ:CTSH"
       },
       {
+        "ticker": "FOX",
+        "short_name": "Fox Corporation",
+        "name": "Fox Corporation",
+        "price": 61.49,
+        "intra_pct": 0.11,
+        "rs1m": 1.45,
+        "trend_grade": "A",
+        "tradingview_symbol": "NASDAQ:FOX"
+      },
+      {
         "ticker": "NUE",
         "short_name": "Nucor Corporation",
         "name": "Nucor Corporation",
@@ -739,16 +749,6 @@
         "rs1m": 1.43,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:NUE"
-      },
-      {
-        "ticker": "FOX",
-        "short_name": "Fox Corporation",
-        "name": "Fox Corporation",
-        "price": 61.49,
-        "intra_pct": 0.11,
-        "rs1m": 1.428,
-        "trend_grade": "A",
-        "tradingview_symbol": "NASDAQ:FOX"
       },
       {
         "ticker": "PSX",
@@ -812,8 +812,8 @@
       },
       {
         "ticker": "MRK",
-        "short_name": "Merck & Company, Inc",
-        "name": "Merck & Company, Inc.",
+        "short_name": "Merck & Co., Inc",
+        "name": "Merck & Co., Inc.",
         "price": 135.97,
         "intra_pct": 0.1,
         "rs1m": 1.109,
@@ -854,8 +854,8 @@
       },
       {
         "ticker": "PG",
-        "short_name": "Procter & Gamble Compan\u2026",
-        "name": "Procter & Gamble Company (The)",
+        "short_name": "The Procter & Gamble Co\u2026",
+        "name": "The Procter & Gamble Company",
         "price": 143.12,
         "intra_pct": -0.98,
         "rs1m": -1.965,
@@ -875,7 +875,7 @@
       {
         "ticker": "AIG",
         "short_name": "American International\u2026",
-        "name": "American International Group, I",
+        "name": "American International Group, Inc.",
         "price": 75.81,
         "intra_pct": -1.06,
         "rs1m": -1.835,
