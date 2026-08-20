@@ -450,6 +450,13 @@ def _standardize_frame(frame: pd.DataFrame) -> pd.DataFrame:
         return frame
     copy = frame.copy()
     copy.columns = [str(col).title() for col in copy.columns]
+    if isinstance(copy.index, pd.DatetimeIndex):
+        # Yahoo batch downloads may drop an exchange-local timezone without
+        # converting the timestamp, while per-ticker fallbacks retain it. Keep
+        # the local calendar timestamp so daily rows for the same session align.
+        if copy.index.tz is not None:
+            copy.index = copy.index.tz_localize(None)
+        copy.index = copy.index.rename(frame.index.name)
     return copy.sort_index()
 
 
