@@ -13,7 +13,7 @@ SPEC.loader.exec_module(build_data)
 
 
 class StandardizeFrameTests(unittest.TestCase):
-    def test_converts_aware_datetime_index_to_utc_naive(self):
+    def test_strips_timezone_without_shifting_local_timestamp(self):
         frame = pd.DataFrame(
             {"close": [1.0, 2.0]},
             index=pd.date_range("2026-08-19 09:30", periods=2, tz="America/New_York"),
@@ -22,16 +22,16 @@ class StandardizeFrameTests(unittest.TestCase):
         result = build_data._standardize_frame(frame)
 
         self.assertIsNone(result.index.tz)
-        self.assertEqual(result.index[0], pd.Timestamp("2026-08-19 13:30"))
+        self.assertEqual(result.index[0], pd.Timestamp("2026-08-19 09:30"))
         self.assertEqual(list(result.columns), ["Close"])
 
     def test_naive_and_aware_downloads_align_without_timezone_error(self):
         naive = pd.DataFrame(
-            {"Close": [100.0]}, index=pd.DatetimeIndex(["2026-08-19 13:30"])
+            {"Close": [100.0]}, index=pd.DatetimeIndex(["2026-08-19 00:00"])
         )
         aware = pd.DataFrame(
             {"Close": [200.0]},
-            index=pd.DatetimeIndex(["2026-08-19 09:30"], tz="America/New_York"),
+            index=pd.DatetimeIndex(["2026-08-19 00:00"], tz="America/New_York"),
         )
 
         aligned = pd.concat(

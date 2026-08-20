@@ -451,11 +451,11 @@ def _standardize_frame(frame: pd.DataFrame) -> pd.DataFrame:
     copy = frame.copy()
     copy.columns = [str(col).title() for col in copy.columns]
     if isinstance(copy.index, pd.DatetimeIndex):
-        # Yahoo may mix exchange-local, UTC, and tz-naive indexes between the
-        # batch and per-ticker fallback APIs.  Calculations combine those
-        # frames, so use one canonical representation at the download boundary.
+        # Yahoo batch downloads may drop an exchange-local timezone without
+        # converting the timestamp, while per-ticker fallbacks retain it. Keep
+        # the local calendar timestamp so daily rows for the same session align.
         if copy.index.tz is not None:
-            copy.index = copy.index.tz_convert("UTC").tz_localize(None)
+            copy.index = copy.index.tz_localize(None)
         copy.index = copy.index.rename(frame.index.name)
     return copy.sort_index()
 
