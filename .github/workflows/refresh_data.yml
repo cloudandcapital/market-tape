@@ -37,16 +37,6 @@ jobs:
           python -c "import yfinance, pandas, numpy; print('yfinance', yfinance.__version__); print('pandas', pandas.__version__); print('numpy', numpy.__version__)"
 
       - name: Build dashboard data
-        run: python scripts/build_data.py --output-dir data
-
-      - name: Commit refreshed data
-        run: |
-          if git diff --quiet -- data; then
-            echo "No data changes to commit."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          git commit -m "chore(data): refresh market snapshot [skip data refresh]"
-          git push
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        run: scripts/refresh_and_publish.sh "$TARGET_BRANCH"
