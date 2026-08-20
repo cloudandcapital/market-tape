@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-20T21:15:22+00:00",
+  "generated_at_utc": "2026-08-20T21:49:06+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -181,7 +181,7 @@
           "d20_pct": -2.1,
           "atr_pct": 0.4,
           "dist50_atr": -4.05,
-          "rs1m": -3.409,
+          "rs1m": -3.41,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -250,13 +250,13 @@
           "intra_pct": 0.92,
           "d1_pct": 0.92,
           "d5_pct": 1.19,
-          "d20_pct": 0.0,
-          "atr_pct": 1.12,
-          "dist50_atr": 0.0,
-          "rs1m": 0.0,
-          "trend_grade": "B",
+          "d20_pct": -0.15,
+          "atr_pct": 1.18,
+          "dist50_atr": 2.2,
+          "rs1m": -0.872,
+          "trend_grade": "A",
           "above_20d": true,
-          "above_50d": false,
+          "above_50d": true,
           "leveraged": {
             "long": null,
             "short": null
