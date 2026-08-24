@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-24T21:16:00+00:00",
+  "generated_at_utc": "2026-08-24T21:49:22+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -174,14 +174,14 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 99.0,
-          "intra_pct": 0.2,
-          "d1_pct": 0.2,
-          "d5_pct": -0.64,
-          "d20_pct": -2.47,
+          "last": 98.99,
+          "intra_pct": 0.19,
+          "d1_pct": 0.19,
+          "d5_pct": -0.65,
+          "d20_pct": -2.48,
           "atr_pct": 0.38,
-          "dist50_atr": -3.84,
-          "rs1m": -4.207,
+          "dist50_atr": -3.87,
+          "rs1m": -4.223,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -223,21 +223,21 @@
           "name": "CBOE S&P 500 9 Day Volatility I",
           "short_name": "CBOE S&P 500 9 Day Vola\u2026",
           "last": 14.07,
-          "intra_pct": 0.0,
-          "d1_pct": 0.0,
-          "d5_pct": 0.0,
-          "d20_pct": 0.0,
-          "atr_pct": 0.0,
-          "dist50_atr": 0.0,
-          "rs1m": 0.0,
-          "trend_grade": "B",
+          "intra_pct": -16.44,
+          "d1_pct": -16.5,
+          "d5_pct": -7.01,
+          "d20_pct": 1.01,
+          "atr_pct": 19.41,
+          "dist50_atr": -0.55,
+          "rs1m": -0.02,
+          "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
           "leveraged": {
             "long": null,
             "short": null
           },
-          "mini_rs_chart": "",
+          "mini_rs_chart": "data/mini_rs/INDEX_VIX9D.png",
           "volume_ratio": 1.0
         },
         {
@@ -1139,10 +1139,10 @@
           "intra_pct": 0.12,
           "d1_pct": 0.11,
           "d5_pct": 0.45,
-          "d20_pct": -0.13,
+          "d20_pct": -0.22,
           "atr_pct": 0.27,
-          "dist50_atr": -2.6,
-          "rs1m": -3.063,
+          "dist50_atr": -2.93,
+          "rs1m": -3.365,
           "trend_grade": "C",
           "above_20d": true,
           "above_50d": false,
@@ -1151,7 +1151,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/TIP.png",
-          "volume_ratio": 0.74
+          "volume_ratio": 0.75
         }
       ]
     },
