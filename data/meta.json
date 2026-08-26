@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-08-26T20:16:28+00:00",
+  "generated_at_utc": "2026-08-26T23:47:27+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -9,7 +9,7 @@
       {
         "ticker": "XLK",
         "name": "State Street Technology Select Sector SPDR ETF",
-        "rs1m": 0.567
+        "rs1m": 0.563
       },
       {
         "ticker": "XLE",
@@ -69,7 +69,7 @@
     "tickers_total": 343,
     "tickers_used": 333,
     "filtered_out_count": 10,
-    "generated_at_utc": "2026-08-26T20:16:28+00:00"
+    "generated_at_utc": "2026-08-26T23:47:27+00:00"
   },
   "leaderboard": {
     "leaders": [
@@ -77,9 +77,9 @@
         "ticker": "FCX",
         "short_name": "Freeport-McMoRan Inc",
         "name": "Freeport-McMoRan Inc.",
-        "price": 79.05,
+        "price": 79.0,
         "intra_pct": -1.08,
-        "rs1m": 1.999,
+        "rs1m": 1.991,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:FCX"
       },
@@ -187,9 +187,9 @@
         "ticker": "PFE",
         "short_name": "Pfizer Inc",
         "name": "Pfizer Inc.",
-        "price": 28.31,
+        "price": 28.3,
         "intra_pct": -0.9,
-        "rs1m": 1.22,
+        "rs1m": 1.21,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PFE"
       },
@@ -307,9 +307,9 @@
         "ticker": "MRK",
         "short_name": "Merck & Co., Inc",
         "name": "Merck & Co., Inc.",
-        "price": 153.15,
+        "price": 153.1,
         "intra_pct": -2.12,
-        "rs1m": 0.903,
+        "rs1m": 0.9,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MRK"
       },
@@ -339,7 +339,7 @@
         "ticker": "TJX",
         "short_name": "The TJX Companies, Inc",
         "name": "The TJX Companies, Inc.",
-        "price": 136.84,
+        "price": 136.83,
         "intra_pct": -1.89,
         "rs1m": -3.381,
         "trend_grade": "C",
@@ -349,9 +349,9 @@
         "ticker": "HRL",
         "short_name": "Hormel Foods Corporation",
         "name": "Hormel Foods Corporation",
-        "price": 23.69,
+        "price": 23.71,
         "intra_pct": -0.38,
-        "rs1m": -3.042,
+        "rs1m": -3.023,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HRL"
       },
@@ -389,9 +389,9 @@
         "ticker": "D",
         "short_name": "Dominion Energy, Inc",
         "name": "Dominion Energy, Inc.",
-        "price": 66.93,
+        "price": 66.91,
         "intra_pct": -0.01,
-        "rs1m": -2.605,
+        "rs1m": -2.614,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:D"
       },
@@ -584,9 +584,9 @@
         "ticker": "FCX",
         "short_name": "Freeport-McMoRan Inc",
         "name": "Freeport-McMoRan Inc.",
-        "price": 79.05,
+        "price": 79.0,
         "intra_pct": -1.08,
-        "rs1m": 1.999,
+        "rs1m": 1.991,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:FCX"
       },
@@ -694,9 +694,9 @@
         "ticker": "PFE",
         "short_name": "Pfizer Inc",
         "name": "Pfizer Inc.",
-        "price": 28.31,
+        "price": 28.3,
         "intra_pct": -0.9,
-        "rs1m": 1.22,
+        "rs1m": 1.21,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PFE"
       },
@@ -814,9 +814,9 @@
         "ticker": "MRK",
         "short_name": "Merck & Co., Inc",
         "name": "Merck & Co., Inc.",
-        "price": 153.15,
+        "price": 153.1,
         "intra_pct": -2.12,
-        "rs1m": 0.903,
+        "rs1m": 0.9,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MRK"
       },
@@ -846,7 +846,7 @@
         "ticker": "TJX",
         "short_name": "The TJX Companies, Inc",
         "name": "The TJX Companies, Inc.",
-        "price": 136.84,
+        "price": 136.83,
         "intra_pct": -1.89,
         "rs1m": -3.381,
         "trend_grade": "C",
@@ -856,9 +856,9 @@
         "ticker": "HRL",
         "short_name": "Hormel Foods Corporation",
         "name": "Hormel Foods Corporation",
-        "price": 23.69,
+        "price": 23.71,
         "intra_pct": -0.38,
-        "rs1m": -3.042,
+        "rs1m": -3.023,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HRL"
       },
@@ -896,9 +896,9 @@
         "ticker": "D",
         "short_name": "Dominion Energy, Inc",
         "name": "Dominion Energy, Inc.",
-        "price": 66.93,
+        "price": 66.91,
         "intra_pct": -0.01,
-        "rs1m": -2.605,
+        "rs1m": -2.614,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:D"
       },
