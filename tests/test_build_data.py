@@ -45,6 +45,68 @@ class StandardizeFrameTests(unittest.TestCase):
         self.assertEqual(len(aligned), 1)
         self.assertEqual(aligned.iloc[0].to_dict(), {"naive": 100.0, "aware": 200.0})
 
+    def test_datetime_concat_preserves_sorted_session_order(self):
+        asset = pd.Series(
+            [102.0, 100.0, 101.0],
+            index=pd.DatetimeIndex(["2026-08-29", "2026-08-27", "2026-08-28"]),
+            name="asset",
+        )
+        benchmark = pd.Series(
+            [201.0, 202.0, 200.0],
+            index=pd.DatetimeIndex(["2026-08-28", "2026-08-29", "2026-08-27"]),
+            name="spy",
+        )
+
+        aligned = build_data.align_price_series(asset, benchmark)
+
+        self.assertEqual(
+            list(aligned.index),
+            list(pd.DatetimeIndex(["2026-08-27", "2026-08-28", "2026-08-29"])),
+        )
+
+
+class SnapshotFreshnessTests(unittest.TestCase):
+    def _row(self, **overrides):
+        row = build_data.empty_row("TEST", "Test")
+        row.update(
+            {
+                "last": 100.0,
+                "price_date": "2026-08-28",
+                "price_source": "yfinance batch download",
+                "price_status": "current",
+            }
+        )
+        row.update(overrides)
+        return row
+
+    def test_present_row_requires_current_price_and_session(self):
+        groups = [{"name": "Test", "rows": [self._row()]}]
+
+        build_data.validate_snapshot_rows(groups, pd.Timestamp("2026-08-28"))
+
+    def test_present_row_rejects_missing_price(self):
+        groups = [{"name": "Test", "rows": [self._row(last=0.0, price_date=None, price_source=None, price_status="unavailable")]}]
+
+        with self.assertRaisesRegex(ValueError, "missing market price"):
+            build_data.validate_snapshot_rows(groups, pd.Timestamp("2026-08-28"))
+
+    def test_present_row_rejects_stale_session(self):
+        groups = [{"name": "Test", "rows": [self._row(price_date="2026-08-27", price_status="stale")]}]
+
+        with self.assertRaisesRegex(ValueError, "stale market data"):
+            build_data.validate_snapshot_rows(groups, pd.Timestamp("2026-08-28"))
+
+    def test_stale_universe_row_is_not_eligible(self):
+        frame = pd.DataFrame(
+            {"Close": [100.0] * 60, "Volume": [1_000_000.0] * 60},
+            index=pd.date_range("2026-06-01", periods=60, freq="B"),
+        )
+
+        self.assertFalse(build_data.universe_candidate_ok(self._row(price_status="stale"), frame))
+
+    def test_bk_uses_current_bny_market_data_symbol(self):
+        self.assertEqual(build_data.source_ticker("BK"), "BNY")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -27,6 +27,7 @@ UNIVERSE_MIN_AVG_VOLUME = 300_000.0
 UNIVERSE_MIN_HISTORY_DAYS = 60
 UNIVERSE_LEADERS_COUNT = 25
 UNIVERSE_LAGGARDS_COUNT = 25
+DATA_QUALITY_WATCHLIST = {"AVB", "EA", "BK", "CTRA", "HOLX"}
 
 # Fallback universe when data/universe.txt is missing.
 # This is intentionally broad (>=150) and liquid enough for a daily momentum scan.
@@ -107,6 +108,9 @@ YAHOO_EXCHANGE_TO_TV: dict[str, str] = {
 
 # Keep display symbols stable in UI while mapping to yfinance sources.
 DATA_SOURCE_TICKER: dict[str, str] = {
+    # BNY changed its NYSE ticker from BK to BNY on May 21, 2026. Keep the
+    # configured universe symbol stable while sourcing the same issuer's data.
+    "BK": "BNY",
     "DXY": "DX-Y.NYB",
 }
 
@@ -191,6 +195,9 @@ COLUMN_GUIDE = [
     {"key": "trend_grade", "label": "Grade", "description": "Trend structure grade: A (strong), B (mixed), C (weak)."},
     {"key": "name", "label": "Name", "description": "Instrument display name with yfinance/override fallback."},
     {"key": "last", "label": "Last", "description": "Latest daily close."},
+    {"key": "price_date", "label": "Price Date", "description": "Trading session for the latest daily close."},
+    {"key": "price_source", "label": "Price Source", "description": "Download path that supplied the latest daily close."},
+    {"key": "price_status", "label": "Price Status", "description": "Current only when the price date matches the benchmark session."},
     {"key": "intra_pct", "label": "Intra%", "description": "Latest intraday move vs prior close."},
     {"key": "d1_pct", "label": "1D%", "description": "Close-to-close 1-day return."},
     {"key": "d5_pct", "label": "5D%", "description": "5-session return."},
@@ -484,8 +491,10 @@ def download_history(tickers: list[str], *, period: str, interval: str) -> dict[
                 ticker_frame = history[ticker].dropna(how="all")
                 if not ticker_frame.empty:
                     frames[ticker] = _standardize_frame(ticker_frame)
+                    frames[ticker].attrs["price_source"] = "yfinance batch download"
         else:
             frames[tickers[0]] = _standardize_frame(history.dropna(how="all"))
+            frames[tickers[0]].attrs["price_source"] = "yfinance batch download"
 
     missing = [ticker for ticker in tickers if ticker not in frames or frames[ticker].empty]
     for ticker in missing:
@@ -503,6 +512,7 @@ def download_history(tickers: list[str], *, period: str, interval: str) -> dict[
         if standardized.empty:
             print(f"[warn] fallback history empty after cleanup for {ticker}")
             continue
+        standardized.attrs["price_source"] = "yfinance Ticker.history fallback"
         frames[ticker] = standardized
 
     return frames
@@ -563,6 +573,7 @@ def compute_atr(frame: pd.DataFrame, window: int = 14) -> float | None:
             (low - prev_close).abs(),
         ],
         axis=1,
+        sort=True,
     ).max(axis=1)
     atr_series = tr.rolling(window=window, min_periods=window).mean()
     if atr_series.empty or not np.isfinite(atr_series.iloc[-1]):
@@ -570,8 +581,14 @@ def compute_atr(frame: pd.DataFrame, window: int = 14) -> float | None:
     return float(atr_series.iloc[-1])
 
 
+def align_price_series(close: pd.Series, spy_close: pd.Series) -> pd.DataFrame:
+    """Align asset and benchmark closes in deterministic chronological order."""
+
+    return pd.concat([close.rename("asset"), spy_close.rename("spy")], axis=1, sort=True).dropna()
+
+
 def compute_vol_adjusted_rs(close: pd.Series, spy_close: pd.Series, lookback: int = 20) -> float | None:
-    aligned = pd.concat([close.rename("asset"), spy_close.rename("spy")], axis=1).dropna()
+    aligned = align_price_series(close, spy_close)
     if len(aligned) <= lookback:
         return None
 
@@ -613,7 +630,7 @@ def compute_trend_grade(close: pd.Series) -> tuple[str, float | None, float | No
 
 
 def make_rs_chart(ticker: str, close: pd.Series, spy_close: pd.Series, output_dir: Path) -> str:
-    aligned = pd.concat([close.rename("asset"), spy_close.rename("spy")], axis=1).dropna().tail(90)
+    aligned = align_price_series(close, spy_close).tail(90)
     if len(aligned) < 20:
         return ""
 
@@ -670,6 +687,9 @@ def empty_row(
         "name": full_name,
         "short_name": build_short_name(full_name, ticker),
         "last": 0.0,
+        "price_date": None,
+        "price_source": None,
+        "price_status": "unavailable",
         "intra_pct": 0.0,
         "d1_pct": 0.0,
         "d5_pct": 0.0,
@@ -711,6 +731,7 @@ def build_row(
     intraday_last: dict[str, float],
     spy_close: pd.Series,
     chart_dir: Path,
+    benchmark_session: pd.Timestamp,
     build_chart: bool = True,
 ) -> dict[str, Any]:
     source = source_ticker(ticker)
@@ -725,6 +746,9 @@ def build_row(
         return row
 
     last_close = float(close.iloc[-1])
+    price_session = pd.Timestamp(close.index[-1]).normalize()
+    expected_session = pd.Timestamp(benchmark_session).normalize()
+    price_status = "current" if price_session == expected_session else "stale"
     d1 = pct_return(close, 1)
     d5 = pct_return(close, 5)
     d20 = pct_return(close, 20)
@@ -750,6 +774,9 @@ def build_row(
     row.update(
         {
             "last": safe_float(last_close, digits=2, default=0.0),
+            "price_date": price_session.date().isoformat(),
+            "price_source": str(frame.attrs.get("price_source") or "yfinance history"),
+            "price_status": price_status,
             "intra_pct": safe_float(intra_pct, digits=2, default=0.0),
             "d1_pct": safe_float(d1, digits=2, default=0.0),
             "d5_pct": safe_float(d5, digits=2, default=0.0),
@@ -803,7 +830,7 @@ def top_n_leaders(rows_by_ticker: dict[str, dict[str, Any]], tickers: list[str],
 def universe_candidate_ok(row: dict[str, Any], frame: pd.DataFrame | None) -> bool:
     """Apply minimum liquidity/history filters for universe momentum ranking."""
 
-    if frame is None or frame.empty or "Close" not in frame:
+    if frame is None or frame.empty or "Close" not in frame or row.get("price_status") != "current":
         return False
     close = frame["Close"].dropna()
     if len(close) < UNIVERSE_MIN_HISTORY_DAYS:
@@ -832,6 +859,9 @@ def leaderboard_meta_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "short_name": row["short_name"],
                 "name": row["name"],
                 "price": row["last"],
+                "price_date": row["price_date"],
+                "price_source": row["price_source"],
+                "price_status": row["price_status"],
                 "intra_pct": row["intra_pct"],
                 "rs1m": row["rs1m"],
                 "trend_grade": row["trend_grade"],
@@ -920,7 +950,7 @@ def write_json(path: Path, payload: dict[str, Any]) -> None:
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 
-def validate_snapshot_rows(groups_payload: list[dict[str, Any]]) -> None:
+def validate_snapshot_rows(groups_payload: list[dict[str, Any]], benchmark_session: pd.Timestamp) -> None:
     required_keys = {
         "ticker",
         "exchange_hint",
@@ -928,6 +958,9 @@ def validate_snapshot_rows(groups_payload: list[dict[str, Any]]) -> None:
         "name",
         "short_name",
         "last",
+        "price_date",
+        "price_source",
+        "price_status",
         "intra_pct",
         "d1_pct",
         "d5_pct",
@@ -956,6 +989,15 @@ def validate_snapshot_rows(groups_payload: list[dict[str, Any]]) -> None:
                 raise ValueError(f"Row for {row['ticker']} has invalid tradingview_symbol value.")
             if row["trend_grade"] not in {"A", "B", "C"}:
                 raise ValueError(f"Row for {row['ticker']} has invalid trend grade: {row['trend_grade']}")
+            last = finite_metric(row.get("last"))
+            if last is None or last <= 0:
+                raise ValueError(f"Row for {row['ticker']} has missing market price.")
+            if row.get("price_status") != "current":
+                raise ValueError(f"Row for {row['ticker']} has stale market data: {row.get('price_date')}")
+            if not str(row.get("price_source") or "").strip():
+                raise ValueError(f"Row for {row['ticker']} has missing market data source.")
+            if row.get("price_date") != pd.Timestamp(benchmark_session).date().isoformat():
+                raise ValueError(f"Row for {row['ticker']} is not from the benchmark session: {row.get('price_date')}")
             if not isinstance(row.get("above_20d"), bool):
                 raise ValueError(f"Row for {row['ticker']} has invalid above_20d value.")
             if not isinstance(row.get("above_50d"), bool):
@@ -1218,6 +1260,7 @@ def build_data(output_dir: Path) -> None:
     spy_close = benchmark_frame["Close"].dropna()
     if spy_close.empty:
         raise RuntimeError("SPY close series is empty. Cannot compute relative strength metrics.")
+    benchmark_session = pd.Timestamp(spy_close.index[-1]).normalize()
 
     # Resolve identity (name/exchange/tv symbol) for rendered core groups.
     core_display_tickers: list[str] = []
@@ -1242,6 +1285,7 @@ def build_data(output_dir: Path) -> None:
                 intraday_last=intraday_last,
                 spy_close=spy_close,
                 chart_dir=mini_chart_dir,
+                benchmark_session=benchmark_session,
             )
             rows.append(row)
             rows_by_ticker[ticker] = row
@@ -1258,6 +1302,7 @@ def build_data(output_dir: Path) -> None:
             intraday_last=intraday_last,
             spy_close=spy_close,
             chart_dir=mini_chart_dir,
+            benchmark_session=benchmark_session,
             build_chart=False,
         )
         universe_rows.append(row)
@@ -1288,7 +1333,7 @@ def build_data(output_dir: Path) -> None:
         ensure_row_chart(row, daily_frames, spy_close, mini_chart_dir)
 
     groups_payload = base_groups_payload
-    validate_snapshot_rows(groups_payload)
+    validate_snapshot_rows(groups_payload, benchmark_session)
 
     leaders = {
         "sectors": top_n_leaders(rows_by_ticker, SECTOR_LEADER_TICKERS, limit=3),
@@ -1318,6 +1363,18 @@ def build_data(output_dir: Path) -> None:
             "tickers_used": len(eligible_universe_rows),
             "filtered_out_count": max(0, len(universe_tickers) - len(eligible_universe_rows)),
             "generated_at_utc": to_utc_iso(now_utc),
+            "data_quality": [
+                {
+                    "ticker": row["ticker"],
+                    "source_ticker": source_ticker(row["ticker"]),
+                    "price": row["last"] if row["price_status"] != "unavailable" else None,
+                    "price_date": row["price_date"],
+                    "price_source": row["price_source"],
+                    "price_status": row["price_status"],
+                }
+                for row in universe_rows
+                if row["price_status"] != "current" or row["ticker"] in DATA_QUALITY_WATCHLIST
+            ],
         },
         "leaderboard": {
             "leaders": leaderboard_meta_rows(leaders_universe_rows),

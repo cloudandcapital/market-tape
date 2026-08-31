@@ -12,6 +12,9 @@ class RefreshWorkflowTests(unittest.TestCase):
 
         self.assertIn("github.event.repository.default_branch", workflow)
         self.assertIn('refresh_and_publish.sh "$TARGET_BRANCH"', workflow)
+        self.assertIn("actions/checkout@v5", workflow)
+        self.assertIn("actions/setup-python@v6", workflow)
+        self.assertIn("persist-credentials: true", workflow)
         self.assertIn('git checkout --force -B refresh-data "origin/$target_branch"', helper)
         self.assertIn('git rebase "origin/$target_branch"', helper)
         self.assertIn("git rebase --abort", helper)
