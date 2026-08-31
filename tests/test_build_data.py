@@ -104,8 +104,43 @@ class SnapshotFreshnessTests(unittest.TestCase):
 
         self.assertFalse(build_data.universe_candidate_ok(self._row(price_status="stale"), frame))
 
-    def test_bk_uses_current_bny_market_data_symbol(self):
-        self.assertEqual(build_data.source_ticker("BK"), "BNY")
+    def test_all_52_rendered_rows_match_benchmark_session(self):
+        rows = [self._row(ticker=f"TEST{index}") for index in range(52)]
+        groups = [{"name": "Core", "rows": rows}]
+
+        build_data.validate_snapshot_rows(groups, pd.Timestamp("2026-08-28"))
+
+        rows[31].update(price_date="2026-08-27", price_status="stale")
+        with self.assertRaisesRegex(ValueError, "stale market data"):
+            build_data.validate_snapshot_rows(groups, pd.Timestamp("2026-08-28"))
+
+    def test_active_universe_uses_bny_and_excludes_retired_symbols(self):
+        universe_path = Path(__file__).parents[1] / "data" / "universe.txt"
+        tickers = build_data.load_universe_tickers(universe_path)
+
+        self.assertIn("BNY", tickers)
+        self.assertTrue({"BK", "AVB", "EA", "CTRA", "HOLX"}.isdisjoint(tickers))
+        self.assertEqual(build_data.source_ticker("BNY"), "BNY")
+
+    def test_bny_is_eligible_with_its_own_market_identity(self):
+        frame = pd.DataFrame(
+            {"Close": [100.0] * 60, "Volume": [1_000_000.0] * 60},
+            index=pd.date_range("2026-06-08", periods=60, freq="B"),
+        )
+
+        self.assertTrue(build_data.universe_candidate_ok(self._row(ticker="BNY"), frame))
+
+    def test_data_quality_diagnostics_are_generic(self):
+        current = self._row(ticker="CURRENT")
+        stale = self._row(ticker="NEWSTALE", price_date="2026-08-27", price_status="stale")
+        unavailable = self._row(
+            ticker="NEWEMPTY", last=0.0, price_date=None, price_source=None, price_status="unavailable"
+        )
+
+        diagnostics = build_data.universe_data_quality([current, stale, unavailable])
+
+        self.assertEqual([row["ticker"] for row in diagnostics], ["NEWSTALE", "NEWEMPTY"])
+        self.assertIsNone(diagnostics[1]["price"])
 
 
 if __name__ == "__main__":

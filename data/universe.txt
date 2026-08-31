@@ -1,6 +1,7 @@
 # CLOUD & CAPITAL momentum universe
 # One ticker per line. Lines starting with # are ignored.
 # Edit this list to customize the momentum leaderboard universe.
+# Retired 2026: AVB, EA, CTRA, and HOLX; BK changed its ticker to BNY.
 
 AAPL
 MSFT
@@ -162,7 +163,6 @@ APA
 APTV
 ARE
 ATO
-AVB
 AVY
 AWK
 AXON
@@ -174,7 +174,7 @@ BEN
 BF-B
 BIIB
 BIO
-BK
+BNY
 BKR
 BXP
 CAG
@@ -197,7 +197,6 @@ COR
 CPRT
 CRL
 CTAS
-CTRA
 CTSH
 CTVA
 D
@@ -211,7 +210,6 @@ DPZ
 DRI
 DTE
 DXCM
-EA
 EBAY
 EFX
 EG
@@ -252,7 +250,6 @@ HBAN
 HIG
 HII
 HLT
-HOLX
 HPQ
 HRL
 HSIC

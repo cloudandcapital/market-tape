@@ -27,7 +27,6 @@ UNIVERSE_MIN_AVG_VOLUME = 300_000.0
 UNIVERSE_MIN_HISTORY_DAYS = 60
 UNIVERSE_LEADERS_COUNT = 25
 UNIVERSE_LAGGARDS_COUNT = 25
-DATA_QUALITY_WATCHLIST = {"AVB", "EA", "BK", "CTRA", "HOLX"}
 
 # Fallback universe when data/universe.txt is missing.
 # This is intentionally broad (>=150) and liquid enough for a daily momentum scan.
@@ -106,11 +105,8 @@ YAHOO_EXCHANGE_TO_TV: dict[str, str] = {
     "AMEX": "AMEX",
 }
 
-# Keep display symbols stable in UI while mapping to yfinance sources.
+# Map display symbols to yfinance sources only when they intentionally differ.
 DATA_SOURCE_TICKER: dict[str, str] = {
-    # BNY changed its NYSE ticker from BK to BNY on May 21, 2026. Keep the
-    # configured universe symbol stable while sourcing the same issuer's data.
-    "BK": "BNY",
     "DXY": "DX-Y.NYB",
 }
 
@@ -251,6 +247,22 @@ GENERIC_NAME_PHRASES = [
 
 def source_ticker(display_ticker: str) -> str:
     return DATA_SOURCE_TICKER.get(display_ticker, display_ticker)
+
+
+def universe_data_quality(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Return diagnostics for every unavailable or stale universe symbol."""
+    return [
+        {
+            "ticker": row["ticker"],
+            "source_ticker": source_ticker(row["ticker"]),
+            "price": row["last"] if row["price_status"] != "unavailable" else None,
+            "price_date": row["price_date"],
+            "price_source": row["price_source"],
+            "price_status": row["price_status"],
+        }
+        for row in rows
+        if row["price_status"] != "current"
+    ]
 
 
 def normalize_filename(ticker: str) -> str:
@@ -1363,18 +1375,7 @@ def build_data(output_dir: Path) -> None:
             "tickers_used": len(eligible_universe_rows),
             "filtered_out_count": max(0, len(universe_tickers) - len(eligible_universe_rows)),
             "generated_at_utc": to_utc_iso(now_utc),
-            "data_quality": [
-                {
-                    "ticker": row["ticker"],
-                    "source_ticker": source_ticker(row["ticker"]),
-                    "price": row["last"] if row["price_status"] != "unavailable" else None,
-                    "price_date": row["price_date"],
-                    "price_source": row["price_source"],
-                    "price_status": row["price_status"],
-                }
-                for row in universe_rows
-                if row["price_status"] != "current" or row["ticker"] in DATA_QUALITY_WATCHLIST
-            ],
+            "data_quality": universe_data_quality(universe_rows),
         },
         "leaderboard": {
             "leaders": leaderboard_meta_rows(leaders_universe_rows),
