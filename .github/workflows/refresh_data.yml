@@ -3,7 +3,8 @@ name: Refresh Market Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 13-21 * * 1-5"
+    # Avoid :00/:30, when GitHub reports elevated schedule-event load and drops.
+    - cron: "17,47 13-21 * * 1-5"
 
 # Prevent overlapping refreshes from racing on git push.
 # The active run finishes; GitHub retains at most one pending run.

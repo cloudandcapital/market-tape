@@ -18,6 +18,12 @@ class RefreshWorkflowTests(unittest.TestCase):
         self.assertIn("rebuild_from_latest", helper)
         self.assertNotIn("git push --force", helper)
 
+    def test_schedule_avoids_top_and_half_hour_load_windows(self):
+        workflow = (ROOT / ".github/workflows/refresh_data.yml").read_text()
+
+        self.assertIn('cron: "17,47 13-21 * * 1-5"', workflow)
+        self.assertNotIn('cron: "*/30', workflow)
+
 
 if __name__ == "__main__":
     unittest.main()
