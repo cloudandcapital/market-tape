@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-15T20:28:55+00:00",
+  "generated_at_utc": "2026-09-15T23:12:18+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -93,14 +93,14 @@
           "tradingview_symbol": "AMEX:SPY",
           "name": "State Street SPDR S&P 500 ETF Trust",
           "short_name": "S&P 500",
-          "last": 757.44,
+          "last": 757.39,
           "price_date": "2026-09-15",
           "price_source": "yfinance batch download",
           "price_status": "current",
           "intra_pct": -0.45,
-          "d1_pct": -0.45,
-          "d5_pct": -1.11,
-          "d20_pct": -1.97,
+          "d1_pct": -0.46,
+          "d5_pct": -1.12,
+          "d20_pct": -1.98,
           "atr_pct": 0.77,
           "dist50_atr": -0.28,
           "rs1m": 0.0,
@@ -112,7 +112,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 1.15
+          "volume_ratio": 1.16
         },
         {
           "ticker": "TLT",
@@ -130,7 +130,7 @@
           "d20_pct": -0.79,
           "atr_pct": 0.78,
           "dist50_atr": -3.32,
-          "rs1m": 0.416,
+          "rs1m": 0.418,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -139,7 +139,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 1.12
+          "volume_ratio": 1.13
         },
         {
           "ticker": "IEF",
@@ -157,7 +157,7 @@
           "d20_pct": -2.18,
           "atr_pct": 0.41,
           "dist50_atr": -5.68,
-          "rs1m": -0.144,
+          "rs1m": -0.139,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -184,7 +184,7 @@
           "d20_pct": -1.55,
           "atr_pct": 0.29,
           "dist50_atr": -4.7,
-          "rs1m": 0.388,
+          "rs1m": 0.394,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -193,7 +193,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/HYG.png",
-          "volume_ratio": 1.21
+          "volume_ratio": 1.22
         },
         {
           "ticker": "DXY",
@@ -201,17 +201,17 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 99.65,
+          "last": 99.61,
           "price_date": "2026-09-15",
           "price_source": "yfinance batch download",
           "price_status": "current",
-          "intra_pct": 0.19,
-          "d1_pct": 0.19,
-          "d5_pct": 0.82,
-          "d20_pct": 0.01,
+          "intra_pct": 0.15,
+          "d1_pct": 0.15,
+          "d5_pct": 0.78,
+          "d20_pct": -0.03,
           "atr_pct": 0.43,
-          "dist50_atr": -0.81,
-          "rs1m": 1.417,
+          "dist50_atr": -0.89,
+          "rs1m": 1.399,
           "trend_grade": "C",
           "above_20d": true,
           "above_50d": false,
@@ -232,7 +232,7 @@
           "price_date": "2026-09-15",
           "price_source": "yfinance batch download",
           "price_status": "current",
-          "intra_pct": 0.58,
+          "intra_pct": 0.64,
           "d1_pct": 0.58,
           "d5_pct": 9.41,
           "d20_pct": 8.59,
@@ -255,7 +255,7 @@
           "tradingview_symbol": "CBOE:VIX9D",
           "name": "CBOE S&P 500 9 Day Volatility I",
           "short_name": "CBOE S&P 500 9 Day Vola\u2026",
-          "last": 17.17,
+          "last": 17.21,
           "price_date": "2026-09-15",
           "price_source": "yfinance batch download",
           "price_status": "current",
@@ -292,7 +292,7 @@
           "d20_pct": 5.76,
           "atr_pct": 1.23,
           "dist50_atr": 4.94,
-          "rs1m": 2.084,
+          "rs1m": 2.086,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -324,7 +324,7 @@
           "d20_pct": -3.46,
           "atr_pct": 1.64,
           "dist50_atr": 0.31,
-          "rs1m": -0.25,
+          "rs1m": -0.249,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -333,7 +333,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLK.png",
-          "volume_ratio": 0.95
+          "volume_ratio": 0.96
         },
         {
           "ticker": "XLF",
@@ -351,7 +351,7 @@
           "d20_pct": -1.27,
           "atr_pct": 1.17,
           "dist50_atr": -0.46,
-          "rs1m": 0.201,
+          "rs1m": 0.202,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -378,7 +378,7 @@
           "d20_pct": 5.35,
           "atr_pct": 1.97,
           "dist50_atr": 4.09,
-          "rs1m": 1.586,
+          "rs1m": 1.587,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -405,7 +405,7 @@
           "d20_pct": 0.37,
           "atr_pct": 1.36,
           "dist50_atr": 0.54,
-          "rs1m": 0.403,
+          "rs1m": 0.404,
           "trend_grade": "B",
           "above_20d": false,
           "above_50d": true,
@@ -432,7 +432,7 @@
           "d20_pct": -9.38,
           "atr_pct": 1.45,
           "dist50_atr": -4.44,
-          "rs1m": -1.976,
+          "rs1m": -1.974,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -459,7 +459,7 @@
           "d20_pct": -5.03,
           "atr_pct": 1.4,
           "dist50_atr": -3.11,
-          "rs1m": -0.637,
+          "rs1m": -0.636,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -468,7 +468,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLY.png",
-          "volume_ratio": 2.18
+          "volume_ratio": 2.19
         },
         {
           "ticker": "XLP",
@@ -486,7 +486,7 @@
           "d20_pct": -1.12,
           "atr_pct": 1.05,
           "dist50_atr": -1.42,
-          "rs1m": 0.209,
+          "rs1m": 0.211,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -513,7 +513,7 @@
           "d20_pct": -6.47,
           "atr_pct": 1.55,
           "dist50_atr": -4.28,
-          "rs1m": -1.137,
+          "rs1m": -1.135,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -522,7 +522,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 1.17
+          "volume_ratio": 1.18
         },
         {
           "ticker": "XLB",
@@ -540,7 +540,7 @@
           "d20_pct": -2.89,
           "atr_pct": 1.44,
           "dist50_atr": -1.45,
-          "rs1m": -0.216,
+          "rs1m": -0.215,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -567,7 +567,7 @@
           "d20_pct": -3.93,
           "atr_pct": 1.21,
           "dist50_atr": -3.13,
-          "rs1m": -0.684,
+          "rs1m": -0.682,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -594,7 +594,7 @@
           "d20_pct": 2.9,
           "atr_pct": 1.44,
           "dist50_atr": 1.8,
-          "rs1m": 1.105,
+          "rs1m": 1.107,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -626,7 +626,7 @@
           "d20_pct": -3.47,
           "atr_pct": 1.1,
           "dist50_atr": -0.7,
-          "rs1m": -0.419,
+          "rs1m": -0.417,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -635,7 +635,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 0.83
+          "volume_ratio": 0.84
         },
         {
           "ticker": "IWM",
@@ -643,7 +643,7 @@
           "tradingview_symbol": "AMEX:IWM",
           "name": "iShares Russell 2000 ETF",
           "short_name": "Russell 2000",
-          "last": 285.15,
+          "last": 285.14,
           "price_date": "2026-09-15",
           "price_source": "yfinance batch download",
           "price_status": "current",
@@ -653,7 +653,7 @@
           "d20_pct": -6.22,
           "atr_pct": 1.12,
           "dist50_atr": -3.33,
-          "rs1m": -1.207,
+          "rs1m": -1.206,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -662,7 +662,7 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 1.27
+          "volume_ratio": 1.29
         },
         {
           "ticker": "IWF",
@@ -680,7 +680,7 @@
           "d20_pct": -3.7,
           "atr_pct": 1.17,
           "dist50_atr": -0.97,
-          "rs1m": -0.451,
+          "rs1m": -0.449,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -707,7 +707,7 @@
           "d20_pct": -1.22,
           "atr_pct": 0.72,
           "dist50_atr": -0.04,
-          "rs1m": 0.296,
+          "rs1m": 0.299,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -734,7 +734,7 @@
           "d20_pct": -7.0,
           "atr_pct": 1.65,
           "dist50_atr": -1.49,
-          "rs1m": -0.851,
+          "rs1m": -0.85,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -761,7 +761,7 @@
           "d20_pct": -1.22,
           "atr_pct": 0.75,
           "dist50_atr": -0.23,
-          "rs1m": 0.299,
+          "rs1m": 0.301,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -793,7 +793,7 @@
           "d20_pct": -8.75,
           "atr_pct": 2.62,
           "dist50_atr": -1.74,
-          "rs1m": -0.712,
+          "rs1m": -0.711,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -802,7 +802,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 0.86
+          "volume_ratio": 0.89
         },
         {
           "ticker": "SOXX",
@@ -829,7 +829,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 0.8
+          "volume_ratio": 0.81
         },
         {
           "ticker": "IGV",
@@ -847,7 +847,7 @@
           "d20_pct": 3.49,
           "atr_pct": 3.03,
           "dist50_atr": 1.95,
-          "rs1m": 0.477,
+          "rs1m": 0.478,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -856,7 +856,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 1.06
+          "volume_ratio": 1.08
         },
         {
           "ticker": "SKYY",
@@ -874,7 +874,7 @@
           "d20_pct": 0.08,
           "atr_pct": 2.18,
           "dist50_atr": 3.07,
-          "rs1m": 0.276,
+          "rs1m": 0.277,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -901,7 +901,7 @@
           "d20_pct": -1.63,
           "atr_pct": 1.41,
           "dist50_atr": 0.95,
-          "rs1m": 0.063,
+          "rs1m": 0.064,
           "trend_grade": "A",
           "above_20d": false,
           "above_50d": true,
@@ -928,7 +928,7 @@
           "d20_pct": -10.03,
           "atr_pct": 1.6,
           "dist50_atr": -4.15,
-          "rs1m": -1.715,
+          "rs1m": -1.714,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -960,7 +960,7 @@
           "d20_pct": -1.12,
           "atr_pct": 1.05,
           "dist50_atr": -1.42,
-          "rs1m": 0.209,
+          "rs1m": 0.211,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -987,7 +987,7 @@
           "d20_pct": -6.47,
           "atr_pct": 1.55,
           "dist50_atr": -4.28,
-          "rs1m": -1.137,
+          "rs1m": -1.135,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -996,7 +996,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 1.17
+          "volume_ratio": 1.18
         },
         {
           "ticker": "XLV",
@@ -1014,7 +1014,7 @@
           "d20_pct": 0.37,
           "atr_pct": 1.36,
           "dist50_atr": 0.54,
-          "rs1m": 0.403,
+          "rs1m": 0.404,
           "trend_grade": "B",
           "above_20d": false,
           "above_50d": true,
@@ -1041,7 +1041,7 @@
           "d20_pct": -1.22,
           "atr_pct": 0.75,
           "dist50_atr": -0.23,
-          "rs1m": 0.299,
+          "rs1m": 0.301,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1068,7 +1068,7 @@
           "d20_pct": -3.06,
           "atr_pct": 0.88,
           "dist50_atr": -3.6,
-          "rs1m": -0.5,
+          "rs1m": -0.497,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1095,7 +1095,7 @@
           "d20_pct": -0.04,
           "atr_pct": 0.04,
           "dist50_atr": -0.57,
-          "rs1m": 6.353,
+          "rs1m": 6.374,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1127,7 +1127,7 @@
           "d20_pct": -2.8,
           "atr_pct": 1.99,
           "dist50_atr": 0.31,
-          "rs1m": -0.107,
+          "rs1m": -0.106,
           "trend_grade": "B",
           "above_20d": false,
           "above_50d": true,
@@ -1190,7 +1190,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 1.32
+          "volume_ratio": 1.33
         },
         {
           "ticker": "DBC",
@@ -1208,7 +1208,7 @@
           "d20_pct": 10.21,
           "atr_pct": 1.49,
           "dist50_atr": 7.04,
-          "rs1m": 2.487,
+          "rs1m": 2.488,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1235,7 +1235,7 @@
           "d20_pct": -3.96,
           "atr_pct": 1.13,
           "dist50_atr": -3.57,
-          "rs1m": -0.74,
+          "rs1m": -0.737,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1262,7 +1262,7 @@
           "d20_pct": -5.18,
           "atr_pct": 1.04,
           "dist50_atr": -5.21,
-          "rs1m": -1.39,
+          "rs1m": -1.388,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1289,7 +1289,7 @@
           "d20_pct": -0.92,
           "atr_pct": 0.3,
           "dist50_atr": -4.78,
-          "rs1m": 0.948,
+          "rs1m": 0.954,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1321,7 +1321,7 @@
           "d20_pct": -2.81,
           "atr_pct": 0.93,
           "dist50_atr": -0.8,
-          "rs1m": -0.281,
+          "rs1m": -0.279,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1330,7 +1330,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EFA.png",
-          "volume_ratio": 1.17
+          "volume_ratio": 1.2
         },
         {
           "ticker": "EEM",
@@ -1348,7 +1348,7 @@
           "d20_pct": -2.32,
           "atr_pct": 1.34,
           "dist50_atr": -0.07,
-          "rs1m": -0.058,
+          "rs1m": -0.057,
           "trend_grade": "B",
           "above_20d": false,
           "above_50d": false,
@@ -1357,7 +1357,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EEM.png",
-          "volume_ratio": 0.79
+          "volume_ratio": 0.8
         },
         {
           "ticker": "EWJ",
@@ -1365,17 +1365,17 @@
           "tradingview_symbol": "NYSEARCA:EWJ",
           "name": "iShares MSCI Japan ETF",
           "short_name": "MSCI Japan",
-          "last": 96.94,
+          "last": 96.92,
           "price_date": "2026-09-15",
           "price_source": "yfinance batch download",
           "price_status": "current",
           "intra_pct": -0.65,
-          "d1_pct": -0.66,
-          "d5_pct": -1.04,
-          "d20_pct": -1.25,
+          "d1_pct": -0.68,
+          "d5_pct": -1.06,
+          "d20_pct": -1.27,
           "atr_pct": 1.23,
-          "dist50_atr": 1.88,
-          "rs1m": 0.148,
+          "dist50_atr": 1.86,
+          "rs1m": 0.145,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1402,7 +1402,7 @@
           "d20_pct": 11.22,
           "atr_pct": 2.3,
           "dist50_atr": 2.2,
-          "rs1m": 2.048,
+          "rs1m": 2.049,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -1411,7 +1411,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWZ.png",
-          "volume_ratio": 0.65
+          "volume_ratio": 0.66
         },
         {
           "ticker": "INDA",
@@ -1429,7 +1429,7 @@
           "d20_pct": -4.01,
           "atr_pct": 0.96,
           "dist50_atr": -3.77,
-          "rs1m": -0.553,
+          "rs1m": -0.551,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1438,7 +1438,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/INDA.png",
-          "volume_ratio": 1.66
+          "volume_ratio": 1.68
         },
         {
           "ticker": "FXI",
@@ -1456,7 +1456,7 @@
           "d20_pct": -1.99,
           "atr_pct": 1.25,
           "dist50_atr": -1.59,
-          "rs1m": -0.005,
+          "rs1m": -0.004,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1465,7 +1465,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 1.01
+          "volume_ratio": 1.11
         },
         {
           "ticker": "VGK",
@@ -1483,7 +1483,7 @@
           "d20_pct": -3.41,
           "atr_pct": 0.89,
           "dist50_atr": -2.0,
-          "rs1m": -0.524,
+          "rs1m": -0.521,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -1510,7 +1510,7 @@
           "d20_pct": -3.04,
           "atr_pct": 1.17,
           "dist50_atr": -0.34,
-          "rs1m": -0.283,
+          "rs1m": -0.281,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,

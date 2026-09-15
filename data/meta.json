@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-09-15T20:28:55+00:00",
+  "generated_at_utc": "2026-09-15T23:12:18+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -9,34 +9,34 @@
       {
         "ticker": "XLE",
         "name": "State Street Energy Select Sector SPDR ETF",
-        "rs1m": 1.586
+        "rs1m": 1.587
       },
       {
         "ticker": "XLC",
         "name": "State Street Communication Services Select Sector SPDR ETF",
-        "rs1m": 1.105
+        "rs1m": 1.107
       },
       {
         "ticker": "XLV",
         "name": "State Street Health Care Select Sector SPDR ETF",
-        "rs1m": 0.403
+        "rs1m": 0.404
       }
     ],
     "countries": [
       {
         "ticker": "EWZ",
         "name": "iShares MSCI Brazil ETF",
-        "rs1m": 2.048
+        "rs1m": 2.049
       },
       {
         "ticker": "EWJ",
         "name": "iShares MSCI Japan ETF",
-        "rs1m": 0.148
+        "rs1m": 0.145
       },
       {
         "ticker": "FXI",
         "name": "iShares China Large-Cap ETF",
-        "rs1m": -0.005
+        "rs1m": -0.004
       }
     ]
   },
@@ -67,10 +67,19 @@
   },
   "universe_stats": {
     "tickers_total": 339,
-    "tickers_used": 335,
-    "filtered_out_count": 4,
-    "generated_at_utc": "2026-09-15T20:28:55+00:00",
-    "data_quality": []
+    "tickers_used": 334,
+    "filtered_out_count": 5,
+    "generated_at_utc": "2026-09-15T23:12:18+00:00",
+    "data_quality": [
+      {
+        "ticker": "KHC",
+        "source_ticker": "KHC",
+        "price": 24.6,
+        "price_date": "2026-09-11",
+        "price_source": "yfinance batch download",
+        "price_status": "stale"
+      }
+    ]
   },
   "leaderboard": {
     "leaders": [
@@ -83,7 +92,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.17,
-        "rs1m": 3.457,
+        "rs1m": 3.466,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MKTX"
       },
@@ -96,7 +105,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.58,
-        "rs1m": 2.585,
+        "rs1m": 2.586,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
@@ -109,7 +118,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.05,
-        "rs1m": 2.566,
+        "rs1m": 2.567,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:EPAM"
       },
@@ -122,7 +131,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.31,
-        "rs1m": 2.288,
+        "rs1m": 2.289,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:VZ"
       },
@@ -135,7 +144,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.32,
-        "rs1m": 2.236,
+        "rs1m": 2.238,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:BRK-B"
       },
@@ -148,7 +157,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 4.29,
-        "rs1m": 2.228,
+        "rs1m": 2.229,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:QCOM"
       },
@@ -161,7 +170,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.73,
-        "rs1m": 2.107,
+        "rs1m": 2.108,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:META"
       },
@@ -187,7 +196,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.07,
-        "rs1m": 2.023,
+        "rs1m": 2.024,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
       },
@@ -200,7 +209,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.34,
-        "rs1m": 2.011,
+        "rs1m": 2.012,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:COP"
       },
@@ -213,7 +222,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.51,
-        "rs1m": 1.965,
+        "rs1m": 1.966,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GEN"
       },
@@ -226,7 +235,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 1.5,
-        "rs1m": 1.872,
+        "rs1m": 1.873,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:IQV"
       },
@@ -239,7 +248,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 2.63,
-        "rs1m": 1.754,
+        "rs1m": 1.756,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVX"
       },
@@ -252,7 +261,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.11,
-        "rs1m": 1.75,
+        "rs1m": 1.751,
         "trend_grade": "B",
         "tradingview_symbol": "NYSE:MO"
       },
@@ -265,7 +274,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 2.18,
-        "rs1m": 1.745,
+        "rs1m": 1.746,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:KR"
       },
@@ -291,7 +300,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 2.82,
-        "rs1m": 1.629,
+        "rs1m": 1.63,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
       },
@@ -330,7 +339,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.34,
-        "rs1m": 1.596,
+        "rs1m": 1.597,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CF"
       },
@@ -369,7 +378,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.21,
-        "rs1m": 1.51,
+        "rs1m": 1.511,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:CHRW"
       },
@@ -382,7 +391,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.12,
-        "rs1m": 1.504,
+        "rs1m": 1.505,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PGR"
       },
@@ -395,7 +404,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 4.52,
-        "rs1m": 1.489,
+        "rs1m": 1.49,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:TMO"
       }
@@ -410,7 +419,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.11,
-        "rs1m": -2.779,
+        "rs1m": -2.778,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:TJX"
       },
@@ -423,7 +432,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -2.34,
-        "rs1m": -2.452,
+        "rs1m": -2.451,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RCL"
       },
@@ -449,7 +458,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -2.4,
-        "rs1m": -2.296,
+        "rs1m": -2.295,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CLX"
       },
@@ -462,7 +471,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.12,
-        "rs1m": -1.962,
+        "rs1m": -1.96,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HII"
       },
@@ -475,7 +484,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.56,
-        "rs1m": -1.902,
+        "rs1m": -1.901,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MGM"
       },
@@ -488,7 +497,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.26,
-        "rs1m": -1.804,
+        "rs1m": -1.803,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IR"
       },
@@ -501,7 +510,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.08,
-        "rs1m": -1.802,
+        "rs1m": -1.801,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RTX"
       },
@@ -514,7 +523,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.28,
-        "rs1m": -1.788,
+        "rs1m": -1.787,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:GEHC"
       },
@@ -527,7 +536,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 1.04,
-        "rs1m": -1.75,
+        "rs1m": -1.749,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:HON"
       },
@@ -540,7 +549,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.73,
-        "rs1m": -1.743,
+        "rs1m": -1.742,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -553,7 +562,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -3.29,
-        "rs1m": -1.706,
+        "rs1m": -1.705,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GE"
       },
@@ -566,7 +575,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.53,
-        "rs1m": -1.672,
+        "rs1m": -1.671,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:ODFL"
       },
@@ -579,7 +588,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.69,
-        "rs1m": -1.671,
+        "rs1m": -1.67,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:AMAT"
       },
@@ -592,7 +601,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.38,
-        "rs1m": -1.568,
+        "rs1m": -1.567,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PH"
       },
@@ -605,7 +614,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.58,
-        "rs1m": -1.549,
+        "rs1m": -1.547,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DTE"
       },
@@ -618,7 +627,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.52,
-        "rs1m": -1.49,
+        "rs1m": -1.488,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GD"
       },
@@ -631,7 +640,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -3.0,
-        "rs1m": -1.474,
+        "rs1m": -1.473,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CARR"
       },
@@ -644,22 +653,9 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.8,
-        "rs1m": -1.472,
+        "rs1m": -1.471,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IP"
-      },
-      {
-        "ticker": "LOW",
-        "short_name": "Lowe's Companies, Inc",
-        "name": "Lowe's Companies, Inc.",
-        "price": 194.61,
-        "price_date": "2026-09-15",
-        "price_source": "yfinance batch download",
-        "price_status": "current",
-        "intra_pct": -1.8,
-        "rs1m": -1.461,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LOW"
       },
       {
         "ticker": "RL",
@@ -670,9 +666,22 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.85,
-        "rs1m": -1.461,
+        "rs1m": -1.46,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RL"
+      },
+      {
+        "ticker": "LOW",
+        "short_name": "Lowe's Companies, Inc",
+        "name": "Lowe's Companies, Inc.",
+        "price": 194.61,
+        "price_date": "2026-09-15",
+        "price_source": "yfinance batch download",
+        "price_status": "current",
+        "intra_pct": -1.8,
+        "rs1m": -1.459,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:LOW"
       },
       {
         "ticker": "IRM",
@@ -683,7 +692,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.06,
-        "rs1m": -1.453,
+        "rs1m": -1.452,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IRM"
       },
@@ -696,7 +705,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.92,
-        "rs1m": -1.437,
+        "rs1m": -1.435,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:D"
       },
@@ -709,7 +718,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 1.64,
-        "rs1m": -1.436,
+        "rs1m": -1.435,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MMM"
       },
@@ -722,12 +731,12 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.44,
-        "rs1m": -1.412,
+        "rs1m": -1.411,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PSA"
       }
     ],
-    "universe_count": 335
+    "universe_count": 334
   },
   "momentum": {
     "leaders": [
@@ -740,7 +749,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.17,
-        "rs1m": 3.457,
+        "rs1m": 3.466,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:MKTX"
       },
@@ -753,7 +762,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.58,
-        "rs1m": 2.585,
+        "rs1m": 2.586,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:MPC"
       },
@@ -766,7 +775,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.05,
-        "rs1m": 2.566,
+        "rs1m": 2.567,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:EPAM"
       },
@@ -779,7 +788,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.31,
-        "rs1m": 2.288,
+        "rs1m": 2.289,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:VZ"
       },
@@ -792,7 +801,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.32,
-        "rs1m": 2.236,
+        "rs1m": 2.238,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:BRK-B"
       },
@@ -805,7 +814,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 4.29,
-        "rs1m": 2.228,
+        "rs1m": 2.229,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:QCOM"
       },
@@ -818,7 +827,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.73,
-        "rs1m": 2.107,
+        "rs1m": 2.108,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:META"
       },
@@ -844,7 +853,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.07,
-        "rs1m": 2.023,
+        "rs1m": 2.024,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PSX"
       },
@@ -857,7 +866,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.34,
-        "rs1m": 2.011,
+        "rs1m": 2.012,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:COP"
       },
@@ -870,7 +879,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.51,
-        "rs1m": 1.965,
+        "rs1m": 1.966,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GEN"
       },
@@ -883,7 +892,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 1.5,
-        "rs1m": 1.872,
+        "rs1m": 1.873,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:IQV"
       },
@@ -896,7 +905,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 2.63,
-        "rs1m": 1.754,
+        "rs1m": 1.756,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CVX"
       },
@@ -909,7 +918,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.11,
-        "rs1m": 1.75,
+        "rs1m": 1.751,
         "trend_grade": "B",
         "tradingview_symbol": "NYSE:MO"
       },
@@ -922,7 +931,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 2.18,
-        "rs1m": 1.745,
+        "rs1m": 1.746,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:KR"
       },
@@ -948,7 +957,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 2.82,
-        "rs1m": 1.629,
+        "rs1m": 1.63,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:OXY"
       },
@@ -987,7 +996,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 3.34,
-        "rs1m": 1.596,
+        "rs1m": 1.597,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:CF"
       },
@@ -1026,7 +1035,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.21,
-        "rs1m": 1.51,
+        "rs1m": 1.511,
         "trend_grade": "B",
         "tradingview_symbol": "NASDAQ:CHRW"
       },
@@ -1039,7 +1048,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.12,
-        "rs1m": 1.504,
+        "rs1m": 1.505,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:PGR"
       },
@@ -1052,7 +1061,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 4.52,
-        "rs1m": 1.489,
+        "rs1m": 1.49,
         "trend_grade": "A",
         "tradingview_symbol": "NYSE:TMO"
       }
@@ -1067,7 +1076,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.11,
-        "rs1m": -2.779,
+        "rs1m": -2.778,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:TJX"
       },
@@ -1080,7 +1089,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -2.34,
-        "rs1m": -2.452,
+        "rs1m": -2.451,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RCL"
       },
@@ -1106,7 +1115,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -2.4,
-        "rs1m": -2.296,
+        "rs1m": -2.295,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CLX"
       },
@@ -1119,7 +1128,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.12,
-        "rs1m": -1.962,
+        "rs1m": -1.96,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:HII"
       },
@@ -1132,7 +1141,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.56,
-        "rs1m": -1.902,
+        "rs1m": -1.901,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MGM"
       },
@@ -1145,7 +1154,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.26,
-        "rs1m": -1.804,
+        "rs1m": -1.803,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IR"
       },
@@ -1158,7 +1167,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.08,
-        "rs1m": -1.802,
+        "rs1m": -1.801,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RTX"
       },
@@ -1171,7 +1180,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.28,
-        "rs1m": -1.788,
+        "rs1m": -1.787,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:GEHC"
       },
@@ -1184,7 +1193,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 1.04,
-        "rs1m": -1.75,
+        "rs1m": -1.749,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:HON"
       },
@@ -1197,7 +1206,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.73,
-        "rs1m": -1.743,
+        "rs1m": -1.742,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:COO"
       },
@@ -1210,7 +1219,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -3.29,
-        "rs1m": -1.706,
+        "rs1m": -1.705,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GE"
       },
@@ -1223,7 +1232,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.53,
-        "rs1m": -1.672,
+        "rs1m": -1.671,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:ODFL"
       },
@@ -1236,7 +1245,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.69,
-        "rs1m": -1.671,
+        "rs1m": -1.67,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:AMAT"
       },
@@ -1249,7 +1258,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.38,
-        "rs1m": -1.568,
+        "rs1m": -1.567,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PH"
       },
@@ -1262,7 +1271,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.58,
-        "rs1m": -1.549,
+        "rs1m": -1.547,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:DTE"
       },
@@ -1275,7 +1284,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.52,
-        "rs1m": -1.49,
+        "rs1m": -1.488,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:GD"
       },
@@ -1288,7 +1297,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -3.0,
-        "rs1m": -1.474,
+        "rs1m": -1.473,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:CARR"
       },
@@ -1301,22 +1310,9 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.8,
-        "rs1m": -1.472,
+        "rs1m": -1.471,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IP"
-      },
-      {
-        "ticker": "LOW",
-        "short_name": "Lowe's Companies, Inc",
-        "name": "Lowe's Companies, Inc.",
-        "price": 194.61,
-        "price_date": "2026-09-15",
-        "price_source": "yfinance batch download",
-        "price_status": "current",
-        "intra_pct": -1.8,
-        "rs1m": -1.461,
-        "trend_grade": "C",
-        "tradingview_symbol": "NYSE:LOW"
       },
       {
         "ticker": "RL",
@@ -1327,9 +1323,22 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -1.85,
-        "rs1m": -1.461,
+        "rs1m": -1.46,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:RL"
+      },
+      {
+        "ticker": "LOW",
+        "short_name": "Lowe's Companies, Inc",
+        "name": "Lowe's Companies, Inc.",
+        "price": 194.61,
+        "price_date": "2026-09-15",
+        "price_source": "yfinance batch download",
+        "price_status": "current",
+        "intra_pct": -1.8,
+        "rs1m": -1.459,
+        "trend_grade": "C",
+        "tradingview_symbol": "NYSE:LOW"
       },
       {
         "ticker": "IRM",
@@ -1340,7 +1349,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.06,
-        "rs1m": -1.453,
+        "rs1m": -1.452,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:IRM"
       },
@@ -1353,7 +1362,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": -0.92,
-        "rs1m": -1.437,
+        "rs1m": -1.435,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:D"
       },
@@ -1366,7 +1375,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 1.64,
-        "rs1m": -1.436,
+        "rs1m": -1.435,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:MMM"
       },
@@ -1379,7 +1388,7 @@
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.44,
-        "rs1m": -1.412,
+        "rs1m": -1.411,
         "trend_grade": "C",
         "tradingview_symbol": "NYSE:PSA"
       }
