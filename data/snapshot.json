@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-16T20:27:17+00:00",
+  "generated_at_utc": "2026-09-16T23:16:47+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -112,7 +112,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 1.39
+          "volume_ratio": 1.5
         },
         {
           "ticker": "TLT",
@@ -139,7 +139,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 1.73
+          "volume_ratio": 1.74
         },
         {
           "ticker": "IEF",
@@ -166,7 +166,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IEF.png",
-          "volume_ratio": 1.79
+          "volume_ratio": 1.8
         },
         {
           "ticker": "HYG",
@@ -174,17 +174,17 @@
           "tradingview_symbol": "NYSEARCA:HYG",
           "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
           "short_name": "iBoxx $ High Yield Corp\u2026",
-          "last": 78.47,
+          "last": 78.42,
           "price_date": "2026-09-16",
           "price_source": "yfinance batch download",
           "price_status": "current",
           "intra_pct": 0.09,
-          "d1_pct": 0.11,
-          "d5_pct": -0.65,
-          "d20_pct": -1.33,
+          "d1_pct": 0.05,
+          "d5_pct": -0.71,
+          "d20_pct": -1.4,
           "atr_pct": 0.31,
-          "dist50_atr": -3.93,
-          "rs1m": 0.371,
+          "dist50_atr": -4.14,
+          "rs1m": 0.317,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -201,17 +201,17 @@
           "tradingview_symbol": "TVC:DXY",
           "name": "US Dollar Index",
           "short_name": "US Dollar",
-          "last": 100.3,
+          "last": 100.34,
           "price_date": "2026-09-16",
           "price_source": "yfinance batch download",
           "price_status": "current",
-          "intra_pct": 0.66,
-          "d1_pct": 0.66,
-          "d5_pct": 1.55,
-          "d20_pct": 0.66,
+          "intra_pct": 0.69,
+          "d1_pct": 0.69,
+          "d5_pct": 1.59,
+          "d20_pct": 0.69,
           "atr_pct": 0.46,
-          "dist50_atr": 0.69,
-          "rs1m": 1.562,
+          "dist50_atr": 0.77,
+          "rs1m": 1.571,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -228,17 +228,17 @@
           "tradingview_symbol": "CBOE:VIX",
           "name": "CBOE Volatility Index",
           "short_name": "CBOE Volatility",
-          "last": 17.72,
+          "last": 17.71,
           "price_date": "2026-09-16",
           "price_source": "yfinance batch download",
           "price_status": "current",
-          "intra_pct": 3.02,
-          "d1_pct": 3.02,
-          "d5_pct": 7.65,
-          "d20_pct": 19.01,
+          "intra_pct": 2.97,
+          "d1_pct": 2.97,
+          "d5_pct": 7.59,
+          "d20_pct": 18.94,
           "atr_pct": 8.14,
           "dist50_atr": 1.06,
-          "rs1m": 0.511,
+          "rs1m": 0.509,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -255,7 +255,7 @@
           "tradingview_symbol": "CBOE:VIX9D",
           "name": "CBOE S&P 500 9 Day Volatility I",
           "short_name": "CBOE S&P 500 9 Day Vola\u2026",
-          "last": 17.41,
+          "last": 17.4,
           "price_date": "2026-09-16",
           "price_source": "yfinance batch download",
           "price_status": "current",
@@ -360,7 +360,7 @@
             "short": "FAZ"
           },
           "mini_rs_chart": "data/mini_rs/XLF.png",
-          "volume_ratio": 1.71
+          "volume_ratio": 1.72
         },
         {
           "ticker": "XLE",
@@ -422,17 +422,17 @@
           "tradingview_symbol": "AMEX:XLI",
           "name": "State Street Industrial Select Sector SPDR ETF",
           "short_name": "Industrial",
-          "last": 168.65,
+          "last": 168.71,
           "price_date": "2026-09-16",
           "price_source": "yfinance batch download",
           "price_status": "current",
           "intra_pct": -0.1,
-          "d1_pct": -0.12,
-          "d5_pct": -1.83,
-          "d20_pct": -8.13,
+          "d1_pct": -0.08,
+          "d5_pct": -1.79,
+          "d20_pct": -8.1,
           "atr_pct": 1.48,
-          "dist50_atr": -4.32,
-          "rs1m": -1.762,
+          "dist50_atr": -4.3,
+          "rs1m": -1.752,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -441,7 +441,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLI.png",
-          "volume_ratio": 1.21
+          "volume_ratio": 1.22
         },
         {
           "ticker": "XLY",
@@ -495,7 +495,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 0.96
+          "volume_ratio": 0.97
         },
         {
           "ticker": "XLU",
@@ -522,7 +522,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 1.13
+          "volume_ratio": 1.14
         },
         {
           "ticker": "XLB",
@@ -635,7 +635,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 1.14
+          "volume_ratio": 1.16
         },
         {
           "ticker": "IWM",
@@ -643,17 +643,17 @@
           "tradingview_symbol": "AMEX:IWM",
           "name": "iShares Russell 2000 ETF",
           "short_name": "Russell 2000",
-          "last": 283.93,
+          "last": 283.92,
           "price_date": "2026-09-16",
           "price_source": "yfinance batch download",
           "price_status": "current",
           "intra_pct": -0.42,
-          "d1_pct": -0.42,
+          "d1_pct": -0.43,
           "d5_pct": -2.31,
           "d20_pct": -5.43,
           "atr_pct": 1.23,
           "dist50_atr": -3.32,
-          "rs1m": -1.087,
+          "rs1m": -1.088,
           "trend_grade": "C",
           "above_20d": false,
           "above_50d": false,
@@ -662,7 +662,7 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 1.37
+          "volume_ratio": 1.39
         },
         {
           "ticker": "IWF",
@@ -770,7 +770,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USMV.png",
-          "volume_ratio": 0.99
+          "volume_ratio": 1.0
         }
       ]
     },
@@ -802,7 +802,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 0.89
+          "volume_ratio": 0.9
         },
         {
           "ticker": "SOXX",
@@ -829,7 +829,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 1.11
+          "volume_ratio": 1.14
         },
         {
           "ticker": "IGV",
@@ -937,7 +937,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/PAVE.png",
-          "volume_ratio": 0.82
+          "volume_ratio": 0.83
         }
       ]
     },
@@ -969,7 +969,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 0.96
+          "volume_ratio": 0.97
         },
         {
           "ticker": "XLU",
@@ -996,7 +996,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLU.png",
-          "volume_ratio": 1.13
+          "volume_ratio": 1.14
         },
         {
           "ticker": "XLV",
@@ -1050,7 +1050,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USMV.png",
-          "volume_ratio": 0.99
+          "volume_ratio": 1.0
         },
         {
           "ticker": "SPLV",
@@ -1077,7 +1077,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SPLV.png",
-          "volume_ratio": 0.9
+          "volume_ratio": 0.95
         },
         {
           "ticker": "BIL",
@@ -1136,7 +1136,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/GLD.png",
-          "volume_ratio": 1.24
+          "volume_ratio": 1.27
         },
         {
           "ticker": "SLV",
@@ -1163,7 +1163,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SLV.png",
-          "volume_ratio": 1.16
+          "volume_ratio": 1.18
         },
         {
           "ticker": "USO",
@@ -1190,7 +1190,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 1.09
+          "volume_ratio": 1.1
         },
         {
           "ticker": "DBC",
@@ -1330,7 +1330,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EFA.png",
-          "volume_ratio": 1.18
+          "volume_ratio": 1.19
         },
         {
           "ticker": "EEM",
@@ -1357,7 +1357,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EEM.png",
-          "volume_ratio": 1.02
+          "volume_ratio": 1.04
         },
         {
           "ticker": "EWJ",
@@ -1411,7 +1411,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWZ.png",
-          "volume_ratio": 0.82
+          "volume_ratio": 0.83
         },
         {
           "ticker": "INDA",
@@ -1519,7 +1519,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWC.png",
-          "volume_ratio": 1.28
+          "volume_ratio": 1.29
         }
       ]
     }
