@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-09-17T20:35:15+00:00",
+  "generated_at_utc": "2026-09-17T23:08:03+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 52,
@@ -8,17 +8,17 @@
     "sectors": [
       {
         "ticker": "XLK",
-        "name": "Technology Select Sector SPDR",
+        "name": "State Street Technology Select Sector SPDR ETF",
         "rs1m": 0.561
       },
       {
         "ticker": "XLE",
-        "name": "Energy Select Sector SPDR",
+        "name": "State Street Energy Select Sector SPDR ETF",
         "rs1m": 0.424
       },
       {
         "ticker": "XLC",
-        "name": "Communication Services Select Sector SPDR",
+        "name": "State Street Communication Services Select Sector SPDR ETF",
         "rs1m": 0.392
       }
     ],
@@ -69,15 +69,15 @@
     "tickers_total": 339,
     "tickers_used": 335,
     "filtered_out_count": 4,
-    "generated_at_utc": "2026-09-17T20:35:15+00:00",
+    "generated_at_utc": "2026-09-17T23:08:03+00:00",
     "data_quality": []
   },
   "leaderboard": {
     "leaders": [
       {
         "ticker": "MKTX",
-        "short_name": "MKTX",
-        "name": "MKTX",
+        "short_name": "MarketAxess Holdings Inc",
+        "name": "MarketAxess Holdings Inc.",
         "price": 163.32,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -85,12 +85,12 @@
         "intra_pct": -0.02,
         "rs1m": 3.889,
         "trend_grade": "A",
-        "tradingview_symbol": "MKTX"
+        "tradingview_symbol": "NASDAQ:MKTX"
       },
       {
         "ticker": "META",
-        "short_name": "META",
-        "name": "META",
+        "short_name": "Meta Platforms, Inc",
+        "name": "Meta Platforms, Inc.",
         "price": 682.31,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -98,12 +98,12 @@
         "intra_pct": 1.39,
         "rs1m": 3.371,
         "trend_grade": "A",
-        "tradingview_symbol": "META"
+        "tradingview_symbol": "NASDAQ:META"
       },
       {
         "ticker": "MPC",
-        "short_name": "MPC",
-        "name": "MPC",
+        "short_name": "Marathon Petroleum Corp\u2026",
+        "name": "Marathon Petroleum Corporation",
         "price": 421.96,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -111,12 +111,12 @@
         "intra_pct": 2.01,
         "rs1m": 2.976,
         "trend_grade": "A",
-        "tradingview_symbol": "MPC"
+        "tradingview_symbol": "NYSE:MPC"
       },
       {
         "ticker": "QCOM",
-        "short_name": "QCOM",
-        "name": "QCOM",
+        "short_name": "QUALCOMM Incorporated",
+        "name": "QUALCOMM Incorporated",
         "price": 188.71,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -124,12 +124,12 @@
         "intra_pct": 2.09,
         "rs1m": 2.128,
         "trend_grade": "A",
-        "tradingview_symbol": "QCOM"
+        "tradingview_symbol": "NASDAQ:QCOM"
       },
       {
         "ticker": "PSX",
-        "short_name": "PSX",
-        "name": "PSX",
+        "short_name": "Phillips 66",
+        "name": "Phillips 66",
         "price": 274.21,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -137,12 +137,12 @@
         "intra_pct": 3.57,
         "rs1m": 2.111,
         "trend_grade": "A",
-        "tradingview_symbol": "PSX"
+        "tradingview_symbol": "NYSE:PSX"
       },
       {
         "ticker": "DE",
-        "short_name": "DE",
-        "name": "DE",
+        "short_name": "Deere & Company",
+        "name": "Deere & Company",
         "price": 685.63,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -150,12 +150,12 @@
         "intra_pct": 2.42,
         "rs1m": 1.753,
         "trend_grade": "A",
-        "tradingview_symbol": "DE"
+        "tradingview_symbol": "NYSE:DE"
       },
       {
         "ticker": "QRVO",
-        "short_name": "QRVO",
-        "name": "QRVO",
+        "short_name": "Qorvo, Inc",
+        "name": "Qorvo, Inc.",
         "price": 119.51,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -163,12 +163,12 @@
         "intra_pct": 4.88,
         "rs1m": 1.537,
         "trend_grade": "A",
-        "tradingview_symbol": "QRVO"
+        "tradingview_symbol": "NASDAQ:QRVO"
       },
       {
         "ticker": "MOS",
-        "short_name": "MOS",
-        "name": "MOS",
+        "short_name": "The Mosaic Company",
+        "name": "The Mosaic Company",
         "price": 25.39,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -176,12 +176,12 @@
         "intra_pct": 2.38,
         "rs1m": 1.435,
         "trend_grade": "A",
-        "tradingview_symbol": "MOS"
+        "tradingview_symbol": "NYSE:MOS"
       },
       {
         "ticker": "ILMN",
-        "short_name": "ILMN",
-        "name": "ILMN",
+        "short_name": "Illumina, Inc",
+        "name": "Illumina, Inc.",
         "price": 245.18,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -189,12 +189,12 @@
         "intra_pct": 7.08,
         "rs1m": 1.406,
         "trend_grade": "A",
-        "tradingview_symbol": "ILMN"
+        "tradingview_symbol": "NASDAQ:ILMN"
       },
       {
         "ticker": "IQV",
-        "short_name": "IQV",
-        "name": "IQV",
+        "short_name": "IQVIA Holdings Inc",
+        "name": "IQVIA Holdings Inc.",
         "price": 269.44,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -202,12 +202,12 @@
         "intra_pct": 0.22,
         "rs1m": 1.372,
         "trend_grade": "A",
-        "tradingview_symbol": "IQV"
+        "tradingview_symbol": "NYSE:IQV"
       },
       {
         "ticker": "EBAY",
-        "short_name": "EBAY",
-        "name": "EBAY",
+        "short_name": "eBay Inc",
+        "name": "eBay Inc.",
         "price": 112.9,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -215,12 +215,12 @@
         "intra_pct": 3.44,
         "rs1m": 1.338,
         "trend_grade": "B",
-        "tradingview_symbol": "EBAY"
+        "tradingview_symbol": "NASDAQ:EBAY"
       },
       {
         "ticker": "TRV",
-        "short_name": "TRV",
-        "name": "TRV",
+        "short_name": "The Travelers Companies\u2026",
+        "name": "The Travelers Companies, Inc.",
         "price": 379.49,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -228,12 +228,12 @@
         "intra_pct": 0.15,
         "rs1m": 1.315,
         "trend_grade": "A",
-        "tradingview_symbol": "TRV"
+        "tradingview_symbol": "NYSE:TRV"
       },
       {
         "ticker": "FFIV",
-        "short_name": "FFIV",
-        "name": "FFIV",
+        "short_name": "F5, Inc",
+        "name": "F5, Inc.",
         "price": 434.62,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -241,12 +241,12 @@
         "intra_pct": 2.6,
         "rs1m": 1.312,
         "trend_grade": "A",
-        "tradingview_symbol": "FFIV"
+        "tradingview_symbol": "NASDAQ:FFIV"
       },
       {
         "ticker": "AMD",
-        "short_name": "AMD",
-        "name": "AMD",
+        "short_name": "Advanced Micro Devices,\u2026",
+        "name": "Advanced Micro Devices, Inc.",
         "price": 545.09,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -254,12 +254,12 @@
         "intra_pct": 6.3,
         "rs1m": 1.292,
         "trend_grade": "A",
-        "tradingview_symbol": "AMD"
+        "tradingview_symbol": "NASDAQ:AMD"
       },
       {
         "ticker": "ARE",
-        "short_name": "ARE",
-        "name": "ARE",
+        "short_name": "Alexandria Real Estate\u2026",
+        "name": "Alexandria Real Estate Equities, Inc.",
         "price": 56.34,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -267,12 +267,12 @@
         "intra_pct": 5.29,
         "rs1m": 1.279,
         "trend_grade": "A",
-        "tradingview_symbol": "ARE"
+        "tradingview_symbol": "NYSE:ARE"
       },
       {
         "ticker": "ADM",
-        "short_name": "ADM",
-        "name": "ADM",
+        "short_name": "Archer-Daniels-Midland\u2026",
+        "name": "Archer-Daniels-Midland Company",
         "price": 88.09,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -280,12 +280,12 @@
         "intra_pct": 3.62,
         "rs1m": 1.25,
         "trend_grade": "A",
-        "tradingview_symbol": "ADM"
+        "tradingview_symbol": "NYSE:ADM"
       },
       {
         "ticker": "GEN",
-        "short_name": "GEN",
-        "name": "GEN",
+        "short_name": "Gen Digital Inc",
+        "name": "Gen Digital Inc.",
         "price": 30.21,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -293,12 +293,12 @@
         "intra_pct": -1.44,
         "rs1m": 1.22,
         "trend_grade": "A",
-        "tradingview_symbol": "GEN"
+        "tradingview_symbol": "NASDAQ:GEN"
       },
       {
         "ticker": "CF",
-        "short_name": "CF",
-        "name": "CF",
+        "short_name": "CF Industries Holdings,\u2026",
+        "name": "CF Industries Holdings, Inc.",
         "price": 133.82,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -306,7 +306,7 @@
         "intra_pct": 1.39,
         "rs1m": 1.197,
         "trend_grade": "A",
-        "tradingview_symbol": "CF"
+        "tradingview_symbol": "NYSE:CF"
       },
       {
         "ticker": "TMO",
@@ -733,8 +733,8 @@
     "leaders": [
       {
         "ticker": "MKTX",
-        "short_name": "MKTX",
-        "name": "MKTX",
+        "short_name": "MarketAxess Holdings Inc",
+        "name": "MarketAxess Holdings Inc.",
         "price": 163.32,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -742,12 +742,12 @@
         "intra_pct": -0.02,
         "rs1m": 3.889,
         "trend_grade": "A",
-        "tradingview_symbol": "MKTX"
+        "tradingview_symbol": "NASDAQ:MKTX"
       },
       {
         "ticker": "META",
-        "short_name": "META",
-        "name": "META",
+        "short_name": "Meta Platforms, Inc",
+        "name": "Meta Platforms, Inc.",
         "price": 682.31,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -755,12 +755,12 @@
         "intra_pct": 1.39,
         "rs1m": 3.371,
         "trend_grade": "A",
-        "tradingview_symbol": "META"
+        "tradingview_symbol": "NASDAQ:META"
       },
       {
         "ticker": "MPC",
-        "short_name": "MPC",
-        "name": "MPC",
+        "short_name": "Marathon Petroleum Corp\u2026",
+        "name": "Marathon Petroleum Corporation",
         "price": 421.96,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -768,12 +768,12 @@
         "intra_pct": 2.01,
         "rs1m": 2.976,
         "trend_grade": "A",
-        "tradingview_symbol": "MPC"
+        "tradingview_symbol": "NYSE:MPC"
       },
       {
         "ticker": "QCOM",
-        "short_name": "QCOM",
-        "name": "QCOM",
+        "short_name": "QUALCOMM Incorporated",
+        "name": "QUALCOMM Incorporated",
         "price": 188.71,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -781,12 +781,12 @@
         "intra_pct": 2.09,
         "rs1m": 2.128,
         "trend_grade": "A",
-        "tradingview_symbol": "QCOM"
+        "tradingview_symbol": "NASDAQ:QCOM"
       },
       {
         "ticker": "PSX",
-        "short_name": "PSX",
-        "name": "PSX",
+        "short_name": "Phillips 66",
+        "name": "Phillips 66",
         "price": 274.21,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -794,12 +794,12 @@
         "intra_pct": 3.57,
         "rs1m": 2.111,
         "trend_grade": "A",
-        "tradingview_symbol": "PSX"
+        "tradingview_symbol": "NYSE:PSX"
       },
       {
         "ticker": "DE",
-        "short_name": "DE",
-        "name": "DE",
+        "short_name": "Deere & Company",
+        "name": "Deere & Company",
         "price": 685.63,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -807,12 +807,12 @@
         "intra_pct": 2.42,
         "rs1m": 1.753,
         "trend_grade": "A",
-        "tradingview_symbol": "DE"
+        "tradingview_symbol": "NYSE:DE"
       },
       {
         "ticker": "QRVO",
-        "short_name": "QRVO",
-        "name": "QRVO",
+        "short_name": "Qorvo, Inc",
+        "name": "Qorvo, Inc.",
         "price": 119.51,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -820,12 +820,12 @@
         "intra_pct": 4.88,
         "rs1m": 1.537,
         "trend_grade": "A",
-        "tradingview_symbol": "QRVO"
+        "tradingview_symbol": "NASDAQ:QRVO"
       },
       {
         "ticker": "MOS",
-        "short_name": "MOS",
-        "name": "MOS",
+        "short_name": "The Mosaic Company",
+        "name": "The Mosaic Company",
         "price": 25.39,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -833,12 +833,12 @@
         "intra_pct": 2.38,
         "rs1m": 1.435,
         "trend_grade": "A",
-        "tradingview_symbol": "MOS"
+        "tradingview_symbol": "NYSE:MOS"
       },
       {
         "ticker": "ILMN",
-        "short_name": "ILMN",
-        "name": "ILMN",
+        "short_name": "Illumina, Inc",
+        "name": "Illumina, Inc.",
         "price": 245.18,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -846,12 +846,12 @@
         "intra_pct": 7.08,
         "rs1m": 1.406,
         "trend_grade": "A",
-        "tradingview_symbol": "ILMN"
+        "tradingview_symbol": "NASDAQ:ILMN"
       },
       {
         "ticker": "IQV",
-        "short_name": "IQV",
-        "name": "IQV",
+        "short_name": "IQVIA Holdings Inc",
+        "name": "IQVIA Holdings Inc.",
         "price": 269.44,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -859,12 +859,12 @@
         "intra_pct": 0.22,
         "rs1m": 1.372,
         "trend_grade": "A",
-        "tradingview_symbol": "IQV"
+        "tradingview_symbol": "NYSE:IQV"
       },
       {
         "ticker": "EBAY",
-        "short_name": "EBAY",
-        "name": "EBAY",
+        "short_name": "eBay Inc",
+        "name": "eBay Inc.",
         "price": 112.9,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -872,12 +872,12 @@
         "intra_pct": 3.44,
         "rs1m": 1.338,
         "trend_grade": "B",
-        "tradingview_symbol": "EBAY"
+        "tradingview_symbol": "NASDAQ:EBAY"
       },
       {
         "ticker": "TRV",
-        "short_name": "TRV",
-        "name": "TRV",
+        "short_name": "The Travelers Companies\u2026",
+        "name": "The Travelers Companies, Inc.",
         "price": 379.49,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -885,12 +885,12 @@
         "intra_pct": 0.15,
         "rs1m": 1.315,
         "trend_grade": "A",
-        "tradingview_symbol": "TRV"
+        "tradingview_symbol": "NYSE:TRV"
       },
       {
         "ticker": "FFIV",
-        "short_name": "FFIV",
-        "name": "FFIV",
+        "short_name": "F5, Inc",
+        "name": "F5, Inc.",
         "price": 434.62,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -898,12 +898,12 @@
         "intra_pct": 2.6,
         "rs1m": 1.312,
         "trend_grade": "A",
-        "tradingview_symbol": "FFIV"
+        "tradingview_symbol": "NASDAQ:FFIV"
       },
       {
         "ticker": "AMD",
-        "short_name": "AMD",
-        "name": "AMD",
+        "short_name": "Advanced Micro Devices,\u2026",
+        "name": "Advanced Micro Devices, Inc.",
         "price": 545.09,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -911,12 +911,12 @@
         "intra_pct": 6.3,
         "rs1m": 1.292,
         "trend_grade": "A",
-        "tradingview_symbol": "AMD"
+        "tradingview_symbol": "NASDAQ:AMD"
       },
       {
         "ticker": "ARE",
-        "short_name": "ARE",
-        "name": "ARE",
+        "short_name": "Alexandria Real Estate\u2026",
+        "name": "Alexandria Real Estate Equities, Inc.",
         "price": 56.34,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -924,12 +924,12 @@
         "intra_pct": 5.29,
         "rs1m": 1.279,
         "trend_grade": "A",
-        "tradingview_symbol": "ARE"
+        "tradingview_symbol": "NYSE:ARE"
       },
       {
         "ticker": "ADM",
-        "short_name": "ADM",
-        "name": "ADM",
+        "short_name": "Archer-Daniels-Midland\u2026",
+        "name": "Archer-Daniels-Midland Company",
         "price": 88.09,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -937,12 +937,12 @@
         "intra_pct": 3.62,
         "rs1m": 1.25,
         "trend_grade": "A",
-        "tradingview_symbol": "ADM"
+        "tradingview_symbol": "NYSE:ADM"
       },
       {
         "ticker": "GEN",
-        "short_name": "GEN",
-        "name": "GEN",
+        "short_name": "Gen Digital Inc",
+        "name": "Gen Digital Inc.",
         "price": 30.21,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -950,12 +950,12 @@
         "intra_pct": -1.44,
         "rs1m": 1.22,
         "trend_grade": "A",
-        "tradingview_symbol": "GEN"
+        "tradingview_symbol": "NASDAQ:GEN"
       },
       {
         "ticker": "CF",
-        "short_name": "CF",
-        "name": "CF",
+        "short_name": "CF Industries Holdings,\u2026",
+        "name": "CF Industries Holdings, Inc.",
         "price": 133.82,
         "price_date": "2026-09-17",
         "price_source": "yfinance batch download",
@@ -963,7 +963,7 @@
         "intra_pct": 1.39,
         "rs1m": 1.197,
         "trend_grade": "A",
-        "tradingview_symbol": "CF"
+        "tradingview_symbol": "NYSE:CF"
       },
       {
         "ticker": "TMO",

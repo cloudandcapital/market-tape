@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-17T20:35:15+00:00",
+  "generated_at_utc": "2026-09-17T23:08:03+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -91,7 +91,7 @@
           "ticker": "SPY",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:SPY",
-          "name": "S&P 500 ETF",
+          "name": "State Street SPDR S&P 500 ETF Trust",
           "short_name": "S&P 500",
           "last": 762.6,
           "price_date": "2026-09-17",
@@ -112,13 +112,13 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 1.14
+          "volume_ratio": 1.24
         },
         {
           "ticker": "TLT",
           "exchange_hint": "NASDAQ",
           "tradingview_symbol": "NASDAQ:TLT",
-          "name": "20+ Year Treasury Bond ETF",
+          "name": "iShares 20+ Year Treasury Bond ETF",
           "short_name": "20+ Year Treasury Bond",
           "last": 81.78,
           "price_date": "2026-09-17",
@@ -143,9 +143,9 @@
         },
         {
           "ticker": "IEF",
-          "exchange_hint": null,
-          "tradingview_symbol": "IEF",
-          "name": "7-10 Year Treasury Bond ETF",
+          "exchange_hint": "NASDAQ",
+          "tradingview_symbol": "NASDAQ:IEF",
+          "name": "iShares 7-10 Year Treasury Bond ETF",
           "short_name": "7-10 Year Treasury Bond",
           "last": 91.25,
           "price_date": "2026-09-17",
@@ -170,10 +170,10 @@
         },
         {
           "ticker": "HYG",
-          "exchange_hint": null,
-          "tradingview_symbol": "HYG",
-          "name": "iShares iBoxx High Yield Corp Bond ETF",
-          "short_name": "iBoxx High Yield Corp B\u2026",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:HYG",
+          "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+          "short_name": "iBoxx $ High Yield Corp\u2026",
           "last": 78.72,
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
@@ -193,7 +193,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/HYG.png",
-          "volume_ratio": 1.22
+          "volume_ratio": 1.25
         },
         {
           "ticker": "DXY",
@@ -205,13 +205,13 @@
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
           "price_status": "current",
-          "intra_pct": -0.08,
+          "intra_pct": -0.07,
           "d1_pct": -0.07,
           "d5_pct": 1.16,
           "d20_pct": 1.42,
           "atr_pct": 0.48,
           "dist50_atr": 0.57,
-          "rs1m": 1.778,
+          "rs1m": 1.777,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -253,8 +253,8 @@
           "ticker": "^VIX9D",
           "exchange_hint": null,
           "tradingview_symbol": "CBOE:VIX9D",
-          "name": "CBOE 9-Day Volatility Index",
-          "short_name": "CBOE 9-Day Volatility",
+          "name": "CBOE S&P 500 9 Day Volatility I",
+          "short_name": "CBOE S&P 500 9 Day Vola\u2026",
           "last": 13.39,
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
@@ -280,8 +280,8 @@
           "ticker": "^TNX",
           "exchange_hint": null,
           "tradingview_symbol": "TVC:US10Y",
-          "name": "US 10-Year Treasury Yield",
-          "short_name": "US 10-Year Treasury Yie\u2026",
+          "name": "CBOE Interest Rate 10 Year T No",
+          "short_name": "CBOE Interest Rate 10 Y\u2026",
           "last": 4.95,
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
@@ -312,7 +312,7 @@
           "ticker": "XLK",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLK",
-          "name": "Technology Select Sector SPDR",
+          "name": "State Street Technology Select Sector SPDR ETF",
           "short_name": "Technology",
           "last": 188.06,
           "price_date": "2026-09-17",
@@ -339,7 +339,7 @@
           "ticker": "XLF",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLF",
-          "name": "Financial Select Sector SPDR",
+          "name": "State Street Financial Select Sector SPDR ETF",
           "short_name": "Financial",
           "last": 55.88,
           "price_date": "2026-09-17",
@@ -360,13 +360,13 @@
             "short": "FAZ"
           },
           "mini_rs_chart": "data/mini_rs/XLF.png",
-          "volume_ratio": 0.93
+          "volume_ratio": 0.95
         },
         {
           "ticker": "XLE",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLE",
-          "name": "Energy Select Sector SPDR",
+          "name": "State Street Energy Select Sector SPDR ETF",
           "short_name": "Energy",
           "last": 64.48,
           "price_date": "2026-09-17",
@@ -393,7 +393,7 @@
           "ticker": "XLV",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLV",
-          "name": "Health Care Select Sector SPDR",
+          "name": "State Street Health Care Select Sector SPDR ETF",
           "short_name": "Health Care",
           "last": 168.81,
           "price_date": "2026-09-17",
@@ -420,7 +420,7 @@
           "ticker": "XLI",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLI",
-          "name": "Industrial Select Sector SPDR",
+          "name": "State Street Industrial Select Sector SPDR ETF",
           "short_name": "Industrial",
           "last": 169.01,
           "price_date": "2026-09-17",
@@ -441,13 +441,13 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLI.png",
-          "volume_ratio": 0.8
+          "volume_ratio": 0.81
         },
         {
           "ticker": "XLY",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLY",
-          "name": "Consumer Discretionary Select Sector SPDR",
+          "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
           "short_name": "Consumer Discretionary",
           "last": 111.39,
           "price_date": "2026-09-17",
@@ -474,7 +474,7 @@
           "ticker": "XLP",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLP",
-          "name": "Consumer Staples Select Sector SPDR",
+          "name": "State Street Consumer Staples Select Sector SPDR ETF",
           "short_name": "Consumer Staples",
           "last": 83.49,
           "price_date": "2026-09-17",
@@ -495,13 +495,13 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.78
         },
         {
           "ticker": "XLU",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLU",
-          "name": "Utilities Select Sector SPDR",
+          "name": "State Street Utilities Select Sector SPDR ETF",
           "short_name": "Utilities",
           "last": 41.69,
           "price_date": "2026-09-17",
@@ -528,7 +528,7 @@
           "ticker": "XLB",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLB",
-          "name": "Materials Select Sector SPDR",
+          "name": "State Street Materials Select Sector SPDR ETF",
           "short_name": "Materials",
           "last": 50.71,
           "price_date": "2026-09-17",
@@ -555,7 +555,7 @@
           "ticker": "XLRE",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLRE",
-          "name": "Real Estate Select Sector SPDR",
+          "name": "State Street Real Estate Select Sector SPDR ETF",
           "short_name": "Real Estate",
           "last": 42.94,
           "price_date": "2026-09-17",
@@ -582,7 +582,7 @@
           "ticker": "XLC",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLC",
-          "name": "Communication Services Select Sector SPDR",
+          "name": "State Street Communication Services Select Sector SPDR ETF",
           "short_name": "Communication Services",
           "last": 112.35,
           "price_date": "2026-09-17",
@@ -635,7 +635,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 1.16
+          "volume_ratio": 1.19
         },
         {
           "ticker": "IWM",
@@ -662,12 +662,12 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 1.08
+          "volume_ratio": 1.1
         },
         {
           "ticker": "IWF",
-          "exchange_hint": null,
-          "tradingview_symbol": "IWF",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:IWF",
           "name": "iShares Russell 1000 Growth ETF",
           "short_name": "Russell 1000 Growth",
           "last": 122.53,
@@ -693,8 +693,8 @@
         },
         {
           "ticker": "IWD",
-          "exchange_hint": null,
-          "tradingview_symbol": "IWD",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:IWD",
           "name": "iShares Russell 1000 Value ETF",
           "short_name": "Russell 1000 Value",
           "last": 252.82,
@@ -716,7 +716,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IWD.png",
-          "volume_ratio": 0.71
+          "volume_ratio": 0.74
         },
         {
           "ticker": "MTUM",
@@ -779,8 +779,8 @@
       "rows": [
         {
           "ticker": "SMH",
-          "exchange_hint": null,
-          "tradingview_symbol": "SMH",
+          "exchange_hint": "NASDAQ",
+          "tradingview_symbol": "NASDAQ:SMH",
           "name": "VanEck Semiconductor ETF",
           "short_name": "Semiconductor",
           "last": 560.61,
@@ -802,12 +802,12 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SMH.png",
-          "volume_ratio": 0.91
+          "volume_ratio": 0.94
         },
         {
           "ticker": "SOXX",
-          "exchange_hint": null,
-          "tradingview_symbol": "SOXX",
+          "exchange_hint": "NASDAQ",
+          "tradingview_symbol": "NASDAQ:SOXX",
           "name": "iShares Semiconductor ETF",
           "short_name": "Semiconductor",
           "last": 519.1,
@@ -829,7 +829,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 0.91
+          "volume_ratio": 0.92
         },
         {
           "ticker": "IGV",
@@ -860,8 +860,8 @@
         },
         {
           "ticker": "SKYY",
-          "exchange_hint": null,
-          "tradingview_symbol": "SKYY",
+          "exchange_hint": "NASDAQ",
+          "tradingview_symbol": "NASDAQ:SKYY",
           "name": "First Trust Cloud Computing ETF",
           "short_name": "Cloud Computing",
           "last": 164.39,
@@ -887,8 +887,8 @@
         },
         {
           "ticker": "AIQ",
-          "exchange_hint": null,
-          "tradingview_symbol": "AIQ",
+          "exchange_hint": "NASDAQ",
+          "tradingview_symbol": "NASDAQ:AIQ",
           "name": "Global X Artificial Intelligence & Technology ETF",
           "short_name": "Artificial Intelligence\u2026",
           "last": 64.37,
@@ -916,8 +916,8 @@
           "ticker": "PAVE",
           "exchange_hint": null,
           "tradingview_symbol": "PAVE",
-          "name": "Global X US Infrastructure Development ETF",
-          "short_name": "US Infrastructure Devel\u2026",
+          "name": "Global X U.S. Infrastructure Development ETF",
+          "short_name": "U.S. Infrastructure Dev\u2026",
           "last": 52.91,
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
@@ -948,7 +948,7 @@
           "ticker": "XLP",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLP",
-          "name": "Consumer Staples Select Sector SPDR",
+          "name": "State Street Consumer Staples Select Sector SPDR ETF",
           "short_name": "Consumer Staples",
           "last": 83.49,
           "price_date": "2026-09-17",
@@ -969,13 +969,13 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLP.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.78
         },
         {
           "ticker": "XLU",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLU",
-          "name": "Utilities Select Sector SPDR",
+          "name": "State Street Utilities Select Sector SPDR ETF",
           "short_name": "Utilities",
           "last": 41.69,
           "price_date": "2026-09-17",
@@ -1002,7 +1002,7 @@
           "ticker": "XLV",
           "exchange_hint": "AMEX",
           "tradingview_symbol": "AMEX:XLV",
-          "name": "Health Care Select Sector SPDR",
+          "name": "State Street Health Care Select Sector SPDR ETF",
           "short_name": "Health Care",
           "last": 168.81,
           "price_date": "2026-09-17",
@@ -1054,8 +1054,8 @@
         },
         {
           "ticker": "SPLV",
-          "exchange_hint": null,
-          "tradingview_symbol": "SPLV",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:SPLV",
           "name": "Invesco S&P 500 Low Volatility ETF",
           "short_name": "S&P 500 Low Volatility",
           "last": 73.06,
@@ -1081,9 +1081,9 @@
         },
         {
           "ticker": "BIL",
-          "exchange_hint": null,
-          "tradingview_symbol": "BIL",
-          "name": "SPDR Bloomberg 1-3 Month T-Bill ETF",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:BIL",
+          "name": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
           "short_name": "Bloomberg 1-3 Month T-B\u2026",
           "last": 91.53,
           "price_date": "2026-09-17",
@@ -1104,7 +1104,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/BIL.png",
-          "volume_ratio": 1.17
+          "volume_ratio": 1.2
         }
       ]
     },
@@ -1136,7 +1136,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/GLD.png",
-          "volume_ratio": 0.63
+          "volume_ratio": 0.64
         },
         {
           "ticker": "SLV",
@@ -1163,14 +1163,14 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SLV.png",
-          "volume_ratio": 0.8
+          "volume_ratio": 0.81
         },
         {
           "ticker": "USO",
-          "exchange_hint": null,
-          "tradingview_symbol": "USO",
-          "name": "United States Oil Fund",
-          "short_name": "United States Oil",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:USO",
+          "name": "United States Oil Fund, LP",
+          "short_name": "United States Oil , LP",
           "last": 155.31,
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
@@ -1190,12 +1190,12 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/USO.png",
-          "volume_ratio": 0.81
+          "volume_ratio": 0.82
         },
         {
           "ticker": "DBC",
-          "exchange_hint": null,
-          "tradingview_symbol": "DBC",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:DBC",
           "name": "Invesco DB Commodity Index Tracking Fund",
           "short_name": "DB Commodity Tracking",
           "last": 33.05,
@@ -1221,10 +1221,10 @@
         },
         {
           "ticker": "VNQ",
-          "exchange_hint": null,
-          "tradingview_symbol": "VNQ",
-          "name": "Vanguard Real Estate ETF",
-          "short_name": "Real Estate",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:VNQ",
+          "name": "Vanguard Real Estate Index Fund ETF Shares",
+          "short_name": "Real Estate Shares",
           "last": 93.81,
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
@@ -1248,8 +1248,8 @@
         },
         {
           "ticker": "REET",
-          "exchange_hint": null,
-          "tradingview_symbol": "REET",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:REET",
           "name": "iShares Global REIT ETF",
           "short_name": "Global REIT",
           "last": 26.49,
@@ -1275,10 +1275,10 @@
         },
         {
           "ticker": "TIP",
-          "exchange_hint": null,
-          "tradingview_symbol": "TIP",
-          "name": "TIPS",
-          "short_name": "TIPS",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:TIP",
+          "name": "iShares TIPS Bond ETF",
+          "short_name": "TIPS Bond",
           "last": 105.71,
           "price_date": "2026-09-17",
           "price_source": "yfinance batch download",
@@ -1307,8 +1307,8 @@
       "rows": [
         {
           "ticker": "EFA",
-          "exchange_hint": null,
-          "tradingview_symbol": "EFA",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:EFA",
           "name": "iShares MSCI EAFE ETF",
           "short_name": "MSCI EAFE",
           "last": 106.04,
@@ -1330,12 +1330,12 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EFA.png",
-          "volume_ratio": 0.87
+          "volume_ratio": 0.89
         },
         {
           "ticker": "EEM",
-          "exchange_hint": null,
-          "tradingview_symbol": "EEM",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:EEM",
           "name": "iShares MSCI Emerging Markets ETF",
           "short_name": "MSCI Emerging Markets",
           "last": 66.91,
@@ -1357,12 +1357,12 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EEM.png",
-          "volume_ratio": 1.02
+          "volume_ratio": 1.09
         },
         {
           "ticker": "EWJ",
-          "exchange_hint": null,
-          "tradingview_symbol": "EWJ",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:EWJ",
           "name": "iShares MSCI Japan ETF",
           "short_name": "MSCI Japan",
           "last": 97.91,
@@ -1388,8 +1388,8 @@
         },
         {
           "ticker": "EWZ",
-          "exchange_hint": null,
-          "tradingview_symbol": "EWZ",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:EWZ",
           "name": "iShares MSCI Brazil ETF",
           "short_name": "MSCI Brazil",
           "last": 37.74,
@@ -1442,8 +1442,8 @@
         },
         {
           "ticker": "FXI",
-          "exchange_hint": null,
-          "tradingview_symbol": "FXI",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:FXI",
           "name": "iShares China Large-Cap ETF",
           "short_name": "China Large-Cap",
           "last": 34.19,
@@ -1465,12 +1465,12 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 0.99
+          "volume_ratio": 1.01
         },
         {
           "ticker": "VGK",
-          "exchange_hint": null,
-          "tradingview_symbol": "VGK",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:VGK",
           "name": "Vanguard FTSE Europe ETF",
           "short_name": "FTSE Europe",
           "last": 89.37,
@@ -1496,8 +1496,8 @@
         },
         {
           "ticker": "EWC",
-          "exchange_hint": null,
-          "tradingview_symbol": "EWC",
+          "exchange_hint": "NYSEARCA",
+          "tradingview_symbol": "NYSEARCA:EWC",
           "name": "iShares MSCI Canada ETF",
           "short_name": "MSCI Canada",
           "last": 60.41,
