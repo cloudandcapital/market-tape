@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-22T20:30:02+00:00",
+  "generated_at_utc": "2026-09-22T23:17:32+00:00",
   "benchmark": "SPY",
   "columns": [
     {
@@ -112,7 +112,7 @@
             "short": "SPXS"
           },
           "mini_rs_chart": "data/mini_rs/SPY.png",
-          "volume_ratio": 0.81
+          "volume_ratio": 0.83
         },
         {
           "ticker": "TLT",
@@ -139,7 +139,7 @@
             "short": "TMV"
           },
           "mini_rs_chart": "data/mini_rs/TLT.png",
-          "volume_ratio": 0.7
+          "volume_ratio": 0.71
         },
         {
           "ticker": "IEF",
@@ -208,10 +208,10 @@
           "intra_pct": 0.11,
           "d1_pct": 0.11,
           "d5_pct": 0.89,
-          "d20_pct": 1.55,
+          "d20_pct": 1.56,
           "atr_pct": 0.46,
           "dist50_atr": 1.34,
-          "rs1m": 0.202,
+          "rs1m": 0.204,
           "trend_grade": "B",
           "above_20d": true,
           "above_50d": true,
@@ -314,17 +314,17 @@
           "tradingview_symbol": "AMEX:XLK",
           "name": "State Street Technology Select Sector SPDR ETF",
           "short_name": "Technology",
-          "last": 196.26,
+          "last": 196.27,
           "price_date": "2026-09-22",
           "price_source": "yfinance batch download",
           "price_status": "current",
           "intra_pct": 0.72,
-          "d1_pct": 0.72,
-          "d5_pct": 6.81,
-          "d20_pct": 9.0,
+          "d1_pct": 0.73,
+          "d5_pct": 6.82,
+          "d20_pct": 9.01,
           "atr_pct": 1.58,
           "dist50_atr": 4.09,
-          "rs1m": 1.293,
+          "rs1m": 1.294,
           "trend_grade": "A",
           "above_20d": true,
           "above_50d": true,
@@ -333,7 +333,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLK.png",
-          "volume_ratio": 1.26
+          "volume_ratio": 1.27
         },
         {
           "ticker": "XLF",
@@ -360,7 +360,7 @@
             "short": "FAZ"
           },
           "mini_rs_chart": "data/mini_rs/XLF.png",
-          "volume_ratio": 2.1
+          "volume_ratio": 2.12
         },
         {
           "ticker": "XLE",
@@ -387,7 +387,7 @@
             "short": "ERY"
           },
           "mini_rs_chart": "data/mini_rs/XLE.png",
-          "volume_ratio": 1.2
+          "volume_ratio": 1.24
         },
         {
           "ticker": "XLV",
@@ -468,7 +468,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/XLY.png",
-          "volume_ratio": 1.24
+          "volume_ratio": 1.29
         },
         {
           "ticker": "XLP",
@@ -635,7 +635,7 @@
             "short": "SQQQ"
           },
           "mini_rs_chart": "data/mini_rs/QQQ.png",
-          "volume_ratio": 1.2
+          "volume_ratio": 1.23
         },
         {
           "ticker": "IWM",
@@ -662,7 +662,7 @@
             "short": "TZA"
           },
           "mini_rs_chart": "data/mini_rs/IWM.png",
-          "volume_ratio": 1.19
+          "volume_ratio": 1.21
         },
         {
           "ticker": "IWF",
@@ -829,7 +829,7 @@
             "short": "SOXS"
           },
           "mini_rs_chart": "data/mini_rs/SOXX.png",
-          "volume_ratio": 0.84
+          "volume_ratio": 0.85
         },
         {
           "ticker": "IGV",
@@ -856,7 +856,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/IGV.png",
-          "volume_ratio": 0.77
+          "volume_ratio": 0.78
         },
         {
           "ticker": "SKYY",
@@ -1077,7 +1077,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SPLV.png",
-          "volume_ratio": 1.15
+          "volume_ratio": 1.22
         },
         {
           "ticker": "BIL",
@@ -1104,7 +1104,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/BIL.png",
-          "volume_ratio": 1.41
+          "volume_ratio": 1.45
         }
       ]
     },
@@ -1136,7 +1136,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/GLD.png",
-          "volume_ratio": 0.58
+          "volume_ratio": 0.61
         },
         {
           "ticker": "SLV",
@@ -1163,7 +1163,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/SLV.png",
-          "volume_ratio": 0.9
+          "volume_ratio": 0.96
         },
         {
           "ticker": "USO",
@@ -1357,7 +1357,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EEM.png",
-          "volume_ratio": 1.08
+          "volume_ratio": 1.15
         },
         {
           "ticker": "EWJ",
@@ -1465,7 +1465,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/FXI.png",
-          "volume_ratio": 0.91
+          "volume_ratio": 0.95
         },
         {
           "ticker": "VGK",
@@ -1519,7 +1519,7 @@
             "short": null
           },
           "mini_rs_chart": "data/mini_rs/EWC.png",
-          "volume_ratio": 1.81
+          "volume_ratio": 1.85
         }
       ]
     }
