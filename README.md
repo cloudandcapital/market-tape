@@ -12,7 +12,7 @@ GitHub Actions checks for updates at `:17` and `:47` during the configured weekd
 
 Run `python scripts/build_data.py --output-dir /tmp/market-tape-check` to build without replacing tracked snapshots. The build emits `snapshot.json`, `events.json`, `meta.json`, and `mini_rs/` charts. The published equivalents live under `data/`.
 
-`snapshot.json` contains seven displayed groups and 52 core rows. Each rendered price carries `price_date`, `price_source`, and `price_status`. A row is current only when its price date matches the SPY benchmark session; missing or stale rows fail snapshot validation. `meta.json` records the generation time, counts, market status, and screened-universe leaderboard. The leaderboard excludes unavailable or stale candidates rather than silently publishing them.
+`snapshot.json` contains seven displayed groups. Tickers can intentionally appear in more than one category, but market-status calculations use each ticker once. Each rendered price carries `price_date`, `price_source`, and `price_status`. A row is current only when its price date matches the SPY benchmark session; missing or stale rows fail snapshot validation. `meta.json` records `instrument_count` as unique tickers and `display_row_count` as all grouped row appearances, plus the generation time, market status, and screened-universe leaderboard. The leaderboard excludes unavailable or stale candidates rather than silently publishing them.
 
 Install dependencies with `python -m pip install -r requirements.txt`, then run `python -m unittest discover -s tests -v`. The workflow and tests cover schedule semantics, freshness, output ordering, and safe publication behavior.
 

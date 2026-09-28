@@ -1062,6 +1062,24 @@ def find_vix_last(groups_payload: list[dict[str, Any]]) -> float | None:
     return None
 
 
+def unique_instrument_rows(groups_payload: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Return one row per ticker while preserving first-display order."""
+    rows_by_ticker: dict[str, dict[str, Any]] = {}
+    for group in groups_payload:
+        for row in group.get("rows", []):
+            ticker = str(row.get("ticker", "")).strip().upper()
+            if ticker and ticker not in rows_by_ticker:
+                rows_by_ticker[ticker] = row
+    return list(rows_by_ticker.values())
+
+
+def snapshot_counts(groups_payload: list[dict[str, Any]]) -> dict[str, int]:
+    return {
+        "instrument_count": len(unique_instrument_rows(groups_payload)),
+        "display_row_count": sum(len(group.get("rows", [])) for group in groups_payload),
+    }
+
+
 def build_market_status(groups_payload: list[dict[str, Any]]) -> dict[str, Any]:
     """
     Build deterministic high-level market status from existing row metrics.
@@ -1075,7 +1093,7 @@ def build_market_status(groups_payload: list[dict[str, Any]]) -> dict[str, Any]:
       - momentum from trend-grade balance (#A vs #C)
     """
 
-    rows = [row for group in groups_payload for row in group.get("rows", [])]
+    rows = unique_instrument_rows(groups_payload)
     row_count = len(rows)
 
     # Exposure level and guidance.
@@ -1367,7 +1385,7 @@ def build_data(output_dir: Path) -> None:
         "generated_at_utc": to_utc_iso(now_utc),
         "benchmark": BENCHMARK,
         "group_count": len(groups_payload),
-        "instrument_count": sum(len(group["rows"]) for group in groups_payload),
+        **snapshot_counts(groups_payload),
         "leaders": leaders,
         "status": status,
         "universe_stats": {
