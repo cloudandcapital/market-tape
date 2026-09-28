@@ -143,5 +143,65 @@ class SnapshotFreshnessTests(unittest.TestCase):
         self.assertIsNone(diagnostics[1]["price"])
 
 
+class MarketStatusDeduplicationTests(unittest.TestCase):
+    def _row(self, ticker, *, positive):
+        row = build_data.empty_row(ticker, ticker)
+        row.update(
+            {
+                "rs1m": 1.0 if positive else -1.0,
+                "d20_pct": 3.0 if positive else -2.0,
+                "d5_pct": 2.0 if positive else -1.0,
+                "d1_pct": 1.0 if positive else -1.0,
+                "intra_pct": 1.0 if positive else -1.0,
+                "above_20d": positive,
+                "above_50d": positive,
+                "trend_grade": "A" if positive else "C",
+            }
+        )
+        return row
+
+    def test_status_uses_each_ticker_once_across_overlapping_groups(self):
+        positive = self._row("DUP", positive=True)
+        negative = self._row("UNIQUE", positive=False)
+        groups = [
+            {"name": "First", "rows": [positive, negative]},
+            {"name": "Second", "rows": [dict(positive)]},
+        ]
+
+        status = build_data.build_market_status(groups)
+
+        self.assertEqual(status["exposure"]["level"], 50)
+        self.assertEqual(status["breadth"]["above_20d_pct"], 50.0)
+        self.assertEqual(status["breadth"]["above_50d_pct"], 50.0)
+        self.assertEqual(status["risk"]["sentiment"], "Neutral")
+
+    def test_unique_rows_preserve_first_display_occurrence(self):
+        first = self._row("DUP", positive=True)
+        second = self._row("DUP", positive=False)
+        unique = self._row("UNIQUE", positive=False)
+
+        rows = build_data.unique_instrument_rows(
+            [
+                {"name": "First", "rows": [first]},
+                {"name": "Second", "rows": [second, unique]},
+            ]
+        )
+
+        self.assertEqual([row["ticker"] for row in rows], ["DUP", "UNIQUE"])
+        self.assertIs(rows[0], first)
+
+    def test_snapshot_counts_distinguish_unique_tickers_from_display_rows(self):
+        duplicate = self._row("DUP", positive=True)
+        groups = [
+            {"name": "First", "rows": [duplicate]},
+            {"name": "Second", "rows": [dict(duplicate)]},
+        ]
+
+        self.assertEqual(
+            build_data.snapshot_counts(groups),
+            {"instrument_count": 1, "display_row_count": 2},
+        )
+
+
 if __name__ == "__main__":
     unittest.main()
