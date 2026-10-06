@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-10-05T21:13:47+00:00",
+  "generated_at_utc": "2026-10-06T01:46:45+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 48,
@@ -68,19 +68,10 @@
   },
   "universe_stats": {
     "tickers_total": 339,
-    "tickers_used": 334,
-    "filtered_out_count": 5,
-    "generated_at_utc": "2026-10-05T21:13:47+00:00",
-    "data_quality": [
-      {
-        "ticker": "QRVO",
-        "source_ticker": "QRVO",
-        "price": 114.17,
-        "price_date": "2026-10-02",
-        "price_source": "yfinance batch download",
-        "price_status": "stale"
-      }
-    ]
+    "tickers_used": 335,
+    "filtered_out_count": 4,
+    "generated_at_utc": "2026-10-06T01:46:45+00:00",
+    "data_quality": []
   },
   "leaderboard": {
     "leaders": [
@@ -737,7 +728,7 @@
         "tradingview_symbol": "NASDAQ:SBUX"
       }
     ],
-    "universe_count": 334
+    "universe_count": 335
   },
   "momentum": {
     "leaders": [
