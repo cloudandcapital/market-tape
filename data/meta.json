@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-10-12T21:45:51+00:00",
+  "generated_at_utc": "2026-10-13T02:44:27+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 48,
@@ -70,13 +70,13 @@
     "tickers_total": 339,
     "tickers_used": 334,
     "filtered_out_count": 5,
-    "generated_at_utc": "2026-10-12T21:45:51+00:00",
+    "generated_at_utc": "2026-10-13T02:44:27+00:00",
     "data_quality": [
       {
         "ticker": "QRVO",
         "source_ticker": "QRVO",
-        "price": 107.98,
-        "price_date": "2026-09-14",
+        "price": 114.17,
+        "price_date": "2026-10-05",
         "price_source": "yfinance batch download",
         "price_status": "stale"
       }
@@ -218,12 +218,12 @@
         "ticker": "ADI",
         "short_name": "Analog Devices, Inc",
         "name": "Analog Devices, Inc.",
-        "price": 406.24,
+        "price": 406.25,
         "price_date": "2026-10-12",
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.01,
-        "rs1m": 1.518,
+        "rs1m": 1.519,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ADI"
       },
@@ -287,7 +287,7 @@
         "price_date": "2026-10-12",
         "price_source": "yfinance batch download",
         "price_status": "current",
-        "intra_pct": -1.87,
+        "intra_pct": -1.88,
         "rs1m": 1.375,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMAT"
@@ -875,12 +875,12 @@
         "ticker": "ADI",
         "short_name": "Analog Devices, Inc",
         "name": "Analog Devices, Inc.",
-        "price": 406.24,
+        "price": 406.25,
         "price_date": "2026-10-12",
         "price_source": "yfinance batch download",
         "price_status": "current",
         "intra_pct": 0.01,
-        "rs1m": 1.518,
+        "rs1m": 1.519,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:ADI"
       },
@@ -944,7 +944,7 @@
         "price_date": "2026-10-12",
         "price_source": "yfinance batch download",
         "price_status": "current",
-        "intra_pct": -1.87,
+        "intra_pct": -1.88,
         "rs1m": 1.375,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:AMAT"
