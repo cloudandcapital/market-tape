@@ -12,6 +12,28 @@ assert SPEC.loader is not None
 SPEC.loader.exec_module(build_data)
 
 
+class ShortNameTests(unittest.TestCase):
+    def test_company_names_preserve_meaningful_words(self):
+        for ticker, name, expected in [
+            ("STT", "State Street Corporation", "State Street Corporation"),
+            ("NTRS", "Northern Trust Corporation", "Northern Trust Corporat…"),
+        ]:
+            with self.subTest(ticker=ticker):
+                self.assertEqual(build_data.build_short_name(name, ticker), expected)
+
+    def test_fund_cleanup_preserves_useful_labels(self):
+        self.assertEqual(build_data.build_short_name("State Street Technology Select Sector SPDR ETF", "XLK"), "Technology")
+        self.assertEqual(build_data.build_short_name("iShares 20+ Year Treasury Bond ETF", "TLT"), "20+ Year Treasury Bond")
+
+    def test_character_limit_and_existing_ellipsis(self):
+        for name in ["Northern Trust Corporation", "State Street Very Long Technology Sector Fund"]:
+            with self.subTest(name=name):
+                label = build_data.build_short_name(name, "TEST", max_chars=12)
+                self.assertLessEqual(len(label), 12)
+                self.assertTrue(label.endswith("…"))
+        self.assertEqual(build_data.build_short_name("", "TEST"), "TEST")
+
+
 class StandardizeFrameTests(unittest.TestCase):
     def test_strips_timezone_without_shifting_local_timestamp(self):
         frame = pd.DataFrame(

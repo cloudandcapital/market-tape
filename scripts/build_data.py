@@ -303,8 +303,7 @@ def build_short_name(name: str, ticker: str, max_chars: int = 24) -> str:
     Build compact table labels while preserving the full name for tooltips.
 
     Rules:
-    - strip known issuer prefixes
-    - strip generic fund words
+    - strip known issuer prefixes and generic fund words only for fund/index names
     - collapse whitespace
     - truncate to max length with ellipsis
     - fallback to ticker if empty
@@ -312,15 +311,19 @@ def build_short_name(name: str, ticker: str, max_chars: int = 24) -> str:
 
     short = sanitize_name(name, ticker).replace("®", "")
 
-    for prefix in GENERIC_NAME_PREFIXES:
-        pattern = r"^\s*" + re.escape(prefix.replace("®", "")) + r"\s+"
-        short = re.sub(pattern, "", short, flags=re.IGNORECASE)
+    # Issuer names and words such as Trust are meaningful in company names.
+    # Require an explicit fund/index marker; an issuer prefix alone is insufficient.
+    is_fund = re.search(r"\b(?:ETF|Fund|Index|Portfolio)\b", short, flags=re.IGNORECASE)
+    if is_fund:
+        for prefix in GENERIC_NAME_PREFIXES:
+            pattern = r"^\s*" + re.escape(prefix.replace("®", "")) + r"\s+"
+            short = re.sub(pattern, "", short, flags=re.IGNORECASE)
 
-    phrase_pattern = r"(?:%s)" % "|".join(re.escape(phrase.replace("®", "")) for phrase in GENERIC_NAME_PHRASES)
-    short = re.sub(phrase_pattern, "", short, flags=re.IGNORECASE)
+        phrase_pattern = r"(?:%s)" % "|".join(re.escape(phrase.replace("®", "")) for phrase in GENERIC_NAME_PHRASES)
+        short = re.sub(phrase_pattern, "", short, flags=re.IGNORECASE)
 
-    word_pattern = r"\b(?:%s)\b" % "|".join(re.escape(word) for word in GENERIC_NAME_WORDS)
-    short = re.sub(word_pattern, "", short, flags=re.IGNORECASE)
+        word_pattern = r"\b(?:%s)\b" % "|".join(re.escape(word) for word in GENERIC_NAME_WORDS)
+        short = re.sub(word_pattern, "", short, flags=re.IGNORECASE)
     short = re.sub(r"\s{2,}", " ", short).strip(" ,.-")
 
     if not short:
