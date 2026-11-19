@@ -1,6 +1,6 @@
 {
   "app": "CLOUD & CAPITAL - Market Tape",
-  "generated_at_utc": "2026-11-18T21:27:26+00:00",
+  "generated_at_utc": "2026-11-19T02:50:41+00:00",
   "benchmark": "SPY",
   "group_count": 7,
   "instrument_count": 48,
@@ -10,7 +10,7 @@
       {
         "ticker": "XLU",
         "name": "State Street Utilities Select Sector SPDR ETF",
-        "rs1m": 2.385
+        "rs1m": 2.391
       },
       {
         "ticker": "XLRE",
@@ -70,7 +70,7 @@
     "tickers_total": 339,
     "tickers_used": 333,
     "filtered_out_count": 6,
-    "generated_at_utc": "2026-11-18T21:27:26+00:00",
+    "generated_at_utc": "2026-11-19T02:50:41+00:00",
     "data_quality": [
       {
         "ticker": "QRVO",
@@ -222,7 +222,7 @@
         "price_date": "2026-11-18",
         "price_source": "yfinance batch download",
         "price_status": "current",
-        "intra_pct": 2.21,
+        "intra_pct": 2.24,
         "rs1m": 2.438,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GEHC"
@@ -510,7 +510,7 @@
         "price_date": "2026-11-18",
         "price_source": "yfinance batch download",
         "price_status": "current",
-        "intra_pct": 0.9,
+        "intra_pct": 0.91,
         "rs1m": -1.093,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:SMCI"
@@ -879,7 +879,7 @@
         "price_date": "2026-11-18",
         "price_source": "yfinance batch download",
         "price_status": "current",
-        "intra_pct": 2.21,
+        "intra_pct": 2.24,
         "rs1m": 2.438,
         "trend_grade": "A",
         "tradingview_symbol": "NASDAQ:GEHC"
@@ -1167,7 +1167,7 @@
         "price_date": "2026-11-18",
         "price_source": "yfinance batch download",
         "price_status": "current",
-        "intra_pct": 0.9,
+        "intra_pct": 0.91,
         "rs1m": -1.093,
         "trend_grade": "C",
         "tradingview_symbol": "NASDAQ:SMCI"
